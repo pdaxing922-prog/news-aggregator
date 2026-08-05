@@ -322,19 +322,41 @@ function getXArticles() {
 
 function renderXSection() {
   const xArticles = getXArticles();
-  $xCount.textContent = `${xArticles.length} 条`;
 
-  if (xArticles.length === 0) {
-    $xScroll.innerHTML = `
-      <div class="x-empty">
-        <div style="font-size:1.5rem;margin-bottom:8px">𝕏</div>
-        X 平台热帖暂未抓取成功<br>
-        <span style="font-size:0.75rem;opacity:0.6">Nitter 镜像在 GitHub Actions 环境中偶有波动，下次刷新后自动恢复</span>
-      </div>`;
+  if (xArticles.length > 0) {
+    // Real X posts available — show them
+    $xCount.textContent = `${xArticles.length} 条`;
+    $xScroll.innerHTML = xArticles.slice(0, 15).map((a, i) => renderXCard(a, i)).join('');
     return;
   }
 
-  $xScroll.innerHTML = xArticles.slice(0, 15).map((a, i) => renderXCard(a, i)).join('');
+  // No scraped posts — show direct x.com trending links (real X platform)
+  $xCount.textContent = '直达 X';
+  const trending = [
+    { q: 'Breaking News', label: '🔥 突发新闻' },
+    { q: 'World News', label: '🌍 全球时事' },
+    { q: 'AI Artificial Intelligence', label: '🤖 AI 人工智能' },
+    { q: 'Crypto Bitcoin', label: '₿ 加密货币' },
+    { q: 'NVIDIA', label: '💻 英伟达' },
+    { q: 'OpenAI', label: '🧠 OpenAI' },
+    { q: 'Elon Musk', label: '🚀 马斯克' },
+    { q: 'Olympics', label: '🏅 体育' },
+    { q: 'Trending', label: '📈 全网趋势' },
+    { q: 'Viral', label: '⚡ 热门传播' },
+  ];
+  $xScroll.innerHTML = trending.map((t) => `
+    <a class="x-card" href="https://x.com/search?q=${encodeURIComponent(t.q)}&src=trend_click" target="_blank" rel="noopener" style="text-decoration:none">
+      <div class="x-card-top">
+        <span class="x-card-badge">𝕏</span>
+        <span style="font-size:0.7rem;color:var(--text-muted)">实时</span>
+      </div>
+      <h3 class="x-card-title" style="color:var(--text)">${t.label}</h3>
+      <div class="x-card-footer">
+        <span>点击查看 X 平台讨论</span>
+        <span>→</span>
+      </div>
+    </a>
+  `).join('');
 }
 
 function renderXCard(a, idx) {
