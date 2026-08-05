@@ -18,40 +18,39 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// Fetch X hot posts — fast, reliable sources
+// X Hot Posts — via Reddit r/Twitter RSS
 // ============================================================
 async function fetchXPosts() {
-  const all = [];
-  // Source: Reddit r/Twitter via old.reddit.com
   try {
-    const res = await fetch('https://old.reddit.com/r/Twitter/hot.json?limit=25', {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)', 'Accept': 'application/json' },
-      signal: AbortSignal.timeout(10000),
+    const res = await fetch('https://www.reddit.com/r/Twitter/.rss?limit=25', {
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)' },
+      signal: AbortSignal.timeout(15000),
     });
-    if (res.ok) {
-      const json = await res.json();
-      for (const c of json.data.children) {
-        const d = c.data;
-        if (d.stickied) continue;
-        all.push({
-          title: d.title,
-          url: d.url || `https://www.reddit.com${d.permalink}`,
-          source: '𝕏 热议推文',
-          sourceIcon: '𝕏',
-          lang: 'en',
-          category: 'X热帖',
-          publishTime: new Date(d.created_utc * 1000).toISOString(),
-          summary: (d.selftext || '').slice(0, 250),
-          hotness: (d.ups || 0) + (d.num_comments || 0) * 2,
-        });
-      }
-      console.log(`  ✓ X 热帖 (Reddit): ${all.length} 条`);
+    if (!res.ok) {
+      console.warn(`  ✗ X (Reddit RSS): HTTP ${res.status}`);
+      return [];
     }
+    const xml = await res.text();
+    const feed = await rssParser.parseString(xml);
+    const items = (feed.items || []).slice(0, 20).map((item) => ({
+      title: (item.title || '').trim(),
+      url: item.link || '',
+      source: '𝕏 热议推文',
+      sourceIcon: '𝕏',
+      lang: 'en',
+      category: 'X热帖',
+      publishTime: item.isoDate || item.pubDate
+        ? new Date(item.isoDate || item.pubDate).toISOString()
+        : new Date().toISOString(),
+      summary: (item.contentSnippet || item.content || '').replace(/<[^>]*>/g, '').slice(0, 250),
+      hotness: 10,
+    }));
+    console.log(`  ✓ X 热帖: ${items.length} 条`);
+    return items;
   } catch (e) {
-    console.warn(`  ✗ X (Reddit): ${e.message.slice(0, 40)}`);
+    console.warn(`  ✗ X 平台: ${e.message.slice(0, 50)}`);
+    return [];
   }
-
-  return all;
 }
 
 // ============================================================
@@ -85,58 +84,42 @@ const RSS_SOURCES = [
 ];
 
 // ============================================================
-// Reddit JSON API — 按板块对应分类
+// Reddit via RSS (JSON API blocked from GH Actions IPs)
 // ============================================================
 const REDDIT_SOURCES = [
   { sub: 'worldnews',      icon: '🌍', category: '国际' },
   { sub: 'politics',       icon: '🏛️', category: '政治' },
-  { sub: 'finance',        icon: '💰', category: '金融' },
   { sub: 'economy',        icon: '📊', category: '经济' },
-  { sub: 'economics',      icon: '📊', category: '经济' },
   { sub: 'technology',     icon: '📱', category: '科技' },
-  { sub: 'web3',           icon: '🌐', category: 'Web3' },
   { sub: 'CryptoCurrency', icon: '🪙', category: '区块链' },
-  { sub: 'blockchain',     icon: '🔗', category: '区块链' },
   { sub: 'popular',        icon: '🔥', category: '潮流' },
   { sub: 'China',          icon: '🇨🇳', category: '中国' },
 ];
 
 async function fetchReddit(subreddit, icon, category) {
-  // Use old.reddit.com which is more lenient with non-OAuth requests
-  const headers = {
-    'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)',
-    'Accept': 'application/json',
-  };
-  // Try multiple endpoint formats in parallel
-  const urls = [
-    `https://old.reddit.com/r/${subreddit}/hot.json?limit=20`,
-    `https://www.reddit.com/r/${subreddit}/hot.json?raw_json=1&limit=20`,
-  ];
-
-  for (const url of urls) {
-    try {
-      const res = await fetch(url, { headers, signal: AbortSignal.timeout(10000) });
-      if (!res.ok) continue;
-      const json = await res.json();
-      return json.data.children
-        .filter((c) => c.data && !c.data.stickied)
-        .map((c) => ({
-          title: c.data.title,
-          url: c.data.url || `https://www.reddit.com${c.data.permalink}`,
-          source: `Reddit r/${subreddit}`,
-          sourceIcon: icon,
-          lang: 'en',
-          category,
-          publishTime: new Date(c.data.created_utc * 1000).toISOString(),
-          summary: (c.data.selftext || '').slice(0, 300),
-          hotness: (c.data.ups || 0) + (c.data.num_comments || 0) * 2,
-        }));
-    } catch {
-      continue;
-    }
-  }
-
-  throw new Error(`${subreddit}: all endpoints failed`);
+  const res = await fetch(`https://www.reddit.com/r/${subreddit}/.rss?limit=25`, {
+    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)' },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!res.ok) throw new Error(`${subreddit} HTTP ${res.status}`);
+  const xml = await res.text();
+  const feed = await rssParser.parseString(xml);
+  return (feed.items || []).slice(0, 20).map((item) => {
+    const summary = (item.contentSnippet || item.content || '');
+    return {
+      title: (item.title || '').trim(),
+      url: item.link || '',
+      source: `Reddit r/${subreddit}`,
+      sourceIcon: icon,
+      lang: 'en',
+      category,
+      publishTime: item.isoDate || item.pubDate
+        ? new Date(item.isoDate || item.pubDate).toISOString()
+        : new Date().toISOString(),
+      summary: summary.replace(/<[^>]*>/g, '').slice(0, 250),
+      hotness: 10,
+    };
+  });
 }
 
 // ============================================================
