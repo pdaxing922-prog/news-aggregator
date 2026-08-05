@@ -18,49 +18,28 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// X Hot Posts — try multiple Nitter mirrors (global)
+// X Hot Posts — Google News "twitter trending" RSS
 // ============================================================
-const NITTERS = [
-  'https://nitter.net',
-  'https://nitter.poast.org',
-  'https://nitter.privacydev.net',
-  'https://nitter.1d4.us',
-  'https://nitter.kavin.rocks',
-  'https://nitter.unixfox.eu',
-];
-
 async function fetchXPosts() {
-  for (const base of NITTERS) {
-    try {
-      const res = await fetch(`${base}/rss`, {
-        headers: { 'User-Agent': 'Mozilla/5.0 Chrome/120' },
-        signal: AbortSignal.timeout(12000),
-      });
-      if (!res.ok) continue;
-      const xml = await res.text();
-      if (xml.length < 50) continue;
-      const feed = await rssParser.parseString(xml);
-      const items = (feed.items || []).slice(0, 20).map((item) => ({
-        title: (item.title || '').replace(/^RT by .+?: /, '').trim(),
-        url: item.link || `https://x.com${item.guid || ''}`,
-        source: '𝕏 全球热帖',
-        sourceIcon: '𝕏',
-        lang: 'en',
-        category: 'X热帖',
-        publishTime: item.isoDate || item.pubDate
-          ? new Date(item.isoDate || item.pubDate).toISOString()
-          : new Date().toISOString(),
-        summary: (item.contentSnippet || '').slice(0, 250),
-        hotness: 12,
-      }));
-      if (items.length > 0) {
-        console.log(`  ✓ X 热帖 (${new URL(base).hostname}): ${items.length} 条`);
-        return items;
-      }
-    } catch { /* try next mirror */ }
+  try {
+    const url = 'https://news.google.com/rss/search?q=twitter+trending&hl=en-US&gl=US&ceid=US:en';
+    const feed = await rssParser.parseURL(url);
+    return (feed.items || []).slice(0, 20).map((item) => ({
+      title: (item.title || '').replace(/\s*-\s*[^-]+$/, '').trim(),
+      url: item.link || '',
+      source: '𝕏 热帖',
+      sourceIcon: '𝕏',
+      lang: 'en',
+      category: 'X热帖',
+      publishTime: item.isoDate || item.pubDate
+        ? new Date(item.isoDate || item.pubDate).toISOString()
+        : new Date().toISOString(),
+      summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 250),
+      hotness: 10,
+    }));
+  } catch (e) {
+    return [];
   }
-  console.warn('  ✗ X 平台: 所有 Nitter 镜像均不可用');
-  return [];
 }
 
 // ============================================================
