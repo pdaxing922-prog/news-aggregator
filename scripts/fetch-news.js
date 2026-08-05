@@ -5,10 +5,12 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = join(__dirname, '..', 'public', 'news.json');
+const SCRIPT_START = Date.now();
+const GLOBAL_TIMEOUT = 120_000; // 2 minutes max for entire script
 
 const rssParser = new Parser({
   customFields: { item: ['media:content', 'description'] },
-  timeout: 20000,
+  timeout: 15000,
   headers: {
     'User-Agent': 'NewsAggregator/1.0',
     'Accept': 'application/rss+xml, application/xml, text/xml, */*',
@@ -16,81 +18,63 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// Fetch X trending posts — get REAL tweet links
+// Fetch X hot posts — fast, reliable sources
 // ============================================================
-const X_API_ACCOUNTS = [
-  'BBCBreaking', 'CNN', 'Reuters', 'nytimes', 'WSJ', 'BBCWorld',
-  'npr', 'guardian', 'Forbes', 'TechCrunch', 'verge', 'espn',
-  'NASA', 'NatGeo', 'elonmusk',
-];
-
-const RSSHUB_INSTANCES = [
-  'https://rsshub.app',
-  'https://rsshub.rssforever.com',
-  'https://rsshub.pseudoyu.com',
-];
-
 async function fetchXPosts() {
-  const allTweets = [];
-
-  // Try fetching tweets from popular news accounts via RSSHub instances
-  for (const instance of RSSHUB_INSTANCES) {
-    if (allTweets.length >= 30) break;
-    const accountsToTry = X_API_ACCOUNTS.slice(
-      Math.floor(Math.random() * X_API_ACCOUNTS.length * 0.3),
-      X_API_ACCOUNTS.length
-    );
-
-    const results = await Promise.allSettled(
-      accountsToTry.slice(0, 8).map(async (account) => {
-        const url = `${instance}/twitter/user/${account}`;
-        const feed = await rssParser.parseURL(url);
-        return feed.items.slice(0, 5).map((item) => ({
-          title: (item.title || `${account} 推文`).trim(),
-          url: item.link || `https://x.com/${account}/status/${item.guid || ''}`,
-          source: `𝕏 @${account}`,
+  const all = [];
+  // Source 1: Reddit r/Twitter (fast JSON API, works from GH Actions)
+  try {
+    const res = await fetch('https://www.reddit.com/r/Twitter/hot.json?limit=25', {
+      headers: { 'User-Agent': 'NewsAggregator/1.0' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (res.ok) {
+      const json = await res.json();
+      for (const c of json.data.children) {
+        const d = c.data;
+        if (d.stickied) continue;
+        all.push({
+          title: d.title,
+          url: d.url || `https://www.reddit.com${d.permalink}`,
+          source: '𝕏 热议推文',
           sourceIcon: '𝕏',
           lang: 'en',
           category: 'X热帖',
-          publishTime: item.isoDate || item.pubDate
-            ? new Date(item.isoDate || item.pubDate).toISOString()
-            : new Date().toISOString(),
-          summary: (item.contentSnippet || item.content || '').replace(/<[^>]*>/g, '').slice(0, 300),
-          hotness: 15 + Math.floor(Math.random() * 30),
-        }));
-      })
-    );
-
-    for (const r of results) {
-      if (r.status === 'fulfilled' && r.value.length > 0) {
-        allTweets.push(...r.value);
+          publishTime: new Date(d.created_utc * 1000).toISOString(),
+          summary: (d.selftext || '').slice(0, 250),
+          hotness: (d.ups || 0) + (d.num_comments || 0) * 2,
+        });
       }
+      console.log(`  ✓ X 热帖 (Reddit): ${all.length} 条`);
     }
+  } catch (e) {
+    console.warn(`  ✗ X (Reddit): ${e.message.slice(0, 40)}`);
   }
 
-  // Fallback: try RSSHub Twitter trending → links to x.com search
-  if (allTweets.length === 0) {
-    for (const instance of RSSHUB_INSTANCES) {
-      try {
-        const feed = await rssParser.parseURL(`${instance}/twitter/trends/1`);
-        const items = (feed.items || []).slice(0, 30).map((item) => ({
-          title: (item.title || '').trim().replace(/^Trending: /, ''),
-          url: item.link || `https://x.com/search?q=${encodeURIComponent(item.title || '')}`,
-          source: '𝕏 全球趋势',
+  // Source 2: Nitter.net RSS (Twitter mirror — fast HTTP)
+  if (all.length < 20) {
+    try {
+      const feed = await rssParser.parseURL('https://nitter.net/rss');
+      for (const item of (feed.items || []).slice(0, 20)) {
+        all.push({
+          title: (item.title || '').trim().replace(/^RT by .+: /, ''),
+          url: item.link || `https://x.com${item.guid || ''}`,
+          source: '𝕏 趋势',
           sourceIcon: '𝕏',
           lang: 'en',
           category: 'X热帖',
           publishTime: new Date().toISOString(),
-          summary: 'X 平台全球热门话题',
-          hotness: 20 + Math.floor(Math.random() * 25),
-        }));
-        allTweets.push(...items);
-        if (allTweets.length > 0) break;
-      } catch {}
+          summary: (item.contentSnippet || '').slice(0, 250),
+          hotness: 12,
+        });
+      }
+      console.log(`  ✓ X 热帖 (Nitter): ${Math.min(feed.items?.length || 0, 20)} 条`);
+    } catch (e) {
+      console.warn(`  ✗ X (Nitter): ${e.message.slice(0, 40)}`);
     }
   }
 
-  return allTweets;
+  return all;
 }
 
 // ============================================================
@@ -234,7 +218,7 @@ const CATEGORY_ORDER = ['全部', '国际', '政治', '金融', '经济', '科�
 async function fetchAll() {
   console.log(`\n[${new Date().toISOString()}] 开始抓取新闻...\n`);
 
-  // --- RSS ---
+  // ---- RSS ----
   const rssResults = await Promise.allSettled(
     RSS_SOURCES.map(async (src) => {
       try {
@@ -345,7 +329,15 @@ async function fetchAll() {
   console.log(`\n[${new Date().toISOString()}] 完成 ✓  下次刷新: ${output.nextRefreshBJ} (北京时间)\n`);
 }
 
-fetchAll().catch((err) => {
-  console.error('抓取失败:', err);
+// ============================================================
+// Entry point with global timeout
+// ============================================================
+Promise.race([
+  fetchAll(),
+  new Promise((_, reject) =>
+    setTimeout(() => reject(new Error('Global timeout — script exceeded 2 minutes')), GLOBAL_TIMEOUT)
+  ),
+]).catch((err) => {
+  console.error('抓取失败:', err.message);
   process.exit(1);
 });
