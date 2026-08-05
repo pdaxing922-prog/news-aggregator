@@ -317,15 +317,7 @@ function rankBadge(idx) {
 // ============================================================
 function getXArticles() {
   if (!newsData?.articles) return [];
-  const direct = newsData.articles.filter((a) => a.category === 'X热帖');
-  if (direct.length >= 5) return direct;
-
-  // Fallback: X sources failed; surface the hottest social/discussion content instead
-  const socialSources = ['Reddit', 'Hacker News', 'Hypebeast', 'The Verge', 'TechCrunch'];
-  return newsData.articles
-    .filter((a) => socialSources.some((s) => a.source?.includes(s)))
-    .sort((a, b) => b.hotness - a.hotness)
-    .slice(0, 15);
+  return newsData.articles.filter((a) => a.category === 'X热帖' && a.sourceIcon === '𝕏');
 }
 
 function renderXSection() {
@@ -333,15 +325,19 @@ function renderXSection() {
   $xCount.textContent = `${xArticles.length} 条`;
 
   if (xArticles.length === 0) {
-    $xScroll.innerHTML = '<div class="x-empty">X 热帖数据获取中，部署到 GitHub Pages 后将自动填充全球热议话题</div>';
+    $xScroll.innerHTML = `
+      <div class="x-empty">
+        <div style="font-size:1.5rem;margin-bottom:8px">𝕏</div>
+        X 平台热帖暂未抓取成功<br>
+        <span style="font-size:0.75rem;opacity:0.6">Nitter 镜像在 GitHub Actions 环境中偶有波动，下次刷新后自动恢复</span>
+      </div>`;
     return;
   }
 
-  const isFallback = !newsData.articles.some((a) => a.category === 'X热帖');
-  $xScroll.innerHTML = xArticles.slice(0, 15).map((a, i) => renderXCard(a, i, isFallback)).join('');
+  $xScroll.innerHTML = xArticles.slice(0, 15).map((a, i) => renderXCard(a, i)).join('');
 }
 
-function renderXCard(a, idx, isFallback) {
+function renderXCard(a, idx) {
   const time = formatTime(a.publishTime);
   const level = hotLevel(a.hotness);
   const emoji = hotEmoji(level);
@@ -350,7 +346,7 @@ function renderXCard(a, idx, isFallback) {
   return `
     <article class="x-card" data-idx="${idx}">
       <div class="x-card-top">
-        <span class="x-card-badge">${isFallback ? '🔥 热门' : '𝕏 热议'}</span>
+        <span class="x-card-badge">𝕏 热议</span>
         ${level >= 2 ? `<span class="x-card-hot">${emoji}</span>` : ''}
       </div>
       <h3 class="x-card-title">
