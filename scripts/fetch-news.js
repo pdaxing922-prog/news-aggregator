@@ -18,96 +18,10 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// X Hot Posts — real x.com trending via RSSHub + Nitter fallback
+// X Hot Posts are served via direct x.com trending links in the frontend.
+// X/Twitter blocks all free scraping (Nitter, RSSHub all blocked from GH Actions IPs).
+// The X section in the UI links directly to x.com/search for trending topics.
 // ============================================================
-async function fetchXPosts() {
-  // Approach 1: RSSHub Twitter trending → real x.com links
-  const rsshubInstances = [
-    'https://rsshub.app',
-    'https://rsshub.rssforever.com',
-    'https://rsshub.pseudoyu.com',
-  ];
-  for (const base of rsshubInstances) {
-    try {
-      const url = `${base}/twitter/trending/1?limit=20`;
-      const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 12000);
-      const res = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0' },
-        signal: controller.signal,
-      });
-      clearTimeout(timer);
-      if (!res.ok) continue;
-      const text = await res.text();
-      if (text.length < 200) continue;
-
-      const feed = await rssParser.parseString(text);
-      const items = (feed.items || [])
-        .filter((item) => item.title)
-        .slice(0, 20)
-        .map((item) => ({
-          title: (item.title || '').trim(),
-          url: item.link || `https://x.com/search?q=${encodeURIComponent(item.title || 'trending')}`,
-          source: '𝕏 热帖',
-          sourceIcon: '𝕏',
-          lang: 'en',
-          category: 'X热帖',
-          publishTime: item.isoDate || item.pubDate
-            ? new Date(item.isoDate || item.pubDate).toISOString()
-            : new Date().toISOString(),
-          summary: (item.contentSnippet || '').slice(0, 200),
-          hotness: 15,
-        }));
-
-      if (items.length > 0) {
-        const host = new URL(base).hostname;
-        console.log(`  ✓ X 热帖 (${host}): ${items.length} 条`);
-        return items;
-      }
-    } catch {
-      continue;
-    }
-  }
-
-  // Approach 2: try a single fastest Nitter
-  try {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 6000);
-    const res = await fetch('https://nitter.net/rss', {
-      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:130.0) Gecko/20100101 Firefox/130.0' },
-      signal: controller.signal,
-    });
-    clearTimeout(timer);
-    if (res.ok) {
-      const xml = await res.text();
-      if (xml.length > 100 && xml.includes('<item>')) {
-        const feed = await rssParser.parseString(xml);
-        const items = (feed.items || []).slice(0, 20).map((item) => {
-          let xUrl = item.link || '';
-          const m = xUrl.match(/\/(\w+)\/status\/(\d+)/);
-          if (m) xUrl = `https://x.com/${m[1]}/status/${m[2]}`;
-          return {
-            title: (item.title || '').replace(/^RT by @?\w+:\s*/, '').trim(),
-            url: xUrl, source: '𝕏 热帖', sourceIcon: '𝕏',
-            lang: 'en', category: 'X热帖',
-            publishTime: item.isoDate || item.pubDate
-              ? new Date(item.isoDate || item.pubDate).toISOString()
-              : new Date().toISOString(),
-            summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 200),
-            hotness: 12,
-          };
-        });
-        if (items.length > 0) {
-          console.log(`  ✓ X 热帖 (nitter.net): ${items.length} 条`);
-          return items;
-        }
-      }
-    }
-  } catch {}
-
-  console.warn('  ✗ X 热帖: 所有源均不可用 (RSSHub + Nitter)');
-  return [];
-}
 
 // ============================================================
 // RSS sources — 国际 / 政治 / 金融 / 经济 / 科技 / Web3 / 区块链 / 潮流 / X热帖
@@ -297,16 +211,10 @@ async function fetchAll() {
     return [];
   });
 
-  // --- X Posts (dedicated, links point to x.com) ---
-  const xResult = await fetchXPosts().catch((e) => {
-    console.warn(`  ✗ X 热帖: ${e.message.slice(0, 60)}`);
-    return [];
-  });
-  if (xResult.length > 0) {
-    console.log(`  ✓ X 推文: ${xResult.length} 条`);
-  } else {
-    console.warn('  ✗ X 平台: 所有实例均无法访问（国内受限，部署后正常）');
-  }
+  // X热帖 is only available via x.com direct links in the frontend —
+  // X/Twitter blocks all free third-party scraping.
+  // See public/app.js renderXSection() for the x.com trending link cards.
+  const xResult = [];
 
   // --- Collect ---
   const all = [];
