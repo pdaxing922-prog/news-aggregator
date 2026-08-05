@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>全球热点 · 每日新闻聚合</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <h1 class="logo">🌍 全球热点</h1>
+      <span class="subtitle">全网热点聚合 · 实时追踪全球动态</span>
+    </div>
+    <div class="header-controls">
+      <button id="translateToggle" class="ctrl-btn" title="将英文新闻标题实时翻译为中文">🌐 翻译</button>
+      <button id="themeToggle" class="ctrl-btn" title="切换深色 / 浅色模式">🌙</button>
+    </div>
+  </div>
+  <div class="header-stats" id="headerStats">
+    <div class="stat"><span class="stat-val" id="statTotal">—</span><span class="stat-label">条热点</span></div>
+    <div class="stat"><span class="stat-val" id="statCats">—</span><span class="stat-label">个版块</span></div>
+    <div class="stat"><span class="stat-val" id="statNext">—</span><span class="stat-label">后刷新</span></div>
+    <div class="stat"><span class="stat-val" id="statUpdate">加载中…</span></div>
+  </div>
+</header>
+
+<nav class="tabs" id="categoryTabs"></nav>
+
+<main class="news-grid" id="newsGrid"></main>
+
+<footer class="footer">
+  <p>数据来源覆盖 7 大分类 · 23 个新闻源 · 每 4 小时自动刷新</p>
+  <p>BBC · NPR · Guardian · DW · CNA · CNBC · MarketWatch · Yahoo Finance · BBC Politics · The Hill · TechCrunch · The Verge · CoinDesk · CoinTelegraph · Hypebeast · X 趋势 · Reddit · Hacker News · Google News</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
