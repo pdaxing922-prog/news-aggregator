@@ -18,28 +18,74 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// X Hot Posts — Google News "twitter trending" RSS
+// X Hot Posts — real x.com links via Nitter RSS mirrors
 // ============================================================
+const NITTER_MIRRORS = [
+  'https://nitter.net/rss',
+  'https://nitter.poast.org/rss',
+  'https://nitter.privacydev.net/rss',
+  'https://nitter.1d4.us/rss',
+  'https://nitter.kavin.rocks/rss',
+  'https://nitter.unixfox.eu/rss',
+  'https://nitter.moomoo.me/rss',
+  'https://nitter.catsarch.com/rss',
+];
+
 async function fetchXPosts() {
-  try {
-    const url = 'https://news.google.com/rss/search?q=twitter+trending&hl=en-US&gl=US&ceid=US:en';
-    const feed = await rssParser.parseURL(url);
-    return (feed.items || []).slice(0, 20).map((item) => ({
-      title: (item.title || '').replace(/\s*-\s*[^-]+$/, '').trim(),
-      url: item.link || '',
-      source: '𝕏 热帖',
-      sourceIcon: '𝕏',
-      lang: 'en',
-      category: 'X热帖',
-      publishTime: item.isoDate || item.pubDate
-        ? new Date(item.isoDate || item.pubDate).toISOString()
-        : new Date().toISOString(),
-      summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 250),
-      hotness: 10,
-    }));
-  } catch (e) {
-    return [];
+  for (const rssUrl of NITTER_MIRRORS) {
+    try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 8000);
+
+      const res = await fetch(rssUrl, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:130.0) Gecko/20100101 Firefox/130.0' },
+        signal: controller.signal,
+      });
+      clearTimeout(timer);
+
+      if (!res.ok) continue;
+      const xml = await res.text();
+      if (xml.length < 100 || !xml.includes('<item>')) continue;
+
+      const feed = await rssParser.parseString(xml);
+      const items = (feed.items || [])
+        .filter((item) => item.link?.includes('x.com') || item.title)
+        .slice(0, 20)
+        .map((item) => {
+          // Extract real x.com status link from Nitter RSS
+          let xUrl = item.link || '';
+          if (!xUrl.includes('x.com')) {
+            // Nitter links use nitter/<user>/status/<id> — reconstruct x.com URL
+            const match = xUrl.match(/\/(\w+)\/status\/(\d+)/);
+            xUrl = match ? `https://x.com/${match[1]}/status/${match[2]}` : xUrl;
+          }
+          return {
+            title: (item.title || '').replace(/^RT by @?\w+:\s*/, '').trim(),
+            url: xUrl,
+            source: '𝕏 热帖',
+            sourceIcon: '𝕏',
+            lang: 'en',
+            category: 'X热帖',
+            publishTime: item.isoDate || item.pubDate
+              ? new Date(item.isoDate || item.pubDate).toISOString()
+              : new Date().toISOString(),
+            summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 200),
+            hotness: 12,
+          };
+        });
+
+      if (items.length > 0) {
+        const host = new URL(rssUrl).hostname;
+        console.log(`  ✓ X 热帖 (${host}): ${items.length} 条`);
+        return items;
+      }
+    } catch {
+      continue;
+    }
   }
+
+  console.warn('  ✗ X 热帖: 所有 Nitter 镜像不可用');
+  return [];
 }
 
 // ============================================================
