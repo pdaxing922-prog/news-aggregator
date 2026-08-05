@@ -167,11 +167,14 @@ const CATEGORY_ORDER = ['全部', '国际', '政治', '金融', '经济', '科�
 async function fetchAll() {
   console.log(`\n[${new Date().toISOString()}] 开始抓取新闻...\n`);
 
-  // ---- RSS ----
+  // ---- RSS (each feed capped at 12s) ----
   const rssResults = await Promise.allSettled(
     RSS_SOURCES.map(async (src) => {
       try {
-        const feed = await rssParser.parseURL(src.url);
+        const feed = await Promise.race([
+          rssParser.parseURL(src.url),
+          new Promise((_, reject) => setTimeout(() => reject(new Error('12s timeout')), 12000)),
+        ]);
         const items = feed.items.slice(0, 20).map((item) => ({
           title: (item.title || '').trim(),
           url: item.link || '',
