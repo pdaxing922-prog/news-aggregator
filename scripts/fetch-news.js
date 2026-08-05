@@ -18,39 +18,49 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// X Hot Posts — via Reddit r/Twitter RSS
+// X Hot Posts — try multiple Nitter mirrors (global)
 // ============================================================
+const NITTERS = [
+  'https://nitter.net',
+  'https://nitter.poast.org',
+  'https://nitter.privacydev.net',
+  'https://nitter.1d4.us',
+  'https://nitter.kavin.rocks',
+  'https://nitter.unixfox.eu',
+];
+
 async function fetchXPosts() {
-  try {
-    const res = await fetch('https://www.reddit.com/r/Twitter/.rss?limit=25', {
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; NewsBot/1.0)' },
-      signal: AbortSignal.timeout(15000),
-    });
-    if (!res.ok) {
-      console.warn(`  ✗ X (Reddit RSS): HTTP ${res.status}`);
-      return [];
-    }
-    const xml = await res.text();
-    const feed = await rssParser.parseString(xml);
-    const items = (feed.items || []).slice(0, 20).map((item) => ({
-      title: (item.title || '').trim(),
-      url: item.link || '',
-      source: '𝕏 热议推文',
-      sourceIcon: '𝕏',
-      lang: 'en',
-      category: 'X热帖',
-      publishTime: item.isoDate || item.pubDate
-        ? new Date(item.isoDate || item.pubDate).toISOString()
-        : new Date().toISOString(),
-      summary: (item.contentSnippet || item.content || '').replace(/<[^>]*>/g, '').slice(0, 250),
-      hotness: 10,
-    }));
-    console.log(`  ✓ X 热帖: ${items.length} 条`);
-    return items;
-  } catch (e) {
-    console.warn(`  ✗ X 平台: ${e.message.slice(0, 50)}`);
-    return [];
+  for (const base of NITTERS) {
+    try {
+      const res = await fetch(`${base}/rss`, {
+        headers: { 'User-Agent': 'Mozilla/5.0 Chrome/120' },
+        signal: AbortSignal.timeout(12000),
+      });
+      if (!res.ok) continue;
+      const xml = await res.text();
+      if (xml.length < 50) continue;
+      const feed = await rssParser.parseString(xml);
+      const items = (feed.items || []).slice(0, 20).map((item) => ({
+        title: (item.title || '').replace(/^RT by .+?: /, '').trim(),
+        url: item.link || `https://x.com${item.guid || ''}`,
+        source: '𝕏 全球热帖',
+        sourceIcon: '𝕏',
+        lang: 'en',
+        category: 'X热帖',
+        publishTime: item.isoDate || item.pubDate
+          ? new Date(item.isoDate || item.pubDate).toISOString()
+          : new Date().toISOString(),
+        summary: (item.contentSnippet || '').slice(0, 250),
+        hotness: 12,
+      }));
+      if (items.length > 0) {
+        console.log(`  ✓ X 热帖 (${new URL(base).hostname}): ${items.length} 条`);
+        return items;
+      }
+    } catch { /* try next mirror */ }
   }
+  console.warn('  ✗ X 平台: 所有 Nitter 镜像均不可用');
+  return [];
 }
 
 // ============================================================
@@ -78,6 +88,9 @@ const RSS_SOURCES = [
   { name: 'CoinTelegraph',    icon: '🪙', url: 'https://cointelegraph.com/rss',                              lang: 'en', category: '区块链' },
   // ---- 潮流 ----
   { name: 'Hypebeast',        icon: '🔥', url: 'https://hypebeast.com/feed',                                lang: 'en', category: '潮流' },
+  // --- Google News topics (fill missing categories) ---
+  { name: 'Google News 经济', icon: '📊', url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US:en', lang: 'en', category: '经济' },
+  { name: 'Google News Web3', icon: '🌐', url: 'https://news.google.com/rss/search?q=web3+OR+crypto+OR+blockchain&hl=en-US&gl=US&ceid=US:en', lang: 'en', category: 'Web3' },
   // ---- 中文 ----
   { name: 'BBC 中文',         icon: '🇬🇧', url: 'https://feeds.bbci.co.uk/zhongwen/simp/rss.xml',            lang: 'zh', category: '国际' },
   { name: 'Google News 中文', icon: '🇨🇳', url: 'https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans', lang: 'zh', category: '中国' },
@@ -221,15 +234,16 @@ async function fetchAll() {
     })
   );
 
-  // --- Reddit ---
-  const redditResults = await Promise.allSettled(
-    REDDIT_SOURCES.map((r) =>
-      fetchReddit(r.sub, r.icon, r.category).catch((e) => {
-        console.warn(`  ✗ Reddit r/${r.sub}: ${e.message.slice(0, 40)}`);
-        return [];
-      })
-    )
-  );
+  // --- Reddit RSS (currently blocked by GH Actions IP — skip for now) ---
+  // const redditResults = await Promise.allSettled(
+  //   REDDIT_SOURCES.map((r) =>
+  //     fetchReddit(r.sub, r.icon, r.category).catch((e) => {
+  //       console.warn(`  ✗ Reddit r/${r.sub}: ${e.message.slice(0, 40)}`);
+  //       return [];
+  //     })
+  //   )
+  // );
+  const redditResults = [];
 
   // --- Hacker News ---
   const hnResult = await fetchHackerNews().catch((e) => {
