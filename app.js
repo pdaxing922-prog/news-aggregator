@@ -17,6 +17,8 @@ const $grid = $('#newsGrid');
 const $tabs = $('#categoryTabs');
 const $themeToggle = $('#themeToggle');
 const $translateToggle = $('#translateToggle');
+const $xScroll = $('#xScroll');
+const $xCount = $('#xCount');
 
 // ============================================================
 // Keyword → category mapping (client-side auto-tagger)
@@ -144,8 +146,10 @@ $translateToggle.addEventListener('click', async () => {
   updateTranslateUI();
   if (translateMode) {
     const enTitles = filterArticles().filter((a) => a.lang !== 'zh').map((a) => a.title);
-    await translateBatch(enTitles);
+    const xTitles = getXArticles().filter((a) => a.lang !== 'zh').map((a) => a.title);
+    await translateBatch([...enTitles, ...xTitles]);
   }
+  renderXSection();
   renderCards();
 });
 
@@ -192,6 +196,7 @@ async function loadNews() {
     if (translateMode) {
       const enTitles = newsData.articles.filter((a) => a.lang !== 'zh').map((a) => a.title);
       await translateBatch(enTitles);
+      renderXSection();
       renderCards();
     }
   } catch (err) {
@@ -211,10 +216,10 @@ function rebuildCategories() {
   for (const a of newsData.articles) {
     for (const t of (a.tags || [])) tagSet.add(t);
   }
-  // Merge preset order with actual tags
+  // Merge preset order with actual tags, exclude X热帖 (has own section)
   const cats = ['全部'];
   for (const p of PRESET_ORDER) {
-    if (p !== '全部' && tagSet.has(p)) cats.push(p);
+    if (p !== '全部' && p !== 'X热帖' && tagSet.has(p)) cats.push(p);
   }
   newsData.categories = cats;
   newsData.categoryCount = cats.length - 1;
@@ -230,6 +235,7 @@ function renderAll() {
 
   const counts = computeCategoryCounts();
   renderTabs(counts);
+  renderXSection();
   renderCards();
   updateCountdown();
   setInterval(updateCountdown, 60000);
@@ -240,8 +246,9 @@ function renderAll() {
 // ============================================================
 function computeCategoryCounts() {
   if (!newsData?.articles) return {};
-  const counts = { '全部': newsData.articles.length };
-  for (const a of newsData.articles) {
+  const pool = newsData.articles.filter((a) => a.category !== 'X热帖');
+  const counts = { '全部': pool.length };
+  for (const a of pool) {
     for (const t of (a.tags || [a.category])) {
       counts[t] = (counts[t] || 0) + 1;
     }
@@ -251,10 +258,10 @@ function computeCategoryCounts() {
 
 function filterArticles() {
   if (!newsData?.articles) return [];
-  if (activeCategory === '全部') return newsData.articles;
-  // Match against tags (keyword-enriched), AND also check original category
-  // (important for X热帖 which has no keyword tags — source-verified only)
-  return newsData.articles.filter((a) =>
+  // Exclude X热帖 from main grid — it has its own dedicated section above
+  let pool = newsData.articles.filter((a) => a.category !== 'X热帖');
+  if (activeCategory === '全部') return pool;
+  return pool.filter((a) =>
     (a.tags || [a.category]).includes(activeCategory) || a.category === activeCategory
   );
 }
@@ -303,6 +310,57 @@ function rankBadge(idx) {
   if (idx === 2) return '<span class="rank-badge rank-3">3</span>';
   if (idx < 10) return `<span class="rank-badge rank-n">${idx + 1}</span>`;
   return '';
+}
+
+// ============================================================
+// Render dedicated 𝕏 X热帖 section
+// ============================================================
+function getXArticles() {
+  if (!newsData?.articles) return [];
+  const direct = newsData.articles.filter((a) => a.category === 'X热帖');
+  if (direct.length >= 5) return direct;
+
+  // Fallback: X sources failed; surface the hottest social/discussion content instead
+  const socialSources = ['Reddit', 'Hacker News', 'Hypebeast', 'The Verge', 'TechCrunch'];
+  return newsData.articles
+    .filter((a) => socialSources.some((s) => a.source?.includes(s)))
+    .sort((a, b) => b.hotness - a.hotness)
+    .slice(0, 15);
+}
+
+function renderXSection() {
+  const xArticles = getXArticles();
+  $xCount.textContent = `${xArticles.length} 条`;
+
+  if (xArticles.length === 0) {
+    $xScroll.innerHTML = '<div class="x-empty">X 热帖数据获取中，部署到 GitHub Pages 后将自动填充全球热议话题</div>';
+    return;
+  }
+
+  const isFallback = !newsData.articles.some((a) => a.category === 'X热帖');
+  $xScroll.innerHTML = xArticles.slice(0, 15).map((a, i) => renderXCard(a, i, isFallback)).join('');
+}
+
+function renderXCard(a, idx, isFallback) {
+  const time = formatTime(a.publishTime);
+  const level = hotLevel(a.hotness);
+  const emoji = hotEmoji(level);
+  const title = resolveTitle(a);
+
+  return `
+    <article class="x-card" data-idx="${idx}">
+      <div class="x-card-top">
+        <span class="x-card-badge">${isFallback ? '🔥 热门' : '𝕏 热议'}</span>
+        ${level >= 2 ? `<span class="x-card-hot">${emoji}</span>` : ''}
+      </div>
+      <h3 class="x-card-title">
+        <a href="${escAttr(a.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
+      </h3>
+      <div class="x-card-footer">
+        <span>${a.source}</span>
+        <span>${time}</span>
+      </div>
+    </article>`;
 }
 
 // ============================================================
