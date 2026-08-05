@@ -167,14 +167,21 @@ const CATEGORY_ORDER = ['全部', '国际', '政治', '金融', '经济', '科�
 async function fetchAll() {
   console.log(`\n[${new Date().toISOString()}] 开始抓取新闻...\n`);
 
-  // ---- RSS (each feed capped at 12s) ----
+  // ---- RSS (raw fetch + parse, 10s hard timeout) ----
   const rssResults = await Promise.allSettled(
     RSS_SOURCES.map(async (src) => {
       try {
-        const feed = await Promise.race([
-          rssParser.parseURL(src.url),
-          new Promise((_, reject) => setTimeout(() => reject(new Error('12s timeout')), 12000)),
-        ]);
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), 10000);
+        const res = await fetch(src.url, {
+          headers: { 'User-Agent': 'NewsAggregator/1.0', 'Accept': 'application/rss+xml,text/xml,*/*' },
+          signal: controller.signal,
+        });
+        clearTimeout(timer);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const xml = await res.text();
+        if (xml.length < 50) throw new Error('empty response');
+        const feed = await rssParser.parseString(xml);
         const items = feed.items.slice(0, 20).map((item) => ({
           title: (item.title || '').trim(),
           url: item.link || '',
