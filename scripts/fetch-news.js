@@ -164,6 +164,15 @@ function deduplicate(articles) {
 // ============================================================
 const CATEGORY_ORDER = ['全部', '国际', '政治', '金融', '经济', '科技', 'Web3', '区块链', '潮流', 'X热帖', '中国'];
 
+// Helper: wrap any promise with a hard timeout
+function withTimeout(promise, ms, label) {
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => reject(new Error(label || `${ms}ms timeout`)), ms);
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timer));
+}
+
 async function fetchAll() {
   console.log(`\n[${new Date().toISOString()}] 开始抓取新闻...\n`);
 
@@ -171,17 +180,17 @@ async function fetchAll() {
   const rssResults = await Promise.allSettled(
     RSS_SOURCES.map(async (src) => {
       try {
-        const controller = new AbortController();
-        const timer = setTimeout(() => controller.abort(), 10000);
-        const res = await fetch(src.url, {
-          headers: { 'User-Agent': 'NewsAggregator/1.0', 'Accept': 'application/rss+xml,text/xml,*/*' },
-          signal: controller.signal,
-        });
-        clearTimeout(timer);
+        const res = await withTimeout(
+          fetch(src.url, {
+            headers: { 'User-Agent': 'NewsAggregator/1.0', 'Accept': 'application/rss+xml,text/xml,*/*' },
+          }),
+          10000,
+          `${src.name} fetch timeout`
+        );
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        const xml = await res.text();
+        const xml = await withTimeout(res.text(), 5000, `${src.name} read timeout`);
         if (xml.length < 50) throw new Error('empty response');
-        const feed = await rssParser.parseString(xml);
+        const feed = await withTimeout(rssParser.parseString(xml), 5000, `${src.name} parse timeout`);
         const items = feed.items.slice(0, 20).map((item) => ({
           title: (item.title || '').trim(),
           url: item.link || '',
@@ -216,10 +225,11 @@ async function fetchAll() {
   const redditResults = [];
 
   // --- Hacker News ---
-  const hnResult = await fetchHackerNews().catch((e) => {
-    console.warn(`  ✗ Hacker News: ${e.message}`);
-    return [];
-  });
+  const hnResult = await withTimeout(fetchHackerNews(), 15000, 'HN timeout')
+    .catch((e) => {
+      console.warn(`  ✗ Hacker News: ${e.message}`);
+      return [];
+    });
 
   // X热帖 is only available via x.com direct links in the frontend —
   // X/Twitter blocks all free third-party scraping.
