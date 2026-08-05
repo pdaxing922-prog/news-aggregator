@@ -18,64 +18,49 @@ const rssParser = new Parser({
 });
 
 // ============================================================
-// X Hot Posts — real x.com links via Nitter RSS mirrors
+// X Hot Posts — real x.com trending via RSSHub + Nitter fallback
 // ============================================================
-const NITTER_MIRRORS = [
-  'https://nitter.net/rss',
-  'https://nitter.poast.org/rss',
-  'https://nitter.privacydev.net/rss',
-  'https://nitter.1d4.us/rss',
-  'https://nitter.kavin.rocks/rss',
-  'https://nitter.unixfox.eu/rss',
-  'https://nitter.moomoo.me/rss',
-  'https://nitter.catsarch.com/rss',
-];
-
 async function fetchXPosts() {
-  for (const rssUrl of NITTER_MIRRORS) {
+  // Approach 1: RSSHub Twitter trending → real x.com links
+  const rsshubInstances = [
+    'https://rsshub.app',
+    'https://rsshub.rssforever.com',
+    'https://rsshub.pseudoyu.com',
+  ];
+  for (const base of rsshubInstances) {
     try {
+      const url = `${base}/twitter/trending/1?limit=20`;
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 8000);
-
-      const res = await fetch(rssUrl, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:130.0) Gecko/20100101 Firefox/130.0' },
+      const timer = setTimeout(() => controller.abort(), 12000);
+      const res = await fetch(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0' },
         signal: controller.signal,
       });
       clearTimeout(timer);
-
       if (!res.ok) continue;
-      const xml = await res.text();
-      if (xml.length < 100 || !xml.includes('<item>')) continue;
+      const text = await res.text();
+      if (text.length < 200) continue;
 
-      const feed = await rssParser.parseString(xml);
+      const feed = await rssParser.parseString(text);
       const items = (feed.items || [])
-        .filter((item) => item.link?.includes('x.com') || item.title)
+        .filter((item) => item.title)
         .slice(0, 20)
-        .map((item) => {
-          // Extract real x.com status link from Nitter RSS
-          let xUrl = item.link || '';
-          if (!xUrl.includes('x.com')) {
-            // Nitter links use nitter/<user>/status/<id> — reconstruct x.com URL
-            const match = xUrl.match(/\/(\w+)\/status\/(\d+)/);
-            xUrl = match ? `https://x.com/${match[1]}/status/${match[2]}` : xUrl;
-          }
-          return {
-            title: (item.title || '').replace(/^RT by @?\w+:\s*/, '').trim(),
-            url: xUrl,
-            source: '𝕏 热帖',
-            sourceIcon: '𝕏',
-            lang: 'en',
-            category: 'X热帖',
-            publishTime: item.isoDate || item.pubDate
-              ? new Date(item.isoDate || item.pubDate).toISOString()
-              : new Date().toISOString(),
-            summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 200),
-            hotness: 12,
-          };
-        });
+        .map((item) => ({
+          title: (item.title || '').trim(),
+          url: item.link || `https://x.com/search?q=${encodeURIComponent(item.title || 'trending')}`,
+          source: '𝕏 热帖',
+          sourceIcon: '𝕏',
+          lang: 'en',
+          category: 'X热帖',
+          publishTime: item.isoDate || item.pubDate
+            ? new Date(item.isoDate || item.pubDate).toISOString()
+            : new Date().toISOString(),
+          summary: (item.contentSnippet || '').slice(0, 200),
+          hotness: 15,
+        }));
 
       if (items.length > 0) {
-        const host = new URL(rssUrl).hostname;
+        const host = new URL(base).hostname;
         console.log(`  ✓ X 热帖 (${host}): ${items.length} 条`);
         return items;
       }
@@ -84,7 +69,43 @@ async function fetchXPosts() {
     }
   }
 
-  console.warn('  ✗ X 热帖: 所有 Nitter 镜像不可用');
+  // Approach 2: try a single fastest Nitter
+  try {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 6000);
+    const res = await fetch('https://nitter.net/rss', {
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; rv:130.0) Gecko/20100101 Firefox/130.0' },
+      signal: controller.signal,
+    });
+    clearTimeout(timer);
+    if (res.ok) {
+      const xml = await res.text();
+      if (xml.length > 100 && xml.includes('<item>')) {
+        const feed = await rssParser.parseString(xml);
+        const items = (feed.items || []).slice(0, 20).map((item) => {
+          let xUrl = item.link || '';
+          const m = xUrl.match(/\/(\w+)\/status\/(\d+)/);
+          if (m) xUrl = `https://x.com/${m[1]}/status/${m[2]}`;
+          return {
+            title: (item.title || '').replace(/^RT by @?\w+:\s*/, '').trim(),
+            url: xUrl, source: '𝕏 热帖', sourceIcon: '𝕏',
+            lang: 'en', category: 'X热帖',
+            publishTime: item.isoDate || item.pubDate
+              ? new Date(item.isoDate || item.pubDate).toISOString()
+              : new Date().toISOString(),
+            summary: (item.contentSnippet || '').replace(/<[^>]*>/g, '').slice(0, 200),
+            hotness: 12,
+          };
+        });
+        if (items.length > 0) {
+          console.log(`  ✓ X 热帖 (nitter.net): ${items.length} 条`);
+          return items;
+        }
+      }
+    }
+  } catch {}
+
+  console.warn('  ✗ X 热帖: 所有源均不可用 (RSSHub + Nitter)');
   return [];
 }
 
