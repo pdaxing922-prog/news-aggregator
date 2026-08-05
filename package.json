@@ -1,0 +1,13 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "description": "全球热点新闻聚合 - 每日自动更新",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-news.js",
+    "dev": "npx serve public"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
