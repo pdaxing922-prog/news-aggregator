@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-18T07:14:42.278Z",
-  "updatedAtBJ": "2026-09-18 15:14:42",
-  "nextRefreshAt": "2026-09-18T10:00:00.000Z",
-  "nextRefreshBJ": "2026-09-18 18:00:00",
+  "updatedAt": "2026-09-18T10:15:06.306Z",
+  "updatedAtBJ": "2026-09-18 18:15:06",
+  "nextRefreshAt": "2026-09-18T14:00:00.000Z",
+  "nextRefreshBJ": "2026-09-18 22:00:00",
   "totalCount": 200,
   "categoryCount": 10,
   "categories": [
@@ -19,15 +19,15 @@
     "中国"
   ],
   "categoryStats": {
-    "科技": 48,
-    "潮流": 13,
-    "政治": 25,
-    "金融": 26,
-    "国际": 27,
-    "中国": 19,
+    "科技": 36,
+    "金融": 22,
+    "潮流": 20,
     "Web3": 18,
-    "经济": 16,
-    "区块链": 8
+    "国际": 42,
+    "中国": 19,
+    "区块链": 9,
+    "经济": 12,
+    "政治": 22
   },
   "articles": [
     {
@@ -39,7 +39,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T20:17:48.000Z",
       "summary": "",
-      "hotness": 1379
+      "hotness": 1603
     },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -50,7 +50,7 @@
       "category": "科技",
       "publishTime": "2026-09-15T17:28:38.000Z",
       "summary": "",
-      "hotness": 998
+      "hotness": 1057
     },
     {
       "title": "Why I didn’t sign the Fields medallists’ letter",
@@ -61,7 +61,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T08:51:51.000Z",
       "summary": "",
-      "hotness": 922
+      "hotness": 991
     },
     {
       "title": "Hister: A private search engine for the pages you visit and the files you keep",
@@ -72,7 +72,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T16:25:37.000Z",
       "summary": "",
-      "hotness": 865
+      "hotness": 951
     },
     {
       "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
@@ -83,7 +83,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T20:36:13.000Z",
       "summary": "",
-      "hotness": 814
+      "hotness": 913
     },
     {
       "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
@@ -94,7 +94,18 @@
       "category": "科技",
       "publishTime": "2026-09-17T21:13:31.000Z",
       "summary": "",
-      "hotness": 612
+      "hotness": 724
+    },
+    {
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-18T02:47:24.000Z",
+      "summary": "",
+      "hotness": 670
     },
     {
       "title": "Wax motor",
@@ -105,40 +116,7 @@
       "category": "科技",
       "publishTime": "2026-09-16T12:35:14.000Z",
       "summary": "",
-      "hotness": 470
-    },
-    {
-      "title": "Hacking OpenAI",
-      "url": "https://www.hacktron.ai/blog/hacking-openai",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-18T02:47:24.000Z",
-      "summary": "",
-      "hotness": 456
-    },
-    {
-      "title": "How do we prevent mathemathics from devolving into the Medieval Era of secrecy?",
-      "url": "https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-15T17:37:41.000Z",
-      "summary": "",
-      "hotness": 287
-    },
-    {
-      "title": "How to Write with an LLM",
-      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T21:48:38.000Z",
-      "summary": "",
-      "hotness": 261
+      "hotness": 552
     },
     {
       "title": "Qwen 3.8 Omni Flash",
@@ -149,7 +127,29 @@
       "category": "科技",
       "publishTime": "2026-09-17T23:05:48.000Z",
       "summary": "",
-      "hotness": 260
+      "hotness": 384
+    },
+    {
+      "title": "How to Write with an LLM",
+      "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-17T21:48:38.000Z",
+      "summary": "",
+      "hotness": 368
+    },
+    {
+      "title": "How do we prevent mathemathics from devolving into the Medieval Era of secrecy?",
+      "url": "https://mathoverflow.net/questions/515260/how-do-we-prevent-mathematics-from-devolving-into-the-medieval-era-of-secrecy",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-15T17:37:41.000Z",
+      "summary": "",
+      "hotness": 338
     },
     {
       "title": "CrowdSec Source Code Leak",
@@ -160,18 +160,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T15:34:01.000Z",
       "summary": "",
-      "hotness": 235
-    },
-    {
-      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
-      "url": "https://arxiv.org/abs/2609.18842",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T16:55:14.000Z",
-      "summary": "",
-      "hotness": 212
+      "hotness": 249
     },
     {
       "title": "Flet 1.0 – Build cross-platform apps in Python",
@@ -182,95 +171,7 @@
       "category": "科技",
       "publishTime": "2026-09-17T20:44:28.000Z",
       "summary": "",
-      "hotness": 192
-    },
-    {
-      "title": "How Uber Protects Against Retry Storms",
-      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T21:14:32.000Z",
-      "summary": "",
-      "hotness": 151
-    },
-    {
-      "title": "The most important product decision is what you don't build",
-      "url": "https://liamnugent.me/posts/what-you-dont-build/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:52:36.000Z",
-      "summary": "",
-      "hotness": 142
-    },
-    {
-      "title": "Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",
-      "url": "https://snapdrop.me",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:48:04.000Z",
-      "summary": "",
-      "hotness": 129
-    },
-    {
-      "title": "Diplodocus, Long Thought Exclusively American, Turns Up in Spain",
-      "url": "https://www.sci.news/paleontology/spanish-diplodocus-15064.html",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-15T10:46:24.000Z",
-      "summary": "",
-      "hotness": 125
-    },
-    {
-      "title": "Pre-Greek: The lost language hidden within Ancient Greek",
-      "url": "https://linguisticdiscovery.com/posts/pre-greek/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-18T03:04:38.000Z",
-      "summary": "",
-      "hotness": 84
-    },
-    {
-      "title": "Telstra outage: The night a network decided the year was 2006",
-      "url": "https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-18T01:05:03.000Z",
-      "summary": "",
-      "hotness": 78
-    },
-    {
-      "title": "Minimal Phone 2",
-      "url": "https://minimalcompany.com/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-18T02:00:25.000Z",
-      "summary": "",
-      "hotness": 73
-    },
-    {
-      "title": "Ask A Monk – A digital wilderness for thoughts with no immediate answer",
-      "url": "https://askamonk.online",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-18T01:34:08.000Z",
-      "summary": "",
-      "hotness": 64
+      "hotness": 239
     },
     {
       "title": "Jemalloc 5.4.0",
@@ -281,7 +182,7 @@
       "category": "科技",
       "publishTime": "2026-09-18T04:20:24.000Z",
       "summary": "",
-      "hotness": 62
+      "hotness": 226
     },
     {
       "title": "The scourge of x86 emulation",
@@ -292,7 +193,84 @@
       "category": "科技",
       "publishTime": "2026-09-18T04:09:48.000Z",
       "summary": "",
-      "hotness": 59
+      "hotness": 198
+    },
+    {
+      "title": "How Uber Protects Against Retry Storms",
+      "url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-17T21:14:32.000Z",
+      "summary": "",
+      "hotness": 185
+    },
+    {
+      "title": "The most important product decision is what you don't build",
+      "url": "https://liamnugent.me/posts/what-you-dont-build/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-17T20:52:36.000Z",
+      "summary": "",
+      "hotness": 185
+    },
+    {
+      "title": "Why Does the Universe Expand?",
+      "url": "https://cosmicave.org/2026/09/15/why-does-the-universe-expand/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-16T19:56:38.000Z",
+      "summary": "",
+      "hotness": 174
+    },
+    {
+      "title": "Pre-Greek: The lost language hidden within Ancient Greek",
+      "url": "https://linguisticdiscovery.com/posts/pre-greek/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-18T03:04:38.000Z",
+      "summary": "",
+      "hotness": 151
+    },
+    {
+      "title": "Diplodocus, Long Thought Exclusively American, Turns Up in Spain",
+      "url": "https://www.sci.news/paleontology/spanish-diplodocus-15064.html",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-15T10:46:24.000Z",
+      "summary": "",
+      "hotness": 150
+    },
+    {
+      "title": "Telstra outage: The night a network decided the year was 2006",
+      "url": "https://www.netnod.se/blog/telstra-outage-night-network-decided-year-was-2006",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-18T01:05:03.000Z",
+      "summary": "",
+      "hotness": 107
+    },
+    {
+      "title": "Ask A Monk – A digital wilderness for thoughts with no immediate answer",
+      "url": "https://askamonk.online",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-18T01:34:08.000Z",
+      "summary": "",
+      "hotness": 91
     },
     {
       "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
@@ -303,18 +281,7 @@
       "category": "科技",
       "publishTime": "2026-09-18T02:04:19.000Z",
       "summary": "",
-      "hotness": 51
-    },
-    {
-      "title": "Fixing an NZXT Signal 4K30 part 2: the green/pink video bug",
-      "url": "https://www.downtowndougbrown.com/2026/09/fixing-an-nzxt-signal-4k30-part-2-the-green-pink-video-bug/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-13T23:19:00.000Z",
-      "summary": "",
-      "hotness": 42
+      "hotness": 90
     },
     {
       "title": "Apple detectives solved mystery of ancient tree and rewrote the history of fruit",
@@ -325,29 +292,766 @@
       "category": "科技",
       "publishTime": "2026-09-16T11:52:40.000Z",
       "summary": "",
-      "hotness": 41
+      "hotness": 65
     },
     {
-      "title": "Code Scans",
-      "url": "https://devin.ai/blog/introducing-code-scans",
+      "title": "Fixing an NZXT Signal 4K30 part 2: the green/pink video bug",
+      "url": "https://www.downtowndougbrown.com/2026/09/fixing-an-nzxt-signal-4k30-part-2-the-green-pink-video-bug/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-09-18T03:00:40.000Z",
+      "publishTime": "2026-09-13T23:19:00.000Z",
       "summary": "",
-      "hotness": 24
+      "hotness": 53
     },
     {
-      "title": "Khipu (Quipu) Field Guide",
-      "url": "https://www.khipufieldguide.com/",
+      "title": "OpenJev",
+      "url": "https://openjev.com/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-09-16T01:32:29.000Z",
+      "publishTime": "2026-09-18T09:42:22.000Z",
       "summary": "",
-      "hotness": 12
+      "hotness": 36
+    },
+    {
+      "title": "When the fractional part of a float fixes your shader",
+      "url": "https://crocidb.com/post/when-the-fractional-part-of-a-float-fixes-your-shader/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-16T13:20:15.000Z",
+      "summary": "",
+      "hotness": 35
+    },
+    {
+      "title": "Replacing Pull Requests with Delta",
+      "url": "https://zed.dev/blog/delta-public-beta",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-16T14:05:44.000Z",
+      "summary": "",
+      "hotness": 26
+    },
+    {
+      "title": "Speeding up gearhash on ARM64",
+      "url": "https://sam.dev/blog/gearhash-on-arm64",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-09-15T16:02:15.000Z",
+      "summary": "",
+      "hotness": 19
+    },
+    {
+      "title": "Warren Buffett stepping down as chairman of Berkshire Hathaway: 'Father Time always wins'",
+      "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T10:09:35.000Z",
+      "summary": "Buffett's son, Howard, will replace him as chairman as dictated by a long-standing succession plan, Berkshire said.",
+      "hotness": 10
+    },
+    {
+      "title": "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.",
+      "url": "https://www.marketwatch.com/story/the-feds-never-been-so-confident-on-economic-growth-what-investors-should-do-now-according-to-kkr-b2eef2ee?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T10:08:00.000Z",
+      "summary": "Members of the Federal Open Market Committee showed their lowest level of worry about gross domestic product growth since it first started releasing its outlook.",
+      "hotness": 10
+    },
+    {
+      "title": "The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.",
+      "url": "https://www.marketwatch.com/story/the-fed-hasnt-been-this-terse-since-2007-what-a-130-word-statement-signals-for-market-stability-0fd31292?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T10:08:00.000Z",
+      "summary": "Bank of America calculates this week’s Federal Open Market Committee statement explaining the decision to lift interest rates by a quarter-point as its most terse, at just 130 words, since 2007.",
+      "hotness": 10
+    },
+    {
+      "title": "Kith x On Expands the K-Tech Line With the New K-Tech 3",
+      "url": "https://hypebeast.com/2026/9/kith-on-k-tech-3-k-tech-2-k-tech-1-sneaker-collaboration-fall-2026-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T10:07:42.000Z",
+      "summary": "Name: Kith K-Tech Fall 2026MSRP: $180- 190 USDRelease Date: Available NowWhere to Buy: KithKith and On are expanding their collaborative footwear partnership for Fall 2026 with the introduction of the K-Tech 3, the duo’s first dedicated lifestyle silhouette. Building upon the foundation of their pre",
+      "hotness": 10
+    },
+    {
+      "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
+      "url": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls",
+      "source": "CoinDesk",
+      "sourceIcon": "₿",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T10:07:33.000Z",
+      "summary": "Bitcoin is down just 1.5% in its historically weakest month and remains on track for its first quarterly gain in a year, despite rising rates, surging oil and a stronger dollar.",
+      "hotness": 10
+    },
+    {
+      "title": "Three dead and eight injured in Philippines school shooting",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T10:04:43.000Z",
+      "summary": "The gunman is among the dead in what is the third school shooting in the country since June.",
+      "hotness": 10
+    },
+    {
+      "title": "URBAN RESEARCH Reworks the Salomon XA PRO 3D GTX in Earthy Tones",
+      "url": "https://hypebeast.com/2026/9/urban-research-salomon-xa-pro-3d-gtx-brown-official-images-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T10:02:40.000Z",
+      "summary": "Name: URBAN RESEARCH × Salomon XA PRO 3D GTX “Brown”Colorway: “Brown”SKU: TBCMSRP: ¥23,100 JPY (approx. $147 USD)Release Date: October 2026URBAN RESEARCH reunites with Salomon for another exclusive color treatment, this time applying a subdued “Brown” palette to the XA PRO 3D GTX. Currently announce",
+      "hotness": 10
+    },
+    {
+      "title": "ENGWE’s “Born to Fly” Spirit Takes Flight With the Eagle All-Terrain Dirt Bike",
+      "url": "https://hypebeast.com/2026/9/engwes-born-to-fly-spirit-takes-flight-with-the-eagle-all-terrain-dirt-bike",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T10:00:37.000Z",
+      "summary": "Global e-bike maker ENGWE is officially turning the page on traditional e-mobility with the launch of the Eagle, its first electric dirt bike. Known for its versatile urban commuting lineup, the brand is stepping beyond point-A-to-point-B utility to embrace youth culture, outdoor adventure, and pers",
+      "hotness": 10
+    },
+    {
+      "title": "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+      "url": "https://www.theguardian.com/world/2026/sep/18/australian-man-accused-of-murdering-thai-teenager-and-putting-body-in-suitcase-pleads-not-guilty-ntwnfb",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T10:00:35.000Z",
+      "summary": "Simon Peter Carman appeared in a Pattaya court on Friday charged with killing  Tunchanok Donhomla \nAn Australian man accused of murdering a Thai teenager and putting her body in a suitcase pleaded not guilty on Friday in a hearing in the seaside resort city of Pattaya, a court official said.\nSimon P",
+      "hotness": 10
+    },
+    {
+      "title": "Louisiana firefighters find feline native to sub-Saharan Africa while responding to house fire",
+      "url": "https://www.theguardian.com/us-news/2026/sep/18/louisiana-firefighters-sub-saharan-africa-feline",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T10:00:15.000Z",
+      "summary": "The African serval, illegally enclosed in the back yard, was subdued and transferred to an animal welfare facility \nLouisiana firefighters responding to a small house blaze found a wildcat native to sub-Saharan Africa illegally enclosed in the back yard, and an animal welfare agency is now seeking t",
+      "hotness": 10
+    },
+    {
+      "title": "巴基斯坦西北部发生爆炸致7人死亡 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNWNQQUliX2JHTEhZWE9EZE80Mm1YQWI5Q2M0dkFDOU93TjZJaXlTSnhBUnV2ZTJmR29neTJjSHlNQlJUNzhMMmt3cF9UNGtOSi1pNl80T183OG9YSm5lcnZlT2VZTjVjaXJsanZUTHZHRVM3X0lFM0VTV0drcnNCX2hCelhqcm1XR3hjLVN3UnNmZDBFSnF6MjBB?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T09:58:23.000Z",
+      "summary": "巴基斯坦西北部发生爆炸致7人死亡  新华网客户端在Google 新闻上查看更多头条新闻和观点",
+      "hotness": 10
+    },
+    {
+      "title": "东博会手记：握手之间，续写中国东盟相知相亲新篇 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GcF9OOVZiclR1TzNuaTJyd0o0UTlJSUZyekktNnRYSHloYWhtMmJNdExzd3RqT0tUbXhMOUQ4bE13NGpITEcyRkFWWkdKR0V0UG4wc0czYjdjSW5xYjVXY3hVYVM4dTExZTdJYUE2WUJ1bE9EZU1FSTU4Tnh3OGc?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T09:55:48.000Z",
+      "summary": "东博会手记：握手之间，续写中国东盟相知相亲新篇  新华网\n东博会+AI带你飞，以天空的视角，来感受不一样的世界！ 2026东博会峰会  t.cj.sina.cn\n携硬核科技与浪漫冰雪 中国“魅力之城”长春惊艳亮相东博会  凤凰网\n“智”汇东博会，金融连山海——中国银行以“AI+跨境”续写23年东博之约  人民网\n东盟“大家庭”首次齐聚东博会 共赴“3.0机遇”之约  光明网",
+      "hotness": 10
+    },
+    {
+      "title": "人類真的可能被AI滅絕？我們可以如何阻止？",
+      "url": "https://www.bbc.com/zhongwen/articles/c674k7gxpgplo/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
+      "sourceIcon": "🇬🇧",
+      "lang": "zh",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:55:28.000Z",
+      "summary": "人工智能（AI）快速發展之際，AI界對其潛在風險的公開討論也越來越多。部分科學家甚至估計，未來十年AI導致人類滅絕的可能性超過一成。",
+      "hotness": 10
+    },
+    {
+      "title": "Swimmer dies after being bitten by shark off popular Perth beach",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/18/swimmer-dies-after-being-bitten-by-shark-off-popular-perth-beach",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:52:55.000Z",
+      "summary": "Locals describe their shock at witnessing the incident at Sorrento Beach on Friday morning\n\nFollow our Australia news live blog for latest updates\n\nGet our breaking news email, free app or daily news podcast\n\nA man has died after being bitten by a shark off Sorrento Beach in Perth’s north.\nEmergency",
+      "hotness": 10
+    },
+    {
+      "title": "Live updates: HYPE leads altcoin rally as bitcoin recovers toward $78,000",
+      "url": "https://www.coindesk.com/tech/2026/09/18/live-updates-hype-leads-altcoin-rally-as-bitcoin-recovers-toward-usd78-000",
+      "source": "CoinDesk",
+      "sourceIcon": "₿",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T09:49:51.000Z",
+      "summary": "Bitcoin recovered from $75,972 overnight to just below $78,000, a third straight day of gains.",
+      "hotness": 10
+    },
+    {
+      "title": "LeBron James Previews the Nike LeBron 24 \"Chosen 1s\"",
+      "url": "https://hypebeast.com/2026/9/nike-lebron-24-chosen-1s-io8201-700-first-look-revealed-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T09:49:10.000Z",
+      "summary": "Summary\nLeBron James has debuted a first look at the upcoming Nike LeBron 24 \"Chosen 1s\" during a workout sessionThe silhouette features a bold Tour Yellow upper accented by hits of Metallic Gold and Midnight NavyThe colorway is expected to release in December 2026 with a retail price tag of $200 US",
+      "hotness": 10
+    },
+    {
+      "title": "AirAsia's Fernandes refutes financial concerns, points to new growth plans",
+      "url": "https://www.cnbc.com/2026/09/18/airasia-co-founder-tony-fernandes.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T09:44:48.000Z",
+      "summary": "AirAsia's Tony Fernandes pushed back against a report raising concerns over the airline’s financial health, while signaling plans to resume growth.",
+      "hotness": 10
+    },
+    {
+      "title": "Bolivia: New cat species discovered by scientists",
+      "url": "https://www.dw.com/en/bolivia-new-cat-species-discovered-by-scientists/a-79320205?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:40:00.000Z",
+      "summary": "Genetic data confirmed that the small feline, called \"tilcayo\" by locals, is a new species of cat. It's the first such discovery in more than 100 years.",
+      "hotness": 10
+    },
+    {
+      "title": "Anthropic and OpenAI hunt for smaller data center deals, sources tell CNBC, in race to deploy AI capacity",
+      "url": "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T09:38:17.000Z",
+      "summary": "Anthropic and OpenAI have announced a flurry of AI infrastructure deals over the past year as demand booms.",
+      "hotness": 10
+    },
+    {
+      "title": "Failure of Clarity Act Turns Crypto Industry Focus to Federal Regulators - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVZLWWJpREJNcElnSDZ3VzBHa0FFalFyMnhodzNDRFRTRUlzeGlxemVOUVR4SU1HdHliR3U1RTFCdjZjaE9qQ25QQVRfMm11ZE5SVkJ3Qm1TbWZrLW1fd05sa3VFMEFwd25fZENaSmtlb0RLMnpPZjhOVmxGTjNIQXVLcGtOT29rbUNaLXltNVU3WER4bi1hWVdPYkZXam1MSFYxenM2TGN3aVRla3NyMHpyR2c5YWkx?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T09:33:00.000Z",
+      "summary": "Failure of Clarity Act Turns Crypto Industry Focus to Federal Regulators  WSJ",
+      "hotness": 10
+    },
+    {
+      "title": "An intense boardroom battle is brewing at India's giant Tata Group",
+      "url": "https://www.cnbc.com/2026/09/18/jlr-air-india-tata-iphone.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T09:29:41.000Z",
+      "summary": "In 10 years, India's leading multinational conglomerate, the Tata Group, is facing a new power struggle between the chairman of Tata Sons and Tata Trusts.",
+      "hotness": 10
+    },
+    {
+      "title": "「運動員無法伸直雙腿睡覺」：日本亞運為何爆發住宿爭議？",
+      "url": "https://www.bbc.com/zhongwen/articles/ckwyzg2v80elo/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
+      "sourceIcon": "🇬🇧",
+      "lang": "zh",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:24:15.000Z",
+      "summary": "亞運選手將入住木製貨櫃屋或一艘意大利郵輪。韓國代表團批評，貨櫃屋宿舍水管漏水，且床舖太小，運動員甚至無法伸直雙腿睡覺。",
+      "hotness": 10
+    },
+    {
+      "title": "Official Scorecards | Crypto.com UFC 331: Van vs Pantoja 2 - UFC.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjE1RVdId05kUC1RVEpWYWtOS09hTUt6QlAxYkJqcGc2Z0hRdVl6VDNfS29PdnhjdEtmS3FDUUFTNnA1UF8xVUQ0N0s3SVdKR2pxczBlZGtWaHNLVC0wdDE5bXYyMG40djVtN1d0LUtvcUMyVVVPRWpXdEM2Q1JIOWZHM0E4Zw?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T09:22:51.000Z",
+      "summary": "Official Scorecards | Crypto.com UFC 331: Van vs Pantoja 2  UFC.com",
+      "hotness": 10
+    },
+    {
+      "title": "Brain Dead and Andersson Bell Team up for Outdoor-Inspired Technical Wear Collection",
+      "url": "https://hypebeast.com/2026/9/brain-dead-andersson-bell-outdoor-inspired-technical-wear-collection-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T09:19:49.000Z",
+      "summary": "Summary\nBrain Dead and Andersson Bell have joined forces for a collaborative collection inspired by technical outdoor wearThe campaign features Tuareg guitarist Mdou Moctar highlighting the intersection of nomadic culture and functional designThe collection drops on September 25, 2026 with prices ra",
+      "hotness": 10
+    },
+    {
+      "title": "港股18日涨0.6% 收报24750.78点 - xinhuanet.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mZjNxVHA1bmp5bUlNcHM4YlpsVVdmbHV0alJEbWtmY0ZBYnJWcUEycEdvdXFUQlozS09PZ2FRczAxNlRTMllTNkxKVnl5ZGIxWjU4dFY3cnBuWjM4VXU4ejFVYkhYbVMwaGp0cUtoTzNDWTNXQ295TUNHZGp3Zw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T09:16:49.000Z",
+      "summary": "港股18日涨0.6% 收报24750.78点  xinhuanet.com\n港股收盘：恒生指数涨0.59%，恒生科技指数涨2.20%  新浪财经_金融信息服务商\n港股芯片股大涨，壁仞科技涨超12%，兆易创新涨超近10%，MINIMAX涨近19%，联想集团涨超9%创新高  新浪财经_金融信息服务商\n港股速报 | 港股早盘高开 超68亿港元南向资金抄底智谱  凤凰网\n【港股收评】三大指数集体反弹！AI硬件、地产股异军突起  Sohu",
+      "hotness": 10
+    },
+    {
+      "title": "I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term insurance?",
+      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T09:15:00.000Z",
+      "summary": "“By the time my mother died, the insurance company had paid out almost $600,000.”",
+      "hotness": 10
+    },
+    {
+      "title": "Stablecoin payments firm dtcpay closes $25M round with SBI backing",
+      "url": "https://cointelegraph.com/news/dtcpay-25m-series-a-sbi-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-09-18T09:14:03.000Z",
+      "summary": "Dtcpay plans to expand its merchant network and payment products after completing a $25 million Series A backed by Japan’s SBI Group.",
+      "hotness": 10
+    },
+    {
+      "title": "HOKA Gives the TOR SUMMIT LEATHER TP an All-Black Finish",
+      "url": "https://hypebeast.com/2026/9/hoka-tor-summit-leather-tp-black-1182950-bblc-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T09:09:23.000Z",
+      "summary": "Name: HOKA TOR SUMMIT LEATHER TP “Black”Colorway: Black/BlackSKU: 1182950-BBLCMSRP: ¥40,700 JPY (approx. $259 USD)Release Date: Available NowWhere to Buy: HOKAHOKA expands its rugged lifestyle offering with the TOR SUMMIT LEATHER TP in a tonal “Black” colorway. Rendered almost entirely in black, the",
+      "hotness": 10
+    },
+    {
+      "title": "G-DRAGON and McDonald’s Serve Up a Gochujang Butter Menu Across Asia",
+      "url": "https://hypebeast.com/2026/9/g-dragon-mcdonalds-asia-limited-collaboration-special-gochujang-butter-menu-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T09:09:20.000Z",
+      "summary": "Summary\nG-DRAGON and McDonald’s launch a Gochujang Butter menu across 13 Asian markets.Highlights include a K-Crispy Thigh Burger, Chicken McNuggets and Korean-inspired sides and desserts.PEACEMINUSONE branding extends across packaging, collectibles and limited-edition merchandise.\nG-DRAGON has join",
+      "hotness": 10
+    },
+    {
+      "title": "India news: Long queues hit stores as new iPhones go on sale",
+      "url": "https://www.dw.com/en/india-news-long-queues-hit-stores-as-new-iphones-go-on-sale/live-79320496?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:06:00.000Z",
+      "summary": "The iPhone 18 has gone on sale in India, drawing huge queues across the country. Meanwhile, the Election Commission has barred both Trinamool factions from using the party's name in by-elections. Follow DW for more.",
+      "hotness": 10
+    },
+    {
+      "title": "Andrew Hastie says AI advised him to reply ‘congratulations!’ to man who planned to end life with assisted dying",
+      "url": "https://www.theguardian.com/technology/2026/sep/18/andrew-hastie-says-ai-advised-him-to-reply-congratulations-to-man-who-planned-to-end-life-with-assisted-dying",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T09:05:43.000Z",
+      "summary": "Liberal MP speaks of AI’s shortcomings as cyber chief tells inquiry the tech is needed to fend off ‘highly capable malicious cyber actors’\n\nGet our new political email, free app or daily news podcast\n\nWhen a man with a terminal illness wrote to his local MP Andrew Hastie, telling him he planned on e",
+      "hotness": 10
+    },
+    {
+      "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships - Decrypt",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUUd2bUJIMlpoSzRHU3oxWHV2bGxaRHQ5UDlGcHhkZGFQeWlzbkYtaU1zUmp5OEY3U2ZpMnJ4V2tpRk94QzQ1bWF0UldpanhUZmJSdVVWTkN3WUFMd0FwaEZwaXhDbWhfNzhLcmtERUdDdGFkQkpVUnhWTVluLWpUQUdKUTdUcThNamptWmhhd2p2bzBoal9pRjFJNGE5MENHR0cyUXB30gGuAUFVX3lxTE9CWkxiUXp2Y0Q0SkVsVTVNQnE5MTZoa240a0RQN2hqZ0hyS1V4VnVYUXVFNUdNZTlUVUxDUVJ5RnZ4Q2ROV3FwNXVlQl9TdU5LWVNJRTFucC13d1RWZWJPR2tTdUx1aFI4TWZWUmZWMnZ6M0FTQkhBTGZKZDBKU0hhdWs3TUhWZWNNSnlEUjNFZEJnX1RUdF9TRWVxQ3hJMjZEdi1lMlREbnVNOEQ3QQ?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T09:01:55.000Z",
+      "summary": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships  Decrypt",
+      "hotness": 10
+    },
+    {
+      "title": "菲律宾南部校园枪击案已致3死8伤 4人伤势严重 - 中国网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wMk5HNDE2SkRIRUxZMzBzeDd6R2NJV1JyTkRNVXpnb1lpSVFBYk44UWt4WDdiZEVFXzhqN2owR0JiVWsyLTMzekFFc1gtZVU5YXhXUjhkZXF2S2o1aGllNVdvUXpsVkNLWldtTFhxdw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T09:00:00.000Z",
+      "summary": "菲律宾南部校园枪击案已致3死8伤 4人伤势严重  中国网\n菲律宾高中校园枪击事件已致6死17伤  央视网\n菲律宾校园枪击案死亡人数更正为3人  新浪财经_金融信息服务商\n菲律宾一高中发生枪击事件，导致多人受伤；菲律宾教育部发表声明称，目前正与各部门协调以核实情况并提供援助  Sohu\n菲律宾突发校园枪击事件，已致2死7伤  观察者网",
+      "hotness": 10
+    },
+    {
+      "title": "Japan Raises Interest Rates to 31-Year High Under U.S. Pressure - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE42NWZYazNucmllcUJxbUZPdHIxZmF2NDBtdjRaXzNmcU9GcEdWX2dHX3NnSmhtTkI1d2JIWjdtMGlOUVdEMm8xMXFDTVh0c3QyNEFIV2U3bDZVY2czRUZDb29ISm15dUNVTDdjMktzckViV2kwLUE1Wg?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-09-18T08:59:00.000Z",
+      "summary": "Japan Raises Interest Rates to 31-Year High Under U.S. Pressure  The New York Times\nJapan raises interest rate to new 31-year high to curb rising prices  BBC\nBank of Japan raises rates and accelerates tightening  Financial Times\nWhy Japanese stocks rose as government bond yields and the yen fell aft",
+      "hotness": 10
+    },
+    {
+      "title": "九一八事变爆发95周年，中国人民抗日战争纪念馆举行主题活动 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4and3RTB6TnZOblBZd1ktQmZQZmNTb0NSaDVtMjZCV2JyT24zZFA5UFZkRVZhTWhpcDdSMHlrOEctWDFKM0h5ckhDbXIzWTI1VS1Uay01WG15b0M4X3Q0bU12NmI?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T08:52:00.000Z",
+      "summary": "九一八事变爆发95周年，中国人民抗日战争纪念馆举行主题活动  新京报\n铭记历史 勿忘“九一八”  新浪财经_金融信息服务商\n铭记历史 勿忘九一八  Sohu\n浙江宣传丨九一八并不久远  浙江新闻\n镜见｜勿忘九一八 传承伟大抗战精神  中国网",
+      "hotness": 10
+    },
+    {
+      "title": "Binance brushes off Lagarde MiCA speculation, reaffirms Europe commitment",
+      "url": "https://cointelegraph.com/news/binance-cites-speculation-report-ecb-chief-mica-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-09-18T08:50:38.000Z",
+      "summary": "Binance declined to address reports of ECB intervention in its Greek MiCA bid, saying it remains committed to securing authorization in Europe.",
+      "hotness": 10
+    },
+    {
+      "title": "Nike SHAI 002 Expected to Release in February 2027",
+      "url": "https://hypebeast.com/2026/9/nike-shai-002-expected-to-release-in-february-2027-reports",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T08:49:38.000Z",
+      "summary": "Summary\nShai Gilgeous-Alexander's next signature model the Nike SHAI 002 is reportedly expected to debut in February 2027According to reports from brandon1an the initial colorway is listed in a Hot Curry Dark Team Red and Orange Chalk paletteThe sneaker is slated to launch around NBA All-Star Weeken",
+      "hotness": 10
+    },
+    {
+      "title": "Philippines: At least 2 students killed in school shooting",
+      "url": "https://www.dw.com/en/philippines-at-least-2-students-killed-in-school-shooting/a-79319854?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:48:00.000Z",
+      "summary": "Emergency services received reports of gunfire at the Banga National High School in southern Mindanao on Friday afternoon. At least two students were killed, while several others were injured.",
+      "hotness": 10
+    },
+    {
+      "title": "Bitcoin cycle bottom may already be in at $58K, says analyst James Check",
+      "url": "https://cointelegraph.com/markets/bitcoin-cycle-bottom-58k-james-check?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-09-18T08:47:20.000Z",
+      "summary": "Onchain analyst James Check says Bitcoin may have bottomed near $58,000 after two capitulations and warns against anchoring to an October low.",
+      "hotness": 10
+    },
+    {
+      "title": "Everything you need to know about Oktoberfest 2026",
+      "url": "https://www.dw.com/en/everything-you-need-to-know-about-oktoberfest-2026/a-79311285?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:47:00.000Z",
+      "summary": "This year, AI will be used to manage overcrowded situations. Find all the numbers surrounding the fest — including the price of water!",
+      "hotness": 10
+    },
+    {
+      "title": "Hyrox失禁風波：澳洲選手道歉、主辦方承諾退款",
+      "url": "https://www.bbc.com/zhongwen/articles/cq3d7zld42m0o/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC 中文",
+      "sourceIcon": "🇬🇧",
+      "lang": "zh",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:46:00.000Z",
+      "summary": "Hyrox已更新賽例，明文規定若參賽者的「血液、嘔吐物、尿液或糞便」構成健康風險，可被要求退賽。",
+      "hotness": 10
+    },
+    {
+      "title": "Poland's prime minister warns of Russian 'accidental' attacks on Ukraine's allies",
+      "url": "https://www.npr.org/2026/09/18/nx-s1-5973265/poland-nato-russia",
+      "source": "NPR World",
+      "sourceIcon": "🇺🇸",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:44:08.000Z",
+      "summary": "Polish Prime Minister Donald Tusk said that these potential strikes \"intend to paralyze NATO\" in an attempt to demonstrate that Article 5 \"exists only in theory.\"",
+      "hotness": 10
+    },
+    {
+      "title": "PROJECT PUMA PLUS. Explores “Functional Beauty” for FW26",
+      "url": "https://hypebeast.com/2026/9/puma-project-puma-plus-fall-winter-2026-collection-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T08:43:29.000Z",
+      "summary": "Summary\nPROJECT PUMA PLUS. returns for FW26 with a focus on “functional beauty.”Natural textures and muted tones inform relaxed, understated sportswear.The collection launches October 16 through PUMA Japan and select retailers.\nPUMA has unveiled the Fall/Winter 2026 installment of PROJECT PUMA PLUS.",
+      "hotness": 10
+    },
+    {
+      "title": "Hamilton’s ‘Modern Warfare 4’ Khaki Field Watch Is Built for the Mission",
+      "url": "https://hypebeast.com/2026/9/call-of-duty-modern-warfare-hamilton-4-khaki-field-mechanical-38mm-watch-collaboration-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T08:43:27.000Z",
+      "summary": "Summary\nHamilton reunites with Call of Duty for a Modern Warfare 4-inspired Khaki Field Mechanical.The 38mm watch features tactical detailing and Captain Price tie-ins.Releasing in tandem with the game's official launch on October 23; priced at $795 USD.\nHamilton is returning to the Call of Duty uni",
+      "hotness": 10
+    },
+    {
+      "title": "A Chinese AI company just connected its model to Wall Street's leading data providers",
+      "url": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T08:41:11.000Z",
+      "summary": "The startup Moonshot said it signed on financial industry giants from investment bank CICC to venture capital firms",
+      "hotness": 10
+    },
+    {
+      "title": "Weather tracker: Thunderstorms hit Spain as Japan braces for typhoon",
+      "url": "https://www.theguardian.com/environment/2026/sep/18/weather-tracker-thunderstorms-spain-japan-typhoon",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:36:50.000Z",
+      "summary": "At least one person dead as stormy weather causes severe flooding in Barcelona and Valencia \nIntense and slow-moving thunderstorms broke out on Wednesday afternoon across parts of eastern Spain, bringing some severe flooding and killing at least one person.\nStorms first struck over the Castilla-La M",
+      "hotness": 10
+    },
+    {
+      "title": "‘We have something that will kill Elliott’: Icac questions former Labor councillor over message",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/18/icac-labor-sharangan-maheswaran-david-elliot-message-jean-nassif-ntwnfb",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:33:00.000Z",
+      "summary": "Sharangan Maheswaran denies message he received about NSW minister was related to work for fugitive property developer\n\nFollow our Australia news live blog for latest updates\n\nGet our new political email, free app or daily news podcast\n\nA former Labor councillor says he had a “common interest” with ",
+      "hotness": 10
+    },
+    {
+      "title": "‘We demand the truth’: Olga Tokarczuk and JM Coetzee lead calls for proof of life of disappeared Eritrean writers",
+      "url": "https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:30:12.000Z",
+      "summary": "More than 180 writers sign letter renewing calls for information on 12 authors detained incommunicado since 2001 crackdown on free speech by Isaias Afwerki\nMore than 180 writers have signed a letter to Eritrean president Isaias Afwerki calling for proof of life for 12 writers arrested in 2001.\nNobel",
+      "hotness": 10
+    },
+    {
+      "title": "Labor visa overstayer detention centre plan branded a ‘Donald Trump twist’ on immigration",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/18/labors-plans-for-visa-overstayer-detention-centres-a-donald-trump-twist-on-australian-immigration-ntwnfb",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:30:00.000Z",
+      "summary": "Australian Greens senator compares government’s policy to ICE as Tony Burke calls it a ‘ridiculous claim’\n\nGet our new political email, free app or daily news podcast\n\nThe federal government’s move to reopen detention centres for visa overstayers, overseen by compliance officers, has drawn compariso",
+      "hotness": 10
+    },
+    {
+      "title": "Oil prices fall for third day on Saudi Arabia supply hopes; U.S. crude briefly dips below $100",
+      "url": "https://www.cnbc.com/2026/09/18/oil-prices-today-brent-wti-saudi-arabia-houthi.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T08:29:35.000Z",
+      "summary": "Oil prices fell on Friday as additional Saudi crude supplies help ease disruption fears.",
+      "hotness": 10
+    },
+    {
+      "title": "Coinbase CEO Brian Armstrong is moving past the Clarity Act's failure: 'There's another path' - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObnhLNUNreHcxUDZ3MVRiT0tkd3FFOUxDTUk2R2tJQm9majJOa3FKcDBrUWpqcm5uaDVvVTVXblhWSFRjekFCRjF2ODNQWXRNbjZhVGRTVmk3eFQyTlZYSlU4TExMUzBrOTB4YVZFbTljaGx3NkY4aTU0MDVwX3FzYjU4WWR0dFJSQ0hqWloxd1NFaTNnNlhtX2hWaERUSlE0X1VIaWFyZFdFdXQwTnh2aTBBbXJqS1RqVmwzUzJzSkw5MVRMMjVqaG56UTQ4SmFUXzFzX1laTUtHWlNKWGxEMHE1dV9TUE0?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T08:27:13.000Z",
+      "summary": "Coinbase CEO Brian Armstrong is moving past the Clarity Act's failure: 'There's another path'  Yahoo Finance",
+      "hotness": 10
+    },
+    {
+      "title": "UK Youth Parliament looks set to be axed",
+      "url": "https://www.bbc.co.uk/news/articles/c689jke4w310o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-09-18T08:20:19.000Z",
+      "summary": "Some say scrapping the parliament for 11 to 18-year-olds would be a blow for democracy, while others say it is overdue.",
+      "hotness": 10
+    },
+    {
+      "title": "Australia: Man killed in shark attack near Perth",
+      "url": "https://www.dw.com/en/australia-man-killed-in-shark-attack-near-perth/a-79319936?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:13:00.000Z",
+      "summary": "A swimmer was mauled by a shark, with witnesses reporting a massive pool of blood in the water. There have been four confirmed fatal shark attacks in Australia this year.",
+      "hotness": 10
+    },
+    {
+      "title": "Guy Ritchie Revisits Aristocratic Betrayal in Teaser Trailer for 'Wife And Dog'",
+      "url": "https://hypebeast.com/2026/9/guy-ritchie-black-bear-wife-and-dog-benedict-cumberbatch-anthony-hopkins-rosamund-pike-teaser-trailer-release-info",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-09-18T08:09:25.000Z",
+      "summary": "Summary\nBlack Bear has released the inaugural teaser trailer for Guy Ritchie's upcoming suspense thriller 'Wife And Dog'The film features a British ensemble cast including Benedict Cumberbatch Rosamund Pike and Anthony Hopkins'Wife And Dog' is scheduled for a wide U.S. theatrical release on February",
+      "hotness": 10
+    },
+    {
+      "title": "Venezuela unblocks some news websites censored for years",
+      "url": "https://www.dw.com/en/venezuela-unblocks-some-news-websites-censored-for-years/a-79319441?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:05:00.000Z",
+      "summary": "Venezuela has restored access to 17 news sites that were blocked for years under Nicolas Maduro's administration. While activists welcomed the move, they noted that dozens more news portals, remain inaccessible.",
+      "hotness": 10
+    },
+    {
+      "title": "What to know after a week of Houthi attacks that threaten Saudi oil",
+      "url": "https://www.npr.org/2026/09/18/nx-s1-5973810/houthi-attacks-saudi-oil-world-markets",
+      "source": "NPR World",
+      "sourceIcon": "🇺🇸",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T08:02:41.000Z",
+      "summary": "The Houthis' biggest land grab in years reignited Yemen's 12-year civil war and pushed up global fuel prices, extending their reach to a key maritime chokepoint and threatening Saudi Arabia's oil exports.",
+      "hotness": 10
+    },
+    {
+      "title": "Trump administration advances $24.3 billion fighter jet deal to Saudi Arabia as Houthis escalate attacks",
+      "url": "https://www.cnbc.com/2026/09/18/trump-saudi-arabia-f-35-houthis-iran-war.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T08:02:20.000Z",
+      "summary": "The deal comes as Iran-backed Houthis escalate attacks on Saudi Arabia and seek control of the strategically important Bab el-Mandeb Strait.",
+      "hotness": 10
+    },
+    {
+      "title": "Crypto is just one channel: how Russia launders corrupt wealth past sanctions - Transparency.org",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeGRmVXJhSWpOTVVSaHYxaFZKOHhjUC1JckE0TTVXRGtTQnIxT2xyZTZlMm1vRmpoQzlCeEJnczFPT25NWk1KdEhjd1ZKTDE2NFV0TVVGRnVyM1N6S212Y0F2OEtEUEdtcF90ejhUd1JoR1A5UjFKenJaQ0NNOGFIQThJeE1yc0podVg1WGNR?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T07:43:50.000Z",
+      "summary": "Crypto is just one channel: how Russia launders corrupt wealth past sanctions  Transparency.org",
+      "hotness": 10
+    },
+    {
+      "title": "Malaysia: Jailed ex-leader Najib allowed house arrest",
+      "url": "https://www.dw.com/en/malaysia-jailed-ex-leader-najib-allowed-house-arrest/a-79318399?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T07:38:00.000Z",
+      "summary": "Convicted in the 1MDB scandal for embezzling millions, former Prime Minister Najib Razak had repeatedly sought clemency. Malaysia's king has now granted him a \"conditional pardon.\"",
+      "hotness": 10
+    },
+    {
+      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
+      "url": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
+      "source": "CoinDesk",
+      "sourceIcon": "₿",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-09-18T07:37:32.000Z",
+      "summary": "Stablecoin payments company dtcpay completed a $25 million Series A funding round with a strategic investment from Japan’s SBI Group.",
+      "hotness": 10
+    },
+    {
+      "title": "外交部：日本对待历史问题的“否认主义”倾向不断滋长蔓延--国际 - 人民网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE44VzNnbVY3SnlZS0FGTlBUNUZyYzVSQ2ZPNlZQNW42d0NOVHl0ZkJ3MG40dk1NMTNoTElOeU5zZGY4M29BSUlLdG9ySzdzNm1jV1FLYTQ4ZEM5M3B5WWJWSlRIMTBfMm5oeHRV?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T07:26:00.000Z",
+      "summary": "外交部：日本对待历史问题的“否认主义”倾向不断滋长蔓延--国际  人民网\n九一八事变爆发95周年 日本“自卫”谎言还要骗多久  光明网\n外交部：日本对待历史问题的“否认主义”倾向不断滋长蔓延  中国日报网\n专访日本“继承和发展村山谈话会”理事长藤田高景：正视历史才是日本真正的尊严  中国青年网\n人民日报钟声：病根不除，日本没有未来  凤凰网",
+      "hotness": 10
+    },
+    {
+      "title": "Japan raises interest rates to 31-year high to curb impact of rising prices",
+      "url": "https://www.theguardian.com/business/2026/sep/18/japan-raises-interest-rates-to-31-year-high-rising-prices",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T07:14:13.000Z",
+      "summary": "Increase from 1% to 1.25% follows US Federal Reserve and European Central Bank tightening monetary policy\n\nBusiness live – latest updates\n\nJapan’s central bank has increased interest rates to a fresh 31-year high as it attempts to combat global inflation linked to the war in Iran.\nThe Bank of Japan ",
+      "hotness": 10
+    },
+    {
+      "title": "中国海警局新闻发言人就菲船只碰撞我海警艇发表谈话 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NWFRLZ1FfWWNRZWpmMEhxckNCNzlHVWdWNldTR1RPOVd5QXFmdm5aVzFYZlZBWFdqdzZTLUk4Z0l5M2hqSHJPVS1fOVkxWEdhUlZPVXdJM1hmbjY3SnM1b1ZyWTI3VkhxWHV3bERjMDg?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T07:13:03.000Z",
+      "summary": "中国海警局新闻发言人就菲船只碰撞我海警艇发表谈话  中国科技网\n菲船只碰撞我海警艇，中国海警正告  观察者网\n菲公务船故意冲撞中方海警船，在南沙群岛挑衅滋事，外交部回应  凤凰网\n外交部：菲律宾应立即停止在海上侵权挑衅  中国日报网\n外交部：菲对中国领土主张所谓海洋管辖权是非法的  新浪财经_金融信息服务商",
+      "hotness": 10
+    },
+    {
+      "title": "Stock futures are little changed after Thursday's post-Fed bounce: Live updates - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zb1FPNjVUSjZxQjBrLTQtUmxMUk1DZVlPcmMyZDk4cy10VXJ1djlDNVJKUVRJcUdQN0t1N1VMZl9pNUdNT3ZLRXpyZkhESDRjdlR0T2EwUFYzSEVyR3ZsaEQzbTlUVno5UzRBTTJCckt4N09xb1h30gF8QVVfeXFMTkNJQ1JtdXJ5cnhhZnB4OERzOFBZS0tkaFNCLTR5TUVGR1VwWEM2cEVKT2dNN0RXRW9BNXJwYl9oN00wSm14b196ZEZoMnpoOVc5NDB6T2UwQ21yV2pVYzZFRWFlTC1YRE1SeC1wLVhEMWU2VGZ1eUZVel9IbA?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-09-18T07:10:35.000Z",
+      "summary": "Stock futures are little changed after Thursday's post-Fed bounce: Live updates  CNBC\nStock market today: Dow, S&P 500, Nasdaq rise as oil slips, Fed rate hike pacifies markets' inflation worries  Yahoo Finance\nThursday Recap: Stocks Rally, Shaking Off Fed’s Rate Hike  WSJ\nMarkets News, Sep. 17, 202",
+      "hotness": 10
     },
     {
       "title": "Needles Taps Heritage Imprints Tailor Toyo and Sun Surf for Inaugural Collaboration",
@@ -383,17 +1087,6 @@
       "hotness": 10
     },
     {
-      "title": "Australia news live: Swimmer dies after shark attack at Perth beach; Victoria police officer charged with assault after allegedly punching and kicking handcuffed teen",
-      "url": "https://www.theguardian.com/australia-news/live/2026/sep/18/labor-migration-plan-tony-burke-coalition-qantas-renewable-energy-ntwnfb",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-18T06:58:16.000Z",
-      "summary": "Follow the day’s news live\n\nGet our breaking news email, free app or daily news podcast\n\nAustralia needs to slow down its artificial intelligence use and create better security laws, the companies creating the technology have told the federal government.\nIn a submission to an ongoing inquiry, OpenAI",
-      "hotness": 10
-    },
-    {
       "title": "VAR's mission creep a problem for football",
       "url": "https://www.dw.com/en/var-s-mission-creep-a-problem-for-football/a-79272642?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -405,14 +1098,25 @@
       "hotness": 10
     },
     {
-      "title": "平陆运河通航释放交通红利促进区域经济开放 - 中国一带一路网",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByclVJbThlVHNFbjI3TVViMjYyRVoyWGpaSEtMT0tzUjhvYkVTSkRUX1ZSY1JFbW5tU044Z3ZRMjctenJFYi1ZZDExUW50b01NYnRaQjhPUQ?oc=5",
+      "title": "中国“十五五”规划，为世界提供新机遇 - 中国一带一路网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uVjRRX0c4VUluajUxVkxUOE9DSVRma3NaYjFON2E4WGFlblJ0R0RNNjE5WVZ6a3pXbnU0VVlXYWx1ZUZpZmF0ampMS3ZzVnEzRDVJMTVVMA?oc=5",
       "source": "Google News 中文",
       "sourceIcon": "🇨🇳",
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-09-18T06:53:12.000Z",
-      "summary": "平陆运河通航释放交通红利促进区域经济开放  中国一带一路网\n平陆运河，如何跨越65米落差通江达海？  新浪财经_金融信息服务商\n上游观察｜平陆运河通航，重庆“向海”  凤凰网\n当年设计1000吨，现在能跑5000吨，这条运河等了半个多世纪  观察者网\n一条水路，能带热多大的市场？  中华网",
+      "summary": "中国“十五五”规划，为世界提供新机遇  中国一带一路网\n钱峰：开启中印关系行稳致远的战略新局  新浪财经_金融信息服务商\n“中国始终是金砖合作的重要推动者”  光明网\n以文明互鉴筑牢金砖合作民意基础（国际论坛） --国际  人民网\n正道昭昭行万里——感悟大国外交的宏阔时空经纬  央视网",
+      "hotness": 10
+    },
+    {
+      "title": "这棵香樟树，见证26年“绿色长征” - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2ZE5yQVkxcGlvcEUwa0pmZThBbGNKTjh2UW43QUxiUTA2ZnFnQkpHYVNyeDNvd1h4UUR6N0tQVGFvU1RNTXJ5aGFXdWpDb0JZaVFIMXpNNEhHT2RCU1ZZZjZSWmtweXdoeFBn?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T06:53:00.000Z",
+      "summary": "这棵香樟树，见证26年“绿色长征”  新华报业网在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
@@ -460,17 +1164,6 @@
       "hotness": 10
     },
     {
-      "title": "‘We have something that will kill Elliott’: Icac questions former Labor councillor over message",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/18/icac-labor-sharangan-maheswaran-david-elliot-message-jean-nassif-ntwnfb",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-18T06:31:53.000Z",
-      "summary": "Sharangan Maheswaran denies message he received about NSW minister was related to work for fugitive property developer\n\nFollow our Australia news live blog for latest updates\n\nGet our new political email, free app or daily news podcast\n\nA former Labor councillor says he had a “common interest” with ",
-      "hotness": 10
-    },
-    {
       "title": "Anthropic says its chatbot Claude is taking over the work of building its own successor - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM2lTT1pubVg3a2k2VUUzWmJEUUd4STN4UkZCLXRjb1hwcmNEUlRQYWdFQmkxeWkyR25FUEFwWXBWQWlwSUt1TldyVW1ncHhhNGpfRXhRVk9hZkk4YTBmV0RJcUpHb0dTLUZYRlF2TDRIUmd6OFpZdUpyMXlna2FGai1nNl83RDBxR1RIdjNGNnk1ZU5QSWNyUmgzREpLTTU4aU9KMkpQTXZpa3E0RjE1SEhsSk5oQmd3bEFNMkx3eVA4dXI1VDZkc3B5ZjhsbkU?oc=5",
       "source": "Google News 经济",
@@ -478,7 +1171,18 @@
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-09-18T06:28:57.000Z",
-      "summary": "Anthropic says its chatbot Claude is taking over the work of building its own successor  The Washington Post\nMeasurements for understanding the pace of AI development inside frontier labs  Anthropic\nAnthropic shares 3 metrics to help AI companies monitor pace of development  CNBC\nAnthropic says its ",
+      "summary": "Anthropic says its chatbot Claude is taking over the work of building its own successor  The Washington Post\nMeasurements for understanding the pace of AI development inside frontier labs  Anthropic\nAnthropic says its model Claude is helping to build the next version of itself  NBC News\nAnthropic sh",
+      "hotness": 10
+    },
+    {
+      "title": "油价重回100美元，黄金仍顽强反弹！ - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kb0hBMEtQeVQ0OTRQV1Y2NEJmdnB3WWM5RFlIb2ZVaTRpMDRYSjVkWHZraElhUmlCaFd1VDBhUVBhRjBVMVpuUXBEZkJHTHAycWNRZjVjR0VsWUc0WmZlRXUyTGk2dkduWFBxczJMNWU?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T06:27:43.000Z",
+      "summary": "油价重回100美元，黄金仍顽强反弹！  中华网\n美联储加息利空 沪金期货盘面仍面临反复震荡风险  新浪财经_金融信息服务商\n金价回落油价冲高两大龙头商品走势分化- 中国日报网  China Daily\n瑞银“鹰派加息”定性不改黄金长期看涨：分阶段目标最高5400美元，4000美元附近是增持良机  华尔街见闻\n美联储加息，对人民币、A股、黄金有何影响？  凤凰网财经",
       "hotness": 10
     },
     {
@@ -504,17 +1208,6 @@
       "hotness": 10
     },
     {
-      "title": "中国海警局新闻发言人就菲船只碰撞我海警艇发表谈话 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZXdENktYdWYzTUZibTRSbHhSdTRYdGxoWHd5Ui1peW13dlZqd0cyNWFqa1cwaFhxbmU4bk4xamhXZWFQRF9BMnU4OEo2N0hmSXhvNFhnMkNZa1N1X0J5TGhJc0QtTXRFZTU5LUlJa0ViOU9uYk9KUnB6REJDZ0t5bnp3MA?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T06:07:52.000Z",
-      "summary": "中国海警局新闻发言人就菲船只碰撞我海警艇发表谈话  新华网\n菲船只碰撞我海警艇，中国海警正告  观察者网\n菲律宾称中国在巴拉望附近撞击其船只 — The Hindu  UA.NEWS\n中国海警回应船艇遭菲船只碰撞 坚决反制挑衅行为  中华军事",
-      "hotness": 10
-    },
-    {
       "title": "VESSEL and Curry Brand Team up on Premium Golf Bag Collection",
       "url": "https://hypebeast.com/2026/9/vessel-steph-curry-brand-new-golf-accessories-collaboration-release-info",
       "source": "Hypebeast",
@@ -534,17 +1227,6 @@
       "category": "区块链",
       "publishTime": "2026-09-18T06:00:00.000Z",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "hotness": 10
-    },
-    {
-      "title": "Bank of Japan raises rates to highest since 1995 - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObUhqdVpOUjhKVG9KcFI2a1FHNGZCY0dxbHg5NWhYaVktS29lOWJFNHI2UVdKNmIzR2NOYnBfUTc3eDJxQjBHWW1RQ3htcHByRks4amxoRWpMRUVmZE9seXBJOWlXa1RFSXRmYXlxcURPM0lBTmtJV05qejZVNUl0dHZYOWs?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-18T05:59:34.000Z",
-      "summary": "Bank of Japan raises rates to highest since 1995  Financial Times\nBank of Japan raises interest rates to 31-year high, flags concerns over inflation  CNBC\nBank of Japan Hikes Interest Rates in a Split Vote; Yen Drops  Bloomberg.com\nBank of Japan Raises Rates, Making U.S. Less Alluring for Tokyo Inve",
       "hotness": 10
     },
     {
@@ -570,6 +1252,39 @@
       "hotness": 10
     },
     {
+      "title": "住建部“十五五”路线图：现房销售所见即所得、4楼以上必装电梯、公积金可交物业费 - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ScF9tM1EtN1dHOHl1dTJnZjdPOC0wNnY1UElRSXVqRUc0OFk4LXZaX3EtVWRNQmk0cGFWU2tsbTNsSGdtaVphVlFuT1BXNURINzg2Szh0aGMxUHc0elZwQThn?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T05:49:31.000Z",
+      "summary": "住建部“十五五”路线图：现房销售所见即所得、4楼以上必装电梯、公积金可交物业费  同花顺\n住建部：将加快推动城市更新立法  新浪财经_金融信息服务商\n【社论】让“好房子”成为房地产存量时代的主流  thepaper.cn\n开局起步“十五五”丨住建部：锚定五大目标 聚力建设现代化人民城市、打造宜居好房子  光明网\n住建部：大力整治招投标乱象和拖欠工程款问题，综合整治建筑业“内卷式”竞争等难点问题  凤凰网",
+      "hotness": 10
+    },
+    {
+      "title": "沪指重返3900点，创业板涨超2%，半导体爆发，创新药拉升，恒科指涨超1%，联想创新高，MINIMAX涨13% - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJTDBNSTZNYWZsWnM2bkR3NV9pckhoSWJjMk0taW55blJoaE1CRENnVXUtcEhJOWdURTVmQXBhTWszY3dpWEpXUjZncjVQVHVKYTZN?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T05:48:37.000Z",
+      "summary": "沪指重返3900点，创业板涨超2%，半导体爆发，创新药拉升，恒科指涨超1%，联想创新高，MINIMAX涨13%  华尔街见闻\nA股收评|超4200只个股飘红，创业板指震荡反弹涨超2%  新浪财经_金融信息服务商\nA股三大股指收涨：房地产板块崛起，两市成交超2万亿元  thepaper.cn\n芯片股集体飙升，科创50指数半日上涨3.93%  凤凰网\n“亏了一个月，今天翻身了”  Sohu",
+      "hotness": 10
+    },
+    {
+      "title": "广东“百万英才汇南粤”引才专列驶入天津 - chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WRS1qaGx5T1ctVi16R1lZTjNQNnJsT25ReFhwUWVDSnoya2Q0b0Rmc2dITUkxdjFsejc5cERUQ1NNOTdrdzMyaTRZa1MyZEUxOHRiUm02VFZrbFZXaU9Cd2RHcHVWaFVnSnc?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T05:43:31.000Z",
+      "summary": "广东“百万英才汇南粤”引才专列驶入天津  chinanews.com.cn\n“百万英才汇南粤”2026年N城联动秋季招聘活动在北京大学启幕  新华网\n深圳、广州、东莞、佛山，集体出手抢人了  凤凰网财经\n武大博士的汽车梦，深圳接住了  新浪财经_金融信息服务商\n湾区赴鄂广纳英才五千岗位赋能青年就业- 中国日报网  China Daily",
+      "hotness": 10
+    },
+    {
       "title": "Corporate treasuries bought just 5,900 bitcoin in 3 months. Other demand signals look weak, too.",
       "url": "https://www.coindesk.com/markets/2026/09/18/corporate-treasuries-bought-just-5-900-bitcoin-in-3-months-other-demand-signals-look-weak-too",
       "source": "CoinDesk",
@@ -588,18 +1303,29 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-09-18T05:40:00.000Z",
-      "summary": "分析：日中关系仍是高市内阁改组后重要外交课题  共同网\n高市改组内阁纳入“黑金”议员引争议，布局明年总裁选举或遇林芳正挑战  凤凰网\n国际观察丨高市调整人事，有何政治盘算？  新华网\n高市早苗，打的什么算盘？  新浪新闻_手机新浪网\n高市内阁全体阁僚辞职，日本政府进行内阁改组  光明网",
+      "summary": "分析：日中关系仍是高市内阁改组后重要外交课题  共同网\n推进扩军备武政策，布局明年总裁选举，高市改组内阁竟纳入“黑金”议员  新浪财经_金融信息服务商\n高市早苗改组内阁，有何政治盘算？  新浪财经_金融信息服务商\n高市早苗要培养林芳正接班当首相？  凤凰网\n高市内阁人事“洗牌”，政治加速右转，日本民众开始担忧“发动战争的可能性增加”  中国日报网",
       "hotness": 10
     },
     {
-      "title": "Stock futures are little changed after Thursday's post-Fed bounce: Live updates",
-      "url": "https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "滨海县坎北街道开展网络安全宣传周进村居活动 - 中国江苏网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOXFnUm1ZRnVsanpYWTNRS2RQNnFjT0plSnQ3TkZpVXZOOG5peVFlZjhrOWJiU194T04yYXFuRll5dmtNREZuRFllX2R0b2xoTzVuaTJ1Tk1kb0J2QjlERTFQekxzdG5nZ1JaSFZiQ2xySWdodnFOVTV3U3hYWHEyaXJibHh3WElaTVFV?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T05:27:00.000Z",
+      "summary": "滨海县坎北街道开展网络安全宣传周进村居活动  中国江苏网\n网安人才在成都“接力生长”  sc.news.cn\n网安护航守平安 暖心服务护“新”行 红谷滩区新琚东社区开展网络安全宣传活动  凤凰网\n“网”安图鉴①｜上网别踩坑！智能时代如何守护你的“数字安全门”  新浪财经_金融信息服务商\n石家庄市委网信办举办网络安全大讲堂活动  中国青年网",
+      "hotness": 10
+    },
+    {
+      "title": "Security Researchers Hacked Into OpenAI Using Anthropic’s Claude - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcW5TQ3c4elF6NEloRlVEN3JqZnVOOVFmWW5HdXRvR0pybGRXUzFFanItb0pLdzVDZlpBUkJqX2xMejdKV19ERHM5N2kzOGdZck1Eem9yNVBSWVRSMkNqRFZkckRQb2FCREYtV25iZnNRRjNralRubkM0MXRRekhxZ3lIRm1WallPNFJBOE5oMENhdUk2UVZ2Y0xydVBpVGhuTnlzZFZYeUZnMzg0NGJBQ1dkWGRTOVJy?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-18T05:30:15.000Z",
-      "summary": "The major averages rose in Thursday's regular trading session following Wednesday's first Federal Reserve interest rate hike in three years.",
+      "category": "经济",
+      "publishTime": "2026-09-18T05:26:54.000Z",
+      "summary": "Security Researchers Hacked Into OpenAI Using Anthropic’s Claude  Forbes\nExclusive | Hackers Used Anthropic’s Claude to Break Into OpenAI  WSJ\nOpenAI breached by researchers using Anthropic models  Financial Times\nThis tiny cybersecurity startup managed to hack OpenAI using Claude, and won a $6,500 ",
       "hotness": 10
     },
     {
@@ -614,6 +1340,17 @@
       "hotness": 10
     },
     {
+      "title": "Why this former contender for the Fed chair job thinks Kevin Warsh has a huge problem on his hands - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOc3pPTTZaMFBqLWdzX2NzMHdHR25yU3VDeHplVUtPOVBzY2lnTUF6Z0paZ3g0aFZPOTlxa0dKRFdMQmEzTUxrSkFTTjhYYkpSbEJiNUVReGJwZzlpWTcxTldVS25Kcm9mQnNrSFZ5NHFfM1hjbTNmdFhzLW1PMDJudXFwTGdkTVdPR1kzR2NsaFVlbzFsZV8wUXh4cm1XX0R5M3dIaFpXaC1CNnNCX1l6aFRDVDNkaVpUM3ptWkttZkZ2ZVV1aE5aMEFNS3htRVFoUi1RbXlwekx0OFhUekRMQTlYQUVZMjBJY3ZB?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-09-18T05:16:00.000Z",
+      "summary": "Why this former contender for the Fed chair job thinks Kevin Warsh has a huge problem on his hands  Yahoo Finance\nOpinion | Kevin Warsh Is an Inflation Hawk  WSJ\nFed's Warsh shakes up press conference format  Axios\nCan Warsh Tame Inflation?  thedispatch.com\nGetting to know Mr Warsh  Financial Times",
+      "hotness": 10
+    },
+    {
       "title": "澳洲收緊移民政策：管制留學生、背包客，打擊「簽證跳轉」",
       "url": "https://www.bbc.com/zhongwen/articles/cx24jdd1j59po/trad?at_medium=RSS&at_campaign=rss",
       "source": "BBC 中文",
@@ -622,17 +1359,6 @@
       "category": "国际",
       "publishTime": "2026-09-18T05:15:07.000Z",
       "summary": "澳洲政府希望在2028年前，將海外淨移民人數降至22.5萬人。",
-      "hotness": 10
-    },
-    {
-      "title": "住房城乡建设部：房地产市场供求关系发生重大变化 - 光明网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBub2MyZUZtOXJJSU45T1lydlFwc0VVS2NmTnNud0tPTlVuZVdud2dzTXhrdzlpTkotYkljZ0p4RnRBM283ejBHbldEaHpTM201UUNtZFVXaGlTN1o3cTdzMXRwSGdfZw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T05:09:00.000Z",
-      "summary": "住房城乡建设部：房地产市场供求关系发生重大变化  光明网\n住房城乡建设部：我国房地产进入存量时代，现房销售是大势所趋  华尔街见闻\n国新办举行“开局起步‘十五五’”系列主题新闻发布会介绍“十五五”时期推进住房城乡建设事业高质量发展有关情况  新华网\n住建部：大力整治招投标乱象和拖欠工程款问题，综合整治建筑业“内卷式”竞争等难点问题  凤凰网\n我国房地产进入存量时代  新浪财经_金融信息服务商",
       "hotness": 10
     },
     {
@@ -680,7 +1406,7 @@
       "hotness": 10
     },
     {
-      "title": "Ether and XRP ETFs post outflows as bitcoin moves above $77,000",
+      "title": "Ether and XRP ETFs post outflows as crypto majors move higher",
       "url": "https://www.coindesk.com/markets/2026/09/18/ether-and-xrp-etfs-post-outflows-as-bitcoin-moves-above-usd77-000",
       "source": "CoinDesk",
       "sourceIcon": "₿",
@@ -688,28 +1414,6 @@
       "category": "Web3",
       "publishTime": "2026-09-18T04:49:17.000Z",
       "summary": "Ether funds shed money for a third straight session even as the token rose, while every major gained and zcash extended its run.",
-      "hotness": 10
-    },
-    {
-      "title": "Sydney woman sentenced for killing and dismembering abusive husband",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/18/sydney-woman-nirmeen-noufl-sentenced-killing-and-dismembering-abusive-husband-ntwnfb",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-18T04:49:05.000Z",
-      "summary": "‘Disposal of the body in this case was as thorough as it was brutal,’ justice Peter Hamill said when sentencing 55-year-old Nirmeen Noufl\n\nFollow our Australia news live blog for latest updates\n\nGet our breaking news email, free app or daily news podcast\n\n\nA woman who lied to police multiple times t",
-      "hotness": 10
-    },
-    {
-      "title": "Microsoft exec called AI the ‘largest theft of labor’ in history, court records show - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUm5JUWVLTF8yTV9JX2c5eFRtVm1PbE42LTg4eEVLTWRSVkctRUZ1M3l1dDZnYWxfSXdheDRmeWl2VVdQU0JSX1VFeXRqM2cxZVE3T0J0dVpkcGlQVGVYUnZCT1puSTgwUVFSbENObzZ3MjRZX01lM0hIVFl1ZjNodlJHYTUwZUE4eTFYSUNUaUNyRHZoNXRNRG4tTTZQc1AzQkVVVkRqU1ZJMU5iQXFfcDlUS05KajBUcVlkaHdtbzI?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-18T04:47:05.000Z",
-      "summary": "Microsoft exec called AI the ‘largest theft of labor’ in history, court records show  The Washington Post\nMicrosoft and OpenAI Workers Worry About ‘Largest Theft of Labor’ in History  The New York Times\nOpenAI, Microsoft executives' quotes on AI training threaten copyright defense, news outlets argu",
       "hotness": 10
     },
     {
@@ -724,17 +1428,6 @@
       "hotness": 10
     },
     {
-      "title": "智赋金融融通，共启3.0新篇——中国银联亮相第23届中国—东盟博览会 - 极目新闻",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mMkdGQUtxcmgybU5jOC0zZnpFQUFxa2Jfc3pPNFZ1Q1ZObWNGN3hGZG9KYlJDMEdKVk52WEZVSWpvWFNUWjJRalBGcGtGXzJfVGt4c1U3b2EySEU?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T04:13:18.000Z",
-      "summary": "智赋金融融通，共启3.0新篇——中国银联亮相第23届中国—东盟博览会  极目新闻\n丁薛祥在第23届中国－东盟博览会暨中国－东盟商务与投资峰会开幕式上的致辞（全文）  新华网\n“亦庄智造”亮相东博会 共享“3.0版”新机遇  光明网\n东博会+AI带你飞，以天空的视角，来感受不一样的世界！ 2026东博会峰会  t.cj.sina.cn\n携硬核科技与浪漫冰雪 中国“魅力之城”长春惊艳亮相东博会  凤凰网",
-      "hotness": 10
-    },
-    {
       "title": "Cardano’s IOG warns users to avoid YouTube channel amid apparent hijack",
       "url": "https://cointelegraph.com/news/cardanos-iog-warns-users-to-avoid-youtube-channel-amid-giveaway-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "CoinTelegraph",
@@ -743,28 +1436,6 @@
       "category": "区块链",
       "publishTime": "2026-09-18T04:11:40.000Z",
       "summary": "Input Output Group told users to avoid its YouTube channel after it began livestreaming a suspected AI-manipulated Charles Hoskinson video promising to “double your wealth.”",
-      "hotness": 10
-    },
-    {
-      "title": "Pokémon card curbs send shares of Japanese online marketplace Mercari on a bumpy ride",
-      "url": "https://www.cnbc.com/2026/09/18/pokmon-cards-mercari-stock.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-18T04:09:56.000Z",
-      "summary": "Mercari shares are clawing back losses after Pokémon card listing restrictions triggered a selloff earlier this week.",
-      "hotness": 10
-    },
-    {
-      "title": "Paul Keating says Aukus locking Australia into a US war against China, which it would ‘certainly lose’",
-      "url": "https://www.theguardian.com/world/2026/sep/18/paul-keating-aukus-locking-australia-into-us-china-war",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-18T04:06:31.000Z",
-      "summary": "Former prime minister says US would ‘scuttle itself back to San Diego’, leaving Australia to deal with retribution from China\n\nFollow our Australia news live blog for latest updates\n\nGet our new political email, free app or daily news podcast\n\nAukus critic Paul Keating has said the submarine deal is",
       "hotness": 10
     },
     {
@@ -779,17 +1450,6 @@
       "hotness": 10
     },
     {
-      "title": "12306回应国庆高铁票涨价 票价灵活浮动机制 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2S0dOMFZfYXpaMXZmM0x5YXNXQ0N1RU1RNXVnSUh0WGpoMi1ZNTRyYkEwNUV5bktSLW45eFp4Qm5DU2c3UHlMOTlReXVjZGdCWlpvUzV6TjVRaGpyWUVtMkd4d1VxQk1XaHRxeFVxeGY?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T03:47:11.000Z",
-      "summary": "12306回应国庆高铁票涨价 票价灵活浮动机制  中华网\n“十一”高铁票涨价，有的车次比平时贵了近百元？12306回应  新浪财经_金融信息服务商\n10月1日火车票开售 双节临近旅游热度攀升  中国网\n国庆假期首日火车票开售 重庆火车站预售量已突破13万张  凤凰网\n“中秋+秋假+国庆”引爆出游潮 10月1日铁路杭州站超51万人次“出发”  浙江新闻",
-      "hotness": 10
-    },
-    {
       "title": "World launches self-custodial ‘super app’ World Money",
       "url": "https://cointelegraph.com/news/world-launches-self-custodial-super-app-world-money?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "CoinTelegraph",
@@ -798,28 +1458,6 @@
       "category": "区块链",
       "publishTime": "2026-09-18T03:40:28.000Z",
       "summary": "World Money is rolling out across more than 150 countries, combining stablecoin payments, digital asset rewards and trading in a self-custodial app.",
-      "hotness": 10
-    },
-    {
-      "title": "首绘五年蓝图 香港高质量发展启新篇 融入国家大局 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XRlQ4QWpPakxnVkxGMEZrS1U2anZvaUl2X2ctbzBaXzJ4SlpPeTNETU1uaG80NjA1dUdGSlQwUmRPZHpxLUQ1eTFEakJZNEZqQW5HQUZvZUJKRlNEMkNwYldjd1Qwek9yUk9ibkI2NmE?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T03:40:02.000Z",
-      "summary": "首绘五年蓝图 香港高质量发展启新篇 融入国家大局  中华网\n李家超解读香港第一个五年规划  新浪财经_金融信息服务商\n完善地区治理 聚焦基层善治：全力支持推出「纠纷处理三层机制」  风闻\n李家超：香港特区首个五年规划聚焦经济发展与民生福祉  中国网\n首个五年规划公布 开启香港由治及兴新篇章  中国青年网",
-      "hotness": 10
-    },
-    {
-      "title": "国内期货主力合约多数下跌，SC原油跌超8% - 钛媒体",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hZVlKZmQ3SUJqa01wSFJCekljNlVyNnVjN0w1QnpaaUpnQXZtd3dNa2NZa0RfRmUwOHc0VXdyZzZGWEZGSC0xWWxEaDZjRlpOOUNMWWtYelRyUQ?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T03:34:00.000Z",
-      "summary": "国内期货主力合约多数下跌，SC原油跌超8%  钛媒体\n国内期货主力合约跌多......_7x24快讯_新浪财经  新浪财经_金融信息服务商\n期货收评：能化大跌！原油暴跌超6%，碳酸锂涨近4%  同花顺财经\n商品日报（9月16日）：原油系集体回调SC原油重挫超6% 集运欧线涨超8%  Sohu\n【今日盘面线索·9月17日复盘】成本端原油走弱削弱支撑，纯苯封跌停板-市场参考  金十数据",
       "hotness": 10
     },
     {
@@ -845,50 +1483,6 @@
       "hotness": 10
     },
     {
-      "title": "China Stockpiled Oil, and Now It Could Dominate the Energy Landscape - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbldKVmtJeEJZN19iRU9sU0tzTnJONS1UZTZHcmxpY2Uwd2lzVjhLbUV3ZXFhYXY0RjN4RnNTX1M2eFRIa3BUU0tQUnpibVBWNFR6UmM5ZVBfaTE2Z1A4Q2VjdjB3eENmQnhpN3BKNUJNUEZQRjVfRkdlVmEyS0tRQ1ExOUItcHVqczB5VWxfVQ?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-18T03:21:29.000Z",
-      "summary": "China Stockpiled Oil, and Now It Could Dominate the Energy Landscape  The New York Times\nChina is weathering the Hormuz energy crisis. But copying its model comes with risks  Chatham House\nOil Moves Put China in the Driver's Seat  Newser\nChina Stockpiled Oil, Cut Purchases 23% During Iran War. Now I",
-      "hotness": 10
-    },
-    {
-      "title": "现货黄金短线走低，向下跌破4340美元/盎司 - 钛媒体",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01U0dVUUpkSFQzZm5hV0tZTElxNXZQbmtEWHhEZ3I2T0lTZ0Q4YmdGUjJ0Q2x1YUJrVS1KYXhJR0hRZDlOajlXb3BrZEpYR3JVYzRkSzhyRm5HZw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T03:21:00.000Z",
-      "summary": "现货黄金短线走低，向下跌破4340美元/盎司  钛媒体\n瑞银“鹰派加息”定性不改黄金长期看涨：分阶段目标最高5400美元，4000美元附近是增持良机  华尔街见闻\n金价连续两日获买盘支撑，鹰派美联储与地缘风险抑制上行空间  新浪财经_金融信息服务商\n金价回落油价冲高两大龙头商品走势分化- 中国日报网  China Daily\n黄金大涨超2%，美元回吐美联储决议后的涨幅  同花顺财经",
-      "hotness": 10
-    },
-    {
-      "title": "Official Scorecards | Crypto.com UFC 331: Van vs Pantoja 2 - ufc.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjE1RVdId05kUC1RVEpWYWtOS09hTUt6QlAxYkJqcGc2Z0hRdVl6VDNfS29PdnhjdEtmS3FDUUFTNnA1UF8xVUQ0N0s3SVdKR2pxczBlZGtWaHNLVC0wdDE5bXYyMG40djVtN1d0LUtvcUMyVVVPRWpXdEM2Q1JIOWZHM0E4Zw?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-18T03:13:46.000Z",
-      "summary": "Official Scorecards | Crypto.com UFC 331: Van vs Pantoja 2  ufc.com",
-      "hotness": 10
-    },
-    {
-      "title": "特朗普称加拿大入欧盟是敌对行为 威胁加征关税 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OaFlJSHRLX29hQTVyX3FUcC1EY3E2bVBDZGlkai00d3c3MEZRcXlkLVM4Z2c0LWdLN0MzYU5FcFNvRG5pa2pDblRKTk9aWFBCNEMxM3VVd3MzOFVKdHpJMHd1MUd0Rmt6dDdTVWRWNFQ?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T03:10:09.000Z",
-      "summary": "特朗普称加拿大入欧盟是敌对行为 威胁加征关税  中华网\n加拿大出绝招“跳槽”欧盟，特朗普万没想到  凤凰网\n新西兰：未与欧盟讨论过成为“联席成员”  央视网\n观天下丨加拿大与欧洲“抱团” 美国发声警告--国际  world.people.com.cn\n加拿大与欧洲“抱团” 美国：若是敌对行为或征收高额关税  china.zjol.com.cn",
-      "hotness": 10
-    },
-    {
       "title": "UN mission finds evidence signaling U.S. war crimes in Iran; Washington rejects report",
       "url": "https://www.cnbc.com/2026/09/18/us-iran-war-trump-hormuz.html",
       "source": "CNBC Top News",
@@ -900,14 +1494,14 @@
       "hotness": 10
     },
     {
-      "title": "Market Rebounds, But What Comes Next? SpaceX, AMD Flash Buy Signals - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSDJ4cFROUlQ1d3M0TU5mSUlINDFfRjNnc0FidVpOcEY3N1dFd0hWZDB0OFZBVXdINXlqaEdiRzU4U0hVN0ZHbVFTNjJYYVdqeXZmd251UGJmd3RiSlU1VHZzOFFZdEdHUklBVVpGeGNNZS1RV1Q1LXpleGtTWWNUVFRlY00zVXVIaXFnNW9zUnFIZGhoYTJyOWNHQWVUcHY1RnkwalpHSVk3aFc3UlJnaFJ3aDRQYTlpRGs5eg?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-18T03:09:00.000Z",
-      "summary": "Market Rebounds, But What Comes Next? SpaceX, AMD Flash Buy Signals  Investor's Business Daily\nStock market today: Dow, S&P 500, Nasdaq rise as oil slips, Fed rate hike pacifies markets' inflation worries  Yahoo Finance\nStock Market News, Sept. 17, 2026: Stocks Climbed as Markets Retrace Post-Fed Mo",
+      "title": "“重大政策转变”，外媒：美国务院批准一项对沙特军售，含48架F-35战机 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15UWs1QjBnQmc0VGVWWnhQYWhpMEh4OHJfdllYcnJRd0ZZckVIalRpSVNKd0JsbUZ6a2I5OFhiUG9qUVR5YndnWHc3b2lPQXZvU1dzWFZTNDBkVTV1NWNMd3FR?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T03:08:57.000Z",
+      "summary": "“重大政策转变”，外媒：美国务院批准一项对沙特军售，含48架F-35战机  手机网易网\n美国国务院批准可能向沙特阿拉伯出售48架战斗机  美国之音\n美国批准对沙特军售，包括48架F-35隐身战机  凤凰网\n美国情报官员：中国试图通过沙特获取F-35战斗机技术  纽约时报中文网\n美国批准向沙特出售48架F-35隐形战机 总额243亿美元  RFI",
       "hotness": 10
     },
     {
@@ -955,28 +1549,6 @@
       "hotness": 10
     },
     {
-      "title": "买美债得加钱 全球资本在赌什么 美国加息与降息之争 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iX3NPbzNVOXpUVGFkLTdSb2swQ1p5V2JWR3FZd2RpZEVlYUZNNkVWUUVuSFlDVERlV01Ma29wUUVSbVhURTdRZ0ZZQ0E0NEJ4VnJoWm9rWFZoWXdMY1poSTdyTGJsUkdXYnlHVHNVcFQ?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T02:36:06.000Z",
-      "summary": "买美债得加钱 全球资本在赌什么 美国加息与降息之争  中华网\n美联储加息后，美股哪些板块更“抗压”？历史指向能源与科技  财联社\n加息之后再加息？“鹰”还能飞多远，大类资产走向何方？机构详解  新浪财经_金融信息服务商\n美联储重启加息，经济日报：对美国经济的考验才刚开始  thepaper.cn\n美联储加息落地 我国货币政策定力不减  中华网财经",
-      "hotness": 10
-    },
-    {
-      "title": "沈晓明主持召开省委常委会会议 - 红星网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrNUFuMUhoOXlHbXlUWTNKcEpPMUZIQllWR0N2NjloNFpUZTdSU2oyb3JwbEtBRld1QnVXaDQxVmQ5MjRoczNmcklKWDJKVnZuUDNRSC1CWDlhR1hkNXYxczQtcVBIUQ?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T02:34:00.000Z",
-      "summary": "沈晓明主持召开省委常委会会议  红星网\n学习进行时丨“兢兢业业守护万家灯火”  央视网\n以青春之我、奋斗之我做党和人民的忠诚卫士  新浪财经_金融信息服务商\n守百姓幸福 护家国平安——全省传承弘扬“漳州110”先进事迹推进会侧记  凤凰网\n时政镜距离｜永远做“人民的110”  中国日报网",
-      "hotness": 10
-    },
-    {
       "title": "Tillis supports Hegseth impeachment resolution: 'He needs to go'",
       "url": "https://thehill.com/homenews/senate/6097194-tillis-calls-for-hegseth-impeachment/",
       "source": "The Hill",
@@ -999,14 +1571,14 @@
       "hotness": 10
     },
     {
-      "title": "霞浦：网安宣传走进渔排 - 东南网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QSW5hdEJUN2w4VkctWFAxNW95V2hFWktwdjR1V2JlZkVVUE9ELTJybkFHaGRpNnVsQS1lVmJzUmZSUUlSQUYzTTN5bWxVb1pEZGVvRktFSTNXMU9DN3R4RA?oc=5",
+      "title": "伊朗革命卫队称在荷莫兹海峡袭击多哥籍油轮 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNZGthcGNOcVp5MEVPblhZWFpWV2JGaERCR0ZrWFVkU0Jxc2ZEemJZSXlYTDM5WHJTUlVfY081NzZPeEFIc1NWaklORlR2WTd3OVY2S3BLMDBsekRoWE5NZWdXX1RIbWRvRzdvNDJBWUZjZHFyNFduWXM4eEJvd1FnMXNCSm1vRXhqS3NkU1pGb0h4cnFXa3g3VFEwV1JLWDVUUno4UDl5Qm1rWjY3aXVvMFZMaE9rS0tDNFIwQ2hYV3JjSURVM3dlTEtmTGhobTczYU4xRFFlWnVPS2xZUnRIZ2RFQjlUVGFKRWtyMWkzTnV0QzRlV1E4Zm0xdHZ3eUFmbWRWUVRJc3EwdkdKUlpZUXBiRVpKNFEyZk0yVk8wV2NvQllQT0RldnF1UnZKZjByRWhKRjhvdV9JRS1CSWliQWVST3dHYUxnaVhGWnBuVTJZR2xuOXhYTjNsWU1HRDNCUGJKNktoZw?oc=5",
       "source": "Google News 中文",
       "sourceIcon": "🇨🇳",
       "lang": "zh",
       "category": "中国",
-      "publishTime": "2026-09-18T02:20:34.000Z",
-      "summary": "霞浦：网安宣传走进渔排  东南网\n“清朗未来·绿意常青”2026年国家网络安全宣传周青少年日主题活动举行  新浪财经_金融信息服务商\n数字护航钢铁动脉，科技赋能暖心旅途(图)  中国网\n新华漫说丨网络安全为人民 网络安全靠人民  新华网\n石家庄市委网信办举办网络安全大讲堂活动  中国青年网",
+      "publishTime": "2026-09-18T02:02:42.000Z",
+      "summary": "伊朗革命卫队称在荷莫兹海峡袭击多哥籍油轮  RFI\n伊朗称打击一试图穿越霍尔木兹海峡的油轮  新浪财经_金融信息服务商\n一油轮在霍尔木兹海峡被不明投射物击中  Sohu\n视频丨现场浓烟滚滚 伊朗发布“阿尔加亚”号油轮起火视频  QQ News\n美伊战火重燃，伊朗总统被曝曾在电话中大声质问革命卫队总司令 和平努力受挫  military.china.com",
       "hotness": 10
     },
     {
@@ -1017,29 +1589,7 @@
       "lang": "en",
       "category": "科技",
       "publishTime": "2026-09-18T02:00:00.000Z",
-      "summary": "Waymo Ojai fully autonomous ride-hailing vehicle travels along a city street, San Francisco, California, August 20, 2026. (Photo by Smith Collection/Gado/Getty Images) | Gado via Getty Images\t\n\nWaymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues",
-      "hotness": 10
-    },
-    {
-      "title": "身边的红色地标丨沈阳“九·一八”历史博物馆：警世钟声 历史之鉴 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFNkVjdUdEFiM21HLXlPRWtGOHN0ZTVxcXB5ek1BajA1RHFvY0FTb0pCenhkYWs2TkJ5eXFKMUc2Z1ZfS3lsMWY0WlhNbFdweDdaQnVlaHVnTnJlblQzeTRzZXB5ZGsyLVZDeWM2QmNveFh4MzNfYTJGSnZmNkQwNlV3aw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T01:56:55.000Z",
-      "summary": "身边的红色地标丨沈阳“九·一八”历史博物馆：警世钟声 历史之鉴  新华网\n以史为鉴 奋斗强军  人民网军事\n日本斥资44亿日元篡改历史  新浪财经_金融信息服务商\n杨靖宇之问：“中国人都投降了，还有中国吗？”  Sohu\n浙江宣传丨九一八并不久远  浙江新闻",
-      "hotness": 10
-    },
-    {
-      "title": "陈建州晒与王力宏范玮琪等病房合照：这次真的从鬼门关前走了一遭 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8xeVYweXRsZEg1OGY5eDJQSDg4Zmh5M3lqeDNHQmI2SmdOSl9KVFdydnZCNDk5Q3lqMnJybzh5S1BfWEVIOVVKTHUxMA?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T01:56:45.000Z",
-      "summary": "陈建州晒与王力宏范玮琪等病房合照：这次真的从鬼门关前走了一遭  凤凰网\n范玮琪方发布声明：从未发表过“陈建州好险没有去日本，不然就会像大S一样”的言论  新浪财经_金融信息服务商\n49岁陈建州突发心梗，血管堵了90%，心梗发作时如何自救？  thepaper.cn\n一条血管完全塞住了！男演员鬼门关前走一遭，事后反思：6年来每天都晚睡早起  Sohu\n台湾P联赛副会长陈建州：急性心梗在鬼门关走了一遭；睡眠很重要  懂球帝",
+      "summary": "Waymo Ojai fully autonomous ride-hailing vehicle travels along a city street, San Francisco, California, August 20, 2026. | Photo by Smith Collection/Gado/Getty Images\t\n\nWaymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues to eye overseas markets",
       "hotness": 10
     },
     {
@@ -1065,17 +1615,6 @@
       "hotness": 10
     },
     {
-      "title": "Oil prices fall as Saudi supply hopes outweigh fresh Houthi strikes",
-      "url": "https://www.cnbc.com/2026/09/18/oil-prices-today-brent-wti-saudi-arabia-houthi.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-18T01:35:38.000Z",
-      "summary": "Oil prices fell on Friday as additional Saudi crude supplies help ease disruption fears.",
-      "hotness": 10
-    },
-    {
       "title": "US sanctions Iran’s BitBank, saying it processes ‘Hormuz Safe’ Bitcoin payments",
       "url": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "CoinTelegraph",
@@ -1087,14 +1626,47 @@
       "hotness": 10
     },
     {
-      "title": "Stocks rise as oil dips, yen weakens after BOJ hikes as expected - Reuters",
+      "title": "Stocks and bonds dip as central banks jack up rates to tame inflation - Reuters",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
       "source": "Google News 经济",
       "sourceIcon": "📊",
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-09-18T01:32:00.000Z",
-      "summary": "Stocks rise as oil dips, yen weakens after BOJ hikes as expected  ReutersSee more headlines & perspectives on Google News",
+      "summary": "Stocks and bonds dip as central banks jack up rates to tame inflation  Reuters\nAsian Stocks to Gain on Lower Oil, US Bonds Rally: Markets Wrap  Bloomberg.com\nAsian shares finish higher, cheered by easing oil prices, but European benchmarks are slipping  AP News\nAsian stocks climb as BOJ hike lifts J",
+      "hotness": 10
+    },
+    {
+      "title": "Why US plan to sell F-35 warplanes to Saudi Arabia is controversial",
+      "url": "https://www.bbc.co.uk/news/articles/c3x2zrn01pxko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T01:31:43.000Z",
+      "summary": "Saudi Arabia has lobbied the US for years to buy F35s, the world's most advanced fighter jet.",
+      "hotness": 10
+    },
+    {
+      "title": "Canadians dream of Europe as Carney floats longshot plan for living and working in EU",
+      "url": "https://www.bbc.co.uk/news/articles/cx980qj57r89o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T01:23:10.000Z",
+      "summary": "Torontonians are excited by the possibility of moving to the EU, even if it is unlikely anytime soon.",
+      "hotness": 10
+    },
+    {
+      "title": "Zara Larsson criticises White House for using her song in deportation video",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7d3l0y2zpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-18T01:20:33.000Z",
+      "summary": "The White House removed Larsson's Midnight Sun from one of its reels after the artist called the clip \"dehumanising\".",
       "hotness": 10
     },
     {
@@ -1120,25 +1692,36 @@
       "hotness": 10
     },
     {
-      "title": "话剧、昆曲、京剧齐登台 秋日剧场好戏不断 - 新浪财经_金融信息服务商",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWDlvRnhKWUxZNGtldTB5dzJlQ0VCY19UaUtWb2lJc05xSUpKMXdQbWRkSS1laVBBQXBfMWVpTm9aZ0EzU1BfbjlZZDBCNXFfcjZZYzdZa3lNNTZfb0xKQS1QeTktN2tlTXVjTDkxbG13ejBzVWwyVjFqb0Frai1sZUlZR0FuNWFqUXNySS1qQVJ5dTUyelBHRA?oc=5",
+      "title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
+      "url": "https://www.cnbc.com/2026/09/17/diesel-gas-prices-oil-us-economy.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-18T01:04:06.000Z",
+      "summary": "Record diesel prices are already walloping the transportation sector, and if energy prices stay high, the economic impact will spread.",
+      "hotness": 10
+    },
+    {
+      "title": "话剧、昆曲、京剧齐登台 秋日剧场好戏不断 - 欧洲头条",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZnB0RGlLSkJhVVhaN3I2aEpLWmdCMHh3ZkVqTjBUME9TNnNKOXRsTHlieHdWWTQwdlZrUXhFa25yZ1JOOVNTczdhcnNKRFNQdnBSMmxrTktfN2UyeHg2eVhNcVpQYjVSUUFIX0tZNVU4VkxBUVN6X1dLODVhcE9XekZtYkg5bDUtQkRzUzZvRkJGdGloX3FodmZFU3RRZFVfdk5ndFlGMDNUQQ?oc=5",
       "source": "Google News 中文",
       "sourceIcon": "🇨🇳",
       "lang": "zh",
       "category": "中国",
-      "publishTime": "2026-09-18T01:07:32.000Z",
-      "summary": "话剧、昆曲、京剧齐登台 秋日剧场好戏不断  新浪财经_金融信息服务商\n文化·视点丨一个人的剧团 三座城的昆曲  新华网\n“兰情冉冉”巡演北京站圆满落幕 张冉三场昆曲好戏亮相长安大戏院  中华网\n韩宜珈领衔主演，健图剧社“戏曲在地国际化”专场演出吸引多国观众  shobserver.com\n民营剧社率先响应“在地国际化”，30国留学生进剧场看戏曲  thepaper.cn",
+      "publishTime": "2026-09-18T00:54:32.000Z",
+      "summary": "话剧、昆曲、京剧齐登台 秋日剧场好戏不断  欧洲头条在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
-      "title": "Bill Skarsgård Is the Lead Protagonist in Kojima Productions’ ‘PHYSINT'",
-      "url": "https://hypebeast.com/2026/9/kojima-productions-physint-game-bill-skarsgard-charlee-fraser-lead-roles-info",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-09-18T01:05:23.000Z",
-      "summary": "Summary\nBill Skarsgård and Charlee Fraser lead Kojima Productions’ PHYSINT.Don Lee and Minami Hamabe join the action-espionage game’s cast.Xbox will publish the project, which remains without a release date.\nBill Skarsgård has been confirmed as the lead of PHYSINT, Kojima Productions’ upcoming actio",
+      "title": "陈建州心梗血管堵90%！范玮琪拦下日本行救回一命，一句大S对比惹全网炸锅 - 360娱乐",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE95TWctYklUM2wwQkk1aTdHaGljX2pROWF5UldNYi04UFd0OHMwZ3pSbjVvbFhFalQ5SXRKaHJvdG5CeW5pZEpNN1ptSQ?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-09-18T00:48:44.000Z",
+      "summary": "陈建州心梗血管堵90%！范玮琪拦下日本行救回一命，一句大S对比惹全网炸锅  360娱乐\n范玮琪方发布声明：从未发表过“陈建州好险没有去日本，不然就会像大S一样”的言论  新浪财经_金融信息服务商\n小S喊话陈建州照顾好身体：我没办法再失去一个好朋友了  凤凰网\n49岁陈建州突发心梗，血管堵了90%，心梗发作时如何自救？  thepaper.cn\n一条血管完全塞住了！男演员鬼门关前走一遭，事后反思：6年来每天都晚睡早起  Sohu",
       "hotness": 10
     },
     {
@@ -1150,17 +1733,6 @@
       "category": "政治",
       "publishTime": "2026-09-18T00:42:18.000Z",
       "summary": "President Trump hosted over 100 hunters, anglers and outdoor industry officials for a dinner in the Rose Garden Thursday to announce executive orders rolling back certain hunting and fishing restrictions. “We believe that public lands belong to the American people and to the public, and hunters, fis",
-      "hotness": 10
-    },
-    {
-      "title": "凝聚起中华民族伟大复兴的磅礴力量 - 中国共产党新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05cFNYSTZpRVZlM0dkd1BpRnhPd3RUNDkwS2VHU0ZNYVZvXzhmRW15WUZSTlgzQ1NRTlNUdkFYUHFVTHQ3Y296eU9ESC1ZLXlSTktHMXlScG5WUVQwWXRWYWc0aGpNT0pRamc?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-18T00:30:00.000Z",
-      "summary": "凝聚起中华民族伟大复兴的磅礴力量  中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
@@ -1241,17 +1813,6 @@
       "hotness": 10
     },
     {
-      "title": "Leading AI labs may need to be nationalized because risks are so high, Palantir's Karp tells CNBC",
-      "url": "https://www.cnbc.com/2026/09/17/ai-safety-palantir-karp.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T23:56:17.000Z",
-      "summary": "Palantir CEO Alex Karp called for \"reasonable guidelines\" on artificial intelligence regulation as tech and policy leaders deliberate over the technology.",
-      "hotness": 10
-    },
-    {
       "title": "North Korea drives onchain malware surge, CoinEx shuts: Asia Express",
       "url": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "CoinTelegraph",
@@ -1285,6 +1846,17 @@
       "hotness": 10
     },
     {
+      "title": "This Olympic river has 500 crocodiles in it - but that's not the main concern",
+      "url": "https://www.bbc.co.uk/news/articles/c68xkypqyxw7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-09-17T23:29:17.000Z",
+      "summary": "Queensland's Fitzroy River has been selected for the 2032 Games, despite concerns over the course - and its inhabitants.",
+      "hotness": 10
+    },
+    {
       "title": "Alaska governor's race shifts to toss-up: Cook Political Report",
       "url": "https://thehill.com/homenews/campaign/6096933-alaska-gov-race-cook-tossup/",
       "source": "The Hill",
@@ -1307,14 +1879,14 @@
       "hotness": 10
     },
     {
-      "title": "'This is our company': Nigerians show off oil wealth after share-buying frenzy - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05dmYwel9OTTdFTUFYZTU3UUFXYjNCOG54WWRlNElSbnljVExpd1JBR0RybTFteVo0VklEY2t6MjktaE81OEk4dFN3UFFMWHBNT2t3emZjaHJ0UFU?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
+      "title": "'This is our company': Nigerians show off oil wealth after share-buying frenzy",
+      "url": "https://www.bbc.co.uk/news/articles/cw7v4jr2932ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
       "lang": "en",
-      "category": "经济",
+      "category": "国际",
       "publishTime": "2026-09-17T23:24:07.000Z",
-      "summary": "'This is our company': Nigerians show off oil wealth after share-buying frenzy  BBC\nAfrica's richest man Dangote's IPO out of reach in Nigeria  DW.com\nWhat Africa’s biggest IPO can do for its stock markets  The Economist\nDangote IPO tests Nigeria's fintech infrastructure as investor demand overwhelm",
+      "summary": "Many Nigerians buy their first ever shares - in the oil refinery owned by Africa's richest man, Aliko Dangote.",
       "hotness": 10
     },
     {
@@ -1329,14 +1901,14 @@
       "hotness": 10
     },
     {
-      "title": "安理会否决伊朗制裁委员会专家小组授权延期决议 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBwQTRiczlrUmxJY1lVYmo2ajVnUDB2b3hQY002YnotNG5oeUVJdHNxeFV3QmNuTks3cF93R2JMckNraWx1LVhmeXdNTEllQkJWYWNVdUlOeXZmT2MzOVBsdg?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-17T23:17:53.000Z",
-      "summary": "安理会否决伊朗制裁委员会专家小组授权延期决议  东方财富在Google 新闻上查看更多头条新闻和观点",
+      "title": "National Cheeseburger Day 2026: Burger deals at McDonald's, Wendy's and others - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaDluVVRmVUk4LUd6aXZyZEZiYUVLOVFJdWVtcUhaMlh4WXQ4NXl3ZXp2TXRQNFBMSFZxVzZJS2J3aUFtQmR1dml3ZVhfRjJ5RC1JLWpOMEs1MkZXUjI3LWJ4Wm1EWHZpM3pNUE5WRERYRlNfRUQ1OEtVaHFvNHM2eU9meTRxN3BDSDBBR1lEM0RDY2hvUTBRTzJqVVE4MDRVUks5c1JR0gGrAUFVX3lxTFA0WDc3YUItSmc5OEVJQ0F4bGxBQ1gzZmJVZjZPelZ1b3FrVC1Kb0pzTVhfU1o4WUptejB2dk5LS3dnTDUwVHcwOUFDRmhsb3hYTHJmQmRZbmlNMWZFZkpzWGdfNEtMcUtIUVZlNWFreVQ3RXFJTHByaXVVRC02VTVRb0hYWUt0SVpILXVjd1A3dEtIcE54dVBZQWtXbEh1a3c2RGExX3VLUlc4Yw?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-09-17T23:20:00.000Z",
+      "summary": "National Cheeseburger Day 2026: Burger deals at McDonald's, Wendy's and others  Fox Business\nNational Cheeseburger Day deals at McDonald's, Burger King, more  USA Today\nWhere to score a free cheeseburger for National Cheeseburger Day  Yahoo\n20 Deals and Freebies for National Cheeseburger Day  foodne",
       "hotness": 10
     },
     {
@@ -1362,28 +1934,6 @@
       "hotness": 10
     },
     {
-      "title": "India's hospital boom is improving access but pricing millions out of critical care - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnSmE3YUI1X2R4ZWwxcXBBQ19Kck5iS3F1cV9xakZ4YjJBamMzWTl2emlhRnozaFQ2RHB6WV9vUGNzWC1oMlk1Y1c4cVlvWG4tRnROODhGcmpVZw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-17T23:04:24.000Z",
-      "summary": "India's hospital boom is improving access but pricing millions out of critical care  BBC\nGovernment health schemes at a crossroads  BusinessLine\nGovernment Panel Urges Price Caps as Private Healthcare Costs Surge  SuaraGarut.ID\nWhy Managerial Reforms Alone Cannot Fix India’s Healthcare Crisis  Front",
-      "hotness": 10
-    },
-    {
-      "title": "也门政府军与胡塞武装在曼德海峡附近激战 - 同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAzTVV2NzZnWEZ6eXZuaUtLWm5OODE4VXVWNUlXM0JPNzVsUEZwdnpncXdCcEFIa1Y1Sk9DMjNidEl1eEVCTkNjQTVIZjFIOEFyc3V6a0MyNTV0WTVoR1E?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-09-17T23:01:17.000Z",
-      "summary": "也门政府军与胡塞武装在曼德海峡附近激战  同花顺财经在Google 新闻上查看更多头条新闻和观点",
-      "hotness": 10
-    },
-    {
       "title": "FCC Approves 49.5% Foreign Ownership of Paramount-Warner Bros. - variety.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV0VXTVo5UHBBaGtYVnRVMlJmYklWaEZ4aTNyNWVHNXZKS0U3V1d3RE1tdHoxNjN1dktqeVBfOGtablVhbVFINl9kMUhTMHdVTzBRRUdxY2VkeGE3a04xTDJSRldhUmVEZEtjc25vWVZxWEJrVkY3MllpV2VNRl80dzFHeHNzMVFlWmx4Q3BqQ090VEtwTUR1S2lnMzh0Z3hoQmhrNi04aw?oc=5",
       "source": "Google News 经济",
@@ -1391,7 +1941,18 @@
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-09-17T22:59:00.000Z",
-      "summary": "FCC Approves 49.5% Foreign Ownership of Paramount-Warner Bros.  variety.com\nUS FCC approves foreign investment in Paramount Warner merger  Reuters\nParamount-Warner Bros. Discovery Merger Clears FCC Foreign Ownership Review  Deadline\nFCC approves foreign owners for a merged Paramount-Warner Bros.  Lo",
+      "summary": "FCC Approves 49.5% Foreign Ownership of Paramount-Warner Bros.  variety.com\nParamount-Warner Bros. Discovery Merger Clears FCC Foreign Ownership Review  Deadline\nUS FCC approves foreign investment in Paramount Warner merger  Reuters\nFCC Approves Foreign Funding for Paramount-Warner Bros. Deal  Bloom",
+      "hotness": 10
+    },
+    {
+      "title": "Jim Cramer says history offers a playbook for navigating a Fed rate-hiking cycle",
+      "url": "https://www.cnbc.com/2026/09/17/jim-cramer-fed-rate-hike-investing.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-17T22:58:28.000Z",
+      "summary": "CNBC's Jim Cramer said investors shouldn’t assume stocks will struggle for the entire period.",
       "hotness": 10
     },
     {
@@ -1402,7 +1963,7 @@
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-09-17T22:55:25.000Z",
-      "summary": "As AI behavior raises concerns, ex-researcher Jacob Coxon warns what may lie ahead  PBS\nCan the AI arms race be stopped?  The Economist\nWe Must Pace the Frontier  darioamodei.com\nThe Anonymous Math Geek Who Quit Anthropic—and Became the Face of AI Safety  WSJ\nThe AI ‘Slowdown’ Is an Antitrust Mess  ",
+      "summary": "As AI behavior raises concerns, ex-researcher Jacob Coxon warns what may lie ahead  PBS\nAI isn't coming to destroy humanity, but experts say the real threats are here  Yahoo Finance\nCould AI really end humanity? Post your questions for our tech reporters now  The Guardian\nThe Anonymous Math Geek Who",
       "hotness": 10
     },
     {
@@ -1417,14 +1978,14 @@
       "hotness": 10
     },
     {
-      "title": "House heads home to campaign amid calls for urgent AI action",
-      "url": "https://www.cnbc.com/2026/09/17/ai-crisis-congress-regulation.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed? - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSExwd3FNUEppc2ZUb3h3TzlnYWNrR1VodnVrYnE3ZEZGa0NvcklwekRVa0k2YzNQRnQ2Tjd4bHZkVkZBOUtTU1QxcG91V2ZsbEhscXk4Q0xaLXB6ckVIOUlpOGNtVU1LTDZuV3lrdVpjUXpRRkJ4Q2YyMWVNVHRFRWczMDU5R3dBcUp1aDRENWp5V2lqUXg0Qi1QYnBmMGM?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T22:48:08.000Z",
-      "summary": "The urgency with which Anthropic, OpenAI and xAI have sought to be regulated has not translated into action on Capitol Hill.",
+      "category": "Web3",
+      "publishTime": "2026-09-17T22:47:20.000Z",
+      "summary": "Crypto Price Prediction: Where Will XRP, Bitcoin and Ethereum Be by Year End Now That the CLARITY Act Has Failed?  Yahoo Finance",
       "hotness": 10
     },
     {
@@ -1436,6 +1997,17 @@
       "category": "科技",
       "publishTime": "2026-09-17T22:34:09.000Z",
       "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "hotness": 10
+    },
+    {
+      "title": "JPMorgan oil team gives up on forecasting Iran war endgame as Trump blows past economic redlines",
+      "url": "https://www.cnbc.com/2026/09/17/jpmorgan-gives-up-forecasting-iran-wars-end-as-trump-blows-past-economic-redlines-.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-09-17T22:31:48.000Z",
+      "summary": "JPMorgan assumed at the start of the war that several economic redlines would force President Donald Trump into an agreement to open the Strait of Hormuz.",
       "hotness": 10
     },
     {
@@ -1502,6 +2074,17 @@
       "category": "政治",
       "publishTime": "2026-09-17T22:03:59.000Z",
       "summary": "All of the Democrats in the Senate — excluding Pennsylvania Sen. John Fetterman — signed an open letter to Defense Secretary Pete Hegseth, pressing him to give Congress a cost breakdown of the war in Iran.  The letter, although largely symbolic, reflects the frustration of many Democrats in Congress",
+      "hotness": 10
+    },
+    {
+      "title": "‘Doom Loop’: OpenAI and Microsoft Admits LLMs Are Destroying the Web and Built on Theft - 404media.co",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLS1wOHhDcG5fTG40d210MXhQaURtbktUMXJiMWVFTVhiUVFiX21QVG5pbGVXUHJ6QmU2dFhYOU9aOTVJTFpZTmdUc0JTeklMSF80c1dkV2lPVXFvTkpPUjFranFvdjlGR25KUlJLcE5BczNaMmpPR2JCdXMwbzVZS2ItZVpELWtQR1g1QjAxZFliLUgzLXIyT0pkYlNseER0S1E5ZWxESmFJZWpVRVE?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-09-17T22:03:22.000Z",
+      "summary": "‘Doom Loop’: OpenAI and Microsoft Admits LLMs Are Destroying the Web and Built on Theft  404media.co\nMicrosoft exec called AI the ‘largest theft of labor’ in history, court records show  The Washington Post\nOpenAI staff knew the ‘existential threat’ AI posed to publishers, New York Times claims  Fin",
       "hotness": 10
     },
     {
@@ -1615,17 +2198,6 @@
       "hotness": 10
     },
     {
-      "title": "Major airlines cut flights as higher jet fuel prices hit carriers - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT2V5cWNRelA0ZUlXRUFSeTNXS09DYVZVTFZ3dkpvTHdSaUtoQkJsa3lRMzNYMjV4LVo3Zmk5dmhPTUhISlJwc0MzZzNNX1dXTXlpZEhtM3JWanhVNEpHeklZVzdjcG8yZk13WkV3eE02QzYtZ2tkOVZsT1JoYUU5SWhPZXA4ZUtZR2JmeTkyRTZtWThla3EydnJIdDlzWk3SAaQBQVVfeXFMTmRyQ3VuVk1uc183RGR5X2t2eFBRc2RrVlVVUk9EeXhxZVRhR205THhaUWI0ZG5oenlBMzhUY2RGTGJIYmZpbDRKclUwc291YzVaakNvZ0djVHVlbEtHaXNHUjJqYlotVUhzR1NZMDgzaV9PWThKT0ZEc05ZUFl6blhRUmhNWGVNdjFtRHFmd193SnFBdFN2cVhvNGVaOG8wNEFWYWc?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-17T21:10:00.000Z",
-      "summary": "Major airlines cut flights as higher jet fuel prices hit carriers  Fox Business\nAirlines are cutting cheaper flights amid latest jet fuel spike  CNN\nUnited, American Say Fuel Cost Surge May Mean Capacity Cuts  Bloomberg.com\nAmerican, United, Southwest scale back schedules as fuel shock reshapes flyi",
-      "hotness": 10
-    },
-    {
       "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
       "url": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -1648,586 +2220,14 @@
       "hotness": 10
     },
     {
-      "title": "Crypto Finds an Innovative Way Around the Will of Congress - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTFdvcjc3V3pMQ3dZd3pEWEtWeG52OUdRUE52TzVaXzN0b0ZkTFpibjg0cHVZTmd1LTJES3I1eURJTzZvdWROSXdTM0VkdUx3eFp6bEdZTklGQlp3Rm9sUjRZdWZuSnNwVWIxTXlmZm5EYWJUYXg1NWRwUnM3bHlXYlJVZkRqR2h5ZC16SUdxOTdxek41UjlpTWhGSzlLZGJ4Zm5kUDBfQUdadmtJSEFoallB?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T21:00:01.000Z",
-      "summary": "Crypto Finds an Innovative Way Around the Will of Congress  Bloomberg.com",
-      "hotness": 10
-    },
-    {
-      "title": "Crypto shifts focus to Trump regulators after coming up short in Senate - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTFotaThtdF9WV1ZVdFFkTTFrWlNoX0hLcW5ySlBIQ2Ywdk55UEphcHNiTmpsS2hLRVR6QW5RcE4xY21aT2d0T3lwNC1pMXV4NEZBeUk1cElDNTZrY1JqRjJFeXlXSkg5VXRxQjBiVGFIVU03Z0tyNlhRZXpUcUQzMFl30gGHAUFVX3lxTFBBbmdXWmZxZVR4VGVvVnFsRTFseFFDb05XVi1BM1c5MUJNdXBjeHZfRGhIUXVRSFprMDdWWlUwZ2xlbFYwWnN3Y255aEFBNy1JbDI2THlFLWVPTndjZkVHN0NCSEl1S29rc05Bdm42NjZYM0o4a0xLU0FtRTVqQjBkLXpBTk15Zw?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T20:44:00.000Z",
-      "summary": "Crypto shifts focus to Trump regulators after coming up short in Senate  The Hill",
-      "hotness": 10
-    },
-    {
-      "title": "New cat species identified for first time in more than a century in Bolivia",
-      "url": "https://www.theguardian.com/world/2026/sep/17/new-cat-species-identified-bolivia",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T20:43:38.000Z",
-      "summary": "New species of wild feline was discovered in Bolivia’s Yungas forest that is smaller than the average domestic ⁠cat\nA diminutive wild cat that inhabits Bolivia’s ⁠cloud forest has been identified as a previously unknown species, marking the first time a new living feline species has been formally na",
-      "hotness": 10
-    },
-    {
-      "title": "The fix for rogue AI agents could be more AI",
-      "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:34:47.000Z",
-      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
-      "hotness": 10
-    },
-    {
-      "title": "UN experts say grounds to believe US committed war crimes in Iran strikes",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T20:34:30.000Z",
-      "summary": "The US has not acknowledged carrying out February's deadly strikes on a primary school in Minab and a sports complex in Lamerd.",
-      "hotness": 10
-    },
-    {
-      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:34:24.000Z",
-      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
-      "hotness": 10
-    },
-    {
-      "title": "As Fed raises rates, income investors can buy these bonds for solid yields and a portfolio cushion",
-      "url": "https://www.cnbc.com/2026/09/17/as-fed-raises-rates-income-investors-can-buy-these-bonds-for-solid-yields-and-a-portfolio-cushion-.html",
+      "title": "Bill to curb AI data center utility costs hits snag in Senate",
+      "url": "https://www.cnbc.com/2026/09/17/ai-data-center-utility-cost-senate.html",
       "source": "CNBC Top News",
       "sourceIcon": "💰",
       "lang": "en",
       "category": "金融",
-      "publishTime": "2026-09-17T20:34:04.000Z",
-      "summary": "Where the experts are finding income opportunities now that the Fed has increased rates.",
-      "hotness": 10
-    },
-    {
-      "title": "As Republicans tout Trump's 'big beautiful bill,' here's who the tax breaks benefited most",
-      "url": "https://www.cnbc.com/2026/09/17/tax-breaks-trump-big-beautiful-bill.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T20:32:07.000Z",
-      "summary": "As the midterm elections approach, Republicans are touting President Donald Trump's \"big beautiful bill\" to voters. Here's who benefited from the tax cuts.",
-      "hotness": 10
-    },
-    {
-      "title": "US: Trump administration weakens Endangered Species Act",
-      "url": "https://www.dw.com/en/us-trump-administration-weakens-endangered-species-act/a-79316188?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T20:29:00.000Z",
-      "summary": "In a recent memo, the US government would no longer consider the unintentional killing of protected wildlife as unlawful.",
-      "hotness": 10
-    },
-    {
-      "title": "Behind the overture from the European Union to Canada",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5973029/behind-the-overture-from-the-european-union-to-canada",
-      "source": "NPR World",
-      "sourceIcon": "🇺🇸",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T20:24:33.000Z",
-      "summary": "NPR's Mary Louise Kelly speaks with Ian Bremmer, president and founder of the Eurasia Group, about the latest developments between Canada, the European Union and the U.S.",
-      "hotness": 10
-    },
-    {
-      "title": "Tesla’s upcoming product frenzy could leave investors disappointed",
-      "url": "https://www.marketwatch.com/story/teslas-upcoming-product-frenzy-could-leave-investors-disappointed-18619fb3?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T20:23:00.000Z",
-      "summary": "Slower-than-expected robotaxi progress is still a chief concern, according to experts.",
-      "hotness": 10
-    },
-    {
-      "title": "Trump photo appears to reference Kennedy Center demolition, judge orders advance notice of any move to knock it down",
-      "url": "https://www.cnbc.com/2026/09/17/trump-kennedy-center-demolish-beatty.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T20:22:20.000Z",
-      "summary": "President Donald Trump wants his name on the Kennedy Center. But a judge has ruled it cannot be placed there without authorization by Congress.",
-      "hotness": 10
-    },
-    {
-      "title": "Is the AI safety debate about safety or control?",
-      "url": "https://techcrunch.com/2026/09/17/is-the-ai-safety-debate-about-safety-or-control/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:19:37.000Z",
-      "summary": "Not everyone agrees with Amodei's call for globally coordinated action for AI safety.",
-      "hotness": 10
-    },
-    {
-      "title": "Pet insurance or savings account: What’s the best way to plan for a big vet bill?",
-      "url": "https://www.marketwatch.com/story/pet-insurance-or-savings-account-whats-the-best-way-to-plan-for-a-big-vet-bill-f9f22f33?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T20:19:00.000Z",
-      "summary": "You want to make sure your pet can receive the care they need when an emergency happens — but is pet insurance the best way to prepare for that?",
-      "hotness": 10
-    },
-    {
-      "title": "Pokémon has turned 30, and Target is set to cash in on the anniversary craze",
-      "url": "https://www.marketwatch.com/story/pokemon-has-turned-30-and-target-is-set-to-cash-in-on-the-anniversary-craze-f5eb2af1?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T20:13:00.000Z",
-      "summary": "As people clamored for Pokemon’s 30th-anniversary card set, Mizuho analysts noted long lines and sold-out items at Target stores.",
-      "hotness": 10
-    },
-    {
-      "title": "UN turns to Google to make its global data ready for AI agents",
-      "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T20:00:00.000Z",
-      "summary": "The shift comes after a UNICEF test found leading AI models struggled to accurately retrieve global development statistics.",
-      "hotness": 10
-    },
-    {
-      "title": "Lawmakers must 'keep their options open' on Social Security reform, former Treasury Secretary Jack Lew says",
-      "url": "https://www.cnbc.com/2026/09/17/social-security-reform-cant-wait-former-treasury-secretary-jack-lew.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T19:57:41.000Z",
-      "summary": "The next U.S. president and candidates for Senate this November will be tasked with addressing Social Security's funding shortfall.",
-      "hotness": 10
-    },
-    {
-      "title": "Saudi Arabia is now pushing to export more oil through the Strait of Hormuz",
-      "url": "https://www.marketwatch.com/story/saudi-arabia-is-now-pushing-to-export-more-oil-through-the-strait-of-hormuz-bcce044b?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T19:52:00.000Z",
-      "summary": "With its East-West pipeline shut down, the Straight of Hormuz is the best avenue available and its spigot has recently opened up. Will it last?",
-      "hotness": 10
-    },
-    {
-      "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
-      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T19:46:08.000Z",
-      "summary": "Newly unsealed court filings show Microsoft privately called OpenAI's data practices \"theft\" while both companies scraped paywalled Times content, built datasets from it, and warned internally it would gut publishers.",
-      "hotness": 10
-    },
-    {
-      "title": "To prevent deaths in childbirth, Kenyan moms turn to an AI powered chatbot",
-      "url": "https://www.npr.org/2026/09/17/nx-s1-5962840/artificial-intelligence-ai-chatbot-pregnancy-maternal-health",
-      "source": "NPR World",
-      "sourceIcon": "🇺🇸",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T19:33:30.000Z",
-      "summary": "Many questions come up during pregnancy. Is swelling normal? Are avocados safe to eat? For folks in Kenya who don't have a search engine at their fingertips, a chatbot is offering a lifeline.",
-      "hotness": 10
-    },
-    {
-      "title": "CFTC expands regulatory relief for passive trading software providers",
-      "url": "https://cointelegraph.com/news/cftc-expands-regulatory-relief-for-passive-trading-software-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-09-17T19:30:48.000Z",
-      "summary": "The US regulator’s move could make it easier for crypto wallets and other apps to offer access to regulated derivatives and prediction markets without registering as introducing brokers.",
-      "hotness": 10
-    },
-    {
-      "title": "The AI Superintelligence Slowdown",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T19:28:24.000Z",
-      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
-      "hotness": 10
-    },
-    {
-      "title": "Advisry SS27 'AMERICA, STILL' Is a Three-Act Ode to American Resilience",
-      "url": "https://hypebeast.com/2026/9/advisrys-ss27-collection-america-still-nyfw-runway",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-09-17T19:26:55.000Z",
-      "summary": "Summary\nAdvisry's SS27 collection 'AMERICA, STILL' inspired by James Baldwin, unfolds in three 1970s-inspired acts exploring America's tension between collapse and greatness.The collection moves from distressed denim and trench coats to crocodile capelets and checkerboard suits, ending with sequined",
-      "hotness": 10
-    },
-    {
-      "title": "Russian birth tourism to Brazil increases",
-      "url": "https://www.dw.com/en/russian-birth-tourism-to-brazil-increases/a-79312304?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T19:19:00.000Z",
-      "summary": "Since Russia's full-scale invasion of Ukraine and stricter regulations in Argentina, more and more Russians are choosing to travel to Brazil to give birth to children, who will obtain Brazilian nationality.",
-      "hotness": 10
-    },
-    {
-      "title": "Andy Burnham urged to set dementia waiting-time target",
-      "url": "https://www.bbc.co.uk/news/articles/c50m3glzppgpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-09-17T19:13:59.000Z",
-      "summary": "An 18‑week referral‑to‑treatment target has been backed by England's former national cancer director.",
-      "hotness": 10
-    },
-    {
-      "title": "A breakout in the 10-year Treasury yield could hold back stocks if it reaches this level",
-      "url": "https://www.cnbc.com/2026/09/17/a-breakout-in-the-10-year-treasury-yield-could-hold-back-stocks-if-it-reaches-this-level.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T19:13:00.000Z",
-      "summary": "\"For any yield above 5.25%, equity prices go down,\" one chief investment officer says.",
-      "hotness": 10
-    },
-    {
-      "title": "My brother-in-law expects my husband and me to pay for his food every time we go out. How can I tell my husband I don’t want to do this anymore?",
-      "url": "https://www.marketwatch.com/story/my-brother-in-law-expects-my-husband-and-me-to-pay-for-his-food-every-time-we-go-out-how-can-i-tell-my-husband-i-dont-want-to-do-this-anymore-e2141455?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T19:07:00.000Z",
-      "summary": "“We also pay for the daughter’s food and drinks and she doesn’t usually even eat half of the meal.”",
-      "hotness": 10
-    },
-    {
-      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T18:58:05.000Z",
-      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, ",
-      "hotness": 10
-    },
-    {
-      "title": "This is the only cybersecurity stock that can post big gains, according to one analyst",
-      "url": "https://www.marketwatch.com/story/this-is-the-only-cybersecurity-stock-that-can-post-big-gains-according-to-one-analyst-8ffe034f?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T18:46:00.000Z",
-      "summary": "Zscaler’s stock has missed out on the cybersecurity sector’s big rally this year — but it could soon get its moment in the spotlight",
-      "hotness": 10
-    },
-    {
-      "title": "Lockheed Martin gets first batch of Patriot interceptor parts from General Motors - Defense News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQejBaZ3A3emVySHo2bGdQM0M0X3JqUGE4dUZHRzVaR3BnRTBIRV9PTEVZNDZZaUVGMUhsaE4tczV0WFJybTgzN0pVN0NKMk9WbTdoYmdSVTQzbWZyNTRPWnp2dXJ4WEhtVFJZZEQxMktjSkpnUWw2WlNXbGYzRTgtdzZNb3lPWEo5UEowc2tqSVl0bGx3NkwzVThWdi1XeTRKTnB2MzNKbEhFaFY0RTRiUUFDUXZVZ2NNWG9RdFk0NDlVaG01LWJtOWJn?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-17T18:44:33.000Z",
-      "summary": "Lockheed Martin gets first batch of Patriot interceptor parts from General Motors  Defense NewsSee more headlines & perspectives on Google News",
-      "hotness": 10
-    },
-    {
-      "title": "Kevin O’Leary says Congress will revisit Clarity early next year as crypto tax bill advances",
-      "url": "https://www.coindesk.com/policy/2026/09/17/kevin-o-leary-says-congress-will-revisit-clarity-by-second-quarter-as-crypto-tax-bill-advances",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T18:40:38.000Z",
-      "summary": "The Shark Tank investor says Congress will face pressure to revive crypto market structure legislation as it moves to establish tax rules for digital assets.",
-      "hotness": 10
-    },
-    {
-      "title": "SEC opens door to tokenized U.S. stock trading. Here’s who could benefit",
-      "url": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T18:38:10.000Z",
-      "summary": "The five-year experiment gives DeFi-style trading venues, tokenization firms and liquidity providers a new U.S. pathway while leaving synthetic stock tokens outside the framework.",
-      "hotness": 10
-    },
-    {
-      "title": "UK watchdog targets three London sites suspected of illegal crypto trading - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaURlQXJpS0g0d3lwVlhOdlQteXlxMXJvWjB0MmgzbDJQT0lNZUFLRlYxOGNqYkVLVWlEdlJIcXNWR19NTzV3YTNSM1YyQ0RYd21sTzJNMnVsSlpGVXZZQUxNUGNOdE1lSnI5V3dyT1h3VUZzUldjLUhmaXo2T0V6Zjh2T1FOMWd6cWxSV3hVVXhNZHRORFRZREg4VDZFWWQ3d001Q3dRb3lIM0pKX2otZVhvanpfYnRaaExfaQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T18:31:16.000Z",
-      "summary": "UK watchdog targets three London sites suspected of illegal crypto trading  Reuters",
-      "hotness": 10
-    },
-    {
-      "title": "Waymo restarts San Antonio service 5 months after flooding troubles",
-      "url": "https://techcrunch.com/2026/09/17/waymo-restarts-san-antonio-service-five-months-after-flooding-troubles/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T18:30:30.000Z",
-      "summary": "The company suspended service in the city in April after one of its robotaxis got swept away.",
-      "hotness": 10
-    },
-    {
-      "title": "‘I’m genuinely sorry’: Australian Hyrox athlete who soiled herself apologises to China and rivals",
-      "url": "https://www.theguardian.com/sport/2026/sep/17/im-genuinely-sorry-australian-hyrox-athlete-who-soiled-herself-apologises-to-china-and-rivals",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T18:30:23.000Z",
-      "summary": "Joanna Wietrzyk ‘regrets’ decision to keep racing\n\nShe forfeits points from her win in the Beijing race\n\nThe Australian athlete who caused a storm by winning a Hyrox event in China despite soiling herself during the race has apologised to the “people of China” and rival athletes in a statement onlin",
-      "hotness": 10
-    },
-    {
-      "title": "Senate’s crypto bill collapse pushes regulatory power to the SEC and CFTC - Pensions & Investments",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa0x2Z08tNTgzcXVSX1ZoaEVZSUlwVC10cVpvZXFsRFpsX1l0NEJlcTZWQlk5V3FURTNhTDhmMU1LN2ZzNU9GQm1JYjVGY1oyS2w2YkZGaGgybGs2d1p0TElLX2VPLXRFZ1A4cldxY0ttTTFtd0w5azI0TW5CVzRFQlF5dmpJWThkSlhSNDduUWdGbnhZdUUyYlNYYTRHWXNCXzA2X2d0VQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T18:27:00.000Z",
-      "summary": "Senate’s crypto bill collapse pushes regulatory power to the SEC and CFTC  Pensions & Investments",
-      "hotness": 10
-    },
-    {
-      "title": "How Existential Fears Are Shaping the Debate Over AI - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3hnY2xIbmllc1ZicWItQ3pPTlo3TVlKS3NHVFEzb3BzcHF1YXV5Yk94dF9od2oycFBaSXU1OUdwYjFZcVBqczBMVkJEc2NqbVNESXVuVEw1aW9KR3BUaldLOENLTzRhNWplbEVDNlg5VlliLTYyalZYQlVSRDRYUlNnMDhYYkRGLTg2QzFNRUxfTVZIdXg4ZWpGVmtoQ1JIbkFMNXNXRUcyWEY0aFJJRERKOGIta0Ry?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-17T18:11:05.000Z",
-      "summary": "How Existential Fears Are Shaping the Debate Over AI  Bloomberg.com\nWhy Existential AI Fears Have Hit a Crescendo  Foreign Policy\nFears About A.I. Lesson Plan  The New York Times\nRogue agents aren't the only AI threat. Just ask news providers | From the editor  Cincinnati Enquirer\nLetter: We live a ",
-      "hotness": 10
-    },
-    {
-      "title": "US sanctions Iranian financier's crypto exchange, says it processes Hormuz payments - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkZiYmtkenBxVnZPWFRFdjZFMloydkRrX1JGb0JaeUxseGlOUG1RUkdWbzlrazJUQ2FZQmk1YjdoZy1IYWNjMkNYeXBGM21nMXlwM0lzZHZCTlNEcVVwSExkczFTSlE1c0dFV0ZMUC1sZGM5TzZaMDV1Qk1Xal9fa0xYVWpEOFdBdXNVVzJVWGYwZ2RqN2pVZFYxLUdjMGpFelBFUmo1Q0h3NVphbDh2TE1UcVNKNG1vR0duVjRnLVJUcWpx?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T18:03:45.000Z",
-      "summary": "US sanctions Iranian financier's crypto exchange, says it processes Hormuz payments  Reuters",
-      "hotness": 10
-    },
-    {
-      "title": "UK needs 'credible path' on defence spending, says Nato chief",
-      "url": "https://www.bbc.co.uk/news/articles/cm0e35pwje2do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-09-17T18:02:26.000Z",
-      "summary": "Mark Rutte tells the BBC that UK ministers accept the need to make yearly steps to up spending.",
-      "hotness": 10
-    },
-    {
-      "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
-      "url": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T17:59:51.000Z",
-      "summary": "Securitize surged Thursday after federal regulators greenlit the issuing of tokenized stocks on some trading platforms in the U.S.",
-      "hotness": 10
-    },
-    {
-      "title": "Soundboks Rider Is the Party Speaker Made for Plans You Haven’t Made Yet",
-      "url": "https://hypebeast.com/2026/9/soundboks-rider-speakers",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-09-17T17:58:12.000Z",
-      "summary": "Finding the right Bluetooth speaker often feels like a series of frustrating compromises. Compact options fit easily into a backpack but sputter out as soon as a crowd gathers, while high-powered party speakers crank out massive sound at the cost of lugging around a heavy, cumbersome crate. Danish a",
-      "hotness": 10
-    },
-    {
-      "title": "UK Youth Parliament looks set to be axed",
-      "url": "https://www.bbc.co.uk/news/articles/c689jke4w310o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-09-17T17:53:55.000Z",
-      "summary": "Some say scrapping the parliament for 11 to 18-year-olds would be a blow for democracy, while others say it is overdue.",
-      "hotness": 10
-    },
-    {
-      "title": "Amazon’s secret weapon against Walmart could be a massive blitz in same-day delivery",
-      "url": "https://www.marketwatch.com/story/amazons-secret-weapon-against-walmart-could-be-a-massive-blitz-in-same-day-delivery-a0ddf8d6?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-09-17T17:42:00.000Z",
-      "summary": "BofA analysts say Amazon’s reported plans to expand same-day fulfillment centers represent an effort to make basic goods “immediately accessible.”",
-      "hotness": 10
-    },
-    {
-      "title": "WisdomTree, MoonPay team up to expand US access to tokenized money market fund",
-      "url": "https://cointelegraph.com/news/wisdomtree-moonpay-team-up-to-expand-us-access-to-tokenized-money-market-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-09-17T17:31:12.000Z",
-      "summary": "MoonPay plans to use WisdomTree’s $1.2 billion WTGXX tokenized fund as part of its stablecoin reserves while helping expand access to US investors.",
-      "hotness": 10
-    },
-    {
-      "title": "Even the king of England has his hesitations about AI",
-      "url": "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T17:26:25.000Z",
-      "summary": "King Charles hosted a private summit Thursday with some of the most prominent names in AI and the U.K. government.",
-      "hotness": 10
-    },
-    {
-      "title": "Apple Unveils ‘What Holds Us’ Photography Exhibition, Shot on iPhone 18 Pro",
-      "url": "https://hypebeast.com/2026/9/apple-unveils-what-holds-us-photography-exhibition-all-shot-on-iphone-18-pro",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-09-17T17:21:04.000Z",
-      "summary": "Summary\nApple is opening a new art exhibition, titled 'What Holds Us,' in New York CityCurated by Kathy Ryan, the show unveils new work by acclaimed photographers all shot on the new iPhone 8 ProThe exhibition is open from September 18 to 20 in Chelsea, Manhattan, with a live talk from the curator o",
-      "hotness": 10
-    },
-    {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T17:15:59.000Z",
-      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
-      "hotness": 10
-    },
-    {
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "url": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T17:15:00.000Z",
-      "summary": "Pinterest is testing Restyle, a new AI-powered feature that lets users visualize furniture, decor, lighting, and more in photos of their own rooms — potentially helping turn saved inspiration into purchases.",
-      "hotness": 10
-    },
-    {
-      "title": "Save $30 or more on a refurbished Apple TV 4K",
-      "url": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-09-17T17:14:07.000Z",
-      "summary": "The refurbished Apple TV 4K with its voice remote. | Image: The Verge\t\n\nMost hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the c",
-      "hotness": 10
-    },
-    {
-      "title": "Helen Jenner likely to take over as Reform Wales leader, sources tell BBC",
-      "url": "https://www.bbc.co.uk/news/articles/cqgk52xjd08ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-09-17T17:09:52.000Z",
-      "summary": "Reform's Welsh deputy leader is the favourite to take over from Dan Thomas, who was arrested on Sunday.",
-      "hotness": 10
-    },
-    {
-      "title": "CFTC to Expand Crypto, Predictions Trading Via Online Platforms - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUHdNeXVzQ0FBWTdmLU1oMVNaWFBpNTBjbnFzd1pVeTZmTjNsRTdDUGpPNXpVYU1yYXROeFhfdHkwTHBDZHM5RDY4WldleGFERktpUTdmZkNkSDNCUldhRTJWOWJ1LVpfMm1fM0ppUEZxd1lSUVlFQjJoamxCVXZ3TEFXNjJLQWt0NVFxOHlWbF9SSDVfZDVpRzg3TUludWxhMzhOa3U2R2xETGkyaTR3TkdrQQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-09-17T17:09:50.000Z",
-      "summary": "CFTC to Expand Crypto, Predictions Trading Via Online Platforms  Bloomberg.com",
-      "hotness": 10
-    },
-    {
-      "title": "US labor market on solid footing; rising mortgages pressuring housing sector - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZl9MV2lRQVlhSGNPcS1Db0RCY05rTnJtS3VENVN2RjNvLUp4eW8yMWxVbFN2T003WUFITzZsVWJMa054RXVNSUxfdnBmRmdOWUg5dF8xWlViQWJGY2pVSjBKNV84RF9rRGRSWXRtZWt2NmJsX0xYek5SaTlBdEFSRk5WQ3l3bGJPTllKM0dlMmQ?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-09-17T17:08:47.000Z",
-      "summary": "US labor market on solid footing; rising mortgages pressuring housing sector  Reuters\nUS Jobless Claims Fall to 196,000 During Holiday Week  Bloomberg.com\nClaims for unemployment benefits drop to 196,000, lowest since mid-July as layoffs remain low  ABC News - Breaking News, Latest News and Videos\nT",
-      "hotness": 10
-    },
-    {
-      "title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
-      "url": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-09-17T17:08:00.000Z",
-      "summary": "Sylvia Zin is among the family members of people imprisoned in China who are seeking Trump's help when he hosts the country's leader next week.",
+      "publishTime": "2026-09-17T20:56:41.000Z",
+      "summary": "Sen. Martin Heinrich, D-N.M., blocked bipartisan legislation aimed at reining in data center-related utility cost increases, calling the bill a half-measure.",
       "hotness": 10
     }
   ]
