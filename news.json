@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-07T19:39:59.461Z",
-  "updatedAtBJ": "2026-10-08 03:39:59",
-  "nextRefreshAt": "2026-10-07T22:00:00.000Z",
-  "nextRefreshBJ": "2026-10-08 06:00:00",
+  "updatedAt": "2026-10-07T22:31:01.750Z",
+  "updatedAtBJ": "2026-10-08 06:31:01",
+  "nextRefreshAt": "2026-10-08T02:00:00.000Z",
+  "nextRefreshBJ": "2026-10-08 10:00:00",
   "totalCount": 200,
   "categoryCount": 10,
   "categories": [
@@ -19,15 +19,15 @@
     "中国"
   ],
   "categoryStats": {
-    "科技": 55,
+    "科技": 58,
+    "政治": 18,
     "金融": 28,
+    "Web3": 19,
+    "中国": 19,
     "国际": 31,
-    "经济": 14,
-    "政治": 20,
-    "Web3": 21,
-    "区块链": 9,
-    "中国": 17,
-    "潮流": 5
+    "区块链": 8,
+    "经济": 15,
+    "潮流": 4
   },
   "articles": [
     {
@@ -39,29 +39,7 @@
       "category": "科技",
       "publishTime": "2026-10-06T22:17:21.000Z",
       "summary": "",
-      "hotness": 3841
-    },
-    {
-      "title": "Shipping JPEG XL in Chrome",
-      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T11:25:02.000Z",
-      "summary": "",
-      "hotness": 916
-    },
-    {
-      "title": "Visa, Mastercard, Major Banks Facing New Litigation over 'Anticompetitive' Fees",
-      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T15:09:59.000Z",
-      "summary": "",
-      "hotness": 715
+      "hotness": 3953
     },
     {
       "title": "Claude Haiku 5.5",
@@ -72,18 +50,29 @@
       "category": "科技",
       "publishTime": "2026-10-07T18:01:32.000Z",
       "summary": "",
-      "hotness": 617
+      "hotness": 1081
     },
     {
-      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "title": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-07T09:17:55.000Z",
+      "publishTime": "2026-10-07T11:25:02.000Z",
       "summary": "",
-      "hotness": 458
+      "hotness": 1037
+    },
+    {
+      "title": "Visa, Mastercard, major banks facing new litigation over 'anticompetitive' fees",
+      "url": "https://www.classaction.org/news/visa-mastercard-major-banks-facing-new-litigation-over-anticompetitive-merchant-credit-card-transaction-fees",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T15:09:59.000Z",
+      "summary": "",
+      "hotness": 1024
     },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
@@ -94,18 +83,62 @@
       "category": "科技",
       "publishTime": "2026-10-07T18:00:58.000Z",
       "summary": "",
-      "hotness": 423
+      "hotness": 799
     },
     {
-      "title": "Anti-Patterns in Software Blogging",
-      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-07T13:08:26.000Z",
+      "publishTime": "2026-10-07T18:49:40.000Z",
       "summary": "",
-      "hotness": 302
+      "hotness": 609
+    },
+    {
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T09:17:55.000Z",
+      "summary": "",
+      "hotness": 488
+    },
+    {
+      "title": "Navier–Stokes Lost in Translation",
+      "url": "https://arxiv.org/abs/2610.08144",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T15:24:38.000Z",
+      "summary": "",
+      "hotness": 482
+    },
+    {
+      "title": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T19:33:40.000Z",
+      "summary": "",
+      "hotness": 476
+    },
+    {
+      "title": "Google Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T12:28:36.000Z",
+      "summary": "",
+      "hotness": 467
     },
     {
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
@@ -116,7 +149,29 @@
       "category": "科技",
       "publishTime": "2026-10-07T15:44:21.000Z",
       "summary": "",
-      "hotness": 288
+      "hotness": 462
+    },
+    {
+      "title": "House with 15m underground tunnels for sale for 300k",
+      "url": "https://www.readingchronicle.co.uk/news/26612080.house-15m-underground-tunnels-sale-300k/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T12:57:10.000Z",
+      "summary": "",
+      "hotness": 421
+    },
+    {
+      "title": "Anti-patterns in software blogging",
+      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T13:08:26.000Z",
+      "summary": "",
+      "hotness": 385
     },
     {
       "title": "Animated ASCII Art for Web Pages",
@@ -127,84 +182,18 @@
       "category": "科技",
       "publishTime": "2026-10-07T15:05:37.000Z",
       "summary": "",
-      "hotness": 276
+      "hotness": 357
     },
     {
-      "title": "The art of defusing a second world war bomb",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/06/it-could-knock-a-whole-street-down-the-art-of-defusing-a-second-world-war-bomb",
+      "title": "Why were Victorian elites so effective?",
+      "url": "https://worksinprogress.co/issue/the-seven-vices-of-highly-effective-victorians/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-07T03:43:14.000Z",
+      "publishTime": "2026-10-07T15:09:33.000Z",
       "summary": "",
-      "hotness": 251
-    },
-    {
-      "title": "God of War on PSP, recompiled to WebAssembly and running in the browser",
-      "url": "https://github.com/snuri00/psp-web-recomp",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T11:27:27.000Z",
-      "summary": "",
-      "hotness": 227
-    },
-    {
-      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
-      "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T12:04:36.000Z",
-      "summary": "",
-      "hotness": 172
-    },
-    {
-      "title": "AI-assisted proof of optimal packing for 11 squares",
-      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T14:10:55.000Z",
-      "summary": "",
-      "hotness": 167
-    },
-    {
-      "title": "Wood Tape (2004)",
-      "url": "http://gamesbyemail.com/WoodTape/Default.htm",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-06T04:25:41.000Z",
-      "summary": "",
-      "hotness": 126
-    },
-    {
-      "title": "Meta and Microsoft Limit Employee Use of Claude AI Tools",
-      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T18:49:40.000Z",
-      "summary": "",
-      "hotness": 118
-    },
-    {
-      "title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
-      "url": "https://github.com/AL-255/FM-1-RE",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T15:19:50.000Z",
-      "summary": "",
-      "hotness": 101
+      "hotness": 291
     },
     {
       "title": "Docker Agent",
@@ -215,106 +204,51 @@
       "category": "科技",
       "publishTime": "2026-10-07T17:48:38.000Z",
       "summary": "",
-      "hotness": 99
+      "hotness": 254
     },
     {
-      "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
-      "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+      "title": "SynthID Detector",
+      "url": "https://synthid.com/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-07T13:51:11.000Z",
+      "publishTime": "2026-10-07T14:16:44.000Z",
       "summary": "",
-      "hotness": 75
+      "hotness": 212
     },
     {
-      "title": "ShinyHunters Extorted Boeing Spin-Off Prior to Arrests",
-      "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "title": "AI-assisted proof of optimal packing for 11 squares",
+      "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-07T15:15:36.000Z",
+      "publishTime": "2026-10-07T14:10:55.000Z",
       "summary": "",
-      "hotness": 71
+      "hotness": 192
     },
     {
-      "title": "3D-printing platform rapidly produces complex electric machines",
-      "url": "https://news.mit.edu/2026/3d-printing-platform-rapidly-produces-complex-electric-machines-0218",
+      "title": "Wood Tape (2004)",
+      "url": "http://gamesbyemail.com/WoodTape/Default.htm",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-05T20:46:57.000Z",
+      "publishTime": "2026-10-06T04:25:41.000Z",
       "summary": "",
-      "hotness": 65
+      "hotness": 167
     },
     {
-      "title": "Show HN: Durable Actors – OSS Durable Objects with configurable compute",
-      "url": "https://github.com/TerseAI/durable-actors",
+      "title": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-10-06T15:58:19.000Z",
+      "publishTime": "2026-10-07T21:16:18.000Z",
       "summary": "",
-      "hotness": 64
-    },
-    {
-      "title": "Open source 160 sound visualization experiments",
-      "url": "https://www.kagan.in/iwrzwr/visual-archive/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T15:46:30.000Z",
-      "summary": "",
-      "hotness": 53
-    },
-    {
-      "title": "VECOS – A windows-like operating system for the Vectrex for the UVMC2 [video]",
-      "url": "https://www.youtube.com/watch?v=9ranfp_vz30",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-06T22:23:04.000Z",
-      "summary": "",
-      "hotness": 35
-    },
-    {
-      "title": "ICANN Reveals 2026 Round Applications for New Generic Top-Level Domains",
-      "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T19:01:45.000Z",
-      "summary": "",
-      "hotness": 24
-    },
-    {
-      "title": "EmDash uses Clef to moderate the plugin registry",
-      "url": "https://emdashcms.com/blog/how-emdash-uses-clef-to-moderate-the-plugin-registry",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T17:12:28.000Z",
-      "summary": "",
-      "hotness": 23
-    },
-    {
-      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
-      "url": "https://agent.reviews/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T16:59:11.000Z",
-      "summary": "",
-      "hotness": 23
+      "hotness": 129
     },
     {
       "title": "How machines learned precision",
@@ -325,7 +259,689 @@
       "category": "科技",
       "publishTime": "2026-10-06T16:14:42.000Z",
       "summary": "",
-      "hotness": 22
+      "hotness": 126
+    },
+    {
+      "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+      "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T18:43:18.000Z",
+      "summary": "",
+      "hotness": 114
+    },
+    {
+      "title": "ICANN Reveals 2026 Round Applications for New Generic Top-Level Domains",
+      "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T19:01:45.000Z",
+      "summary": "",
+      "hotness": 101
+    },
+    {
+      "title": "3D-printing platform rapidly produces complex electric machines",
+      "url": "https://news.mit.edu/2026/3d-printing-platform-rapidly-produces-complex-electric-machines-0218",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-05T20:46:57.000Z",
+      "summary": "",
+      "hotness": 97
+    },
+    {
+      "title": "Despite what Watson said, Rosalind Franklin understood structure of DNA first",
+      "url": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T19:56:16.000Z",
+      "summary": "",
+      "hotness": 85
+    },
+    {
+      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "url": "https://agent.reviews/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T16:59:11.000Z",
+      "summary": "",
+      "hotness": 79
+    },
+    {
+      "title": "Why Pendulum had to write the most cursed \"+\" operator in all of Python",
+      "url": "https://dev.arie.bovenberg.net/blog/pendulum-cursed-plus-operator/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-06T10:12:31.000Z",
+      "summary": "",
+      "hotness": 67
+    },
+    {
+      "title": "Brownian Motion",
+      "url": "https://gregorygundersen.com/blog/2026/04/22/brownian-motion/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-06T11:11:34.000Z",
+      "summary": "",
+      "hotness": 13
+    },
+    {
+      "title": "Tillis criticizes Trump advisers for work with Russia-aligned Bosnia group",
+      "url": "https://thehill.com/homenews/senate/6135213-tillis-condemns-trump-consultants/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T22:20:13.000Z",
+      "summary": "Retiring Sen. Thom Tillis (R-N.C.) on Wednesday condemned a report that two consultants to President Trump received a large profit from their work advising a pro-Russian government in the Balkans during the U.S. midterm election cycle.   The senator, who serves as co-chair of the Senate NATO Observe",
+      "hotness": 10
+    },
+    {
+      "title": "Fed officials view another rate hike as 'likely,' meeting minutes show",
+      "url": "https://thehill.com/business/6135206-fed-officials-project-future-increases/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T22:18:41.000Z",
+      "summary": "The majority of Federal Open Market Committee (FOMC) officials believed another rate hike was on the horizon this year, according to minutes from the panel’s last meeting the central bank released Wednesday. “With regard to the outlook for monetary policy beyond the current meeting, most participant",
+      "hotness": 10
+    },
+    {
+      "title": "Texas becomes center of midterm universe",
+      "url": "https://thehill.com/homenews/campaign/6135173-texas-midterm-elections-trump-visit/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T22:18:19.000Z",
+      "summary": "Texas has taken center stage ahead of next month’s midterm elections as Democrats grow more optimistic about their chances in the state up and down the ballot.  For months, the state’s highly contested Senate race has dominated midterm headlines, but Democrats say they are seeing opportunity in othe",
+      "hotness": 10
+    },
+    {
+      "title": "Trump to propose relaxing oil and gas methane rules",
+      "url": "https://thehill.com/newsletters/energy-environment/6135217-trump-administration-epa-proposes-methane-changes/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T22:15:46.000Z",
+      "summary": "{beacon} Energy & Environment Energy & Environment   The Big Story  Trump to propose relaxing  oil and gas methane rules The Trump administration plans to loosen restrictions that rein in methane from oil and gas production, it announced Wednesday. © Matthew Brown, Associated Press The Environmental",
+      "hotness": 10
+    },
+    {
+      "title": "The IRS is paying closer attention to funds that aim to slash taxes. What could be next for investors",
+      "url": "https://www.cnbc.com/2026/10/07/irs-is-eyeing-funds-that-aim-to-slash-taxes-what-may-be-next.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T22:08:40.000Z",
+      "summary": "'Tax aware' ETFs and an elaborate ETF conversion maneuver aimed at sharply cutting tax liability are in the agency's crosshairs.",
+      "hotness": 10
+    },
+    {
+      "title": "Evolution of Web3 in Cloud Supply Chain Attacks - Unit 42",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mN0F2emRKckVPLU9xRWpUeG90M3VnZEZrTS12SmlOLU1xTkRIalVyU0xxYlp0NGw5WUtuakxkRzhXajBpYS1heURSYjNrZDVoVWhmTnhtUkNKU3dYRmlEaV9JSGc1eG1TZVRYNWkxeE9IZGxZMkM4?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T22:06:53.000Z",
+      "summary": "Evolution of Web3 in Cloud Supply Chain Attacks  Unit 42",
+      "hotness": 10
+    },
+    {
+      "title": "BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover",
+      "url": "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T22:01:00.000Z",
+      "summary": "While much of the automotive world sits dumbfounded as China gobbles up all its customers, BMW continues to roll out extremely well-crafted, technologically advanced electric vehicles that impress in both drive quality and price. The latest is the BMW iX4, a coupe-shaped SUV that puts a sportier spi",
+      "hotness": 10
+    },
+    {
+      "title": "国庆假期全国消费市场总体平稳 - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wNDUteFF3MUJ0V1RWVGl0OHo0ZV9zRDd2OTlfeVlhYlE2YUs5SzRRdVZQS1N4YkVMZnphVnpvZDI2Smh1ektlRzNpQmIyXy04UFJZTXowQU1JOUNuUXNRTw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T21:47:11.000Z",
+      "summary": "国庆假期全国消费市场总体平稳  同花顺\n国庆期间全市消费市场活力稳步释放  新浪财经\n国庆假期全国消费市场总体平稳 流动中国动力足  中国青年网\n把山水雨林搬入商场 新业态新场景激活假日消费  央视网\n（经济观察）流动中国释放假日经济新动能  搜狐网",
+      "hotness": 10
+    },
+    {
+      "title": "Lululemon poaches Athleta CEO as new chief product officer",
+      "url": "https://www.cnbc.com/2026/10/07/lululemon-athleta-ceo-maggie-gauger-chief-product-officer.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T21:47:06.000Z",
+      "summary": "Lululemon announced Wednesday that Athleta CEO Maggie Gauger is joining the company as its chief product officer, a newly created role.",
+      "hotness": 10
+    },
+    {
+      "title": "El-Sayed says Netanyahu pushed US into Iran war",
+      "url": "https://thehill.com/homenews/campaign/6135050-abdul-el-sayed-netanyahu-iran-war/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T21:44:51.000Z",
+      "summary": "Abdul El-Sayed, the Democratic nominee in Michigan’s open Senate race, on Tuesday accused Israeli Prime Minister Benjamin Netanyahu of pushing the Trump administration to enter the Iran war.  The ongoing conflict began when Israel and the U.S. launched joint strikes on Tehran on Feb. 28. As the war ",
+      "hotness": 10
+    },
+    {
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies, union says",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T21:40:24.000Z",
+      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September.",
+      "hotness": 10
+    },
+    {
+      "title": "Trump awarding medals to Musk, Dell, Nadella and other tech execs at science summit",
+      "url": "https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T21:32:55.000Z",
+      "summary": "President Trump is giving awards to a number of top tech executives at a summit on Thursday.",
+      "hotness": 10
+    },
+    {
+      "title": "Levi Strauss hikes profit guidance after tariff refunds, but its sales outlook is less optimistic",
+      "url": "https://www.cnbc.com/2026/10/07/levi-strauss-levi-q3-2026-earnings.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T21:31:40.000Z",
+      "summary": "Levi Strauss on Wednesday posted earnings that beat expectations, though it saw benefits from tariff refunds.",
+      "hotness": 10
+    },
+    {
+      "title": "Watchdog: Trump administration illegally withheld federal research funds",
+      "url": "https://thehill.com/policy/healthcare/6135023-trump-hhs-ahrq-violations/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T21:26:59.000Z",
+      "summary": "The Trump administration violated federal law by withholding tens of millions of dollars in research grant funding Congress had appropriated for the Agency for Healthcare Research and Quality (AHRQ), according to a federal watchdog report.  The Government Accountability Office (GAO) on Wednesday fou",
+      "hotness": 10
+    },
+    {
+      "title": "Christa Pike 'angry and confused' after botched execution",
+      "url": "https://www.dw.com/en/christa-pike-angry-and-confused-after-botched-execution/a-79586250?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T21:23:00.000Z",
+      "summary": "Pike's lawyers have said she was very aware of Tennessee's failed execution effort. A judge has ordered state officials to preserve all evidence from the botched execution.",
+      "hotness": 10
+    },
+    {
+      "title": "Teenage Engineering’s CEO says it’ll stop making synths",
+      "url": "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T21:19:54.000Z",
+      "summary": "Teenage Engineering founder and CEO Jesper Kouthoofd told Highsnobiety that it plans to stop making synths. And yes, that includes the iconic OP-1, which put the company on the map. TE isn't just a music gear maker; it's also a sought-after design firm. It's collaborated with Ikea, Nothing, and Play",
+      "hotness": 10
+    },
+    {
+      "title": "Trump’s diesel order exposes White House limits to counter surging fuel prices",
+      "url": "https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T21:19:19.000Z",
+      "summary": "President Trump's order comes amid mounting political pressure to take action on surging diesel prices, with the midterm elections only a month away.",
+      "hotness": 10
+    },
+    {
+      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T21:16:24.000Z",
+      "summary": "Since SpaceX's record-breaking IPO in June, rates have sold off, and yields on its bonds have risen, along with other AI-related bonds.",
+      "hotness": 10
+    },
+    {
+      "title": "沙特主导联军：摧毁胡塞武装袭击利雅得的导弹设施 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1NJVVM0dG9zemt3WEtVNjdzNVFjZTRhQ0c1eloxNVF6a2N5SVRONzFDMFd1Q0p6RGViMFpoajdkSFVkWkpVOXdpd3pZV2NLaE1kdEtrUy1TcEp5enQzVl9hdktDLTZPMElqajFjbmprRW1IbmRGbjZlZUVWWUxUeGF6VHYtQjJTZDlRTjFTMkRVLXF3ZmFib2VR?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T21:14:23.000Z",
+      "summary": "沙特主导联军：摧毁胡塞武装袭击利雅得的导弹设施  新华网客户端\n沙特主导联军称在也门萨那摧毁一处弹道导弹发射平台_7x24快讯_新浪财经  手机新浪网\n伊朗很难受？沙特大军出手，兵锋直指首都，要灭掉胡塞夺回政权  凤凰网\n也门胡塞武装称沙特24小时发动156次袭击  搜狐网\n沙特又开始犯糊涂作大死了，中东全新大变局出现了  风闻",
+      "hotness": 10
+    },
+    {
+      "title": "Lawyers looking to block Texas man's execution following Christa Pike's botched execution",
+      "url": "https://thehill.com/homenews/state-watch/6134934-jamaal-howard-death-penalty-appeal/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T21:11:01.000Z",
+      "summary": "Lawyers for a Texas death row inmate are looking to block his execution following the botched lethal injection attempts against Christa Pike in Tennessee. Jamaal Howard is scheduled for execution by lethal injection on Oct. 7 at 7 p.m. EDT, marking the first time an inmate has been put to death sinc",
+      "hotness": 10
+    },
+    {
+      "title": "A股盘前速览：美股盘初半导体、光通信齐跌，存储芯片低开拉升；黄金大跳水；国庆档总票房破11亿；粤芯半导体网上投资者弃购468976股 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRVlUNnpwd0xaZVFKaFRsNmtncm1fLTBsTFM0VkVGMktWWTlwdlJUWHJpaXV4N2E3dkxwLVpaSTJJcjVFM3dROVN1cVBQRE51c1JUelZSWnFXWVlNTnJHTk80eklMZw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T21:04:11.000Z",
+      "summary": "A股盘前速览：美股盘初半导体、光通信齐跌，存储芯片低开拉升；黄金大跳水；国庆档总票房破11亿；粤芯半导体网上投资者弃购468976股  东方财富\n美债重启抛售、收益率创2002年来新高，美股高位承压，早盘道指跌超1%，布油盘中涨2%  华尔街见闻\n开盘：三大股指齐跌，油价与美债收益率同步走高|特斯拉|苹果公司|微软公司|谷歌公司|英伟达  新浪财经\n今夜！股债“双杀”  凤凰网\n全球，集体大跳水！债务危机，来了？  同花顺",
+      "hotness": 10
+    },
+    {
+      "title": "DNC sues to block Trump administration from using government funds for political ads",
+      "url": "https://thehill.com/homenews/6135004-dnc-sues-trump-political-ads-government-funds/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T21:00:44.000Z",
+      "summary": "The Democratic National Committee (DNC) on Wednesday sued the Trump administration, claiming it misused congressional appropriations in using government funding to run new ads featuring the president. “The Trump Administration is using taxpayer dollars to air political advertisements, a blatant viol",
+      "hotness": 10
+    },
+    {
+      "title": "Watch live: Trump rallies Texas Republicans amid midterm warning signs",
+      "url": "https://thehill.com/video-clips/6134525-watch-live-donald-trump-san-antonio-texas-rally-paxton-de-la-cruz-gop-midterms/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T21:00:00.000Z",
+      "summary": "President Trump is returning to Texas Wednesday night as Republicans look to shore up support in an increasingly competitive midterm landscape. Trump will rally voters in San Antonio, marking his third trip to the state in a month after stops in Dallas for the GOP midterm convention and a tour last ",
+      "hotness": 10
+    },
+    {
+      "title": "Live updates: Trump heads to San Antonio rally; Iowa, Pennsylvania in debate spotlight",
+      "url": "https://thehill.com/homenews/administration/6133060-live-updates-candidates-trump-texas-midterm-debates/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T20:59:50.000Z",
+      "summary": "President Trump on Wednesday celebrated the auto-enrollment of millions of children in Trump Accounts under new rules released last week. He's now on his way to San Antonio, where he'll appear in a campaign rally with Senate candidate Ken Paxton and House candidate Carlos De La Cruz. Paxton's oppone",
+      "hotness": 10
+    },
+    {
+      "title": "Senate Democrat pitches a game plan on AI",
+      "url": "https://thehill.com/newsletters/technology/6135001-senate-democrat-pitches-a-game-plan-on-ai/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T20:59:17.000Z",
+      "summary": "{beacon} Technology Technology   The Big Story  Senate Democrat pitches a game plan on AI Sen. Maria Cantwell (D-Wash.), the top Democrat on the Senate Commerce, Science and Transportation Committee, unveiled a framework Wednesday for regulating artificial intelligence amid growing pressure on lawma",
+      "hotness": 10
+    },
+    {
+      "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
+      "url": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:58:00.000Z",
+      "summary": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
+      "hotness": 10
+    },
+    {
+      "title": "Ripple, Crypto’s Payments Giant, Breaks Into Wall Street - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVk9oZ19qRzhiX0k5NzlDWGRUTU9kd1YyYWNRRlVCVkRSSmNEOXZWeWJuUVlTRC1PTXdQemNObGtKcGp3cmhQRHg4bWZ3V1B2VkozcnhkVzI3TjJjdkVvY0JZMnp2WTA3WDVSOTNEdFVtdVZuLS1zRkwzeWU3S0JYSEpHZVZHc3IxeFhYQkQ0X01TQWY4d0pTSFdJY2ZoSjBWR3c?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T20:52:00.000Z",
+      "summary": "Ripple, Crypto’s Payments Giant, Breaks Into Wall Street  WSJ",
+      "hotness": 10
+    },
+    {
+      "title": "Trump turns to cash as healthcare concerns mount",
+      "url": "https://thehill.com/newsletters/business-economy/6134988-trump-turns-to-cash-as-healthcare-concerns-mount/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T20:51:29.000Z",
+      "summary": "Presented by PolitiSizeIT {beacon} Business & Economy Business & Economy The Big Story  Trump turns to cash as healthcare concerns mount With the midterm elections a month away and Republicans struggling to respond to voter frustration over healthcare costs, President Trump is handing out cash.  © A",
+      "hotness": 10
+    },
+    {
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T20:48:45.000Z",
+      "summary": "The developer of Hermes Agent raised a $90 million Series B.",
+      "hotness": 10
+    },
+    {
+      "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
+      "url": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-10-07T20:48:34.000Z",
+      "summary": "The partnership with SAP-backed Tereina will let businesses send and receive Circle’s stablecoins from within the financial software they already use.",
+      "hotness": 10
+    },
+    {
+      "title": "Android&#8217;s physical navigation buttons are back on Googlebooks, but not the way you think",
+      "url": "https://www.theverge.com/tech/1007409/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-the-way-you-think",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T20:44:34.000Z",
+      "summary": "What year is it, and what dessert name of Android are we up to? | Photo: Antonio G. Di Benedetto / The Verge\t\n\nA common misconception I've seen with Googlebooks is that the Quick Insert and Google logo keys are new. They're not, as they first debuted a couple of years ago on some Chromebooks. But th",
+      "hotness": 10
+    },
+    {
+      "title": "Jackson, Collins tangle on Canada tariffs: 'We can't eat road salt'",
+      "url": "https://thehill.com/homenews/campaign/6134910-collins-jackson-senate-debate/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T20:36:23.000Z",
+      "summary": "Sen. Susan Collins (R-Maine) and Democrat Troy Jackson tangled over the Trump administration’s tariffs on Canada during the first debate of their battleground Senate race in Maine.  Collins stressed her opposition to the tariffs on Canada, hailing America’s longtime ally as a vital trading partner f",
+      "hotness": 10
+    },
+    {
+      "title": "Options traders are betting on a dramatic drop in interest rates",
+      "url": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:36:00.000Z",
+      "summary": "Recent options activity points to bullish positioning for long-term bonds and utilities.",
+      "hotness": 10
+    },
+    {
+      "title": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
+      "url": "https://www.cnbc.com/2026/10/07/supertanker-from-us-to-china-chartered-for-76-million-source.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:33:34.000Z",
+      "summary": "Shipping costs have exploded as the war in the Persian Gulf has led to a shortage of available tankers.",
+      "hotness": 10
+    },
+    {
+      "title": "We found some great October Prime Day deals under $50",
+      "url": "https://www.theverge.com/gadgets/1007110/october-prime-day-budget-deals-under-50",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T20:30:00.000Z",
+      "summary": "Anker’s 45W charger is less than $50 during Amazon’s October sale. In fact, you can get two for under $50.\t\n\nGetting in on the Prime Day action doesn’t have to result in an empty wallet. Just as we found a couple handfuls of goodies that are under $25, there are plenty of deals during Amazon’s Octob",
+      "hotness": 10
+    },
+    {
+      "title": "国际油价7日下跌 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHhNV04tVnB1aGxtbmF0XzA4MU5XcGhUT3hhbnV4S0NPLTNBSGIxQUYyUzJNMGs0ZFNJcXBwekE0NHhrLVJkSWw2UVJPYWhwWDBFdlI2Q3RLa19kRTJ3d21YM3dCZ0t4Q3BwbUItSTNMd2Z3V3pfSEJHTFcxNXhodVhleTloNF9k?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T20:29:34.000Z",
+      "summary": "国际油价7日下跌  新华网\n国际油价7日下跌|布伦特原油期货|商品交易所|伦敦|纽约|跌幅  新浪财经\n胡塞武装袭击、美国墨西哥湾风暴加剧供应风险，油价上行  搜狐网\n国际油价短线跳水 布伦特原油期货跌破100美元/桶  新京报\n布伦特原油日内跌3%  手机网易网",
+      "hotness": 10
+    },
+    {
+      "title": "Chinese runner dropped by sponsor after riding bike during marathon",
+      "url": "https://www.bbc.co.uk/news/articles/c3y0enr9e078o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T20:29:31.000Z",
+      "summary": "Sun Yuanyuan was seemingly pictured on the back of another person's bike during part of the Berlin Marathon.",
+      "hotness": 10
+    },
+    {
+      "title": "Israelis mourn 7 October attack victims three years after deadly Hamas raid",
+      "url": "https://www.bbc.co.uk/news/articles/cwkgj0g30m5jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T20:27:03.000Z",
+      "summary": "Memorial events have taken place in Israel on the third anniversary of the Hamas-led attack that sparked the devastating Gaza war.",
+      "hotness": 10
+    },
+    {
+      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
+      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:26:13.000Z",
+      "summary": "The new device shows Microsoft remains committed to making its own PCs even though it's not one of the top device makers.",
+      "hotness": 10
+    },
+    {
+      "title": "Half of Democratic voters say the party will win Congress because of Trump's actions: Poll",
+      "url": "https://thehill.com/homenews/campaign/6134086-democrat-voters-congress-expectations/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-10-07T20:23:28.000Z",
+      "summary": "Half of Democratic voters say they expect their party to retake the House and Senate in the November midterm elections, mostly in response to President Trump's policies and actions, according to a poll released Wednesday. A Politico poll found that 50 percent of Democratic respondents believed their",
+      "hotness": 10
+    },
+    {
+      "title": "CFTC Chair Says New Crypto Rulemaking Will Prevent Another FTX-Style Collapse - Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2Z1RGJ4U2M1WlBxbEkyMXVDQ2VqMUZYbTdlanNST1AwRDhVU1FmYlRDdmZlSjl1NFdvQ21xTWVsemFkVkZTcDREV1ZJVXU1UExIR0F6enlFaFJrTkZzR0xnXzF1THhMR3dzTk0xVnQzVGV6Uy1WbmQwQ18zWk8ycg?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T20:22:42.000Z",
+      "summary": "CFTC Chair Says New Crypto Rulemaking Will Prevent Another FTX-Style Collapse  Bitcoin Magazine",
+      "hotness": 10
+    },
+    {
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-10-07T20:22:37.000Z",
+      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
+      "hotness": 10
+    },
+    {
+      "title": "As US midterm elections loom, Trump's campaign tactics are becoming increasingly unusual, and expensive",
+      "url": "https://www.dw.com/en/as-us-midterm-elections-loom-trump-s-campaign-tactics-are-becoming-increasingly-unusual-and-expensive/a-79585673?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T20:10:00.000Z",
+      "summary": "Despite not being on the ballot, Trump is campaigning hard ahead of the upcoming midterm elections. His tactics and promises have mostly been at the expense of US taypayers. Experts say some might violate federal law.",
+      "hotness": 10
+    },
+    {
+      "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
+      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:09:59.000Z",
+      "summary": "U.S. Treasury yields came off their highs after a solid sale of 10-year notes.",
+      "hotness": 10
+    },
+    {
+      "title": "Global bond sell-off pushes U.S. Treasury yields to fresh 24-year highs - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU0tXSkYtT2J0RTMzS2VKOF9uRHhzVV9YME85OHRmeXV1TC1DLUttNk1hRU9TZmFCdzZfNHVNbURkUm5TN1ZJYmVKN1c2UXZ4d3Y5NDJNZndlc0hXUXZlME5NR0JiNE9rV0l6UUU1MTQtNzUwdmhUdTBObTVtUWFmdGtQUUZfR3J3aWVSS1EyOTZsU0UwZG9QOUxIdGVSdlB5OE8tX0JpTHgtZnBLeVE?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T20:09:47.000Z",
+      "summary": "Global bond sell-off pushes U.S. Treasury yields to fresh 24-year highs  NBC NewsSee more headlines & perspectives on Google News",
+      "hotness": 10
+    },
+    {
+      "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T20:05:34.000Z",
+      "summary": "US bonds selloff eases, yields off highs, after strong 10-year note auction  Reuters\n10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears  CNBC\nAuction Action Calms Treasurys  WSJ\nUS Bonds Rise as Yields at 2002 High Lures Buyers at Auction  Bloomberg.com\nUS",
+      "hotness": 10
+    },
+    {
+      "title": "Americans heating their homes this winter face a stark cost divide - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSGN4MWdnenhVc3RKak0yRjFCQ3VUNXRGeldDYTByR3k0dFBYckthX2dMMEs5UzRBVXd3dEhfT1R1b0IyRVNMMGVjQ0d5bGpYYXBiU3E3UXROaUFLNVd0TW5MaEJXRW9Oemp6ZlB3NE41QWpYZUhWYVJqMlJEczVXSUhnN2xFa3h4ODFXTml5Q09qVnPSAZgBQVVfeXFMUFFsSWtFR2FjNzdPV0Y4MXdQNWhrSnNTVFhLM096S1ozSFN1NFdreXFHYmhja0lPSUQ3Y1Q2bDNNSFJMaWhDQi00cWF4dlhFVEl3eGpFWFFtYnFZVnp2ZGU2ZjdwbFJKcHg5TGRaN3I5T3A3ZVl6Qm8zX2pkRWVtbU1aZU9WR3p2Y0hoOTM0eDdGaVZvWFJqMlQ?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T20:04:00.000Z",
+      "summary": "Americans heating their homes this winter face a stark cost divide  Fox Business\nEIA expects gas, propane-heated US homes to spend less this winter  Reuters\nShort-Term Energy Outlook  U.S. Energy Information Administration (EIA) (.gov)\nA brutal winter heating bill is coming for some homes  Axios\nThe",
+      "hotness": 10
+    },
+    {
+      "title": "FCC to vote on auctioning 25MHz of 'prime spectrum' in move that could benefit Amazon, SpaceX",
+      "url": "https://www.cnbc.com/2026/10/07/fcc-spectrum-auction-spacex-amazon.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T20:03:50.000Z",
+      "summary": "SpaceX and Amazon have moved to expand providing direct-to-device services with networks of satellites.",
+      "hotness": 10
+    },
+    {
+      "title": "FinTech Five - Lowenstein's FinTech, Crypto, Trading & Markets Newsletter - October 6, 2026 - JDSupra",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUmJiUmpZWGFLalU2c2ZIREh5NXIyNUlxaG9GU3MzLWxEMEstYWVqXzJKbzYtdi1sNFpSdm93Qzk2bGgzcTZtVkQyVWtCd2xVMTNKamVEdlIyeXdlUlh5djA2TTcxdWpkVlJ3NVRRR1dGVC1ZZXh1VDZITVA5NjNIeU9n?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T20:02:06.000Z",
+      "summary": "FinTech Five - Lowenstein's FinTech, Crypto, Trading & Markets Newsletter - October 6, 2026  JDSupra",
+      "hotness": 10
+    },
+    {
+      "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms - Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83TnZ5YUZPdThEM1ZzQUpBdkNGcTRZR3E2MGlia3UyblhMU09ENWtKcVZ3QUdxT1czNTUyLXpaQ2szZldvVHhoSENxN09ONjljX2hMUjQyQ2xDY0Z1a2Z3?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T19:58:03.000Z",
+      "summary": "OpenAI posts 700 maths preprints online: mathematicians are up in arms  Nature\nSharing AI progress in mathematics  OpenAI\nOpenAI releases progress on more than 300 math research problems, stunning humans  The Washington Post\nOpenAI’s release of mathematical findings draws concerns from experts  The ",
+      "hotness": 10
+    },
+    {
+      "title": "Brazil is having its Argentina moment. How to play it",
+      "url": "https://www.cnbc.com/2026/10/07/brazil-is-having-its-argentina-moment-how-to-play-it.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T19:57:20.000Z",
+      "summary": "Todd Gordon's way to play it is Petrobras (PBR), Brazil's state-controlled integrated oil major.",
+      "hotness": 10
+    },
+    {
+      "title": "特朗普称伊朗可“摧毁”洛杉矶与圣地牙哥 加州政界跨党派反弹 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMimwNBVV95cUxOMk1UN2M1Vkx4T3U0ekl0Qkcyc195NzdpdFhCNGZsSEtWVFFWSG5HUDZsNllaanhuSHdESEM4aWdZMnJ5Tm5HMGdXYmNUWmhMSFFZQk5maDhiZmJfWU4xUnNPdW1PeWxJTEZxN2VEMDJDeENHUmY4Wk1qZVlUMU9SYnNINjYyclJ2WGVWODFNeTBlZElsQUxMV2c3YkVCWVgzSm9qRnhWazBKOGZXcUhWMkp5R0UycGxCWmlQSlZsZWNpdDJNckp4WWZrQ3N1cndxbXBlVU9qbHFOSzNIdnBnb2VOS0xLd0dnTWx3SzJuVnUwT1RVaUpoWkE1d2xaMEcwRnZsVmNrWUdMcDNFMmZ1ckVud3U4QllLTmJQWWhIQ0RoYTVlZ3FIMTFGWjhjWllMZ2k3VFpNZ3FyS05tOHAyNXVna0pvRUdiT2c3TElfckZGSFVfaXpEQlI3Mno5eHlVdFJteW51TUNCY0xaU0hRMW84Q3RNbU9hQ3FZcnJHcDdhWDgyYUM1OWRfdmQ1NmhDdFBzS1MtTVBDb3M?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T19:49:52.000Z",
+      "summary": "特朗普称伊朗可“摧毁”洛杉矶与圣地牙哥 加州政界跨党派反弹  RFI\n特朗普总统：美国针对伊朗的军事行动可能让世界免遭“毁灭”  美国之音\n美媒：特朗普称可以让伊朗“摧毁”洛杉矶或圣迭戈  凤凰网\n特朗普声称“不知道谁在治理伊朗”，伊朗：他非常清楚美方在伊朗的对话方  搜狐网\n特朗普称可让伊朗“摧毁”洛杉矶 言论引发强烈批评  中华网",
+      "hotness": 10
+    },
+    {
+      "title": "Khakis Gives Montbell's Superior Down Parka a Vintage Military Wash",
+      "url": "https://hypebeast.com/2026/10/khakis-montbell-superior-down-parka-mist-grey",
+      "source": "Hypebeast",
+      "sourceIcon": "🔥",
+      "lang": "en",
+      "category": "潮流",
+      "publishTime": "2026-10-07T19:44:58.000Z",
+      "summary": "Seoul’s vintage-obsessed clothier Khakis has returned with another Montbell collaboration for the fall season. Following its Spring capsule — which introduced an exclusive “Mist Grey” colorway of Montbell’s Storm Cruiser Jacket and Rain Cap — the duo brings the same finish to the Japanese outdoor br",
+      "hotness": 10
+    },
+    {
+      "title": "U.S. Investors Want To Up Their Crypto Holdings: Charles Schwab - Bitcoin Magazine",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JZ3dyNDZENlFGSDUxUVkxSDNoX19sb3ZtenB3Y01kaWpEdE1lVFRfRHltVWpUd0pOajFoQ2RiUkNrZWJoR1JMeDNtNEFmU2dKVkN3dVNha01NUUZLbGlvdDAtdVlVQl9OZVBpS1VMTFJ4MTVLU1hPRkRFQzNFb00?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T19:40:52.000Z",
+      "summary": "U.S. Investors Want To Up Their Crypto Holdings: Charles Schwab  Bitcoin Magazine",
+      "hotness": 10
+    },
+    {
+      "title": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead",
+      "url": "https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-10-07T19:40:31.000Z",
+      "summary": "As affordability pressures mount, Americans are increasingly concerned about their financial future, the New York Fed's data shows.",
+      "hotness": 10
     },
     {
       "title": "Fed’s minutes show no appetite for a series of interest-rate hikes",
@@ -347,17 +963,6 @@
       "category": "国际",
       "publishTime": "2026-10-07T19:30:51.000Z",
       "summary": "People with mental illness alone were to be eligible for assisted dying in Canada in March 2027, but that has now been paused indefinitely.",
-      "hotness": 10
-    },
-    {
-      "title": "Stock market today: Dow falls, S&P 500 and Nasdaq retreat from records as Treasury yields hit 24-year high - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNzdzeXVFbkMwaXViZjI2SHhUTnR6V2lmRkxTcEh2ZVd2cFJNR0tvOWpfajVRWDlHSXVqeVd6ZWdUTTBOUXpiSDQxQUdPLUtaa3oySVRaazVVd25TN1ZBNEtrT3pfaXI1UUNjaGQ4OW1VVC1XTXh3OENieG42UUxmWDR5ZGZROGFEdDVab015WTBPUmpFYnhOSEdINHhZbWZtUnFtTHByNXZhTWRLWXM0?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T19:28:31.000Z",
-      "summary": "Stock market today: Dow falls, S&P 500 and Nasdaq retreat from records as Treasury yields hit 24-year high  Yahoo Finance\nStock Market Today: Dow Opens Lower, Treasury Yields Hit Fresh 24-Year Highs — Live Updates  WSJ\nS&P 500, Nasdaq retreat from record highs as yields and oil climb  Reuters\nStock ",
       "hotness": 10
     },
     {
@@ -394,50 +999,6 @@
       "hotness": 10
     },
     {
-      "title": "Oil prices fall as IEA members agree to prioritize release of diesel stocks",
-      "url": "https://www.cnbc.com/2026/10/07/oil-prices-today-brent-wti-hormuz.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T19:17:01.000Z",
-      "summary": "Iran's move to step up attacks on tankers which are transiting through the Strait of Hormuz has also led to renewed worries over oil supplies among traders.",
-      "hotness": 10
-    },
-    {
-      "title": "Trump predicts 'Trump Accounts' will limit spread of socialism, communism",
-      "url": "https://thehill.com/homenews/administration/6134518-trump-investment-accounts-socialism/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T19:14:08.000Z",
-      "summary": "President Trump said Wednesday his administration’s new investment accounts for children will have a “huge effect” in reducing positive views of socialism and communism among young Americans. During an event in the Oval Office promoting the “Trump Accounts,” the president said children will be “watc",
-      "hotness": 10
-    },
-    {
-      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens",
-      "url": "https://www.cnbc.com/2026/10/07/constellation-brands-earnings-beer-demand.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T19:14:03.000Z",
-      "summary": "Constellation Brands beat earnings and revenue expectations as beer brands gained share, while inventory rebuilding and consumer caution clouded demand.",
-      "hotness": 10
-    },
-    {
-      "title": "Cantwell unveils new AI framework",
-      "url": "https://thehill.com/policy/technology/6134371-cantwell-unveils-ai-regulation-framework/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T19:12:12.000Z",
-      "summary": "Sen. Maria Cantwell (D-Wash.), the top Democrat on the Senate Commerce, Science and Transportation Committee, unveiled a framework Wednesday for regulating artificial intelligence amid growing pressure on lawmakers to address the technology's risks. Cantwell laid out a set of principles for how Cong",
-      "hotness": 10
-    },
-    {
       "title": "Microsoft and Nvidia are teaming up on a supercharged AI laptop",
       "url": "https://www.marketwatch.com/story/microsoft-and-nvidia-are-teaming-up-on-a-supercharged-ai-laptop-f58b28d8?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -446,17 +1007,6 @@
       "category": "金融",
       "publishTime": "2026-10-07T19:12:00.000Z",
       "summary": "Powered by Nvidia’s RTX Spark chip, the latest Windows laptop is designed to run AI models and workloads directly on the device.",
-      "hotness": 10
-    },
-    {
-      "title": "Trump’s diesel order exposes White House limits to counter surging fuel prices",
-      "url": "https://www.cnbc.com/2026/10/07/trump-red-dye-offroad-diesel-price-iran-ukraine-war-midterm.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T19:11:42.000Z",
-      "summary": "President Trump's order comes amid mounting political pressure to take action on surging diesel prices, with the midterm elections only a month away.",
       "hotness": 10
     },
     {
@@ -471,28 +1021,6 @@
       "hotness": 10
     },
     {
-      "title": "Lawmakers demand answers on Amateur Athletic Union sex abuse scandal",
-      "url": "https://thehill.com/policy/sports-gaming/6134523-lawmakers-probe-sex-abuse-aau/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T19:09:52.000Z",
-      "summary": "A bipartisan group of lawmakers is looking for answers from the Amateur Athletic Union (AAU) over its handling of sex abuse allegations within its ranks. In a letter to AAU leadership, House Energy and Commerce Committee Chair Brett Guthrie (R-Ky.) and ranking member Frank Pallone Jr. (D-N.J.) calle",
-      "hotness": 10
-    },
-    {
-      "title": "House Republican defends GOP ahead of midterms: 'We did our job'",
-      "url": "https://thehill.com/homenews/campaign/6134558-buddy-carter-republicans-2026-midterm-election-strategy/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T19:07:00.000Z",
-      "summary": "Georgia Rep. Buddy Carter (R) defended the Republican Party’s strategy ahead of the midterm elections, as President Trump urges Americans to cast their vote as if he were “on the ballot.”  CNN’s Jake Tapper questioned Carter on Tuesday about the effectiveness of the president’s message this election",
-      "hotness": 10
-    },
-    {
       "title": "The first Nvidia RTX Spark laptops cost up to $7,000",
       "url": "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
       "source": "The Verge",
@@ -504,25 +1032,25 @@
       "hotness": 10
     },
     {
-      "title": "The 101 best October Prime Day deals: We found 53% discounts on TVs and headphones - Mashable",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1KNXpLS19lRmtsS0xBaXgwWHdxcFNNS1ppNnlGT0JxWjZyRVJ0OXZzMnJ1NDFNalBuVUVZd1hVWjcweWxNOWN3RllfdVlzb21odC1HdFBFZ3Z6Ti1FamxqbGxPQVk3enVlYzd5dzRGbFVVZw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T19:04:49.000Z",
-      "summary": "The 101 best October Prime Day deals: We found 53% discounts on TVs and headphones  Mashable\nOctober Prime Day ends tonight: The best Amazon deals on Hanes, Carhartt, Apple and more  Yahoo\nDyson, Breville, Apple: the 59 best Amazon Prime Day deals actually worth it, obsessively vetted by us  The Gua",
+      "title": "胡塞武装袭击也门一主要机场，联合国估计也门冲突导致至少20万人流离失所 - 美国之音",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSHV3c0U3VEJFYmthX0hXRER4N2I1cm1YVW1WMDEyT3c2ZTZLTFlJY3lRY3NGSEU2bGJrWXdOczF0Wm9kVTg0RTk5djM4bm15WC03RFI4RGVVNFNEUnZHQnZka01hYnBSa2YyY2ZfU2ZQQV9zczNteXp6RDZDbVhUc3dXUWRFYWxwR3pFQzVacHhRME1kVnRDb3R0dGN2bnZ6M2NBaWxCZC1wb25rRnVIS0Z6MFJvSUM3UTFGVkJSaUJhQWJsTE9iS2l3R2NKQU5J0gHTAUFVX3lxTFBVLURfU0s2LVczTlpvTmlEaE5mdjQ2ZUt5dU85THllanlpYWxZMU9Wc3FyNTQ1a3g4dzNRc2lEajZPQXdnYmVKUk13T3dDSDRPb2Y3eFpFV3VGMU81dWU2U25WVXdaZVEzTFBXMzhSMXVOTjI0WXZZWk5sR1lsZW5aS1FuWGV5WXlOcGV1Z3RFcG00TmN5NFctaGYzNEZ2cUNNeUZWS0dhY0NoQmpkdjNKN0FyMWpvblBKeHIzWlQzbi1vcFdWY3ZqNHNad3hIbUVrekk?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T19:02:15.000Z",
+      "summary": "胡塞武装袭击也门一主要机场，联合国估计也门冲突导致至少20万人流离失所  美国之音\n沙特遭袭｜晨报来了|封面新闻|胡塞武装|也门|泰山|火腿  新浪财经\n沙特两座机场遭袭致3死36伤  搜狐网\n刚刚 一则消息引发油价暴跌！沙特机场遇袭！莫斯科遭大规模无人机袭击  东方财富\n叙利亚记者沙拉在利雅得，沙特机场遭胡塞武装袭击：你需要了解什么  Al-Monitor",
       "hotness": 10
     },
     {
-      "title": "Canada to extend assisted dying exclusion for people whose sole condition is mental illness",
+      "title": "Canada to indefinitely bar mental illness as sole reason for access to euthanasia",
       "url": "https://www.theguardian.com/world/2026/oct/07/canada-assisted-dying-mental-illness",
       "source": "The Guardian",
       "sourceIcon": "🇬🇧",
       "lang": "en",
       "category": "国际",
       "publishTime": "2026-10-07T19:00:44.000Z",
-      "summary": "Legislation an effort by ruling Liberals to address growing clash over who has access to doctor-assisted death\nCanada’s federal government said Wednesday it would advance legislation to prevent people whose sole health condition is mental illness from accessing euthanasia, an effort by the ruling Li",
+      "summary": "Legislation is an effort by ruling Liberals to address growing clash over who has access to doctor-assisted death\nCanada’s federal government said on Wednesday it would advance legislation to prevent people whose sole health condition is mental illness from accessing euthanasia, an effort by the rul",
       "hotness": 10
     },
     {
@@ -548,28 +1076,6 @@
       "hotness": 10
     },
     {
-      "title": "Microsoft to sell $2,599 Surface Laptop Ultra containing Nvidia AI chip",
-      "url": "https://www.cnbc.com/2026/10/07/microsoft-starts-taking-preorders-for-2599-surface-laptop-ultra.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T18:55:10.000Z",
-      "summary": "The new device shows Microsoft remains committed to making its own PCs even though it's not one of the top device makers.",
-      "hotness": 10
-    },
-    {
-      "title": "Supertanker chartered from Gulf Coast to China for $76 million, 10 times higher than pre-war level",
-      "url": "https://www.cnbc.com/2026/10/07/supertanker-from-us-to-china-chartered-for-76-million-source.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T18:50:21.000Z",
-      "summary": "Shipping costs have exploded as the war in the Persian Gulf has led to a shortage of available tankers.",
-      "hotness": 10
-    },
-    {
       "title": "Evicted Spanish pensioner who sparked housing protests has died, Madrid tenant union says",
       "url": "https://www.dw.com/en/evicted-spanish-pensioner-who-sparked-housing-protests-has-died-madrid-tenant-union-says/a-78184386?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -577,29 +1083,7 @@
       "lang": "en",
       "category": "国际",
       "publishTime": "2026-10-07T18:49:00.000Z",
-      "summary": "Maricarmen ⁠Abascal, the octogenarian woman whose eviction set off housing protests across Spain, has died, a tenants' union in Madrid has said.",
-      "hotness": 10
-    },
-    {
-      "title": "10-year Treasury yield backs off from 24-year high after solid bond auction eases demand fears",
-      "url": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T18:47:30.000Z",
-      "summary": "U.S. Treasury yields came off their highs after a solid sale of 10-year notes.",
-      "hotness": 10
-    },
-    {
-      "title": "Trump says he does not think suspected Russian plague cases are a bioweapon",
-      "url": "https://thehill.com/homenews/administration/6134497-trump-dismisses-russian-bioweapon-concerns/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:46:50.000Z",
-      "summary": "President Trump said Wednesday he does not think the suspected Russian plague cases are a bioweapon. \"We don't think so,\" the president said in the Oval Office. He said Russia has said it has it \"under control.\"  \"They're sharing it a little bit with our people,\" Trump said. \"I expect them to share ",
+      "summary": "Maricarmen ⁠Abascal, the octogenarian woman whose eviction set off housing protests across Spain, has died, a tenants' union in Madrid has said. Unions are now calling for a nationwide general strike on November 11.",
       "hotness": 10
     },
     {
@@ -647,25 +1131,14 @@
       "hotness": 10
     },
     {
-      "title": "Fetterman more popular with Pennsylvania Republicans than Democrats: Poll",
-      "url": "https://thehill.com/homenews/senate/6134370-pennsylvania-republicans-favor-john-fetterman-poll/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
+      "title": "Micron Stock Rebounds Despite Memory Plant Threat - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQjZ6d3hJMkg1aldVUnJGOEtadDBmel9iQUtNLWJUVUtjcjk2SnFRdHV6eTRkN2d4bmZuU2dqZVhoekpORzhTbmo2bG13TjBySWE1NmlXRzlXT1ZTVTRIUS10MjkzalluNGo4OVFmWWlXOGliTm4wWDFwY1FPMVl5TlJSU0Q2b28?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:39:10.000Z",
-      "summary": "A new poll found Sen. John Fetterman (D-Pa.) is more popular among Pennsylvania Republicans over Democrats following his virtual appearance at the GOP’s midterm convention in September. The Quinnipiac University poll, released Wednesday, found 72 percent of Pennsylvania Republicans held a favorable ",
-      "hotness": 10
-    },
-    {
-      "title": "Tillis says McConnell's brain is 'as sharp as it ever was'",
-      "url": "https://thehill.com/homenews/senate/6134417-thom-tillis-defends-mitch-mcconnell/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:33:05.000Z",
-      "summary": "Sen. Thom Tillis (R-N.C.) said Tuesday that Sen. Mitch McConnell’s (R-Ky.) brain “is as sharp as it ever was” following the Kentucky Republican’s recent months-long absence from the upper chamber after a fall. “The difference between the [former President] Biden situation and the Mitch situation is ",
+      "category": "经济",
+      "publishTime": "2026-10-07T18:37:00.000Z",
+      "summary": "Micron Stock Rebounds Despite Memory Plant Threat  Barron's\nMU Stock Adds 3% As D.A. Davidson Forecasts Stock Value To Triple On Valuation Play  Yahoo Finance\nMicron Is About to Triple to $3,000, Says Analyst: ‘If You Don’t Buy It, They Will’  Barchart.com\nMicron’s ridiculously cheap stock could tri",
       "hotness": 10
     },
     {
@@ -691,6 +1164,17 @@
       "hotness": 10
     },
     {
+      "title": "WATCH: Trump announces eligible U.S. children automatically enrolled in Trump accounts - PBS",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOLUU2eGcyZWd1emhMT2pObFF5WHZ4V0tzeEdBRXJHNTdXODcxeUxxN2kxdUtjdXhDdHNyY1NPYkZwMndQb19mT0pWQTNEdENGU0JGQllKR2NsOEJYYm5lV1pCZnM0cG53MHRjWWdHSmtlSElrZTZlZFhmMGl4bHY4b2RKLTZzelp3eTZkdlVyb0hjNUUtV1QtdXdnTjNVWVkzekJaNllEbXRHQWQwVVNZT3I3anIzRlBUZnRiMXo1WdIBxAFBVV95cUxPOTdoQlQtYy02ZmRXV2NRenpURzc3MjlObDRtZWwxdl9kRVg2bjJVX2h6azJuSzFqcGZrZWYzMkEtWHlfeFdBWmhiMXdoVXZzTTBXOVV6dmVKbGtfeXNBdmlCWUJLVHNESVlScExrQjBFTGZjMnZZYVlwb2xNeWJTME9xWmV1OFRWRGVVMElVbExSak9NNUZCZmVtODY5aHAxcWV5WnVydjZwRGtSTXRVMThvcE5OSVZRSDl3RzdmZDJha3dZ?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T18:29:13.000Z",
+      "summary": "WATCH: Trump announces eligible U.S. children automatically enrolled in Trump accounts  PBS\nPresident celebrates automatic enrollment of 70 million Trump Accounts for children  Fox Business\nLatest Trump Account changes: What families need to know now  WABC-TV New York\nTrump Accounts’ Extraordinary E",
+      "hotness": 10
+    },
+    {
       "title": "Trump to speak to Putin about plague lab worker's death in Russia",
       "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -702,25 +1186,25 @@
       "hotness": 10
     },
     {
-      "title": "2027 Super Bowl to stream on Disney+",
-      "url": "https://thehill.com/homenews/media/6134418-disney-to-stream-nfl-super-bowl/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:26:06.000Z",
-      "summary": "Disney is betting big on streaming as the company gets set to air the Super Bowl next year in Los Angeles. The NFL's championship game will air on Disney+, the media conglomerate's flagship digital subscription platform, as its main television network ABC and sports arm ESPN broadcast the game on li",
+      "title": "伦敦股市7日下跌 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTnY5QWJuTk5BdGl5OVJBNWlSRUoxa3BEWEF1Tkp5THhWY3NRdGRXakl0U0s4UXhqRkpOQjNodTBhT1lTMy0yT01DVnJNTDRSRUNfemJwS1U0VXhDSDFGSE0wbl9VRks5Vk1LSHZRWjIzSVVYYzF0VWVZVldzdmg5R0xBc29mX19k?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T18:25:07.000Z",
+      "summary": "伦敦股市7日下跌  新华网\n欧洲股市开盘走弱，油价与高收益率压制风险偏好|纳斯达克指数期货期货|格隆汇|股指期货|极右翼|美联储  新浪财经\n欧美国债收益率飙升，欧股跳水！美股期货回吐此前涨幅  中国基金报\n欧洲股市跌幅扩大 英国富时100指数跌近2%  财联社电报\n欧洲股市因债券收益率攀升与能源成本压力再度下挫 提供者 Investing.com  英为财情 Investing.com",
       "hotness": 10
     },
     {
-      "title": "Americans grow more pessimistic about their finances, New York Fed finds — expert warns of ‘tough choices’ ahead",
-      "url": "https://www.cnbc.com/2026/10/07/new-york-fed-financial-outlook-inflation.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "Fed Minutes Signal Further Rate Increase This Year, but No Urgency for October Hike - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR2tScE5NcWVPRHZQczVlWmRZalNkYW5pT0VLYWxPT2JJZS0yTHN0NWZhM2dmSlIxRVBNbjZyRnJRcXJXYk9ycFlZX0EwQWF2OWFzNG5TQ0FvblZRQ0djbFE2QWJVT0RzUExlZGx6VTF3YTZsdDBuVGFDRDZrVzZuMnZkZ25RZnhLb2JsVnFEZHRjRGp6YVhQVE9xXzZjWXZDbTNfNlpPV19nWkxLY09NanZQM2hlNXdpR0w4OXZCNi03Z0I2bmdnenk3WDNpY2lM?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T18:24:12.000Z",
-      "summary": "As affordability pressures mount, Americans are increasingly concerned about their financial future, the New York Fed's data shows.",
+      "category": "经济",
+      "publishTime": "2026-10-07T18:24:00.000Z",
+      "summary": "Fed Minutes Signal Further Rate Increase This Year, but No Urgency for October Hike  WSJ\nThe Fed was unanimous about raising rates in September. Economic signals have since changed.  Yahoo Finance\nFed officials see another hike coming, but no sign as to when, minutes show  CNBC\nFed officials feared ",
       "hotness": 10
     },
     {
@@ -735,17 +1219,6 @@
       "hotness": 10
     },
     {
-      "title": "Crypto Trading’s Place on Income Statements a Focus for US Board - Bloomberg Tax",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdGVCeGxHSGtTWVA1NjNYRGU1bWpoU3NyNkliREt6b21IR2ZOR2w4bnBUR29zaXRzVXpVRVlWS2JKaDkxTnR6QUVXakZsclJXRkc2bktzLVYzZFFfZU83MXVsckpLbTNKZTl4MXI1a3RPMzg4cnVGQWp3UnBCU1ZUMFpFSWVaQlNHUnBhRE1VbTlkdXRsckJCbUx5NG5vdWx6cW1wOGpwM0g1eWJGd2NHYVk1d0E?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T18:22:00.000Z",
-      "summary": "Crypto Trading’s Place on Income Statements a Focus for US Board  Bloomberg Tax",
-      "hotness": 10
-    },
-    {
       "title": "Here comes third-quarter earnings season. Booming profits could propel the S&P 500 to new heights",
       "url": "https://www.cnbc.com/2026/10/07/here-comes-third-quarter-earnings-season-booming-profits-could-propel-the-sp-500-to-new-heights.html",
       "source": "CNBC Top News",
@@ -757,17 +1230,6 @@
       "hotness": 10
     },
     {
-      "title": "Trump: I could have done 'bad things' to Hillary Clinton, Biden, Obama",
-      "url": "https://thehill.com/homenews/administration/6134441-democrats-potential-impeachment-efforts/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:17:18.000Z",
-      "summary": "President Trump said he could have done “bad things” to former Secretary of State Hillary Clinton, along with former Presidents Obama and Biden, when asked about potential Democratic efforts to impeach him.  “I could have done very bad things to Hillary Clinton. I could have done very, very bad thin",
-      "hotness": 10
-    },
-    {
       "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
       "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
       "source": "TechCrunch",
@@ -776,17 +1238,6 @@
       "category": "科技",
       "publishTime": "2026-10-07T18:15:28.000Z",
       "summary": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself.",
-      "hotness": 10
-    },
-    {
-      "title": "81 US military aircraft, drones damaged during Iran war: Report",
-      "url": "https://thehill.com/policy/defense/6134346-us-aircraft-losses-iran-war/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:13:22.000Z",
-      "summary": "At least 81 U.S. military aircraft and drones have been damaged or destroyed since the war against Iran began early this year, according to a new report prepared for members of Congress.  The Monday report, produced by the Congressional Research Service (CRS), showed the military has sustained losse",
       "hotness": 10
     },
     {
@@ -809,28 +1260,6 @@
       "category": "科技",
       "publishTime": "2026-10-07T18:10:00.000Z",
       "summary": "X is turning its NFL-focused Gametime feature into a year-round sports destination, starting with MLB and with other professional leagues to follow.",
-      "hotness": 10
-    },
-    {
-      "title": "US shelves Sudan arms embargo proposal amid UN Security Council divisions",
-      "url": "https://thehill.com/homenews/administration/6134354-unsc-votes-sudan-arms-embargo/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:07:31.000Z",
-      "summary": "The Trump administration is shelving its proposal for an arms embargo on Sudan amid divisions on the United Nations Security Council (UNSC), which will instead vote Thursday on a short-term extension of a more regional arms embargo that would just impact Darfur. The vote on UNSC Resolution 1591 woul",
-      "hotness": 10
-    },
-    {
-      "title": "Trump adds Tennessee to red state midterm tour",
-      "url": "https://thehill.com/homenews/administration/6134365-trump-tennessee-midterm-rally/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T18:05:18.000Z",
-      "summary": "President Trump will bring his red state campaign tour to Tennessee on Saturday to headline a rally in Clarksville.  The Republican National Committee announced Trump’s stop in Tennessee, which comes just weeks after he attended the Texas-Tennessee college football game in Knoxville.  Tennessee is h",
       "hotness": 10
     },
     {
@@ -867,58 +1296,14 @@
       "hotness": 10
     },
     {
-      "title": "How Microsoft built its MacBook Pro competitor",
-      "url": "https://www.theverge.com/tech/1006356/microsoft-surface-laptop-ultra-behind-the-scenes",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T18:00:00.000Z",
-      "summary": "Before Microsoft releases a laptop to the public, it needs to put the device through its paces. That all happens inside a windowless, warehouse-like lab on the company's Redmond, Washington, campus, where the team developing Surface devices programs robots to press their buttons thousands of times, ",
-      "hotness": 10
-    },
-    {
-      "title": "The Meta Quest 3S gets a rare discount during October Prime Day",
-      "url": "https://www.theverge.com/gadgets/1006810/meta-quest-3s-prime-day-deal-sale",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T18:00:00.000Z",
-      "summary": "The Meta Quest 3S features inside-out tracking for standalone functionality almost anywhere. | Photo by Vjeran Pavic / The Verge\t\n\nUntil the end of Amazon’s October sale later tonight, you can grab the 128GB Meta Quest 3S for just $297.49 (usually $349.99) at Amazon, Walmart, and Best Buy. While the",
-      "hotness": 10
-    },
-    {
-      "title": "Hillary Clinton unveils first endorsement in House, Senate midterm races",
-      "url": "https://thehill.com/homenews/campaign/6134190-hillary-clinton-endorses-peggy-flanagan/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T17:57:36.000Z",
-      "summary": "Former Secretary of State Hillary Clinton on Wednesday endorsed Minnesota Lt. Gov. Peggy Flanagan (D) in her bid for the Senate, marking the former first lady's first endorsement of a House or Senate candidate in 2026. Flanagan wrote on social media that she was honored to have Clinton's support, sa",
-      "hotness": 10
-    },
-    {
-      "title": "What The Social Reckoning gets right — and wrong",
-      "url": "https://www.theverge.com/policy/1007069/aaron-sorkin-social-reckoning-real-life",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T17:53:48.000Z",
-      "summary": "Image: Dimitrios Kambouris/Getty Images | Getty Images\t\n\nAaron Sorkin's The Social Reckoning has its fair share of cinematic flair, but many details in the story hew closely to real life. The movie tells the story of how Frances Haugen, a Facebook civic integrity product manager, came to leak a larg",
-      "hotness": 10
-    },
-    {
-      "title": "The Surface Laptop Ultra finally has a release date — and a starting price of $2,599",
-      "url": "https://www.theverge.com/news/1006378/microsoft-surface-laptop-ultra-pricing-release-date",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-10-07T17:48:45.000Z",
-      "summary": "Months after revealing its Surface Laptop Ultra, Microsoft has announced that the Nvidia RTX Spark-equipped device will launch on October 16th. Pricing starts at $2,599 for the base configuration, featuring an 18-core CPU, 24GB of RAM, and 512GB of storage.\nThe Surface Laptop Ultra ships with a 15-i",
+      "title": "习近平文化思想引领文化强国建设迈出坚实步伐 - 中国网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jYmY0VGNGcThreFUyN2lvMTYtWVVsYWZjeTlzRHVVektQejhmM0JlRVhoWm1yMHZ4ZFRsY2RWU280VHBlT3ZsT1Zyb2huX3J0RjhmQ000NWVVNmtTMWI1RUNTRFZYajhIcTB6TDU0dw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T17:48:00.000Z",
+      "summary": "习近平文化思想引领文化强国建设迈出坚实步伐  中国网在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
@@ -930,17 +1315,6 @@
       "category": "国际",
       "publishTime": "2026-10-07T17:47:31.000Z",
       "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers.",
-      "hotness": 10
-    },
-    {
-      "title": "Watch live: Hegseth delivers remarks as USS Abraham Lincoln returns",
-      "url": "https://thehill.com/video-clips/6134261-watch-live-pete-hegseth-uss-abraham-lincoln-middle-east-return-us-california/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T17:47:11.000Z",
-      "summary": "Defense Secretary Pete Hegseth will welcome home sailors aboard the USS Abraham Lincoln Wednesday afternoon in San Diego, following the aircraft carrier’s extended deployment to the Middle East. Hegseth is set to address the crew as the aircraft carrier returns to the U.S. after more than 280 days w",
       "hotness": 10
     },
     {
@@ -966,6 +1340,17 @@
       "hotness": 10
     },
     {
+      "title": "The best October Prime Day deals from Apple, Sony, Google, and more - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM3pwUlJsX05JQXJqSDVLWVQxUnRvN0pvY0k0bTlMZml5ZjdSYUM3YjluMXVlSmhKNDJ4MlgtRndOT0dPOHJvNkJ4MFdNa2ZEMGtVWlNCb1gxZW5vdnJaX0QyVVhuV19PLVpFSjVlVk53ek9YTkFvdUxnTS1kcXNRNFFidkZHd1NjdzJKelozc2U5N1E?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T17:45:47.000Z",
+      "summary": "The best October Prime Day deals from Apple, Sony, Google, and more  The Verge\nOctober Prime Day ends tonight: The best Amazon deals on Hanes, Carhartt, Apple and more  Yahoo\nWe found some great October Prime Day deals under $50  The Verge\nIt’s Prime Day (Again). Here Are the Best Deals From Amazon’",
+      "hotness": 10
+    },
+    {
       "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement. Who’s right?",
       "url": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
       "source": "MarketWatch",
@@ -974,17 +1359,6 @@
       "category": "金融",
       "publishTime": "2026-10-07T17:45:00.000Z",
       "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
-      "hotness": 10
-    },
-    {
-      "title": "President celebrates automatic enrollment of 70 million Trump Accounts for children - Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbGZMczJmTmFjY09CbEFnbzZYOVJPWnVsb3VVdHNYaGthcTFYSDMxY0NmbDdvN0hHQXJmMVJCOW5Kb3ZjRjBnT2tMeHBKUXl0TWpxdzhnSEViT3FEbzNEb0g3dDlleVFwOU45eUJmZ1BWWW5sUDN1bmZ3NG16VEQtU1Rob2gyNmFMdkhHSzNoVmIxSHdnY1F1eGF6UmFZWW5UdnJvVjRrek1NVUg4RWfSAbMBQVVfeXFMT2UyYVpBT2R1cV9nVnVUSUdrRTlCWDFYOXNPVU4tR3o3RWpvN1I5bk9OSlFBSVRNajRIc1MzMW1Ud2JRR3R1aUdXYnBZM1J0WGRRNWVSOUE2ZnFVcDhkMFFFazUzVlZtdTY1REJwUERaSzQ2R0hIM1czcGNoMG0yNFVsV01KQkZJNzhuT25YV1dISTg4bEFxTTRZc0NjUXZxeGtIVVZTYk8tX1JFMlBZZHZ2NVk?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T17:44:44.000Z",
-      "summary": "President celebrates automatic enrollment of 70 million Trump Accounts for children  Fox Business\nWATCH: Trump announces eligible U.S. children automatically enrolled in Trump accounts  PBS\nTrump Accounts’ Extraordinary Expansion Puts Individual Stocks Into Kids’ Holdings  WSJ\nLive updates: White Ho",
       "hotness": 10
     },
     {
@@ -1021,17 +1395,6 @@
       "hotness": 10
     },
     {
-      "title": "Meta flashes a golden cross. History shows that's often been a bullish signal",
-      "url": "https://www.cnbc.com/2026/10/07/meta-flashes-a-golden-cross-history-shows-thats-often-been-a-bullish-signal.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T17:31:06.000Z",
-      "summary": "Meta was higher one month after each of its previous five golden crosses, though the longer-term record is more mixed.",
-      "hotness": 10
-    },
-    {
       "title": "Greenairy is building smart plant towers to clean the air in your office",
       "url": "https://techcrunch.com/2026/10/07/greenairy-is-building-smart-plant-towers-to-clean-the-air-in-your-office/",
       "source": "TechCrunch",
@@ -1040,17 +1403,6 @@
       "category": "科技",
       "publishTime": "2026-10-07T17:30:00.000Z",
       "summary": "As it turns out, the cure for stuffy, chemical-infused office air might be a tower of leafy greenery.",
-      "hotness": 10
-    },
-    {
-      "title": "Live updates: Trump celebrates accounts for children; candidates tangle in midterm debates",
-      "url": "https://thehill.com/homenews/administration/6133060-live-updates-candidates-trump-texas-midterm-debates/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T17:28:00.000Z",
-      "summary": "President Trump on Wednesday celebrated the auto-enrollment of millions of children in Trump Accounts under new rules released last week. With less than a month until the midterms, there are a slew of debates this week in several high-profile races across the country. On Tuesday night, Maine Senate ",
       "hotness": 10
     },
     {
@@ -1065,6 +1417,17 @@
       "hotness": 10
     },
     {
+      "title": "When will the 2027 Social Security COLA adjustment be announced? - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbk9SdjR0N0FPcjN3RUJSb1lsTWhQNjdXNFpVOEZFb2RmUEU2MGpjZzNSMFExYXh4bUlTWE5iakZhUTlUWDBycGhGcWpaX0l2SGRYZ25Idk1HSXQ4T3Vrb1ZUb3E4Y251Nk5WeEJDUWFMUW5YdE53SldINVdrTy1MR3hIa180enpJNHNiTnBRdVR0bE1ZRXNwZUlUZVhBVF8yWUHSAacBQVVfeXFMTlJybFZWN05GbDc0YVI4LVZDZXN3dlcwTXlSWU5LUzJNUGxEWkVTYndiZEd4MEVnQUtINlNPQThVNDFsWF93b0JpQl9TYXl0YlBZLW5lbVUxa2U4bXBaX002VUpZcU9FU2ZLdEFCSVczQjNZTjlZWTFkcHpaUi1tSmVrQ3o1Ukp0ZHdhY3AwYTlUWE9vRkhCX2NfTE0tMVp2ZEpWMGQ2elk?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T17:17:56.000Z",
+      "summary": "When will the 2027 Social Security COLA adjustment be announced?  NewsNation\nSocial Security COLA Forecasts Predict Biggest Boost Since COVID  Newsweek\nWhen will 2027’s Social Security COLA be announced?  The Hill\nWhen will Social Security COLA for 2027 come out? Here's what to know  kare11.com\nWhy ",
+      "hotness": 10
+    },
+    {
       "title": "Russia: WHO not able to 'fully' assess plague situation",
       "url": "https://www.dw.com/en/russia-who-not-able-to-fully-assess-plague-situation/a-79584532?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -1073,17 +1436,6 @@
       "category": "国际",
       "publishTime": "2026-10-07T17:16:00.000Z",
       "summary": "The UN health agency said Russia should be more transparent about the case of the plague as reports of a second case of the disease emerged. Russia played down any concerns, saying the population faces no risk.",
-      "hotness": 10
-    },
-    {
-      "title": "倒计时100天 长春大冬会奖牌、火炬和官方服装发布 - 中国网",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0SlBTR29pb2FTeG53S21jNU9RT0E0NnZXeE41MHBMX29XSlBGQ25ueXhqS0tqUkd4ZW1SSnhCY1Z5cXUtWEpmaXlQLVkzWGJ1SFN2c0dSQy1IeVhvRU8wUGhTLW1zWWZVMVZPS0w0bw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T17:13:00.000Z",
-      "summary": "倒计时100天 长春大冬会奖牌、火炬和官方服装发布  中国网\n写在长春2027第33届世界大学生冬季运动会倒计时100天之际|长春市|吉林省|赛事|冰雪|场馆  新浪财经\n追光丨100天后，相约“北国春城” 共赴青春之约  新华网\n新发路观察｜倒计时100天，吉林拿什么迎接世界？  光明网\n长春大冬会丨从都灵1959到长春2027：一簇火种，跨越六十八年的冰雪之约- 中国日报网  China Daily",
       "hotness": 10
     },
     {
@@ -1098,17 +1450,6 @@
       "hotness": 10
     },
     {
-      "title": "法国财政部表示债券发行策略不变_7x24快讯_新浪财经 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1fUVBTQzZ5T0l1YjR6R25yYmlCcENjMkVVSHRoMVNXanNmeGl3ck9OYkE2RkdUWXRkZ2RjUl9RWXVLd2QzLVctRFRRWQ?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T17:06:02.000Z",
-      "summary": "法国财政部表示债券发行策略不变_7x24快讯_新浪财经  手机新浪网\n法国财政部：债券发行策略维持不变。  手机新浪网\n债市抛售暂缓，科技股力挺标普、纳指齐创新高，核电股集体飙升，黄金涨逾1%，原油走V  华尔街见闻\n法国债市告急！IMF总裁警告：政府要“管好自己的账”  搜狐网\n法国财政积重难返 国债收益率飙升逼近5% 站到欧债风暴中心  虎嗅网",
-      "hotness": 10
-    },
-    {
       "title": "CIA officer admits to creating fake top secret government program to steal over $190M, including gold bars",
       "url": "https://techcrunch.com/2026/10/07/cia-officer-admits-to-creating-fake-top-secret-government-program-to-steal-over-190-million-including-gold-bars/",
       "source": "TechCrunch",
@@ -1120,14 +1461,14 @@
       "hotness": 10
     },
     {
-      "title": "科普｜配分子之钥，锁生命最初偏爱——2026年诺贝尔化学奖成果解读 - 中国网",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SS2JsRGZQRFFDNTJ3clVOZUFkQmp4OU84LTFoMUNFQTEzY3dpT05xV0lKNUg4V3BDUDJhQVd2ZzlxUG9LazlyN1UzQlVOUVZ0WS1UeEVNczJvX0lyQnBEUWxkVjlmYnQxRDJYYzVMNA?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T17:04:00.000Z",
-      "summary": "科普｜配分子之钥，锁生命最初偏爱——2026年诺贝尔化学奖成果解读  中国网\n诺贝尔化学奖揭晓，95岁法国科学家和75岁日本科学家分享，前者25年曾与诺奖“擦肩而过”  新浪新闻\n25年前他“诺奖被偷”，熬到95岁终于拿到  凤凰网\n卡岗、硖合宪三以镜像分子研究获诺贝尔化学奖  美国之音\n配分子之钥，锁生命最初偏爱——最新诺奖成果解读  搜狐网",
+      "title": "Jaguar unveils $130K EV after 'woke' rebrand backlash - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOXzZQMk90OVlYVFp5OWdoS1ZUajE4aExtY2dhQU41U0QwNmlKQnpiRkJ3bklHMnF1MkJVRGxnZ2Y2UVN2RXRtTzV5aUwtdHhIa1dFUFZ0Y2RQTnB1QlNzUnlCcU14SDYtQk56MXlVTVAzczlWVnJWLVNJX1VFQVJuYklrdFk5UUdHOGd6RDlzMjNfZ9IBlwFBVV95cUxNaGVqS3NtZTVlYkZtN2NyaTh1VDJXVG5IRWRLdWlrU1lVMHg1X2RqNlY0aFM1c2VHMWpaUXdhbVAwRlF4b1J2STNOdmJTSS1Rdm9rTGRUWjJobXE0QXllcTRBbVE5WDl6TVlScFVfYndTZ0F0TUsxLUpXa3VZblVla3Nub1h0T3RCWnhUaFFUSmZwTTcwNi1n?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T17:01:00.000Z",
+      "summary": "Jaguar unveils $130K EV after 'woke' rebrand backlash  Fox Business\nJaguar Ditches the Pink Branding in Unveil of Its Big, Sleek Type 01 EV  WSJ\nJaguar's 'ambitious' Type 01 EV arrives after controversial rebrand — and in a challenging marketplace  Yahoo Finance\nJaguar unveils electric car in gamble",
       "hotness": 10
     },
     {
@@ -1149,7 +1490,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-10-07T16:43:00.000Z",
-      "summary": "国庆档电影票房破11亿！多部影片官宣海外上映计划  中国网\n2026国庆档档期票房超11.6亿|生化危机：爆发夜|神探之痕迹|什么意思夫妇|电影票房|陈思诚  新浪财经\n文化新观察丨多元影片国庆上映 “电影+”释放市场活力  凤凰网\n广东国庆档稳居“第一票仓”！影片多元开花，消费活动精准发力  搜狐网\n内蒙古国庆电影市场热度高涨|内蒙古自治区|神探之痕迹|国庆节|电影票房|什么意思夫妇  finance.sina.com.cn",
+      "summary": "国庆档电影票房破11亿！多部影片官宣海外上映计划  中国网\n2026国庆档档期票房超11.6亿  新浪财经\n文化新观察丨多元影片国庆上映 “电影+”释放市场活力  凤凰网\n2026年国庆档票房超11亿元 “影院+”新模式解锁文娱消费新空间  央视网\n广东国庆档稳居“第一票仓”！影片多元开花，消费活动精准发力  搜狐网",
       "hotness": 10
     },
     {
@@ -1164,14 +1505,25 @@
       "hotness": 10
     },
     {
-      "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-      "url": "https://www.cnbc.com/2026/10/07/spacex-nvidia-chips-apollo-financing.html",
+      "title": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVW5FSEZIOENMT0FranRkb0I1WmhGeHI0WXlFZlZ4ZkNTY19XZFhYNmFsLVVUZmhxQktwZGxMTHhlaHBaeVVINUtQQU1lU1NFdnk0TnVtcXNZeG5pSnYxUTd4WmRwd2NQQ0tEZzdGZVBoMndJaXNGdXpUeFJSTHVmZ0lzem_SAYoBQVVfeXFMT2hNeTM3M3BvWHRISnc5akktYTdLWE1CeS1uWG1jN0NicDFyUGpIaGFXODkzU0dvME1jN3g0Yk1CS0FfQWYwdUprUmhkbkFEWGxzaVBPRldXdTB4d0hGUko1UC1hMWh3c2gxekpvamlEQU8zRjh3WWUxLVpRd1JtQ3NGbUVRQllRWGFn?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T16:38:08.000Z",
+      "summary": "Modelo owner Constellation is getting creative to bring back beer drinkers as overall demand weakens  CNBC\nStocks to Watch Recap: SpaceX, Wells Fargo, Micron, Constellation Brands  WSJ\nConstellation Brands (STZ) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates  Yahoo Finance\nThe Number Tha",
+      "hotness": 10
+    },
+    {
+      "title": "Disney+ to stream upcoming Super Bowl",
+      "url": "https://www.cnbc.com/2026/10/07/disney-stream-super-bowl-2027.html",
       "source": "CNBC Top News",
       "sourceIcon": "💰",
       "lang": "en",
       "category": "金融",
-      "publishTime": "2026-10-07T16:32:30.000Z",
-      "summary": "Since SpaceX's record-breaking IPO in June, rates have sold off, and yields on its bonds have risen, along with other AI-related bonds.",
+      "publishTime": "2026-10-07T16:36:26.000Z",
+      "summary": "Disney+ will also air two Monday Night Football games leading up to the championship game.",
       "hotness": 10
     },
     {
@@ -1186,17 +1538,6 @@
       "hotness": 10
     },
     {
-      "title": "Paramount’s Monster Debt Deal Offers Few Safeguards to Investors - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN29NQlBlNEpHdWtfZFdESjRVbDNpYWNiU1pJTWFXTXdaZnFDVW9QNXBPRHdGS3I2aUh4YmVQVi1paWR3OEc1Y3Z3eDdQSTJBVmJZTmVfdjlra0NlejRJNXhiazJmU3ZTcHJjLW1GWGZsZGJBeTd2THc5YkNTUWN4d1J6VkdSVXlHdTgzMWlSX01tQXBQQ0FjR3UxNWZjcjYxR2Rjal9SVS12RG9sVVRxdWE1S3E2Zw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T16:30:52.000Z",
-      "summary": "Paramount’s Monster Debt Deal Offers Few Safeguards to Investors  Bloomberg.com\nSkydance Corporation Announces Expiration, Pricing Terms, and Settlement of Exchange Offers and Tender Offers  Yahoo Finance\nSkydance Credit Rating Cut By Fitch Citing Heavy Debt Load, Integration, Execution Risk  Deadli",
-      "hotness": 10
-    },
-    {
       "title": "Polygon taps TRON’s $94 billion stablecoin supply for seamless cross-border transfers",
       "url": "https://www.coindesk.com/business/2026/10/07/polygon-and-tron-partner-to-bridge-usd94-billion-usdt-ecosystem-with-u-s-banking-rails",
       "source": "CoinDesk",
@@ -1208,25 +1549,14 @@
       "hotness": 10
     },
     {
-      "title": "Jonathan Spalletta convicted in $55 million crypto hack - Quartz",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOHJycmpKQlFoWkdMNm9lX1gyQWhwTGU3cnJkQ1IxN29GRVJjUHlXeElLSjdQLUhYa3lGMnY3cDJTaHVFMHBtUHJaQ05FSmJQa1gwVFlLYXBrd1pxX2QxNGZNU2J2b205N2lDS05URFI3RGxTbTdEb29hUHVkcWpsdGtkYmF4bDQtZ1BkMzZ1dTM?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T16:26:28.000Z",
-      "summary": "Jonathan Spalletta convicted in $55 million crypto hack  Quartz",
-      "hotness": 10
-    },
-    {
-      "title": "Used car prices fall in Q3, while demand for fuel-efficient vehicles grows",
-      "url": "https://www.cnbc.com/2026/10/07/used-cars-manheim-index.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T16:25:52.000Z",
-      "summary": "Used vehicle prices are forecast to fall more than previously expected this year, according to Cox Automotive.",
+      "title": "从看客到入戏，红色研学、文博非遗、百业场景在四川假日文旅市场深融合 - 川观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PMWhVZzdvYnRscWlYZkdnWTBrc2xOTU9XN3FEN05LNTE0MnRaSi1ROXdiT0plZ201Z2VtaXhfYXZsbExKVHBFVUVyb0VWQQ?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T16:27:00.000Z",
+      "summary": "从看客到入戏，红色研学、文博非遗、百业场景在四川假日文旅市场深融合  川观新闻\n7天吸金340.87亿元！四川国庆文旅市场凭什么这么“热”？|四川省文化和旅游厅|九皇山景区|国庆节|游客|景区  新浪财经\n国庆黄金周收官，四川A级景区累计接待游客4602.96万人次|四川省文化和旅游厅|国庆节|成都市|热度|持续  新浪财经\n湖山揽胜烟火升腾！成都东部新区国庆假期文旅市场活力迸发  人民网－四川频道\n成都：国庆假期解锁城市文旅新图景  搜狐网",
       "hotness": 10
     },
     {
@@ -1241,17 +1571,6 @@
       "hotness": 10
     },
     {
-      "title": "2026年国庆假期 成都位列热门过夜游目的地榜单TOP1 - 央广网",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2VE5OR21qOEM4MVlHMHV6Q0c3b01QY2VMZXlUS3lCVTV1bVcwQ2FQTzNzYmdIN2k1OWwxaEJIMnloMlVzZHpuOUw0aVcybEZDb2dWazJpa3pPUHdXTW4wRFBNVFNfaUZBRWc3eWR3?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T16:19:45.000Z",
-      "summary": "2026年国庆假期 成都位列热门过夜游目的地榜单TOP1  央广网\n中秋国庆假期收官：8天以上长线行程占比接近翻倍，小城景区霸榜|国庆节|中秋节|北京市|游客|数据  新浪财经\n从打卡观光到“奔赴热爱”——N种新玩法释放假日经济新活力  搜狐网\n这届游客正在抛弃“标准化旅游” 奔向宝藏小城  中华网\n今年国庆消费者热衷奔“县”，江西多地火热出圈  凤凰网",
-      "hotness": 10
-    },
-    {
       "title": "House Finance panel chair says regulator actions on crypto ‘fall short’ of CLARITY bill",
       "url": "https://cointelegraph.com/news/sec-cftc-crypto-regulations-fall-short-clarity-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "source": "CoinTelegraph",
@@ -1259,7 +1578,7 @@
       "lang": "en",
       "category": "区块链",
       "publishTime": "2026-10-07T16:06:03.000Z",
-      "summary": "Representative French Hill hopes lawmakers could pass a cryptocurrency market structure bill before the next session of Congress in 2027 as SEC and CFTC actions weren’t sufficient",
+      "summary": "Representative French Hill hopes lawmakers could pass a cryptocurrency market structure bill before the next session of Congress in 2027 as SEC and CFTC actions weren’t sufficient.",
       "hotness": 10
     },
     {
@@ -1274,17 +1593,6 @@
       "hotness": 10
     },
     {
-      "title": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRXZyRzY3SU54cjlKMi1jWWVvY21vYWU0UlBMb2FwUEp5Wjl6bERWWHRvY3NjSVNTRWlDM3M0aFlPNXpaX0hTS1pCd3pBZWJhVDl5LXFzV3ZEb3U1QV91RjgyVVNzVDVQLV9UY3FmRnFwMm1MdTNMMk9SZjhHNWk2WFp0Mm9UTDRPbjZMdXpGS2lxZWkxZmNYNG5QYnpEc2RJbXNwaEgyWUJUcnlFY1BLVDZfbFBBdURQNlVkN01VcEFBdnNBUjhMUWZyVk5XZw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T16:03:12.000Z",
-      "summary": "OpenAI says teens use ChatGPT for under 15 minutes a day as worries over risks grow  Reuters\nWhy My Conversations with OpenAI’s ‘ChatGPT for Teens’ Made Me Very Worried  The New York Times\nChatGPT’s teen safeguards failed to alert parents during suicide conversations, report finds  Los Angeles Times",
-      "hotness": 10
-    },
-    {
       "title": "Israelis demand accountability over 7 October failures three years after attacks",
       "url": "https://www.bbc.co.uk/news/articles/c5zjx7xx3487o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -1296,25 +1604,14 @@
       "hotness": 10
     },
     {
-      "title": "日经指数收跌0.92% 受获利盘打压 - 共同网",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LaGlpSDNpQ3gxS0RSQnlna0VpMFhUcy1Ta095Ukp1T0dGdlR1OWtpTUtsT250c3JscHgzelBENGRPTkxUVVlINHIwc2E3YjNlQWd4Z3kwbw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T15:56:15.000Z",
-      "summary": "日经指数收跌0.92% 受获利盘打压  共同网\n日本日经指数午间收盘下跌0.9%，报70,074点  手机网易网\n东京市场综述（7日）  Moomoo\n高盛从早年帮助客户布局投资SpaceX获得了可观收益  金融界\n日股低收近1%  香港電台",
-      "hotness": 10
-    },
-    {
-      "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFNFUnVWMGxHVGJibFdZb1U0WTRNM2dKNl90Y3g1MVg3Qm1PdXBzZU5yX1Roc2Uxdlctd19sdEtPeDJ5REVRQWQ1QkhDTE52c3NITUMzMktkZnVQLU9DbE0zV25pRVFfYnptNm5zTy0zOTB6V3hnOFBwNmdpcFJjOFlremhjU3RPY1dlZ1dLWDdnX2lQZzZadlktdVBVZ05j?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
+      "title": "Pokemon Collector Found Guilty in $55 Million Crypto Hack Case - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc1ZGcEVtQ1NTdFNySEFiS0t0SVlDWXZXOGxoZ241VUprcng0VVpkZmw3cGdRaTVwY0cyNGdhWnpyaWV2dTFVeE1jRnlVT1hKNDQ5NUxzNG9pZTFfM05KWks1VVdPZ3RJSGt4OU5CSGpLWm1ZbXdtZmJDb3lqa0x3dlozNHl5LUVBT0xkdkc0ekFzdVVNTGRaWnZsRGNQMXh1N2pMWUxQS2VYRGh4dGNBMDZ3?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
       "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T15:48:01.000Z",
-      "summary": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari  Ars Technica\nJaguar Ditches the Pink Branding in Unveil of Its Big, Sleek Type 01 EV  WSJ\nWe Partied With Florence Pugh at the Jaguar Type 01 World Premiere  Yahoo\nJaguar unveils $130,000 electric vehicle two years after controversia",
+      "category": "Web3",
+      "publishTime": "2026-10-07T15:50:57.000Z",
+      "summary": "Pokemon Collector Found Guilty in $55 Million Crypto Hack Case  Bloomberg.com",
       "hotness": 10
     },
     {
@@ -1329,25 +1626,14 @@
       "hotness": 10
     },
     {
-      "title": "Elon Musk Loses $21 Billion In A Morning As SpaceX Shares Slip - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2pQUlk4Wk9wVzZYWjNIbDYwNWxqU0xGMjJEamRpOVpUWTZVSS10SVBzMWJSMGpGSEJDQllRNkdSeGtFMV9GMjAyTE1ZLXdvVEtSMHMwUHdLV3U3VlFaWEJvX2c0Sjd2NGdxREZVTDRQM1ItMi1oWWY3RGZtYkc2dndWZ2ZPUWlBUUl3S3NaWG9YSzFkczZkc2JjeGcweHhhTTJoX2xIbEpzYVMyQVNWbmVkdw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T15:44:59.000Z",
-      "summary": "Elon Musk Loses $21 Billion In A Morning As SpaceX Shares Slip  Forbes\nSpaceX credit risk jumps on worries over its borrowing spree  Financial Times\nSpaceX in Talks to Borrow $40 Billion to Buy Nvidia Chips  Bloomberg.com\nApollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase  CN",
-      "hotness": 10
-    },
-    {
       "title": "Exclusive | Wells Fargo Faces Regulator Probe Over Efforts to Boost Black Homeownership - WSJ",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa2M5eF9fUDhYMjNjV0paS0FpaV9TM3VmREJYbkJRMDA5UXlQcV9DdVJSUG9fZUs4WUk2OU5FYWl3anl4V09RdlJoVGtpN19Jc2pGcF9EY3BTb2JFc0ZwTnhXQURVbm9NQ01TenNXaUEwNURHSnhLWHZEOUU5Yms1LUxicXlpUG9yaDBoWk5lelRQbUtrcjUyVU1YV1BfZDlmckZUWXBkOHhmN1ZicWhLb0xDMUN0Wk5DaTRkQQ?oc=5",
       "source": "Google News 经济",
       "sourceIcon": "📊",
       "lang": "en",
       "category": "经济",
-      "publishTime": "2026-10-07T15:43:20.000Z",
-      "summary": "Exclusive | Wells Fargo Faces Regulator Probe Over Efforts to Boost Black Homeownership  WSJ\nWells Fargo Drops After Report of HUD Probing Lending Practices  Bloomberg.com\nWells Fargo faces potential probe over Black homeownership commitments, WSJ reports  Reuters\nWells Fargo faces probe over potent",
+      "publishTime": "2026-10-07T15:40:00.000Z",
+      "summary": "Exclusive | Wells Fargo Faces Regulator Probe Over Efforts to Boost Black Homeownership  WSJ\nTrump Administration Investigates Wells Fargo for Race-Based Lending  The New York Times\nHUD Launches Investigation Into Wells Fargo's Efforts To Support Black Homeownership  Yahoo\nWells Fargo HUD probe sign",
       "hotness": 10
     },
     {
@@ -1362,17 +1648,6 @@
       "hotness": 10
     },
     {
-      "title": "College students have to use credit cards just to cover basic living expenses. Here’s what it’s costing them.",
-      "url": "https://www.marketwatch.com/story/more-college-students-have-to-use-credit-cards-just-to-cover-basic-living-expenses-heres-what-its-costing-them-cfd82561?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T15:35:00.000Z",
-      "summary": "Nearly 9 out of every 10 students who use credit cards report doing so to pay for basic living expenses such as food, housing and gas.",
-      "hotness": 10
-    },
-    {
       "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet - The Hacker News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeTd5cTlRVVJ5VzJMRllZS0ZrcEl3aThXRXB1MXdXM0t1VjV2dldPcXR1ZDNYbEZ3bGZ3aTBHcktwRDBfcGh4UW96NVk2aGFLRnNxLS0yWUloOW1vaTVOQk1mbndWUjVaSXFoZ1JtOTNPdzNVOWRaRWJ2alREZTZ0amhjVQ?oc=5",
       "source": "Google News Web3",
@@ -1381,6 +1656,17 @@
       "category": "Web3",
       "publishTime": "2026-10-07T15:33:00.000Z",
       "summary": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet  The Hacker News",
+      "hotness": 10
+    },
+    {
+      "title": "Investors pick new darlings and duds as selloff rocks Europe's bond market - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUwxWllNS1pOd3QyU1N1SXNKRExZYWU2U2V2SXdRZkIxNTJ5NEFjNlRPMmlScW9sQUFMdzl3STlMN09oRzNqc0tPNGJVWnJ3b2hUa3NNWFN6MFRjSHJQODFZTFh4a1BMczhIU3JqY0xwUGlDRHEtUWxYbFJuXy1MbTk4ZGtHcFNnQjZ4V2d6UFc3VDNFTmtOOVlVTUhLeGRjOG1GbUp3VjFpUVBBSDdUOA?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T15:32:49.000Z",
+      "summary": "Investors pick new darlings and duds as selloff rocks Europe's bond market  Reuters\nFrance’s student protests highlight a debt crisis that could spill over to the rest of Europe  CNN\nFrance’s Economy Is Trapped in a Negative Feedback Loop  WSJ\nThe Specter of Market Contagion Is Haunting Europe  Bloo",
       "hotness": 10
     },
     {
@@ -1406,25 +1692,14 @@
       "hotness": 10
     },
     {
-      "title": "国庆假期北京接待游客2345万人次 文旅消费火热 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEQy0tRzdjODVlRDlVNVpoRGYwWUFpNXYxQTdfdi1tSzRLc3NRTFdGblU3blRHLVh0MTdqQ0NQeDZDcnA5RG9FSTFHU2hiZnBEdUZJ?oc=5",
+      "title": "泰国洪灾死亡人数升至60人 多地将迎新一轮强降雨 - 商洛之窗",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94UkxXNWplcmU1SUFJdlhRa1ZhV1VHMlcwTXBMV3hhbnZVSzJBTExrV0VMOWNjeFVKb0FCbFk2WEQtSHBSMEg0WnA5ZTYzWHU0NldfaVhIVU54cFNvRTJ2bmZKcWoxa1U?oc=5",
       "source": "Google News 中文",
       "sourceIcon": "🇨🇳",
       "lang": "zh",
       "category": "中国",
-      "publishTime": "2026-10-07T15:19:48.000Z",
-      "summary": "国庆假期北京接待游客2345万人次 文旅消费火热  第一财经\n国庆假期北京地区重点商圈客流量突破6000万人次  新华网\n北京国庆重点监测127家企业销售79.5亿元 商圈客流6035万人次  新浪财经\n赛事经济叠加场景体验，北京打开消费新空间 | 新京报社论  新京报\n游客奔赴而来，北京接住期待  搜狐网",
-      "hotness": 10
-    },
-    {
-      "title": "伊朗革命卫队称将关闭霍尔木兹海峡“非法航道” - 京报网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAweUt1MUJ3THJIc193b2hXNkVxbUF0cS00b0t3RkQtVlZVa1I1WGhIUGVSRlp3QUhYZEZ0VFBJQ2xsX0l5QUlGU2RWV0xjaGI4TkJXOWpaMGc3SUk3Umc?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T15:18:42.000Z",
-      "summary": "伊朗革命卫队称将关闭霍尔木兹海峡“非法航道”  京报网\n伊方称将封锁霍尔木兹海峡“非法航道”  凤凰网\n报道：伊朗称可根据战场需要提高武器的射程和威力_7x24快讯_新浪财经  手机新浪网\n伊朗加大袭击油轮 胡塞攻击更多沙特目标  联合早报\n油气运输量上升之际 伊朗对霍尔木兹海峡油轮的袭击愈发频繁  搜狐网",
+      "publishTime": "2026-10-07T15:19:10.000Z",
+      "summary": "泰国洪灾死亡人数升至60人 多地将迎新一轮强降雨  商洛之窗\n泰国曼谷：局部积水  新华网\n泰国洪灾致60 人死亡，419 万人受影响|泰国|60人死亡|148万户家庭_新浪新闻  手机新浪网\n暴雨持续！泰国部分民宅积水淹至二楼，居民进出要靠船只，多地拉响洪灾警报  搜狐网\n泰国洪灾死亡人数增至60人 27个府仍受影响  联合早报",
       "hotness": 10
     },
     {
@@ -1450,14 +1725,14 @@
       "hotness": 10
     },
     {
-      "title": "Dennis voters back crypto ATM ban over scam worries - Cape Cod Times",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObGRva1N1MTV5NDVkX2FDR3FPS1ZjcVplSkVsT0Z6RHJGb3JrNkFoNVM5YUdlelk2eXB5ZFA1QkIwUTFyWkNfbjNUZWFNdUNndFJuQ0RWdnpyQ01idmdqcktha05QYUpEWlVjM1U4RmVrbVJYR1JCRElLNXJ6N0hVQmZxLUY1ZmRMX2MyMGF6R2l2NW5HTGpfWXdlUjFWTFRxWFdLNkRRUFZNOHh2U2hRcWtabXVBZDEwcklVMQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T15:16:00.000Z",
-      "summary": "Dennis voters back crypto ATM ban over scam worries  Cape Cod Times",
+      "title": "上海出品《欢迎来龙餐馆》跃居年度票房前二，将代表中国内地角逐奥斯卡 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXZ2NadW1IYmFZYkZzQnU4UGFOWHBJZVV1WXlaZnVlbTYyRVRmTjBEaHRQc0Zkc1VUdVdrU25IcnZLX2stTXdVWDFFRS15VnRVN1k5V19WQmRXRzA5LTR5dURpOA?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T15:14:03.000Z",
+      "summary": "上海出品《欢迎来龙餐馆》跃居年度票房前二，将代表中国内地角逐奥斯卡  东方财富\n《欢迎来龙餐馆》，将代表中国内地角逐奥斯卡|奥斯卡金像奖|家国情怀|影片|官方微博  新浪财经\n41岁文牧野成“85后导演第一人”：《欢迎来龙餐馆》“申奥”，《奇迹·笨小孩》“申奥”，《我不是药神》“封神”；导演电影累计票房破100亿  搜狐网\n龙餐馆暂列年度票房亚军|电影评分|家国情怀|奥斯卡金像奖|欢迎来龙餐馆|合家欢电影  新浪财经\n《欢迎来龙餐馆》将代表中国内地角逐第99届奥斯卡最佳国际影片  中国日报网",
       "hotness": 10
     },
     {
@@ -1472,36 +1747,14 @@
       "hotness": 10
     },
     {
-      "title": "Exclusive | France Considers Issuing More Shorter-Term Debt After Bond-Market Turmoil - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWk1SE5sT0ljcEstZ21OdGdjeXZIMDg0b2ZPOXZoTThhV1ZmQjN6bjlJMW9rUF95bjdvNWlQdDVjMEtRYWtWNWNaWURpcGUyb2dIV19Hc0YwNWgtakt2YkpQOER2dGJ5NllnSTA2ajVqU2JyVkh5a016N1lXdm80dFRyUFhCb0xFR044M3JoUnA4XzVuSVBNNktZbWNkcm9qQVM2ZHNFaVBCMi02WVNKdTdQWkY?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T15:13:00.000Z",
-      "summary": "Exclusive | France Considers Issuing More Shorter-Term Debt After Bond-Market Turmoil  WSJ\nFrance’s student protests highlight a debt crisis that could spill over to the rest of Europe  CNN\nFrance’s Economy Is Trapped in a Negative Feedback Loop  WSJ\nThe Specter of Market Contagion Is Haunting Europ",
-      "hotness": 10
-    },
-    {
-      "title": "美债重启抛售、收益率创2002年来新高，美股高位承压，早盘道指跌超1%，布油盘中涨2% - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yZHhRZG5LY3dFTmgtdEJvZVE2UGM5X1ZtVGlhT1VNcmNldm9RQ2xRY1VXY3lndHVFNHQtbHByZVF4TWg3cVBBY0U1RjJVV3c5TmVF?oc=5",
+      "title": "珠海：海岛度假持续领跑文旅市场 - 广州日报",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jRDBNYzRpdG9IQzh6STB5MHNLUVRRdlV4R1JmOGtGV3BlUUlwZ09OZ2s5bmlDZUVwZExDaXljNlp0Qm5sYmZuM0c4djZYS1p6VlVaZXJ1NFdpSlQzR000ZmhVRWhQby1XRzM3VGJ6ZVlUbm0xaGc?oc=5",
       "source": "Google News 中文",
       "sourceIcon": "🇨🇳",
       "lang": "zh",
       "category": "中国",
-      "publishTime": "2026-10-07T15:09:54.000Z",
-      "summary": "美债重启抛售、收益率创2002年来新高，美股高位承压，早盘道指跌超1%，布油盘中涨2%  华尔街见闻\n美国财长贝森特：高债......_7x24快讯_新浪财经  手机新浪网\n美银策略师：债券熊市主要由期限溢价推动  网易新闻客户端\n美债在华尔街交易为何会影响你的股票 利率飙升下的市场波动  中华网\n美债长端收益率创2002年以来新高，“全球资产定价之锚”继续漂移  搜狐网",
-      "hotness": 10
-    },
-    {
-      "title": "Options Action: Crypto crumbles - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LRlk5RTluUDZVY3JsUGw3NGtYRnB0X1JLdzBXWWtIVEp6dGJyWkdNS2RieVVVNkFHQWdzSEpKOTQwSEpiV3E1QTdkQVlSUF9nUTY5VU55c0cxb0VDSXU2Z1JWbmJNSkFuNGo0QVU4M0JpQXhnSFNrdlVVbU5Xdw?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T15:08:57.000Z",
-      "summary": "Options Action: Crypto crumbles  CNBC",
+      "publishTime": "2026-10-07T15:11:12.000Z",
+      "summary": "珠海：海岛度假持续领跑文旅市场  广州日报\n国庆假期结束前，强烈建议您点开  新浪财经\n两年驻点服务3.5万人次，珠海这支志愿队伍假期服务不停歇  珠海网\n国庆首日珠海海岛游迎高峰，输送旅客1.7万人次  新快网\n国庆期间，珠海万山群岛航班运力增加八成  搜狐网",
       "hotness": 10
     },
     {
@@ -1534,7 +1787,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-10-07T15:05:59.000Z",
-      "summary": "到底是鼠疫吗？俄罗斯实验室人员死因说法不断变化  BBC\n俄官方称鼠疫研究机构一名员工确诊“不明原因肺炎”|伊尔库茨克州|莫斯科|俄罗斯|疫情|生物安全  新浪财经\n特朗普称预计“很快”与普京通话  凤凰网\n俄称鼠疫研究人员确诊不明原因肺炎 扩大检测未发现相关致病微生物  中华网\n完全梳理：俄罗斯真的暴发鼠疫？究竟发生了什么？  观察者网",
+      "summary": "到底是鼠疫吗？俄罗斯实验室人员死因说法不断变化  BBC\n特朗普称预计“很快”与普京通话  凤凰网\n世界卫生组织与俄罗斯卫生官员“保持联系” 积极跟踪鼠疫研究中心工作人员死亡事件  美国之音\n俄称鼠疫研究人员确诊不明原因肺炎 扩大检测未发现相关致病微生物  中华网\n完全梳理：俄罗斯真的暴发鼠疫？究竟发生了什么？  新浪新闻",
       "hotness": 10
     },
     {
@@ -1579,6 +1832,17 @@
       "category": "国际",
       "publishTime": "2026-10-07T15:00:54.000Z",
       "summary": "The number of pharmacies stocking the MS-2 Step medication increased from 2,228 to 4,107 after rules relaxed in 2023\n\nGet our breaking news email, free app or daily news podcast\n\nThe number of Australian pharmacies stocking an abortion pill increased by almost 50% when prescribing restrictions were ",
+      "hotness": 10
+    },
+    {
+      "title": "‘Catastrophic wildfire loop’ after colonisation left parts of Australia more at risk from bushfires, study finds",
+      "url": "https://www.theguardian.com/environment/2026/oct/08/colonisation-wildfire-loop-australia-climate-bushfires",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-10-07T15:00:53.000Z",
+      "summary": "Researchers found the shift from open woodland to dense forest after 1788 led to more intense fires, consistent with loss of cultural burning practices\n\nSign up for climate and environment editor Adam Morton’s free Clear Air newsletter here\n\nThe drastic land use changes wreaked by colonisation creat",
       "hotness": 10
     },
     {
@@ -1637,6 +1901,17 @@
       "hotness": 10
     },
     {
+      "title": "Options Action: Crypto crumbles - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LRlk5RTluUDZVY3JsUGw3NGtYRnB0X1JLdzBXWWtIVEp6dGJyWkdNS2RieVVVNkFHQWdzSEpKOTQwSEpiV3E1QTdkQVlSUF9nUTY5VU55c0cxb0VDSXU2Z1JWbmJNSkFuNGo0QVU4M0JpQXhnSFNrdlVVbU5Xdw?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-10-07T14:51:13.000Z",
+      "summary": "Options Action: Crypto crumbles  CNBC",
+      "hotness": 10
+    },
+    {
       "title": "Satellite images show attack jets at Chinese military facility in Laos",
       "url": "https://www.theguardian.com/world/2026/oct/07/satellite-images-attack-jets-china-military-facility-laos",
       "source": "The Guardian",
@@ -1645,6 +1920,17 @@
       "category": "国际",
       "publishTime": "2026-10-07T14:46:01.000Z",
       "summary": "New ‘support and training centre’ prompts concern in region but China says it is ‘not directed at any third party’ \nSatellite images show attack jets stationed at a new Chinese military facility in Laos, which opened last week and gives Beijing’s air force its first foothold in mainland south-east A",
+      "hotness": 10
+    },
+    {
+      "title": "视频丨长春大冬会奖牌发布 取名“吉梦” - 张家口新闻",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xQ20wU0JpaEZPMWlNZjlsem91WDJHb1dVWDRxMEl2N01DUkE4N0daZVdod1pwc0h0eEMyUHBNYlNRTWoyU2Z5YTk3ZHpZdFhLU1E4Nk1oMWV4d0xKN2loRFBSZ3ZzdFFmbkE?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T14:43:22.000Z",
+      "summary": "视频丨长春大冬会奖牌发布 取名“吉梦”  张家口新闻\n长春大冬会火炬、奖牌和官方服装发布  光明网\n逐梦冰雪，长驻青春——写在第33届世界大冬会倒计时100天之际  新华网\n新发路观察｜倒计时100天，吉林拿什么迎接世界？  凤凰网\n追光｜100天后，相约“北国春城” 共赴青春之约  中国青年网",
       "hotness": 10
     },
     {
@@ -1667,28 +1953,6 @@
       "category": "科技",
       "publishTime": "2026-10-07T14:36:23.000Z",
       "summary": "Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
-      "hotness": 10
-    },
-    {
-      "title": "Should I put my nest egg in a 30-year Treasury bond?",
-      "url": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T14:34:00.000Z",
-      "summary": "Risk comes in many forms, even with “safe” investments.",
-      "hotness": 10
-    },
-    {
-      "title": "How much you need to retire in every state after Social Security - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMnRIOVdLVG5PbnplX2FGajhRQ3BROW90aHJRVFpSQ2gtT3dFOUh6T25saGhEY3BwMTBKZEhmNmw4Y0hqRGxiTlc2Y1hMVC1zMGNRTUZJeU9PWXUzR1FRbnY1cEg0bWpsNmtrYUYyd1VXaW1hQ0NZWm92Z283eEpudklyYzd2UGE2ckYzM1FkOEN2TTNyZWdKS1dYSWI?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T14:34:00.000Z",
-      "summary": "How much you need to retire in every state after Social Security  Fortune\nHow Much Savings a Single Retiree With an Annuity Needs to Retire Comfortably in Every State  Investopedia\nHow Much a Single Person With Part-Time Income Needs To Retire Comfortably in Every State  Yahoo Finance\nHow Much Money",
       "hotness": 10
     },
     {
@@ -1732,7 +1996,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-10-07T14:20:07.000Z",
-      "summary": "国庆假期全国道路交通总体平稳有序  第一财经在Google 新闻上查看更多头条新闻和观点",
+      "summary": "国庆假期全国道路交通总体平稳有序  第一财经\n国庆假期第六天全国道路交通总体平稳  北京市人民政府门户网站\n今晚截止免费！@乌海人你到哪了？|国务院办公厅|乌海市|海勃湾|内蒙古自治区|路口  finance.sina.com.cn\n高速交警硬核喊话“龟速车” 返程高峰安全提示  中华网\n温馨提示 | @返程的你，公安交管部门给大家送安全提示了！  搜狐网",
       "hotness": 10
     },
     {
@@ -1824,25 +2088,14 @@
       "hotness": 10
     },
     {
-      "title": "Stocks made a record high. Two big bearish trades point to skepticism",
-      "url": "https://www.cnbc.com/2026/10/07/stocks-made-a-record-high-two-big-bearish-trades-point-to-skepticism.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T13:59:16.000Z",
-      "summary": "In the State Street SPDR S&P 500 ETF Trust (SPY), about an hour after the opening bell on Tuesday, someone traded a 100,000-lot put spread.",
-      "hotness": 10
-    },
-    {
-      "title": "US 30-year mortgage rate hits highest in nearly three years - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnVmaExpRHBpalp3V3YtaklzbzVnV2lCaDNmMmhKZzc2NlloWVc4LUVaUnZoeTd1QmwxZ3k2TFpoUzlra0FjcnVtMTNvZm00bEFoLW96c25HSkMyaVpVUlpvZ281dVNrXy03SUpndE4tc3ltX0preTBsbGdmaDgzaXQ0cnc1TnZBNTB3bVpvVlFrbHRUZGs2UlNPbzZPWUdoS1I4?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T13:57:16.000Z",
-      "summary": "US 30-year mortgage rate hits highest in nearly three years  Reuters\nHere's the latest sticker shock: Borrowing for a mortgage — or a car  NPR\n30-year mortgage rate hits highest mark in nearly 3 years  Honolulu Star-Advertiser\nRefinance demand is now half what it was a year ago, as mortgage rates ri",
+      "title": "涨势暂歇！美股存储芯片、光通信、黄金股普跌，市场等待美联储会议纪要 - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WbjB2VjVSTm5uOTRBSE4zOG1VeW4zcEhXc1A1ek15YjNjZzhDc2xScXMzOGZoby1sT0c0aGg2ckdUQkF5bEFLM0RZUWRKNXluWHNxOThyNzhoWFBYbU5xMFNn?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-10-07T13:54:54.000Z",
+      "summary": "涨势暂歇！美股存储芯片、光通信、黄金股普跌，市场等待美联储会议纪要  同花顺\n10月8日收盘：三大指数收跌 10年期美债收益率创20年新高 银行与科技股承压  新浪财经\n纽约股市三大股指7日下跌  ThePaper.cn\n美股三大指数集体低开，存储芯片板块下跌  凤凰网\n美股讯号 | 美光科技股价下跌超2%，存储芯片板块承压 ｜#美股资讯# #美光科技# #股价波动#  搜狐网",
       "hotness": 10
     },
     {
@@ -1887,6 +2140,17 @@
       "category": "科技",
       "publishTime": "2026-10-07T13:45:00.000Z",
       "summary": "A new personal AI assistant has arrived. Meet Tab, which announced Tuesday that it had officially emerged from stealth.",
+      "hotness": 10
+    },
+    {
+      "title": "Amazon uses its tracking data to guess whether shoppers have a flat butt and no friends - The Verge",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uRnpfTUlSQVZFTnNIdTJXYk1tS0wwc0ppWE11OEUwZnBnUzA1akx6VzEyRllVTWw0dzY2eXF0Tzd6TmtHNVpSdkRudmRSSWZKTVdqT3RuenNKQ1hRcnNMVUpOMzdZOC0xbUZwbDBHTEdub1FYTjR3?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-10-07T13:40:02.000Z",
+      "summary": "Amazon uses its tracking data to guess whether shoppers have a flat butt and no friends  The Verge\nWhat Amazon's customer profiles got right — and hilariously wrong — about us  Business Insider\n\"Has No Friends\": Amazon Is Keeping Amazingly Detailed Records on Its Customers and They Are Downright Ins",
       "hotness": 10
     },
     {
@@ -1941,40 +2205,18 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-10-07T13:15:36.000Z",
-      "summary": "高市就冲绳美军涉嫌杀人案称将采取有实效措施  共同网\n更多细节曝出，日本民众怒了：究竟还要忍多久？  观察者网\n视频丨日本民众抗议驻日美军暴行 反对新基地建设  光明网\n冲绳县知事就美军士兵涉嫌抢劫杀人案向首相高市早苗提出抗议  凤凰网\n驻日美军又杀害冲绳平民有何影响 和平呼声被漠视  中华网",
+      "summary": "高市就冲绳美军涉嫌杀人案称将采取有实效措施  共同网\n驻日美军涉嫌抢劫杀人，“这样的事还要重复多少次？”|美国海军陆战队|中国青年报|普天间基地|日本时报|驻冲绳美军  新浪财经\n更多细节曝出，日本民众怒了：究竟还要忍多久？  观察者网\n视频丨日本民众抗议驻日美军暴行 反对新基地建设  光明网\n冲绳县知事就美军士兵涉嫌抢劫杀人案向首相高市早苗提出抗议  凤凰网",
       "hotness": 10
     },
     {
-      "title": "OpenAI Just Posted Hundreds More Results On Major Math Problems - Engadget",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSjhkWno5X2s2NDV6NGNveEFfbmQ3Z2diOVYtcGJDWk5pTEtzMXJoU29SVEZNeFJxd3dnN2NYWmJIcnZDUVV3X0ZCNnBHckxhcG9ocmp2TWZuenUxcVh6cTI0am4wZkxGOE5JQkJlX3EyY3RYS1ZrQ2pvYVVwb2pYZ0dtVXdoZjUyWk9vX1NYc1pxSEJtX2NpTWd2LUlPZw?oc=5",
+      "title": "US 30-year mortgage rate hits highest in nearly three years - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUmNicTItRnZsMmN4amRNdkpHNi1ncnR3R2xJSHR4SHUycHN0X2xQcGJodFgwWGlXamF3VUJtT2h2NGYwdXM0UU9lbGw0MERfVTMyOURra2VuYXluQ2dmeHJaREdab1l2ZndQYXI3QTVVLU9KOHhoeUlLNXNlOGlSN0RveXlIUFBGVk1ZSVlFRQ?oc=5",
       "source": "Google News 经济",
       "sourceIcon": "📊",
       "lang": "en",
       "category": "经济",
-      "publishTime": "2026-10-07T13:08:45.000Z",
-      "summary": "OpenAI Just Posted Hundreds More Results On Major Math Problems  Engadget\nSharing AI progress in mathematics  OpenAI\nOpenAI claims to have solved hundreds of long-standing maths problems  The Economist\nAI Solved One Math Problem and Everyone Freaked Out. It Just Cracked Hundreds More.  WSJ\nOpenAI’s ",
-      "hotness": 10
-    },
-    {
-      "title": "累计接待游客105万人次，带动乡村消费2.14亿元！国庆假期青岛乡村游热力十足 - 青岛日报",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IejE0VGZmZ21iSUphQzdrblZZWDRFTG5OU3dKVkxqcUhuQnNvU3RrUDl2cXZmcl9wbmktREViQ292Y01JUGlWSXpVU3dMcUhCa29ISlprb00?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T13:05:30.000Z",
-      "summary": "累计接待游客105万人次，带动乡村消费2.14亿元！国庆假期青岛乡村游热力十足  青岛日报在Google 新闻上查看更多头条新闻和观点",
-      "hotness": 10
-    },
-    {
-      "title": "香港入境处：皇岗口岸旅客通关只需排队一次 - http://www.jingjiribao.cn/",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LQkp4RXg5TVJwaWwyZU54WXdpR243Nlk4bkhhNTJCcWV2M09FSmhlclRWcDc3UTVIbnF1dDhYdUg4d1N2M2VyNGtDb0hYUC1OMldUN01uNC1TOUZ2TmZkTlQ1aw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T12:53:32.000Z",
-      "summary": "香港入境处：皇岗口岸旅客通关只需排队一次  http://www.jingjiribao.cn/\n香港皇岗口岸旅客通关只需排队一次  新浪财经\n香港10月6日最新资讯  搜狐网\n皇岗口岸重建后交通运输安排公布  星岛环球网\n保安局举办皇岗口岸社区体验日  紫荆网",
+      "publishTime": "2026-10-07T13:03:10.000Z",
+      "summary": "US 30-year mortgage rate hits highest in nearly three years  Yahoo FinanceSee more headlines & perspectives on Google News",
       "hotness": 10
     },
     {
@@ -1986,248 +2228,6 @@
       "category": "政治",
       "publishTime": "2026-10-07T12:52:19.000Z",
       "summary": "Officials were recorded by undercover journalists discussing a potential way to secure foreign donations to the party.",
-      "hotness": 10
-    },
-    {
-      "title": "铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐 - 中国军网",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtVG9XQUxCUGpZeXRENTM4clNsaFhsTkZjUkVjVm94T0gwSHdLdU9yQVdlaXhaVXdxUks4UWFTeW01dXBvaGZIM2RkTF8xQ0oyZXc?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T12:47:01.000Z",
-      "summary": "铸就社会主义文化新辉煌——习近平文化思想引领文化强国建设迈出坚实步伐  中国军网在Google 新闻上查看更多头条新闻和观点",
-      "hotness": 10
-    },
-    {
-      "title": "Ten people linked to Kenya's first-ever Ebola case quarantined as screening concerns grow",
-      "url": "https://www.bbc.co.uk/news/articles/c6eq3x3v11d5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T12:46:39.000Z",
-      "summary": "The patient passed through multiple cities in DR Congo, drove to Uganda and eventually flew to Kenya.",
-      "hotness": 10
-    },
-    {
-      "title": "Ether is about to lose a steady buyer as Tom Lee says Bitmine will stop token purchases",
-      "url": "https://www.coindesk.com/markets/2026/10/07/ether-is-about-to-lose-a-steady-buyer-as-tom-lee-says-bitmine-will-stop-token-purchases",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T12:40:31.000Z",
-      "summary": "Tom Lee said Bitmine will be “done stacking” once it owns 5% of ETH, setting an end date to an accumulation streak that began in mid-2025 and made the company the world's largest Ethereum treasury.",
-      "hotness": 10
-    },
-    {
-      "title": "German spy scandal threatens national security",
-      "url": "https://www.dw.com/en/german-spy-scandal-threatens-national-security/a-79580000?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T12:39:00.000Z",
-      "summary": "The arrest of Germany's former intelligence chief August Hanning could undermine national security, experts warn, as allies may reconsider their intelligence relationships.",
-      "hotness": 10
-    },
-    {
-      "title": "Crypto trading giant GSR's new vault business is a $100M bet on onchain credit",
-      "url": "https://www.coindesk.com/business/2026/10/07/crypto-trading-giant-gsr-s-new-vault-business-is-a-usd100m-bet-on-onchain-credit",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T12:34:13.000Z",
-      "summary": "The firm is putting its own capital into stablecoin and tokenized gold vaults as institutional finance moves further onchain.",
-      "hotness": 10
-    },
-    {
-      "title": "8 Drops You Don't Want to Miss This Week",
-      "url": "https://hypebeast.com/2026/10/best-drops-october-week-1-supreme-palace-skateboards-audemars-piguet",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-10-07T12:30:46.000Z",
-      "summary": "With another week upon us, we have yet another installment of our product drops series.This week’s lineup of drops kicks off with Supreme delivering a fresh batch of Fall 2026 graphic tees that merge pop-culture irony with fine art co-signs, while Palace Skateboards officially opens its Winter 2026 ",
-      "hotness": 10
-    },
-    {
-      "title": "Chasing 100x tokens is game of ‘irrational exuberance,’ says Polymarket CEO",
-      "url": "https://cointelegraph.com/news/chasing-100x-tokens-irrational-exuberance-polymarket-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-10-07T12:29:39.000Z",
-      "summary": "Some traders are looking for more predictable prediction market opportunities, rather than playing “hot potato” with the next 100x gem, according to Polymarket’s Shayne Coplan.",
-      "hotness": 10
-    },
-    {
-      "title": "Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZHV1MkUxaGpvYzQ3U0hXZ1BwdFZxM3ZBTDA1aEFfd1ZadkdxNG9GcWJ2RUVtX1BNcm9KcWlRV1NDRGpqbmJBQXJyQndqMkpmakI4SUtIYTNpUnUyMlpqVWZUNFkyM3ljRUE1R2t1LUd6LS1uUHJvWnVycGlCRW82Sko3YmFSc2JRZy1GUTJKVEh5SHlXZXdYSTJCYVBFUDhaZ0NadVJOcG9XZVB6TG45Sm9LQ2dYblZ6QllBVi1WSjhkeGhKM3NnMQ?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T12:26:12.000Z",
-      "summary": "Oil prices climb above $100 on Strait of Hormuz attacks, Gulf storm threat  Yahoo Finance\nOil edges higher as concerns over Houthi attacks on Saudi Arabia eclipse supply recovery  CNBC\nHormuz ship attacks surge: Are increased oil exports sustainable?  Al Jazeera\nCrude oil prices and refinery margins",
-      "hotness": 10
-    },
-    {
-      "title": "ICE came to town and left behind weakened economies",
-      "url": "https://www.cnbc.com/2026/10/07/ice-raids-local-economies.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T12:24:32.000Z",
-      "summary": "Research links ICE enforcement surges to lasting declines in local spending, foot traffic and jobs. In Minneapolis, businesses are still recovering.",
-      "hotness": 10
-    },
-    {
-      "title": "Million Goods Brings Its Menswear, Hi-Fi and Natural Wine Concept to Fort Greene, Brooklyn",
-      "url": "https://hypebeast.com/2026/10/million-goods-fort-greene-brooklyn-store-opening",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-10-07T12:22:51.000Z",
-      "summary": "Summary\nMillion Goods has opened its second location, in Fort Greene, BrooklynThe space includes two custom sound systems split across a ground floor bar and listening room, and an upstairs retail floorThe store stocks brands like Nicholas Daley, OAMC Peacemaker, Soulland, Rold Skov, LC23, Berner Kü",
-      "hotness": 10
-    },
-    {
-      "title": "The SALT deduction limit is $40,400 for 2026. Here's how to maximize it",
-      "url": "https://www.cnbc.com/2026/10/07/salt-deduction-limit-2026.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-10-07T12:15:01.000Z",
-      "summary": "The SALT deduction limit is $40,400 for 2026. Experts cover how to maximize the tax break before year-end.",
-      "hotness": 10
-    },
-    {
-      "title": "France suspends use of stun grenades against protesters",
-      "url": "https://www.dw.com/en/france-suspends-use-of-stun-grenades-against-protesters/a-79577769?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T12:12:00.000Z",
-      "summary": "France suspended the use of stun grenades against protesters as allegations of student brutality draw more anger. French Prime Minister Sebastien Lecornu said the country could not ignore students' concerns.",
-      "hotness": 10
-    },
-    {
-      "title": "Japan beer giants raided over alleged price-fixing cartel",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T12:09:59.000Z",
-      "summary": "Asahi, Kirin and Suntory confirmed their premises were searched by Japanese competition authorities.",
-      "hotness": 10
-    },
-    {
-      "title": "Swift blockchain ledger requires key internal layers, Taurus co-founder warns",
-      "url": "https://www.coindesk.com/business/2026/10/07/swift-blockchain-ledger-requires-key-internal-layers-taurus-co-founder-warns",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T11:59:24.000Z",
-      "summary": "Banks need their own permissioned ledger, wallet tools and smart-contract capabilities before they can use Swift’s tokenized-deposit network, Taurus’s Lamine Brahimi said.",
-      "hotness": 10
-    },
-    {
-      "title": "Taurus outlines three technical hurdles for banks adopting Swift’s blockchain network - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb3N3YVpyb0I4YWJnSlFGdGRqNXVCYmZObXp2MjBzcVgyeU1ad0xIQ2xBaUJ6ZXFEbGZXN1p0bVJ0Tm1Ld3RfYk5ERHVVNHBoTjdVeEVCUlVrYzZWMVZseDA0TzQ3bFZjaU51UlBwbElqSEhISVdyYjc0N2hQZ1Boc25lX2g1WUVaWFhBWVNMS1Vkdkh5NGxhSElfcFYxc1hSM0tZTVZINnJRVlZRaFA1Y19nU2RfbXFFNE5WeGtB?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T11:59:24.000Z",
-      "summary": "Taurus outlines three technical hurdles for banks adopting Swift’s blockchain network  CoinDesk",
-      "hotness": 10
-    },
-    {
-      "title": "Widdecombe suspect accused of trying to break into Farage's home",
-      "url": "https://www.bbc.co.uk/news/articles/ckj0lj6v3g9vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-10-07T11:53:50.000Z",
-      "summary": "Joshua Kerry, 28, appeared at Westminster Magistrates' Court and was remanded in custody.",
-      "hotness": 10
-    },
-    {
-      "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T11:51:52.000Z",
-      "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry.",
-      "hotness": 10
-    },
-    {
-      "title": "Germany: Ex-spy chief sent to pretrial detention on treason charges",
-      "url": "https://www.dw.com/en/germany-ex-spy-chief-sent-to-pretrial-detention-on-treason-charges/a-79576300?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-10-07T11:46:00.000Z",
-      "summary": "August Hanning has been remanded into pretrial detention after his arrest. The case has prompted calls for transparency when spies leave the government.",
-      "hotness": 10
-    },
-    {
-      "title": "The 2027 COLA estimate just changed — again. But few Americans noticed. 3 moves to make before it’s officially announced - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYktyR3VFQUt5WXA2MURTN2d2MW1xOU1kamoyd3gweGRPTFBaTExRNE10and4MUZyTFZLQ2Q3SFVVZmRZV1JpUF9VdnRqNDY3NjNobFZsRl9adjlmRTRXWkN2eDNmcGNwS19ZczBWbGY0WG9XM2JxcndDMEI3TkNNTlNYY3BCVjRqdkg0T2stekZSSHNsTDM1YS1HcC0?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-10-07T11:45:00.000Z",
-      "summary": "The 2027 COLA estimate just changed — again. But few Americans noticed. 3 moves to make before it’s officially announced  Yahoo Finance\nWhen will 2027’s Social Security COLA be announced?  The Hill\nWhen will the 2027 Social Security COLA adjustment be announced?  NewsNation\nSocial Security’s 2027 CO",
-      "hotness": 10
-    },
-    {
-      "title": "Crypto card access doesn’t match global demand, Tangem says",
-      "url": "https://cointelegraph.com/news/crypto-card-access-doesnt-match-global-demand-tangem-says?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-10-07T11:37:48.000Z",
-      "summary": "Crypto card demand can be stronger where access is harder, Tangem says, as it expands its Visa payment offering, allowing users to spend from its self-custodial wallet.",
-      "hotness": 10
-    },
-    {
-      "title": "以生态守护 赴音乐之约，泸州市生态环境系统筑牢绿色底色 - 四川在线",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tbzJlcnRLNGZnVkgzdFZNOHR6b1BNWU5URmZGOFB4Z251MEVJX3pxenhIdkRQMW9fejNDbldTTmlJN2c0U2hQQ0xzS0J5WHZiclY4LVp4S0tIcVRSMmZR?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-10-07T11:37:17.000Z",
-      "summary": "以生态守护 赴音乐之约，泸州市生态环境系统筑牢绿色底色  四川在线\n引客入城、留客体验，假期演艺热潮席卷全川|银河左岸音乐节|国庆节|成都市|四川省|泸州市  新浪财经\n超20万乐迷赴泸，450台公交兜底：一场音乐节背后的“交通大考”  搜狐网\n从 2007 到 2026，他把歌词里的“我”改成了“你”|陈楚生|歌迷|泸州音乐节|双向奔赴_新浪新闻  手机新浪网\n泸州 燃情开唱  四川日报",
-      "hotness": 10
-    },
-    {
-      "title": "Bitcoin drops below $84,000 as crypto liquidations surge - Quartz",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pZ3JFQk82S29ldDJlMF9TaVhjb0tzZl8za2xtWUxHWl9hamdJeFFxMVNsbVRjRTdwOXZvMW5nTFNrM053aEZTdU1pM3JqRWVYVndQWDRyNnN1OU10RkhNMHpOZGd2dUItd0NzWDJB?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-10-07T11:32:31.000Z",
-      "summary": "Bitcoin drops below $84,000 as crypto liquidations surge  Quartz",
       "hotness": 10
     }
   ]
