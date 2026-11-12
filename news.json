@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-12T21:15:42.632Z",
-  "updatedAtBJ": "2026-11-13 05:15:42",
-  "nextRefreshAt": "2026-11-12T22:00:00.000Z",
-  "nextRefreshBJ": "2026-11-13 06:00:00",
+  "updatedAt": "2026-11-12T23:03:37.011Z",
+  "updatedAtBJ": "2026-11-13 07:03:37",
+  "nextRefreshAt": "2026-11-13T02:00:00.000Z",
+  "nextRefreshBJ": "2026-11-13 10:00:00",
   "totalCount": 200,
   "categoryCount": 10,
   "categories": [
@@ -20,40 +20,29 @@
   ],
   "categoryStats": {
     "科技": 54,
-    "金融": 29,
-    "Web3": 23,
+    "金融": 30,
+    "Web3": 24,
+    "政治": 20,
     "国际": 30,
-    "区块链": 9,
-    "中国": 16,
-    "经济": 13,
-    "政治": 19,
-    "潮流": 7
+    "区块链": 6,
+    "经济": 15,
+    "中国": 15,
+    "潮流": 6
   },
   "articles": [
     {
-      "title": "Anthropic IPO",
-      "url": "https://ipo.anthropic.com/us/",
+      "title": "Service degradation on Microsoft 365",
+      "url": "https://status.cloud.microsoft/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-12T11:46:41.000Z",
+      "publishTime": "2026-11-12T18:20:48.000Z",
       "summary": "",
-      "hotness": 2180
+      "hotness": 1087
     },
     {
-      "title": "Socratic Tutor",
-      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-10T10:18:22.000Z",
-      "summary": "",
-      "hotness": 903
-    },
-    {
-      "title": "Why Writing Correct Software Is Hard",
+      "title": "Why writing correct software is hard and why math (alone) won’t help us (2016)",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "source": "Hacker News",
       "sourceIcon": "💻",
@@ -61,18 +50,7 @@
       "category": "科技",
       "publishTime": "2026-11-12T10:28:26.000Z",
       "summary": "",
-      "hotness": 618
-    },
-    {
-      "title": "A live tree of systemd jobs on the boot console",
-      "url": "https://codeberg.org/wvhulle/bootvine",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-09T13:02:44.000Z",
-      "summary": "",
-      "hotness": 588
+      "hotness": 670
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
@@ -83,51 +61,18 @@
       "category": "科技",
       "publishTime": "2026-11-12T16:29:13.000Z",
       "summary": "",
-      "hotness": 483
+      "hotness": 627
     },
     {
-      "title": "Our software engineering interviews are changing a little",
-      "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+      "title": "A live tree of systemd jobs on the boot console",
+      "url": "https://codeberg.org/wvhulle/bootvine",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-12T14:05:28.000Z",
+      "publishTime": "2026-11-09T13:02:44.000Z",
       "summary": "",
-      "hotness": 365
-    },
-    {
-      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
-      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T14:18:49.000Z",
-      "summary": "",
-      "hotness": 355
-    },
-    {
-      "title": "I'm making LLMs work on small and old devices",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T15:23:10.000Z",
-      "summary": "",
-      "hotness": 346
-    },
-    {
-      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-      "url": "https://github.com/simpsoka/zigzag",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T17:02:42.000Z",
-      "summary": "",
-      "hotness": 303
+      "hotness": 610
     },
     {
       "title": "Rust 1.100",
@@ -138,7 +83,7 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:39:05.000Z",
       "summary": "",
-      "hotness": 256
+      "hotness": 528
     },
     {
       "title": "Data centers need power – lower income, rural residents pay the price",
@@ -149,7 +94,51 @@
       "category": "科技",
       "publishTime": "2026-11-12T19:53:54.000Z",
       "summary": "",
-      "hotness": 233
+      "hotness": 456
+    },
+    {
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "url": "https://github.com/simpsoka/zigzag",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T17:02:42.000Z",
+      "summary": "",
+      "hotness": 453
+    },
+    {
+      "title": "Our software engineering interviews are changing a little",
+      "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T14:05:28.000Z",
+      "summary": "",
+      "hotness": 437
+    },
+    {
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T15:23:10.000Z",
+      "summary": "",
+      "hotness": 423
+    },
+    {
+      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T14:18:49.000Z",
+      "summary": "",
+      "hotness": 384
     },
     {
       "title": "Gemini 4 Hydrogen and Orchestrator",
@@ -160,7 +149,7 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:52:01.000Z",
       "summary": "",
-      "hotness": 207
+      "hotness": 325
     },
     {
       "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
@@ -171,18 +160,7 @@
       "category": "科技",
       "publishTime": "2026-11-12T19:05:33.000Z",
       "summary": "",
-      "hotness": 161
-    },
-    {
-      "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
-      "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T14:12:37.000Z",
-      "summary": "",
-      "hotness": 156
+      "hotness": 288
     },
     {
       "title": "Singapore Says U.S. Not Helpful on Investigation into Suspected Spy's Company",
@@ -193,29 +171,18 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:14:18.000Z",
       "summary": "",
-      "hotness": 152
+      "hotness": 239
     },
     {
-      "title": "Libreagi – Save OSS Models",
-      "url": "https://libreagi.com/",
+      "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-12T14:11:58.000Z",
+      "publishTime": "2026-11-12T14:12:37.000Z",
       "summary": "",
-      "hotness": 142
-    },
-    {
-      "title": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
-      "url": "https://github.com/chocoford/ExcalidrawZ",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T15:25:52.000Z",
-      "summary": "",
-      "hotness": 133
+      "hotness": 175
     },
     {
       "title": "Relax: JIT compiler for Rust to reduce build times",
@@ -226,29 +193,18 @@
       "category": "科技",
       "publishTime": "2026-11-11T21:20:01.000Z",
       "summary": "",
-      "hotness": 110
+      "hotness": 163
     },
     {
-      "title": "AWS Lambda Web Functions keep billing memory ~7 minutes after the last request",
-      "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
+      "title": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+      "url": "https://github.com/chocoford/ExcalidrawZ",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-12T16:59:26.000Z",
+      "publishTime": "2026-11-12T15:25:52.000Z",
       "summary": "",
-      "hotness": 109
-    },
-    {
-      "title": "Pulling the Lever in a Subway Problem",
-      "url": "https://www.jefftk.com/p/pulling-the-lever-in-a-subway-problem",
-      "source": "Hacker News",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-11T19:22:09.000Z",
-      "summary": "",
-      "hotness": 94
+      "hotness": 145
     },
     {
       "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
@@ -259,7 +215,7 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:22:22.000Z",
       "summary": "",
-      "hotness": 78
+      "hotness": 136
     },
     {
       "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
@@ -270,29 +226,40 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:15:48.000Z",
       "summary": "",
-      "hotness": 62
+      "hotness": 88
     },
     {
-      "title": "Words of warning about radiocarbon dating medieval human bones",
-      "url": "https://www.nature.com/articles/s40494-026-02958-x",
+      "title": "Foundation Models framework",
+      "url": "https://developer.apple.com/foundation-models-framework/",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-11T22:18:37.000Z",
+      "publishTime": "2026-11-12T21:13:26.000Z",
       "summary": "",
-      "hotness": 34
+      "hotness": 81
     },
     {
-      "title": "Microsoft Status: \"We are re-routing the protocols\"",
-      "url": "https://admin.cloud.microsoft/?#/servicehealth/:/alerts/MO1550821",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
       "source": "Hacker News",
       "sourceIcon": "💻",
       "lang": "en",
       "category": "科技",
-      "publishTime": "2026-11-12T20:20:41.000Z",
+      "publishTime": "2026-11-12T21:56:11.000Z",
       "summary": "",
-      "hotness": 26
+      "hotness": 69
+    },
+    {
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:09:49.000Z",
+      "summary": "",
+      "hotness": 65
     },
     {
       "title": "Distributed Ray Tracer",
@@ -303,7 +270,18 @@
       "category": "科技",
       "publishTime": "2026-11-12T19:06:23.000Z",
       "summary": "",
-      "hotness": 11
+      "hotness": 54
+    },
+    {
+      "title": "Words of warning about radiocarbon dating medieval human bones",
+      "url": "https://www.nature.com/articles/s40494-026-02958-x",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-11T22:18:37.000Z",
+      "summary": "",
+      "hotness": 53
     },
     {
       "title": "Adapting CPython for Yk",
@@ -314,17 +292,633 @@
       "category": "科技",
       "publishTime": "2026-11-12T12:51:38.000Z",
       "summary": "",
-      "hotness": 11
+      "hotness": 36
     },
     {
-      "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang’s exit; oil prices jump: Live updates",
+      "title": "Safety in Algae Home Experiments",
+      "url": "https://chillphysicsenjoyer.substack.com/p/algae-safety-in-home-experiments",
+      "source": "Hacker News",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-10T12:20:06.000Z",
+      "summary": "",
+      "hotness": 16
+    },
+    {
+      "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
+      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T23:00:00.000Z",
+      "summary": "Microsoft is starting to test new customization options for Xbox consoles today. Xbox Insiders will be able to start testing new rotating backgrounds, new library options for digital games, and the ability to move the Xbox Guide menu to the right-hand side.\n\"Xbox Insiders can now save favorite dynam",
+      "hotness": 10
+    },
+    {
+      "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
+      "url": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:57:00.000Z",
+      "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
+      "hotness": 10
+    },
+    {
+      "title": "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto",
+      "url": "https://www.coindesk.com/policy/2026/11/12/north-korea-s-binance-hack-faces-u-s-crackdown-as-doj-targets-usd1-2-billion-in-stolen-crypto",
+      "source": "CoinDesk",
+      "sourceIcon": "₿",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T22:55:52.000Z",
+      "summary": "Federal authorities say they've taken infrastructure used in the FaceStealer scheme used to steal as much as $400 million in crypto assets.",
+      "hotness": 10
+    },
+    {
+      "title": "Stocks making the biggest moves Thursday: Cerebras, Cisco, Applied Materials & more",
+      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:51:48.000Z",
+      "summary": "Follow along and CNBC highlights the biggest stock market moves of the day.",
+      "hotness": 10
+    },
+    {
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:51:18.000Z",
+      "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "hotness": 10
+    },
+    {
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:48:26.000Z",
+      "summary": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+      "hotness": 10
+    },
+    {
+      "title": "Beacon concierge supports investigations and seizures on any chain, in any asset. - TRM Labs",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPUUhpZTlJY01HYmNkSG56LWVnREs5V2FBbW5tTFBMOEZ4UjQ5cFU5cm05ZVNkaTQzYzhhaF8yYXp1bk9IbHhnR3pYb0xINTVsYXptTU5HUXQwLUpzQUNPenFqM0hxM3VqUmctMmdlbzhIVjZTLXRQUGFxU2tTUnFnZkgtaVNDWFBGRmVUUUxZV1VzOFhnVXN2LUQtbnVvN1Z3OVZBeUdZdTYwRjIwbG95SndoQjNrczM4RzRmTmktSUE3XzNCT3piWVBjLW0tT1gwRk54NVpoVWE2Zm4teU1xNGd2RW4zUHdBaHBiRWJ2SzdKdWtYcmNLN2s3OEZvUFVvOVpWZQ?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T22:48:13.000Z",
+      "summary": "Beacon concierge supports investigations and seizures on any chain, in any asset.  TRM Labs",
+      "hotness": 10
+    },
+    {
+      "title": "U.S. President names CFTC, SEC nominees for first time in a year",
+      "url": "https://www.coindesk.com/policy/2026/11/12/u-s-president-names-cftc-sec-nominees-for-first-time-in-a-year",
+      "source": "CoinDesk",
+      "sourceIcon": "₿",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T22:47:41.000Z",
+      "summary": "U.S. President Donald Trump has named two potential commissioners each to the Securities and Exchange Commission and Commodity Futures Trading Commission.",
+      "hotness": 10
+    },
+    {
+      "title": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+      "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:47:28.000Z",
+      "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+      "hotness": 10
+    },
+    {
+      "title": "Pat Cummins press conference live updates: Australian cricket captain speaks about Usman Khawaja’s ‘sandpapergate’ claims",
+      "url": "https://www.theguardian.com/sport/live/2026/nov/13/pat-cummins-press-conference-usman-khawaja-sandpapergate-australia-cricket-captain-statement-ntwnfb",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T22:44:13.000Z",
+      "summary": "Cummins speaks about allegations in Khawaja’s book about the 2018 ball-tampering incident\n‘I think he’s wrong’, Cummins says\nA reporter just asked about the difference in stories. Cummins replied:\nThat’s my story, so I think he’s wrong.\nThe details really matter in that difference. So perhaps there ",
+      "hotness": 10
+    },
+    {
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T22:42:51.000Z",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "hotness": 10
+    },
+    {
+      "title": "Nvidia live updates: Trump calls Huang saga a 'horrible thing' and 'so sad to see'",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:38:37.000Z",
+      "summary": "Nvidia CFO Colette Kress has been named interim CEO during the search for Huang’s replacement.",
+      "hotness": 10
+    },
+    {
+      "title": "Opening trading-card packs has become a $2 billion market",
+      "url": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:38:00.000Z",
+      "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
+      "hotness": 10
+    },
+    {
+      "title": "Israeli air strike on Gaza hospital kills six, including surgeon",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038879/israeli-air-strike-on-gaza-hospital-kills-six-including-surgeon",
+      "source": "NPR World",
+      "sourceIcon": "🇺🇸",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T22:33:00.000Z",
+      "summary": "Israeli launches its first air strike on a Gaza hospital since the ceasefire began last year.",
+      "hotness": 10
+    },
+    {
+      "title": "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express",
+      "url": "https://cointelegraph.com/magazine/nk-hackers-join-memecoin-trenches-xstocks-adds-hong-kong-equities-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-11-12T22:29:58.000Z",
+      "summary": "North Korean hackers launch memecoins to launder funds stolen in the Binance hack, while xStocks plans to add hundreds of Hong Kong-listed equities in the coming weeks.",
+      "hotness": 10
+    },
+    {
+      "title": "Shaheen, Tillis demand probe into Ukraine Starshield restrictions",
+      "url": "https://thehill.com/homenews/senate/6217524-shaheen-tillis-ukraine-starshield-probe/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:29:30.000Z",
+      "summary": "Outgoing bipartisan senators outraged over Ukrainian reports of interruptions to military-grade satellite access are calling for Congress to pursue accountability for the shutdown, focusing on Elon Musk’s company SpaceX and the Pentagon.  Sens. Jeanne Shaheen (D-N.H.) and Thom Tillis (R-N.C.) issued",
+      "hotness": 10
+    },
+    {
+      "title": "Lawmakers react as Huang leaves Nvidia",
+      "url": "https://thehill.com/newsletters/business-economy/6217535-lawmakers-react-as-huang-leaves-nvidia/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:27:20.000Z",
+      "summary": "Welcome to The Hill's Business & Economy newsletter {beacon} Business & Economy Business & Economy   The Big Story  Lawmakers react as Huang leaves Nvidia Lawmakers on Capitol Hill reacted Thursday to the news of Jensen Huang resigning as Nvidia CEO, a move that ushers in a new era at one of the wor",
+      "hotness": 10
+    },
+    {
+      "title": "Musk signals support for Huang after saying hiring him would be 'an honor'",
+      "url": "https://thehill.com/policy/technology/6217460-elon-musk-offers-huang-job/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:26:43.000Z",
+      "summary": "SpaceX CEO Elon Musk is hinting toward supporting Nvidia's ex-CEO Jensen Huang, who resigned Thursday following reports of his extramarital affairs — one of which involved an alleged Chinese spy. “That would be an honor,” Musk wrote on social platform X on Wednesday night — prior to Huang's resignat",
+      "hotness": 10
+    },
+    {
+      "title": "White House weighs Commerce Secretary Lutnick's ouster amid Nvidia export concerns, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2JBc1RoY3pGRnZ0R1BzOW43SHY5eGxjZHpwMlZVZWNSRDMxaG51ZkVSdkVuN1I4bkdCTEZTV3ZETGRpVTBxaGhHSlprM25XNFd0b3N6eHJhc3RneHJrWGl2alVlTVh6R0xtbFJVLTRjaEE0djZxTE54Nkp4UHBYWVJKdGlhM2hmNFM2dWRNeWF0d2tRcnVYT0dtOXZDdGx4QXlsUHAzOHNKQUpaTFE?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T22:26:27.000Z",
+      "summary": "White House weighs Commerce Secretary Lutnick's ouster amid Nvidia export concerns, sources say  Reuters\nSingapore Says US Not Helpful on Investigation Into Alice Huang and Megaspeed  The New York Times\nLutnick Fights for His Job as Trump Aides Blame Him for Nvidia Fallout  WSJ\nWhite House discussin",
+      "hotness": 10
+    },
+    {
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:24:12.000Z",
+      "summary": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+      "hotness": 10
+    },
+    {
+      "title": "Muse can now place calls to U.S. businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T22:22:28.000Z",
+      "summary": "Muse's AI can now place outbound calls to US businesses — but it's not free.",
+      "hotness": 10
+    },
+    {
+      "title": "Icac’s dirt files expose NSW’s ‘guns for hire’ problem. But neither major party is serious about lobbying reform",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T22:21:26.000Z",
+      "summary": "Chris Minns’s move to address the threat of undeclared lobbying falls well short of what the commission recommended five years ago\n\nGet our daily political email, free app or daily news podcast\n\nA dirt file on a state minister peddled to journalists. A subterranean campaign to discredit the building",
+      "hotness": 10
+    },
+    {
+      "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+      "url": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:17:05.000Z",
+      "summary": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+      "hotness": 10
+    },
+    {
+      "title": "Military base asylum plans granted planning approval",
+      "url": "https://www.bbc.co.uk/news/articles/c58j4798874go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Politics",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:16:34.000Z",
+      "summary": "The Home Office's application to house up to 1,256 men at the site near Bicester was fast-tracked.",
+      "hotness": 10
+    },
+    {
+      "title": "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes",
+      "url": "https://www.marketwatch.com/story/bond-yields-just-saw-their-biggest-surge-since-2022-as-expectations-grow-for-more-fed-rate-hikes-d0a4f195?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:16:00.000Z",
+      "summary": "Fed Chair Warsh’s quiet style of communicating interest-rate policy has led to more volatile markets.",
+      "hotness": 10
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-11-12T22:11:41.000Z",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "hotness": 10
+    },
+    {
+      "title": "Petition to make Ayanna Pressley Speaker garners 58K+ signatures",
+      "url": "https://thehill.com/homenews/house/6217461-petition-pressley-speaker-house/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:10:21.000Z",
+      "summary": "A Change.org petition requesting that Rep. Ayanna Pressley (D-Mass.) be named the next Speaker of the House has received over 58,000 signatures as of Thursday evening. The petition, released last Friday, was set up by the Coalition for Speaker Ayanna Pressley, “progressive activists from across the ",
+      "hotness": 10
+    },
+    {
+      "title": "CDC cuts $29.2 million in funds for Texas HIV prevention",
+      "url": "https://thehill.com/policy/healthcare/6217459-cdc-cuts-texas-hiv-funding/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:06:23.000Z",
+      "summary": "The Centers for Disease Control and Prevention (CDC) has cut $29.2 million from HIV prevention programs in Texas, the latest cuts to federal efforts to prevent the spread of HIV worldwide. The cuts target community organizations in the Lone Star State that cover the cost of testing, connect people t",
+      "hotness": 10
+    },
+    {
+      "title": "Without Jensen Huang, Nvidia's organizational structure isn't 'built to last,' management expert says",
+      "url": "https://www.cnbc.com/make-it/2026/11/12/nvidia-jensen-huang-management-structure.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:06:08.000Z",
+      "summary": "Nvidia's flat management structure could pose challenges for Huang's successor, according to experts.",
+      "hotness": 10
+    },
+    {
+      "title": "LGBTQ representation on TV fell during 2025-26 season, GLAAD says",
+      "url": "https://thehill.com/blogs/in-the-know/6217360-lgbtq-tv-representation-dropped/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T22:03:32.000Z",
+      "summary": "LGBTQ representation on TV fell during the last year, according to a new study by advocacy group GLAAD. The annual “Where We Are on TV” report found LGBTQ characters in scripted-series shows decreased by 25 percent from the previous season, dropping from 489 characters to 369. Researchers noted the ",
+      "hotness": 10
+    },
+    {
+      "title": "China rules out hosting Cop33 climate summit in 2028",
+      "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T22:00:15.000Z",
+      "summary": "Decision disappoints experts hoping for world’s biggest emitter to take global lead on climate crisis\nChina has ruled out hosting the Cop33 UN climate summit in 2028 after months of deliberations, leaving the field open for other Asian countries to hold it, the Guardian understands.\nThe decision wil",
+      "hotness": 10
+    },
+    {
+      "title": "Power Landlords Are Highlighting Bitcoin Mining Roots During AI Rout - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSjIzNXgwQ2xiUlpYM3hNZkFtNUloQlJzc1Fpb19ENUtTWHMtVmczdFhZOXdMVkRfM3FrNE5OR3puQ1JFY2c0WlZQczZ6OF9NMkFCcDJhajhuVWRURjR5ZUlYbVpVbHRjUnZGdjRfVHVDc1VReko3VExtUlB4YTdYQ2N2RTRIVzl5dWNzYnZBMGtxZHJMV3NvQ2FXYjdVZTNSTmlzOXQxeVlNUlczSWRENFFxWnB4QWJJZ0lrNm9Kdw?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T22:00:01.000Z",
+      "summary": "Power Landlords Are Highlighting Bitcoin Mining Roots During AI Rout  Bloomberg.com",
+      "hotness": 10
+    },
+    {
+      "title": "EU leaders tussle over who to send to Ukraine, Russia peace talks",
+      "url": "https://www.dw.com/en/eu-leaders-tussle-over-who-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T22:00:00.000Z",
+      "summary": "A seat at the table for Europe now appears likely following comments by a US envoy who just held talks with Putin. But who will take that seat remains unclear.",
+      "hotness": 10
+    },
+    {
+      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
+      "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T22:00:00.000Z",
+      "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+      "hotness": 10
+    },
+    {
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:55:32.000Z",
+      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available startin",
+      "hotness": 10
+    },
+    {
+      "title": "Am I overpaying for health insurance? How to answer the key question this open-enrollment season.",
+      "url": "https://www.marketwatch.com/story/am-i-overpaying-for-health-insurance-how-to-answer-the-key-question-this-open-enrollment-season-2d00ed55?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T21:55:00.000Z",
+      "summary": "More people want to understand the fine print on plans this year, financial planners say.",
+      "hotness": 10
+    },
+    {
+      "title": "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off",
+      "url": "https://cointelegraph.com/markets/strategy-shares-fall-5-msci-index-removal-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "source": "CoinTelegraph",
+      "sourceIcon": "🪙",
+      "lang": "en",
+      "category": "区块链",
+      "publishTime": "2026-11-12T21:52:04.000Z",
+      "summary": "Strategy shares declined Thursday following MSCI’s decision to remove the company from its indexes, as Bitcoin also fell amid a broader crypto market decline.",
+      "hotness": 10
+    },
+    {
+      "title": "Global Microsoft outage affects Outlook and Teams users, with company ‘restarting’ servers",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+      "source": "The Guardian",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T21:51:47.000Z",
+      "summary": "Alert on Microsoft’s site says it is ‘aggressively pursuing all pathways to reduce impact’ and blames server issue\nMicrosoft says its servers are beginning to return to service after a global outage resulted in nearly 130,000 users globally reporting issues accessing its 365 suite of software, inclu",
+      "hotness": 10
+    },
+    {
+      "title": "The 10 best stocks for a year-end momentum trade",
+      "url": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T21:50:00.000Z",
+      "summary": "Why December is the best month of the year for momentum strategies",
+      "hotness": 10
+    },
+    {
+      "title": "纪念孙中山先生诞辰160周年大会在京举行 - 人民网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EUXMzQzcyZkdneVp3ZGJnTHZLeWNZU1BZUks2WDJNS1pYdGh4LW1iM0syR3VOdDlRM3lpTzZhdlpDSnBRSVVVbE90UlBHbWMwZ3dPZDRRUktSQWV4MkNiSm80ZzNaSGZJdnhXQmpCZw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T21:50:00.000Z",
+      "summary": "纪念孙中山先生诞辰160周年大会在京举行  人民网在Google 新闻上查看更多头条新闻和观点",
+      "hotness": 10
+    },
+    {
+      "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation",
+      "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:45:00.000Z",
+      "summary": "Nvidia announced this morning that Jensen Huang has resigned as CEO following reports of two affairs, including one with an alleged Chinese spy and one with a direct report. The situation surrounding Huang has unfolded quickly, with The New York Times only reporting on Friday that Huang and the susp",
+      "hotness": 10
+    },
+    {
+      "title": "Trump says he wants to 'get Cuba done' before leaving office",
+      "url": "https://thehill.com/homenews/administration/6217391-trump-wants-cuba-change/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:40:40.000Z",
+      "summary": "President Trump on Thursday said he wants to “get Cuba done” before he leaves office and that the administration is “watching it very closely.” “I want to get Cuba done before I leave,” he told conservative radio host Hugh Hewitt. “We are watching it very closely, it’s doing very poorly,” the presid",
+      "hotness": 10
+    },
+    {
+      "title": "Pence leaves door open on 2028 presidential run",
+      "url": "https://thehill.com/homenews/campaign/6217361-mike-pence-revisits-2028-run/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:36:27.000Z",
+      "summary": "Former Vice President Mike Pence, who was President Trump’s second-in-command during his first term, is leaving the door open to a 2028 presidential bid.  In a video interview with Fox News Digital published Thursday, Pence was asked if he was thinking about a presidential bid and a “timeline” on hi",
+      "hotness": 10
+    },
+    {
+      "title": "Macron says there's 'no more US support’ for Ukraine",
+      "url": "https://thehill.com/policy/international/6217318-macron-europe-ukraine-support/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:35:24.000Z",
+      "summary": "French President Emmanuel Macron voiced support for Ukraine in its ongoing war against Russia, noting that “there is no more U.S. support.” “Without Europeans … there is no support for Ukraine,” Macron told the press while attending the European Political Community Summit in Ireland, according to a ",
+      "hotness": 10
+    },
+    {
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:35:00.000Z",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "hotness": 10
+    },
+    {
+      "title": "Merkley to seek chairmanship of Environment and Public Works Committee",
+      "url": "https://thehill.com/homenews/senate/6217381-senate-democrats-control-majority/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:34:04.000Z",
+      "summary": "Sen. Jeff Merkley (D-Ore.), a leading Senate progressive and strong advocate for the environment, says he will seek the chairmanship of the Senate Environment and Public Works Committee. Merkley, is the ranking member of the Senate Budget Committee and would be in line to chair that committee in the",
+      "hotness": 10
+    },
+    {
+      "title": "Nasdaq Composite slides as Nvidia shares tumble on Jensen Huang’s exit; oil prices jump",
       "url": "https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html",
       "source": "CNBC Top News",
       "sourceIcon": "💰",
       "lang": "en",
       "category": "金融",
-      "publishTime": "2026-11-12T21:11:11.000Z",
+      "publishTime": "2026-11-12T21:30:14.000Z",
       "summary": "The Nasdaq Composite fell on Thursday as investors weighed the departure of Nvidia CEO Jensen Huang.",
+      "hotness": 10
+    },
+    {
+      "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+      "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+      "source": "MarketWatch",
+      "sourceIcon": "📈",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T21:30:00.000Z",
+      "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
+      "hotness": 10
+    },
+    {
+      "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
+      "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
+      "source": "The Verge",
+      "sourceIcon": "📱",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:28:53.000Z",
+      "summary": "The previous-generation Oura Ring 4 is on sale for as low as $249 at Amazon, Best Buy, and Target, $100 off the retail price, and the first big discount on the device since July. The price varies a bit by size and color, with most silver and black models in stock at the lowest price between sizes 8 ",
+      "hotness": 10
+    },
+    {
+      "title": "Search for British woman missing from Tui cruise in Atlantic called off",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0enrkwkklo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "sourceIcon": "🇬🇧",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T21:27:21.000Z",
+      "summary": "The 72-year-old is believed to have gone overboard from the Tui ship on Monday as it headed towards the Caribbean.",
+      "hotness": 10
+    },
+    {
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
+      "lang": "en",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:27:10.000Z",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "hotness": 10
+    },
+    {
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T21:20:35.000Z",
+      "summary": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+      "hotness": 10
+    },
+    {
+      "title": "Microsoft reports mass outages in US, impacting customer accessibility",
+      "url": "https://www.dw.com/en/microsoft-reports-mass-outages-in-us-impacting-customer-accessibility/a-79935611?maca=en-rss-en-all-1573-rdf",
+      "source": "DW News",
+      "sourceIcon": "🇩🇪",
+      "lang": "en",
+      "category": "国际",
+      "publishTime": "2026-11-12T21:19:00.000Z",
+      "summary": "Software giant Microsoft has reported widespread outages of its Outlook and Teams services in the US. Nearly 130,000 users have reported disruptions.",
+      "hotness": 10
+    },
+    {
+      "title": "普京称不反对欧洲代表参与俄乌谈判 但拒绝让出侵占领土 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNSVVfOE9QRnBRSjFEd1prbm96aktqQnpvWG02Mm81T0NUaW5KT011R0w1OXBaUm9SWm1hNnlubTFza24zQjFBcGh1ZXRJMDY1RHFzZHF4TkhDR2I4a0dRTXZkMmlzWEloU1J4VUQxeF9lS2E4TmdRLXR1R3dDZGlnVFBXaVNWanZUY3RSc0V0UG1SU1YzbU1RcHVMSXNUT19RQWhvcFZPVzl2ZWdnZnJDTklidWRNQnNtcUsyZGlFZFhYVFp1NGNrdGxfS0R6dGZ4WUZKWnRYNUdiNmlZN3lOUVlteENKd20ycktiT3lvalNGY2xJeTVjTGp3M3FyQzdYa2Z5aldoTnUycm12TUtrM1c4eHJDN3BlQzNTR0Q3dzF4cElENDBIWWhHLUNJbDY5MERKVXBmTnJfdjRBWlpVejJUSGNRbVVJdEwyVTVib09kb0thUzltUDFSWm1ITEpLVjRJVVFPU1Nzd0NuRHJBZnBZOE14M2VzaUVTbkV0VWFTOHJnN2lPRU5VSHI?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T21:17:14.000Z",
+      "summary": "普京称不反对欧洲代表参与俄乌谈判 但拒绝让出侵占领土  RFI\n美国特使在阿布扎比会谈后会晤普京，随后前往都柏林与泽连斯基会面  美国之音\n普京拒绝外国军队驻乌 美称应尽快结束冲突 欧盟加大对俄制裁并推进援乌  中国网新闻中心\n俄总统助理：已与美方代表提前进行了初步磋商  新浪财经_金融信息服务商\n俄外长：美特使将前往莫斯科向普京通报三方会谈相关情况  央视网",
+      "hotness": 10
+    },
+    {
+      "title": "Lawmakers want answers after Nvidia's Huang steps down",
+      "url": "https://thehill.com/homenews/senate/6217057-congress-jensen-huang-nvidia-national-security/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:15:47.000Z",
+      "summary": "Nvidia's Jensen Huang resigned Thursday as CEO amid an explosive spy scandal, but Washington isn't letting him off the hook.  Lawmakers on both sides of the aisle said they still want to hear from the ex-Nvidia chief amid national security concerns about his involvement with a woman who U.S. officia",
+      "hotness": 10
+    },
+    {
+      "title": "Most Americans favor stricter gun laws: Gallup",
+      "url": "https://thehill.com/policy/6217246-gallup-poll-gun-laws/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:13:08.000Z",
+      "summary": "Most U.S. adults support more restrictive gun laws, a new Gallup poll shows, including nearly all Democrats and a majority of independents. In the survey, 56 percent think firearm laws should be stricter, 27 percent think they should be held the same and just 15 percent say they should be made less ",
       "hotness": 10
     },
     {
@@ -350,18 +944,51 @@
       "hotness": 10
     },
     {
-      "title": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "Allegations Of Third Jensen Huang Affair Ramp Up Divorce Speculation—Billionaire’s Wife Could Get Half His $140 BillIon Fortune - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPY05GVUtENV9xQ2FJOW1mSWtuT3JlZzhHc2I2SXJTSzctSy1YdHgzc3dKQ0k3NWlrekp4WnNQWWV2Vl81aDZqTjVwTnBZaWoxZXc2S19MVUlOblhCMzZMLUtyZVZ4eno5YlM3cXhWdnA4MENoa3pGbjgtX2txb1ZfSk5PNklhcFIwQmJfV0NGNmJ6MnR3bFQzMVdKN3NOcVBVMWlwQllkVHFBRV9CeEdmQ1VsRmJ2N2pBUllXbTVRWVh3SWRhY0dyNW1GZGUya3B2RjJrMjg1bVdONHZ5RFB2d2dDamJDWkpGRzR3X0FHSHdDbDhXSTFGQUN5YU1DcC0wSnhXOGU2ODlRaVU?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T21:05:32.000Z",
-      "summary": "Chief Financial Officer Colette Kress will serve as interim CEO until a new leader is appointed.",
+      "category": "经济",
+      "publishTime": "2026-11-12T21:05:00.000Z",
+      "summary": "Allegations Of Third Jensen Huang Affair Ramp Up Divorce Speculation—Billionaire’s Wife Could Get Half His $140 BillIon Fortune  Forbes\nEXCLUSIVE: Former Nvidia CEO Huang had a relationship with a second employee, sources say  Reuters\nHuang's ouster threatens Nvidia's breakneck dealmaking pace  Axio",
       "hotness": 10
     },
     {
-      "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+      "title": "Live updates: Huang exits Nvidia; Democrat locks down Kansas governor's mansion",
+      "url": "https://thehill.com/homenews/administration/6214786-live-updates-trump-midterms-alaska-congress/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:04:46.000Z",
+      "summary": "Nvidia CEO Jensen Huang resigned Thursday from the company he co-founded after revelations of extramarital affairs, including one with a woman alleged to be a spy for China. Kansas state Sen. Cindy Holscher was projected to win the governor's mansion Thursday, more than a week after Election Day. Ho",
+      "hotness": 10
+    },
+    {
+      "title": "金价再度跌破3900美元 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSmh0eUNEWmVyTmJJYm9jY3Qyb2FzRVJuLTZpY1pvdERUYzRFTDlhTDFUdTZxNUVyRlpuMDlCNEhmNGxNNk5MLTZFS1N0czUtQVo1RFBDNEtKWmxZMTY4Z3JQaWFMTm4xc0VtcTliRWxiX3lTQ1pVeGVEc2hVMTR6QVh0Z0pzcnhn?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T21:03:00.000Z",
+      "summary": "金价再度跌破3900美元  新华网在Google 新闻上查看更多头条新闻和观点",
+      "hotness": 10
+    },
+    {
+      "title": "Jim Banks calls for Lutnick to testify on Nvidia CEO controversy, alleging 'loophole' use",
+      "url": "https://thehill.com/homenews/senate/6217212-jim-banks-howard-lutnick-testimony-nvidia-jensen-huang/",
+      "source": "The Hill",
+      "sourceIcon": "🏛️",
+      "lang": "en",
+      "category": "政治",
+      "publishTime": "2026-11-12T21:02:59.000Z",
+      "summary": "Sen. Jim Banks (R-Ind.) called on Commerce Secretary Howard Lutnick to testify regarding his involvement with former Nvidia CEO Jensen Huang’s relationship with an alleged Chinese spy, accusing Lutnick of using a “loophole.” “This news is as concerning as it gets,” Banks said Thursday during an appe",
+      "hotness": 10
+    },
+    {
+      "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
       "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
       "sourceIcon": "🇬🇧",
@@ -383,14 +1010,14 @@
       "hotness": 10
     },
     {
-      "title": "Microsoft ‘restarting’ as outage impacts global users, with Outlook and Teams affected",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
+      "title": "Here are the 25 original Xbox games you can now play on PC",
+      "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
+      "source": "The Verge",
+      "sourceIcon": "📱",
       "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T21:00:07.000Z",
-      "summary": "An alert on Microsoft’s site said it was ‘aggressively pursuing all pathways to reduce impact’ and blamed a server issue\nMicrosoft says it is “aggressively pursuing all pathways” after users reported issues accessing its 365 suite of programs, including Outlook and Teams.\nOutage website Down Detecto",
+      "category": "科技",
+      "publishTime": "2026-11-12T21:00:00.000Z",
+      "summary": "The first 25 original Xbox on PC games. | Image: Microsoft\t\n\nFor the 25th anniversary of Xbox, Microsoft is beginning to make good on its paid \"next-gen game preservation\" promise. Starting today, you can play 25 different original Xbox games on your Windows PC, as long as you have (or are willing t",
       "hotness": 10
     },
     {
@@ -405,36 +1032,14 @@
       "hotness": 10
     },
     {
-      "title": "Microsoft outage hits Outlook. AWS and Google users also report issues",
-      "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "Epstein's secret crypto ties stretched from MIT to Kremlin. Here's what to know - Miami Herald",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDREhRMnU0clZYWVFtNnA5N2NaRVhKVkVfaTNUaV9wWWsydUR2YnpNTVhGclp5RmJsUkMyaFl3RU0zWFRCbGRTaURkYnA0eGpwQlhLeVFsdEFlNVA3Q1o3UzZXQmJuQUpFdGo2QzhNbnjSAXBBVV95cUxNdkRBbWJsMmd0dGhQRHJRQXZ2NjkxS3pNQm5wWVg4Y1J4M1VHQnM1QjNBSC1YdWZnUDltRVRrQkxlZHNZMDgwWFBHM0NVUHV2T1NFaHNLR2JXVmlxWW5oWGRqc2FJMjRoOGNJYVNqbTdI?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T20:57:54.000Z",
-      "summary": "Amazon Web Services and Google users also reported outages on Thursday",
-      "hotness": 10
-    },
-    {
-      "title": "美国总统特朗普表示 如有必要 可能会对伊朗动用武力 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nN05VbVZJR2VOc0JoUUV2Q2MxZklFTjN1dEF6LVVnSzJBYTRHV2gwMjAwTFh5ZWdhMDJOZGVlcTE2VHlnNzFmaEtJdmVtRVlnX2kzZ1ZEcEpSNTRtRzh2bw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T20:56:03.000Z",
-      "summary": "美国总统特朗普表示 如有必要 可能会对伊朗动用武力  东方财富\n特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败  美国之音\n特朗普：美国不需要与伊朗达成协议  凤凰网\n战或和都不选，特朗普想用这损招让伊朗“窒息”  观察者网\n特朗普称美国不需要与伊朗达成协议，油价直线拉升  Sohu",
-      "hotness": 10
-    },
-    {
-      "title": "Nvidia live updates: Jensen Huang had ‘intimate relationship’ with second employee, Reuters reports - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQLXdpNk1zM3AtTjV1OFB4d0xkbXhnQkhIYUtYVWRxalR2dVJLZ0d6ajJDdS1Nb05ycVZnNnkxbGkzLXF4WVB1NnVlREtiVWdBOE9vbFRERGh2NGxjUGt0T01CbjVrZEUzZjB3UVhacUlZYnBxMURYV2pmQXBMdw?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
+      "category": "Web3",
       "publishTime": "2026-11-12T20:56:00.000Z",
-      "summary": "Nvidia live updates: Jensen Huang had ‘intimate relationship’ with second employee, Reuters reports  CNBC\nNvidia live updates: Following Jensen Huang's resignation as CEO, allegations of a third affair emerge  Yahoo Finance\nJensen Huang Had A Third Affair—With Another Nvidia Employee, Report Says  F",
+      "summary": "Epstein's secret crypto ties stretched from MIT to Kremlin. Here's what to know  Miami Herald",
       "hotness": 10
     },
     {
@@ -449,17 +1054,6 @@
       "hotness": 10
     },
     {
-      "title": "菲律宾多个政府部门遭网络攻击总统府称已做好应对准备-中新网 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JaDdLSXRLZVVsTlVoMjcxRXhJd04wQ0pyd0xHN3VUME1mc0o5c1k5bldWU0pjdjNEWC1qamEyU0tMMjYxdThIZnBFbGc3cTBLaXdmX3dGeGlPbWRtRGx6WERUZ0Z4OWwt?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T20:48:25.000Z",
-      "summary": "菲律宾多个政府部门遭网络攻击总统府称已做好应对准备-中新网  中国新闻网\n菲律宾多个政府部门遭网络攻击  新华网\n菲律宾泰国多家机构和公司遭网络攻击  联合早报\n菲律宾“证监会”发生数据泄露  安全内参\n菲律宾多个政府机构遭网络攻击  Sohu",
-      "hotness": 10
-    },
-    {
       "title": "COP31聚焦城市韧性，敦促加快气候行动 - UN News",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiV3lsNlh3a0VjRHl6dzM3Ti1aNDJsMWd3aDdEWGxwMkU3blB1R3h6WXVSN25MZHhlXy03LVVqRGdDcHlKWGpkU2NoZlBqTTFKbDhpaXkwRQ?oc=5",
       "source": "Google News 中文",
@@ -467,7 +1061,18 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T20:48:04.000Z",
-      "summary": "COP31聚焦城市韧性，敦促加快气候行动  UN News\n第31届联合国气候变化大会“生态文明与美丽中国实践”主题边会在中国角举办--国际  人民网\n中新社“新闻会客厅”在土耳其迎来首批国际客人  新浪财经_金融信息服务商\nGAUC首席青年官何超欣：应为青年参与气候行动提供实践机会和合作支持  ThePaper.cn\n走进联合国气候变化大会中国角  光明网",
+      "summary": "COP31聚焦城市韧性，敦促加快气候行动  UN News\n第31届联合国气候变化大会“生态文明与美丽中国实践”主题边会在中国角举办--国际  人民网\n【环球财经】土耳其在COP31期间达成51亿美元气候融资协议  新浪财经_金融信息服务商\nGAUC首席青年官何超欣：应为青年参与气候行动提供实践机会和合作支持  ThePaper.cn\n走进联合国气候变化大会中国角  光明网",
+      "hotness": 10
+    },
+    {
+      "title": "Stock market has a 'worrisome' focus on Anthropic IPO, Ariel Investments' Mellody Hobson says - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWUV4bFVxeVp5WDlQVVM4dTZqNVVDbDhSUTQ2YS1LMzBZQkhTemxaRndvSngxU3FueXg0TTNBOFRTU3hoNUdnakdhanMxUnpsODl3MnFwZkY4VzVNLXhEclNzX25OZS1STm1MZDVJMXdNcm02SkNWeXJkaE1NZnFmQUNVa3ZvTEF3dTlRbGRyU3ZaeFVrSFNEUnhfS0t3WnhJWWljSk1wT2d3YzZpRzh0M2ZYR3k4ODc2YVZseEFOQmRhNW5aN1FPd0xxWlMzeEtVZ0dXNlNFOFdxeGR3dU1r?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T20:47:15.000Z",
+      "summary": "Stock market has a 'worrisome' focus on Anthropic IPO, Ariel Investments' Mellody Hobson says  Yahoo Finance\nAnthropic, PBC - S-1/A-2  SEC.gov\nAnthropic’s IPO Is About Six Times Oversubscribed  Bloomberg.com\nTech’s Biggest Companies Will See a Giant Payday From Anthropic’s I.P.O.  The New York Times",
       "hotness": 10
     },
     {
@@ -479,17 +1084,6 @@
       "category": "金融",
       "publishTime": "2026-11-12T20:44:00.000Z",
       "summary": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
-      "hotness": 10
-    },
-    {
-      "title": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
-      "url": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T20:34:54.000Z",
-      "summary": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
       "hotness": 10
     },
     {
@@ -515,6 +1109,17 @@
       "hotness": 10
     },
     {
+      "title": "United Airlines blocks AI agents from booking flights - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNkVsZUJhUHZoMTlPa05zbzFaSHBObFhuSTJ3QUx5QU15NEVCanBwanpmeHUybDNJWVpQRDVWUEt1T2JvejU2bXhMOWFkNTdLR1FLMTBPS3VqUU1TTUg1VjltMFQ1TF9ZTkFxclB0RTJEZEFvSGlKMEFqRXdCLTFYNG4zLWkzdjZTdXRJUGlMZTRWU042U212YzRUNGQtR2s?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T20:30:00.000Z",
+      "summary": "United Airlines blocks AI agents from booking flights  The Washington Post\nUnited Airlines Blocks A.I. Agents From Booking Flights on Customers’ Behalf  The New York Times\nUsing an AI agent to buy your flights? This airline is banning them from booking on your behalf.  Yahoo\nExclusive | United Airli",
+      "hotness": 10
+    },
+    {
       "title": "Heritage Foundation head: GOP made midterm 'mistake' on data centers",
       "url": "https://thehill.com/policy/technology/6217137-heritage-leader-gop-data-center-mistake/",
       "source": "The Hill",
@@ -523,17 +1128,6 @@
       "category": "政治",
       "publishTime": "2026-11-12T20:27:30.000Z",
       "summary": "The president of the Heritage Foundation, Kevin Roberts, said this week that the Republican Party erred in its stance toward data centers in the midterm elections.  “Conservatives were apoplectic about data centers,” Roberts told Financial Times in an interview published Thursday.  The conservative ",
-      "hotness": 10
-    },
-    {
-      "title": "'Plenty of smoke' around Trump administration corruption allegations: Ben Shapiro",
-      "url": "https://thehill.com/homenews/administration/6217132-shapiro-trump-corruption-smoke/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:26:56.000Z",
-      "summary": "Conservative commentator Ben Shapiro said Wednesday there is “plenty of smoke” around corruption allegations in the Trump administration. “Obviously, the fact that there’s so many people in the direct orbit of the president, who either have been taking advantage of his largesse, or who are directly ",
       "hotness": 10
     },
     {
@@ -548,17 +1142,6 @@
       "hotness": 10
     },
     {
-      "title": "Trump urges Senate leadership to move $350B reconciliation bill",
-      "url": "https://thehill.com/homenews/senate/6217053-donald-trump-senate-leadership-350b-reconciliation-bill/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:25:31.000Z",
-      "summary": "President Trump on Thursday renewed calls for the $350 billion military funding package to be passed through the Senate as time runs out for Republicans to hold a majority in Congress. “I rebuilt our Military in my First Term, and we’re doing it AGAIN, bigger and better than ever before! The Radical",
-      "hotness": 10
-    },
-    {
       "title": "United Airlines won’t let AI agents book your flight. Expert says you shouldn't let a bot do that for you, anyway",
       "url": "https://www.cnbc.com/make-it/2026/11/12/ai-agents-human-in-loop.html",
       "source": "CNBC Top News",
@@ -570,14 +1153,14 @@
       "hotness": 10
     },
     {
-      "title": "Witkoff, Kushner to meet with Zelensky as Ukraine reports Starshield restrictions for second time",
-      "url": "https://thehill.com/policy/international/6217022-witkoff-kushner-zelensky-meeting-starshield-update/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
+      "title": "SpaceX plans over $74 billion investment in Texas, Arizona AI campuses - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdlQwLUxxTENmenRpSFFXVlNUeVkzeURtNWxCZ1RuVEQwdENKV0g3MndreVZsZFYwVGtpT3Q3SDJZU0pHTGI1WFFYWERreFJmbzVjaUtOR2NjUURRMTVHNVlKdGE0VkdRVzRvekpIcHdmRGdOV2kwRXVmbWl1blRIV1VKSjQ4c19FSVFTUWZNM2ptQ0ZaMW96a2UyTFphWjNsSnc3ZmJZdWhHNWpiS19hTDhYSk9vNkpkeng1N3prZ1Y3b1lI?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:24:47.000Z",
-      "summary": "U.S. special envoys Steve Witkoff and Jared Kushner are set to meet with Ukrainian President Volodymyr Zelensky this week amid reports the eastern European country's access to Starshield satellite communications has been restricted for a second time. “I think progress was made. I think it was made e",
+      "category": "经济",
+      "publishTime": "2026-11-12T20:23:24.000Z",
+      "summary": "SpaceX plans over $74 billion investment in Texas, Arizona AI campuses  Reuters\nSpaceX Plans $74 Billion Investment to Build Data Centers in Texas and Arizona  The New York Times\nElon Musk's SpaceX Reportedly Plans $24 Billion Gas-Fired Power Plant and AI Data Center In Texas  Yahoo Finance\nSpaceX p",
       "hotness": 10
     },
     {
@@ -603,17 +1186,6 @@
       "hotness": 10
     },
     {
-      "title": "SOL price on Nov 12, 2026 at 4pm EST Crypto Prediction Market - Robinhood",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWUVXWlp5MUpfTWtBMlRfOHZlc1lwMXIzZjBJS01BSzlzaTNCWU1QMGx5UmhPckNLdkhCR1puZkxkN1QxbFRhejVBYTRGN0xZcTMtcENBMFh2ZDdoMTlabW5YSDFkSXJILTRwNzR4WWd2bDlsOHNYcGxDZjlPUjdvUTBITnExQ0N5eUJ0b0RhU0JROXJRYlMzOUVDb3BlblVSYnpwSEFlQjFQT0tUdGc?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T20:10:44.000Z",
-      "summary": "SOL price on Nov 12, 2026 at 4pm EST Crypto Prediction Market  Robinhood",
-      "hotness": 10
-    },
-    {
       "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
       "url": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -622,17 +1194,6 @@
       "category": "国际",
       "publishTime": "2026-11-12T20:09:16.000Z",
       "summary": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
-      "hotness": 10
-    },
-    {
-      "title": "Nate Silver: GOP midterm sting ‘triggers the ending’ of Trump era",
-      "url": "https://thehill.com/homenews/campaign/6216694-nate-silver-trump-era-end/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:08:03.000Z",
-      "summary": "Polling analyst Nate Silver on Wednesday predicted that the Republican defeats in the 2026 midterm elections triggered \"the ending\" of President Trump's era in U.S. politics. \"Are you familiar with the term 'denouement?'\" Silver asked his \"Still Counting\" podcast co-hosts and former FiveThirtyEight ",
       "hotness": 10
     },
     {
@@ -647,17 +1208,6 @@
       "hotness": 10
     },
     {
-      "title": "Cindy Holscher wins Kansas governor's mansion, keeping it in Democrats' hands",
-      "url": "https://thehill.com/homenews/campaign/6190120-cindy-holscher-kansas-governor-race/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:04:59.000Z",
-      "summary": "Kansas state Sen. Cindy Holscher (D) was projected to win the state's gubernatorial race, according to Decision Desk HQ (DDHQ), keeping the office in Democratic hands and denying Republicans one of their best pickup opportunities this year. Holscher defeated Republican Kansas Senate President Ty Mas",
-      "hotness": 10
-    },
-    {
       "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
       "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html",
       "source": "CNBC Top News",
@@ -666,17 +1216,6 @@
       "category": "金融",
       "publishTime": "2026-11-12T20:03:57.000Z",
       "summary": "The president's son will no longer serve as an advisor at Kalshi.",
-      "hotness": 10
-    },
-    {
-      "title": "United Airlines blocks AI agents from booking flights - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNkVsZUJhUHZoMTlPa05zbzFaSHBObFhuSTJ3QUx5QU15NEVCanBwanpmeHUybDNJWVpQRDVWUEt1T2JvejU2bXhMOWFkNTdLR1FLMTBPS3VqUU1TTUg1VjltMFQ1TF9ZTkFxclB0RTJEZEFvSGlKMEFqRXdCLTFYNG4zLWkzdjZTdXRJUGlMZTRWU042U212YzRUNGQtR2s?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T20:02:59.000Z",
-      "summary": "United Airlines blocks AI agents from booking flights  The Washington Post\nUnited Airlines Blocks A.I. Agents From Booking Flights on Customers’ Behalf  The New York Times\nExclusive | United Airlines Is Banning AI Bots From Booking Flights  WSJ\nUnited Airlines Alone In Blocking AI Agents From Bookin",
       "hotness": 10
     },
     {
@@ -691,6 +1230,17 @@
       "hotness": 10
     },
     {
+      "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email - WIRED",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTEycUFvNHRyM0VUODM2ZTlvRlJVZlpETng5b1BUdEhKdExzX09pN1I4eldjSXZvd21GUTJmOXNIb1JHVGJ0SXp2SVFMM0ZZVFhDSnNXbHRkZXFHbVhDRmVrclhkcm5hRENPNGVpS0QzNXNhTjVQZ3ZSRWZablJpM1N6eXNhcGh0NDdGNTlxaXFTTzBuQ3l3?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T20:01:00.000Z",
+      "summary": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email  WIRED\nMicrosoft 365, Outlook down for thousands of US users, Downdetector shows  Reuters\nMicrosoft Outlook outage disrupts work across North Texas  Dallas News\nOutlook outage: Microsoft reports 'issues' with Teams and emai",
+      "hotness": 10
+    },
+    {
       "title": "Subtitle Launches Godzilla-Inspired Capsule Featuring Laser-Burned Denim Jackets",
       "url": "https://hypebeast.com/2026/11/subtitle-godzilla-tides-capsule-collection-toho-international-release-info",
       "source": "Hypebeast",
@@ -699,17 +1249,6 @@
       "category": "潮流",
       "publishTime": "2026-11-12T20:00:29.000Z",
       "summary": "Summary\nSubtitle's \"TIDES\" is an eight-piece collection centering on Godzilla’s ties to the sea.Garment-washed denim and heat ray-inspired laser burning define the lineup.Highlights include a Type I jacket, a noragi-style jacket and a 1:1954 scale hat.\nFollowing its successful debut collection cente",
-      "hotness": 10
-    },
-    {
-      "title": "Lawmakers collaborate to expand veteran dental care access",
-      "url": "https://thehill.com/homenews/house/6216928-congressional-support-veteran-dental-care/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T20:00:00.000Z",
-      "summary": "Reps. Jack Bergman (R-Mich.) and Herb Conaway (D-N.J.) outlined policy solutions to address barriers veterans face in accessing dental care during a Thursday event hosted by The Hill.  The “Strengthening Dental Care for Veterans” virtual event, sponsored by CareQuest Institute for Oral Health, featu",
       "hotness": 10
     },
     {
@@ -735,39 +1274,6 @@
       "hotness": 10
     },
     {
-      "title": "White House discussing Howard Lutnick's future as Commerce secretary, people familiar say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbWtqakZ4LUVIb2dkYnZNS0ZXM3M3ZEpyZGQ1eDc0UWxOR2I4cWNLeXk5VW5HM0hjbGxvYktjN2s3ZThPNWswVFBpQmZ6a3FYUDVRVVdRWk9XRXB0VFNIejJObkRnWm0wZTNpUjM4TmgxVkMtY2RFbEp3UUZRakpMWmZMeHJlZXlQMHB3OXBaSE1KY24xS3EzUjNlNE1HblplZkpyWmFBbVprTGV5TVVrbWNPUjl6UnZOU3hMZlFtdEIyZ21jQ3dZ?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T19:53:22.000Z",
-      "summary": "White House discussing Howard Lutnick's future as Commerce secretary, people familiar say  ReutersSee more headlines & perspectives on Google News",
-      "hotness": 10
-    },
-    {
-      "title": "Trump administration is hiring debt collectors to go after defaulted student-loan borrowers for first time in 6 years",
-      "url": "https://www.marketwatch.com/story/trump-administration-is-hiring-debt-collectors-for-first-time-in-6-years-to-go-after-defaulted-student-loan-borrowers-8bae13ad?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T19:46:00.000Z",
-      "summary": "The Treasury Department proposes to pay debt collectors much less than in the past to help borrowers get out of default.",
-      "hotness": 10
-    },
-    {
-      "title": "DC police identify accused Logan Circle gunman, signal potential motive",
-      "url": "https://thehill.com/homenews/state-watch/6217017-dc-logan-circle-shooting-suspect/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T19:45:04.000Z",
-      "summary": "Washington police identified the suspected gunman accused of shooting five people, including one fatally, in D.C.’s Logan Circle neighborhood Thursday, according to The Associated Press. Three sources, including two law enforcement officials, told the AP a man named Matt Lambert is the preliminary s",
-      "hotness": 10
-    },
-    {
       "title": "Watch these levels to know if Nasdaq-100 is set to break out",
       "url": "https://www.cnbc.com/2026/11/12/watch-these-levels-to-know-if-nasdaq-100-is-set-to-break-out.html",
       "source": "CNBC Top News",
@@ -776,6 +1282,17 @@
       "category": "金融",
       "publishTime": "2026-11-12T19:43:17.000Z",
       "summary": "Todd Gordon breaks down the charts in a confusing market.",
+      "hotness": 10
+    },
+    {
+      "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+      "url": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
+      "source": "CNBC Top News",
+      "sourceIcon": "💰",
+      "lang": "en",
+      "category": "金融",
+      "publishTime": "2026-11-12T19:42:41.000Z",
+      "summary": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
       "hotness": 10
     },
     {
@@ -790,58 +1307,14 @@
       "hotness": 10
     },
     {
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmF2Z05ObnRwSVdvWGJrWC1XZlIzVXlYMTV3eVRwQWlScGY3TGpuamVOTEpremJZQnhJU3hkOWl2ck4xNFdzQWM1VTh2OEVBQ3FCTzNiYThfOTlzSHpqX0hHeWQ3dzZTcnRsVzYtMzFWeElmZVdVWUdQcnhIbEp1SS1lejVoM2Y1OGdScGpLbzJPVWhk?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T19:39:17.000Z",
-      "summary": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap  Bloomberg.com\nNvidia Stock Plunges After Jensen Huang Resigns as CEO  The New York Times\nAI industry execs brace for future without leading hype man, Nvidia’s Jensen Huang  Fortune\nNasdaq Composite slides as Nvidia shares tumble on Jens",
-      "hotness": 10
-    },
-    {
-      "title": "Trump adviser moves to strike Qatar payment allegations from court record",
-      "url": "https://thehill.com/regulation/court-battles/6216986-bruesewitz-utley-legal-battle/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T19:38:32.000Z",
-      "summary": "A political consulting firm led by a top outside adviser to President Trump is asking a federal judge to strike accusations made in a filing by one co-founder in which he accuses the other of receiving hundreds of thousands of dollars from Qatar-linked interests. X Strategies, led by GOP media strat",
-      "hotness": 10
-    },
-    {
-      "title": "Stocks making the biggest moves Thursday: Super Micro Computer, Nvidia, CoreWeave, Nebius, Yeti & more",
-      "url": "https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T19:35:49.000Z",
-      "summary": "Follow along and CNBC highlights the biggest stock market moves of the day.",
-      "hotness": 10
-    },
-    {
-      "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
-      "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T19:33:50.000Z",
-      "summary": "Nvidia's leadership crisis threatens to spill over into the AI financing boom.",
-      "hotness": 10
-    },
-    {
-      "title": "Why Trump thinks tiny trucks could solve car affordability crisis - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVzZUM0tLalhrdWlCZmdXaFlBSUtzRU5uQnJzMkJ6SmZPUTRRVktkODZpNEJFR25ZUHJacmc4OHcxbEl0UEpTS0l3SXZ4UWp6VG5iUmdfZzVRVGdSWkY5MG1pdGI3YW55SF9IN1E2WWZLQmNUUm5pYUkyVkIteFU1eGlDT0RpRVo1MnlYUEFQbGs0OENyMVpyWVdTdmFudFJjNDh5Ym1OOA?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T19:29:00.000Z",
-      "summary": "Why Trump thinks tiny trucks could solve car affordability crisis  USA Today\nToyota Plans to Sell a Kei Pickup Truck in the U.S.  The New York Times\nToyota Says ‘Okei’ to America: Introducing the Scion by Toyota Brand and KEI-01  Toyota USA Newsroom\nToyota resurrects Scion with Kei mini car, a Trump",
+      "title": "佩斯科夫称欧洲国家表现自相矛盾 - 同花顺",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TSVJ1QW9pcTYtV2F4WVMySnZjckltdXNVVWNBb29kdE5DNFZYMWlmQ1pscklLSlA1VXY0MzNTbnBsVnAxVUlwV2VYbUg4bzlGaXJkZXBWUUNDck0yX2c?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T19:30:19.000Z",
+      "summary": "佩斯科夫称欧洲国家表现自相矛盾  同花顺在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
@@ -867,39 +1340,6 @@
       "hotness": 10
     },
     {
-      "title": "Paxton finalizes divorce after ex-wife filed on 'biblical grounds': Report",
-      "url": "https://thehill.com/homenews/state-watch/6216932-ken-angela-paxton-divorce-finalized/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T19:22:27.000Z",
-      "summary": "Former GOP Senate candidate and Texas Attorney General Ken Paxton has reportedly finalized his divorce from his ex-wife, state Sen. Angela Paxton (R), after being married for more than 40 years. Ken Paxton's attorney confirmed to The New York Times, which first reported on the conclusion Thursday, t",
-      "hotness": 10
-    },
-    {
-      "title": "Nvidia’s stock selloff may be just beginning, even after shedding 30% from its peak",
-      "url": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T19:15:00.000Z",
-      "summary": "While shares of Nvidia look cheap on paper and on the charts, Wall Street analysts see more volatility ahead.",
-      "hotness": 10
-    },
-    {
-      "title": "The prostate-cancer screening rules just changed. Here’s when men should get tested.",
-      "url": "https://www.marketwatch.com/story/the-prostate-cancer-screening-rules-just-changed-heres-when-men-should-get-tested-894418bb?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T19:12:00.000Z",
-      "summary": "The American Cancer Society now recommends most men get their first PSA test when they turn 50. Black men and other men considered high risk should start screening at age 45.",
-      "hotness": 10
-    },
-    {
       "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
       "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
       "source": "TechCrunch",
@@ -908,17 +1348,6 @@
       "category": "科技",
       "publishTime": "2026-11-12T19:11:00.000Z",
       "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "hotness": 10
-    },
-    {
-      "title": "Microsoft Outlook is down",
-      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T19:07:21.000Z",
-      "summary": "Over the last hour or so, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft has acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing ele",
       "hotness": 10
     },
     {
@@ -966,17 +1395,6 @@
       "hotness": 10
     },
     {
-      "title": "Who is interim Nvidia CEO Colette Kress?",
-      "url": "https://thehill.com/policy/technology/6216664-nvidia-interim-ceo-colette-kress-jensen-huang-resignation-affairs/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T18:52:18.000Z",
-      "summary": "Colette Kress is taking on the role after the resignation of CEO Jensen Huang.",
-      "hotness": 10
-    },
-    {
       "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -984,29 +1402,7 @@
       "lang": "en",
       "category": "国际",
       "publishTime": "2026-11-12T18:47:35.000Z",
-      "summary": "Specialist Thomas Iglesias was given a Joint Service Commendation Medal for the execution of his duties after Wednesday's incident.",
-      "hotness": 10
-    },
-    {
-      "title": "华盛顿枪击事件已致一死四伤 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PSF9mQU5pUk9uN1lHSUVfNnhobVd1bGFfWnZaQ3JPUVRRWTUtTERfQjZtUnFaZDlXcEZ2WTFfYU9wcEtWR1hCbTBNa3kyUXFRZFRFSjJ2dWF5YnJEb3A1TA?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T18:46:58.000Z",
-      "summary": "华盛顿枪击事件已致一死四伤  东方财富\n美国首都发生枪击事件 至少5人中枪  新华网\n美国华盛顿发生枪击事件，造成一人死亡、多人中枪受伤  新浪财经_金融信息服务商\n美国白宫附近一街区发生枪击 5人中弹  新京报\n美国华盛顿发生枪击事件(6)  凤凰网",
-      "hotness": 10
-    },
-    {
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford our $200,000-a-year dream retirement. I think he’s cheap.",
-      "url": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T18:46:00.000Z",
-      "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+      "summary": "Specialist Thomas Iglesias had shouted at Hegseth's group to be quiet after they could be heard talking and laughing at the Tomb of the Unknown Soldier.",
       "hotness": 10
     },
     {
@@ -1032,25 +1428,14 @@
       "hotness": 10
     },
     {
-      "title": "U.S. inflation is already bad enough. It might get worse.",
-      "url": "https://www.marketwatch.com/story/u-s-inflation-is-already-bad-enough-it-might-get-worse-bae54da9?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T18:39:00.000Z",
-      "summary": "Federal Reserve Chairman Kevin Warsh has vowed the Fed will smite high inflation — but the death blows won’t come fast or easy.",
-      "hotness": 10
-    },
-    {
-      "title": "Outlook Outage: Microsoft’s Email Service Goes Down Nationwide - Variety",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaEtHWFJiNU9fN1RIckNiYW5rNVdYZkFXdUZJZnZVYVJ4M05paHNzekJER3ZuYnFxeHRnYkUtSDIyM0w3dVp0WnI2c2FVRklIRjhNSEJDRFZ3b2hDTTBrcGliT2lJVV9weDhtZV8yWlN6VDN1QWg2SF95aVFwYWtPMnBjYnd0OWhFekpKWVdn?oc=5",
+      "title": "Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang? - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaGliajlaNEpxWDNkSmtUZzN5dTBVZkFiSHFCRWJQUC0wMk1xdm1nTXdfM1hZT0psZWJ4TF9HWTVqLTd4eUVfQmVleGtwT0lRWEhMWW1NZVkyOGFEVWdlOGJwemtiVUhldm1HQnJtQnlJc0lVUFJQdFQ5Wk9lSGRXc0g0b0xXTU0yZGc?oc=5",
       "source": "Google News 经济",
       "sourceIcon": "📊",
       "lang": "en",
       "category": "经济",
-      "publishTime": "2026-11-12T18:39:00.000Z",
-      "summary": "Outlook Outage: Microsoft’s Email Service Goes Down Nationwide  Variety\nIs Microsoft Outlook down? Thousands report issues with platform  ABC10\nMicrosoft outage hits Outlook. AWS and Google users also report issues  CNBC\nMicrosoft 365, Outlook down for thousands of US users, Downdetector shows  Reut",
+      "publishTime": "2026-11-12T18:37:51.000Z",
+      "summary": "Who Is Colette Kress, the Interim Nvidia CEO Replacing Jensen Huang?  The New York Times\nNvidia live updates: Jensen Huang resigns as CEO as third affair allegation emerges, risking broader fallout  Yahoo Finance\nWho Is Harvey Jones, Nvidia’s New Chair?  WSJ\nWho is Colette Kress, Nvidia's interim CE",
       "hotness": 10
     },
     {
@@ -1065,25 +1450,14 @@
       "hotness": 10
     },
     {
-      "title": "A Speaker for the whole House",
-      "url": "https://thehill.com/opinion/congress-blog/6215212-house-speaker-build-consensus/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
+      "title": "SpaceX’s next move is chasing the unprecedented ‘holy grail’ of rocketry. Here’s what’s at stake - CNN",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJY0R6TVZrTGdoenBJel9CQVNLakI2S3BCLUlCXzdwYTI0eTFCUWFrVFhEcVNJVFZsamlnZ2Z6V2NzeUF4NGRrMUpJVEdyU3VmNHNxQjZuS2R3WVU3M0FJbmRpaENoUmZTa1daN1UxdDE3bjZ5RmdndkcybDdmQQ?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
       "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T18:30:00.000Z",
-      "summary": "Following the 2026 midterms, the incoming Democratic majority faces the challenge of electing a Speaker who can build a broad national consensus by engaging moderate Republicans on key issues.",
-      "hotness": 10
-    },
-    {
-      "title": "O'Reilly: House Democrats' new Epstein report 'a bunch of bull'",
-      "url": "https://thehill.com/homenews/media/6216776-oreilly-judiciary-committee-epstein-report-bull/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T18:27:48.000Z",
-      "summary": "Conservative commentator Bill O’Reilly called a new House Judiciary Committee report on the Department of Justice's (DOJ) investigation into convicted sex offender and disgraced financier Jeffrey Epstein “a bunch of bull,” saying it failed to expose any \"legitimate corruption.\" “No, I didn't read it",
+      "category": "经济",
+      "publishTime": "2026-11-12T18:27:00.000Z",
+      "summary": "SpaceX’s next move is chasing the unprecedented ‘holy grail’ of rocketry. Here’s what’s at stake  CNN\nDear SpaceX Stock Fans, Mark Your Calendars for November 13  Barchart.com\nSpaceX aims to safely land Starship and booster stage after orbital flight  New Scientist\nSpaceX Starship Flight 15 live upd",
       "hotness": 10
     },
     {
@@ -1131,39 +1505,6 @@
       "hotness": 10
     },
     {
-      "title": "The 2027 401(k) limits are here. See how much more you can save next year.",
-      "url": "https://www.marketwatch.com/story/the-2027-401-k-limits-are-here-see-how-much-more-you-can-save-next-year-d525768c?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T18:19:00.000Z",
-      "summary": "Defined-contribution plans are getting a bump. IRA savers are not.",
-      "hotness": 10
-    },
-    {
-      "title": "American Cancer Society recommends regular prostate cancer testing in updated guidelines",
-      "url": "https://thehill.com/policy/healthcare/6216792-acs-updates-prostate-screening/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T18:15:14.000Z",
-      "summary": "The American Cancer Society released an updated guideline Thursday that recommends regular prostate cancer screenings for average-risk men between the ages of 50-69 years old. The society also recommended annual screenings starting at the age of 45 for “Black men and men with a strong family history",
-      "hotness": 10
-    },
-    {
-      "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
-      "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
-      "source": "MarketWatch",
-      "sourceIcon": "📈",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T18:15:00.000Z",
-      "summary": "“He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
-      "hotness": 10
-    },
-    {
       "title": "词元摆上双11货架折射数字消费新变迁 - 东方财富",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxSE1YNnhoa3pZeGxwbnB0ZFlUUDlWWmN0WVlHUjExN2NxY0RTTXRCSndPcTlqa3pVb25JMDNZOG01ZlYtcmpUcnl6Q08wejFNbC1UX1o5NFZ4YW1CTmVZRE1QSWRRZw?oc=5",
       "source": "Google News 中文",
@@ -1171,7 +1512,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T18:14:53.000Z",
-      "summary": "词元摆上双11货架折射数字消费新变迁  东方财富\n新华智见丨“双十一”词元热卖，AI离随取随用还有多远？  中国网新闻中心\n5折token，双十一的新热潮  观察者网\n“AI+”潜力不断释放 网络消费“引擎”韧性凸显  央视网\nAI扎根烟火气，服务升温里的“双11”消费新图景  新浪网",
+      "summary": "词元摆上双11货架折射数字消费新变迁  东方财富\n“双十一”词元热卖，AI离随取随用还有多远？  上海热线\n5折token，双十一的新热潮  观察者网\n“AI+”潜力不断释放 网络消费“引擎”韧性凸显  央视网\nAI扎根烟火气，服务升温里的“双11”消费新图景  新浪网",
       "hotness": 10
     },
     {
@@ -1183,6 +1524,17 @@
       "category": "科技",
       "publishTime": "2026-11-12T18:06:54.000Z",
       "summary": "The future’s so bright, he’s gotta wear sunglasses. | Photo by Scott Olson/Getty Images\t\n\nI had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold.\nLast week's elections were a bloodbath for the right, a problem for all the ",
+      "hotness": 10
+    },
+    {
+      "title": "AMD and Broadcom Stock Get a Boost From Nvidia’s Loss - Barron's",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMGJPR1pTTlRRSUZBTFNIZTZCd1JYRHltdEx2N2F3OVpvRzRDbFZ2UWlhR01SLWZadTlKNnRjbi1sQU5RazZKaDdReWZmdHhqOEVuemFRTlQ3dWk5SUt2RnMtTU1CcTlDbGctMWZGLUhNREtPNXNnZXNNRUJwQkpMQTVB?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T18:02:00.000Z",
+      "summary": "AMD and Broadcom Stock Get a Boost From Nvidia’s Loss  Barron'sSee more headlines & perspectives on Google News",
       "hotness": 10
     },
     {
@@ -1208,17 +1560,6 @@
       "hotness": 10
     },
     {
-      "title": "Dear new member: Welcome to Congress. Now you can deliver on affordability",
-      "url": "https://thehill.com/opinion/congress-blog/6214735-advice-new-members-congress/",
-      "source": "The Hill",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T18:00:00.000Z",
-      "summary": "Former House leaders Cheri Bustos and Joe Crowley advise newly elected members of Congress to prioritize solving economic affordability issues, such as energy costs, housing shortages, and financial scams, over partisan ideology.",
-      "hotness": 10
-    },
-    {
       "title": "Trump Crypto Ventures Sinking as Dems Prepare Inquiries - Newser",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2FNRVdLam1saUN0bnpIM0lNcy1TREtNa3dlSGxfT2RCd0l5SDFMZHhQUTJUUVJtSVY5Y3FPT3dzd0xpR3UtdWZBajB0QmduaV9obW9LMm9udlZMV3U0UWNyM0RLUXhMRWI0dGJRdm4wazlvUWpxVnR4eVRyV1RDTEd2LWkzbHdCQVYxeVh1bDRxdS0tdi1NZHhDdDE?oc=5",
       "source": "Google News Web3",
@@ -1237,18 +1578,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T17:50:00.000Z",
-      "summary": "把加强党性修养作为终身课题  光明网\n石景山区卫生健康系统开展学习贯彻党的二十届五中全会精神专题培训  北京市卫生健康委员会\n学习贯彻党的二十届五中全会精神中央宣讲团报告会在杭举行 曲青山作宣讲报告 王浩主持 刘捷王成出席  新浪财经\n时政微观察丨从总书记引用的典故，感悟如何涵养党性  央视网\n北京市学习贯彻党的二十届五中全会精神中央宣讲团报告会举行，尹力作宣讲报告- 中国日报网  China Daily",
-      "hotness": 10
-    },
-    {
-      "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
-      "url": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T17:49:47.000Z",
-      "summary": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+      "summary": "把加强党性修养作为终身课题  光明网\n石景山区卫生健康系统开展学习贯彻党的二十届五中全会精神专题培训  北京市卫生健康委员会\n学习贯彻党的二十届五中全会精神中央宣讲团报告会在杭举行 曲青山作宣讲报告 王浩主持 刘捷王成出席  新浪财经\n时政微观察丨从总书记引用的典故，感悟如何涵养党性  央视网\n中央宣讲团报告会在福州举行，胡和平作宣讲报告，赵龙主持，郭宁宁、滕佳材、林涛出席  China Daily",
       "hotness": 10
     },
     {
@@ -1259,7 +1589,7 @@
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-11-12T17:48:44.000Z",
-      "summary": "US labor market resilient; existing home sales hit more than 16-year low in October  Yahoo FinanceSee more headlines & perspectives on Google News",
+      "summary": "US labor market resilient; existing home sales hit more than 16-year low in October  Yahoo Finance\nUS jobless claims tick up to 200,000 but remain low by historic standards  ABC News - Breaking News, Latest News and Videos\nGold price tests $3,900/oz after U.S. weekly jobless claims rise to 200k  Kit",
       "hotness": 10
     },
     {
@@ -1296,17 +1626,6 @@
       "hotness": 10
     },
     {
-      "title": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-      "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
-      "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T17:39:54.000Z",
-      "summary": "The tech giant's web of ties to other companies is raising the possibility that it could do far-reaching economic and financial damage.",
-      "hotness": 10
-    },
-    {
       "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
       "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "source": "TechCrunch",
@@ -1318,14 +1637,14 @@
       "hotness": 10
     },
     {
-      "title": "Some under-25s should get fewer benefits, Milburn review to say",
-      "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Politics",
-      "sourceIcon": "🏛️",
-      "lang": "en",
-      "category": "政治",
-      "publishTime": "2026-11-12T17:32:14.000Z",
-      "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "title": "在金鸡百花电影节，看光影与时代双向奔赴 - 珠海网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NWldpRWxvLXp6dWtILVdONHVmNEtXWkF0ZkJmUXVvSlFIRFN0bkZUcHNaR3RkTXlxOEZleDR5V0RNeTRzSUF5NDYyZ2tzbndYby1DOUJ1VUQ4QVBDUFBMYlU3ZkRtQmFlY0dhOW1DM2FnV1NheUlJ?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T17:25:00.000Z",
+      "summary": "在金鸡百花电影节，看光影与时代双向奔赴  珠海网\n光影里的回望与再出发（深观察）  新浪财经_金融信息服务商\n文化新观察｜在金鸡百花电影节，看光影与时代双向奔赴  新华网\n光影入山海，“电影热”激活厦门文旅新场景  凤凰网\n2026中国金鸡百花电影节福建电影专场推介在厦举办  Sohu",
       "hotness": 10
     },
     {
@@ -1384,6 +1703,17 @@
       "hotness": 10
     },
     {
+      "title": "Home Sales Fall to 16-Year Low as Mortgage Rates Remain High - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQM2RDTlVOTFB5RkdlOEp2YlozS2J5Z2M2UUliOXhLcXR2Vm51S2Rtbm5Wdmh0bmZHUXVPNG54TjN3MU5FNmZyNGdScnBDVmI3ZXVBM2owc3BJV1BYdTZ4T2pBYmRiUHdLanhYZFQ4MEdJVGdZNUppclF3M2IyVks5akg5UGpqY2NUdU0tcUhmWkpHMVE?oc=5",
+      "source": "Google News 经济",
+      "sourceIcon": "📊",
+      "lang": "en",
+      "category": "经济",
+      "publishTime": "2026-11-12T17:01:25.000Z",
+      "summary": "Home Sales Fall to 16-Year Low as Mortgage Rates Remain High  The New York Times\nMortgage rates were 7% in 1997, too—here’s why buying a home feels more expensive today  CNBC\nHigh Housing Costs Keep Homeowners Locked-In  Realtor.com\nWhy non-QM is keeping top mortgage brokers in business  Mortgage Pr",
+      "hotness": 10
+    },
+    {
       "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
       "source": "TechCrunch",
@@ -1392,17 +1722,6 @@
       "category": "科技",
       "publishTime": "2026-11-12T17:00:52.000Z",
       "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "hotness": 10
-    },
-    {
-      "title": "‘The end of Tesla!’: Cybertruck diehards turn on Elon Musk after he pulls the plug",
-      "url": "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T17:00:17.000Z",
-      "summary": "The Cybertruck is heading to that shiny cyber-dumpster in the sky, leaving the folks who built online identities around Elon Musk's polarizing pickup feeling bereft. Usually, Musk's fanbase treads lightly around their idol's mercurial decisions. This time, however, the truck's demise has sparked rar",
       "hotness": 10
     },
     {
@@ -1428,39 +1747,6 @@
       "hotness": 10
     },
     {
-      "title": "25 years later, Xbox is trying to reinvent itself again",
-      "url": "https://www.theverge.com/tech/1031792/xbox-25-year-milestone-notepad",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T17:00:00.000Z",
-      "summary": "Microsoft has spent the past 25 years trying to shake up the game console market. The original Xbox, which launched on November 15th in 2001, took on an industry dominated by Sony and Nintendo. Twenty-five years later, Xbox finds itself in a similar position. It's not starting from scratch this time",
-      "hotness": 10
-    },
-    {
-      "title": "AI chatbots are recommending fake retail websites, study finds",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T17:00:00.000Z",
-      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found.\nThe study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of sho",
-      "hotness": 10
-    },
-    {
-      "title": "More game developers are starting to use generative AI",
-      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T17:00:00.000Z",
-      "summary": "A photo from the GDC Festival of Gaming 2026 event.\t\n\nMore video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an",
-      "hotness": 10
-    },
-    {
       "title": "Mercedes-Benz halts all further investment at German facilities",
       "url": "https://www.dw.com/en/mercedes-benz-halts-all-further-investment-at-german-facilities/a-79934509?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -1472,39 +1758,6 @@
       "hotness": 10
     },
     {
-      "title": "俄总统普京会见美代表 就三方会谈情况交换意见 - 中国网新闻中心",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3MEpCdl9CTWR1YzhnNURWVnYxanVyQ3hoS29Ya0tMTGxVbm9vZEJzQmp1cC0xWDhHaUsxZGZHNEppT29tNmc1MFcydzNmUWlaT3NzV3Iwcmg2cy16N2J6LWR6NExrYUcxM3lR?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T16:57:00.000Z",
-      "summary": "俄总统普京会见美代表 就三方会谈情况交换意见  中国网新闻中心\n美国特使在阿布扎比会谈后会晤普京，随后前往都柏林与泽连斯基会面  美国之音\n俄总统助理：已与美方代表提前进行了初步磋商  新浪财经_金融信息服务商\n普京：驻扎在乌克兰的外国军队是俄军合法目标  ThePaper.cn\n俄外长：美特使将前往莫斯科向普京通报三方会谈相关情况  央视网",
-      "hotness": 10
-    },
-    {
-      "title": "Google Wallet can finally unlock doors with digital home keys",
-      "url": "https://www.theverge.com/tech/1032084/google-wallet-digital-home-key-smart-lock-rollout",
-      "source": "The Verge",
-      "sourceIcon": "📱",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T16:56:33.000Z",
-      "summary": "The Aqara u400 (pictured) is one of the few smart locks that currently supports Google Wallet’s digital home keys. | Photo by Jennifer Pattison Tuohy / The Verge\t\n\nGoogle has added digital home key support to Google Wallet, allowing Android users to open smart locks by tapping their phone against th",
-      "hotness": 10
-    },
-    {
-      "title": "黄仁勋辞任英伟达CEO，公司首席财务官克雷斯临时接任 - 纽约时报中文网",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSb0tTTzhrQkNOQTFjdlROeDRoTXlrU2VWSExENUt2YmMwNXdaVDRvSHVsSVBZUzJ4b19zZXlVd29uYUE2X2g2N0NhNjd1MXJLSU9WYkYtc2Vxa1ZQYzBNMVZMVWdhMzJTd3pUYg?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T16:54:26.000Z",
-      "summary": "黄仁勋辞任英伟达CEO，公司首席财务官克雷斯临时接任  纽约时报中文网\n黄仁勋辞职，穆勒纳尔：英伟达应任命将国家安全视为优先事项的领导层  美国之音\n黄仁勋再次被曝与第二名女员工有染  华尔街见闻\n美国要把黄仁勋逼走？中国别急着捡漏，华为们早就硬顶上来了！  新浪网\n黄仁勋正式辞职！游戏玩家慌了：RTX显卡未来怎么办  驱动之家",
-      "hotness": 10
-    },
-    {
       "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
       "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -1513,6 +1766,17 @@
       "category": "国际",
       "publishTime": "2026-11-12T16:54:12.000Z",
       "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+      "hotness": 10
+    },
+    {
+      "title": "蔡英文回应罗大佑 郭正亮：你听了会不会吐血 - 中国评论",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CNUwzMlBnNDVVQldSb0Myakc0Qkd1SGszSXZncm5OeC1kX2xFcWQyN3BDR3N2OWNqaEp1R2J1MVg3c2d0dEF1ZnR0aTdydFlOYzVJQmJ6eG4?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T16:53:16.000Z",
+      "summary": "蔡英文回应罗大佑 郭正亮：你听了会不会吐血  中国评论\n罗大佑批赖清德、卓荣泰狼狈为奸，岛内网红陈沂：掷地有声  凤凰网\n罗大佑怒了！火力全开  新浪财经_金融信息服务商\n罗大佑怒批赖清德：民进党上台后“整个变样”  中国青年网\n罗大佑事件：敢去中国谈言论自由吗？  文学城",
       "hotness": 10
     },
     {
@@ -1538,6 +1802,17 @@
       "hotness": 10
     },
     {
+      "title": "Sen. Van Hollen Criticizes Schumer for Siding with AIPAC and Crypto Lobbies in Primaries - Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3BfdkNLNVZKcEN2M01pRzNOSGJ4ZEZHYVZ6RkRTaFVfLTkzMnlhRjVVazByRjA4dHJHLXp1dXhZb3N1d0NQaDhsYUdIUWcyQ3FtbTFuSnpiazBJaWJtekt2MmxtWG1ReFE0ZkwzcVUxd3dnSGlJVnlNQ2ptSG9TdjRCeE5qOVNYbkVmM29DNXBpaEhMWW80TE1SM3NULTUyZXhQeVd5VjhHaUtKdjlSWU5waVZRek95eFN4OHU5WFdsWmJfeDhYaS1LLUlteko3eDk0?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T16:36:48.000Z",
+      "summary": "Sen. Van Hollen Criticizes Schumer for Siding with AIPAC and Crypto Lobbies in Primaries  Democracy Now!",
+      "hotness": 10
+    },
+    {
       "title": "Jensen Huang agrees to testify before Congress",
       "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
       "source": "TechCrunch",
@@ -1546,17 +1821,6 @@
       "category": "科技",
       "publishTime": "2026-11-12T16:36:37.000Z",
       "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "hotness": 10
-    },
-    {
-      "title": "EXCLUSIVE: US FDA shelves commissioner's voucher program for speedy drug reviews, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORWpkVElUa0dxMUx5dlJuNjBCTGI4ZVRRT0xkTDRpUl9zOVFJYzZfZ1JnaUREb2VacDlLUlBDWlVQdlhmY09hNzV2M2t1Z2Foc0xRSXpDUGdYcVlteEhBTEtGVlAzZno5WGNmWjQzZlIzSG1VcDNHU2U4N1p0UHZfM3VjYzBnWE9RV003TkFfUGthRUxBWUxtMndIQ0dsT2VmcnQ2ckxUbnpVZlV6U3VnSDBxTlpBU044Unc?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
-      "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T16:36:34.000Z",
-      "summary": "EXCLUSIVE: US FDA shelves commissioner's voucher program for speedy drug reviews, sources say  Reuters\nAre Makary's priority review vouchers about to be canned?  pharmaphorum\nFDA’s commissioner voucher program reportedly shuttered ahead of Senate vote on Overton  BioSpace\nPharmalittle: We're reading",
       "hotness": 10
     },
     {
@@ -1582,6 +1846,17 @@
       "hotness": 10
     },
     {
+      "title": "Beyond Volatility: Rethinking Crypto Risk for Portfolio Managers - Grayscale",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWm1MYXNrSEtaZ2kxeS1wVG9Cd0dZNTltRHRUaVY1dGRVUDU4S3k5STdLM3Vkd2VCbHpPLU5ObjZER2RRcjFuSkNBZkJIcEVncXZLcHFDT2lBWllDcTRrVWd2eWtXeS1WYVNfQUJJbVBaMWg1THNGYm10SE5CSGxna19xRG05RzFKanBHQXVpeTlxMm91MUt2SlIyQmcxNXdYVWl3SQ?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
+      "lang": "en",
+      "category": "Web3",
+      "publishTime": "2026-11-12T16:17:26.000Z",
+      "summary": "Beyond Volatility: Rethinking Crypto Risk for Portfolio Managers  Grayscale",
+      "hotness": 10
+    },
+    {
       "title": "從科技巨星到跌落神壇——黃仁勳如何深陷醜聞漩渦？",
       "url": "https://www.bbc.com/zhongwen/articles/cm3wgp60p952o/trad?at_medium=RSS&at_campaign=rss",
       "source": "BBC 中文",
@@ -1600,7 +1875,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T16:13:32.000Z",
-      "summary": "教皇良十四世访问秘鲁，重返“故乡”，呼吁弥合过去的分歧  RFI\n图集｜教皇利奥十四世开启首次南美之旅 秘鲁铸像迎教皇“还乡”  财新\n教宗在秘鲁会见当局：支持家庭是日常和平的一部分- 梵蒂冈新闻网  Vatican News\n美洲/阿根廷 - 爱德、家庭、工作与圣人：教宗良十四世祝福阿根廷人民的珍贵财富  Agenzia Fides\n教宗：造访乌拉圭，旨在“满怀爱意地走近全体人民”  AsiaNews",
+      "summary": "教皇良十四世访问秘鲁，重返“故乡”，呼吁弥合过去的分歧  RFI\n图集｜教皇利奥十四世开启首次南美之旅 秘鲁铸像迎教皇“还乡”  财新\n【新闻】| 教宗在阿根廷：衡量国家进步的标准包括接纳残疾人  Radio Veritas Asia\n教宗：造访乌拉圭，旨在“满怀爱意地走近全体人民”  AsiaNews\n教宗在秘鲁会见当局：支持家庭是日常和平的一部分- 梵蒂冈新闻网  Vatican News",
       "hotness": 10
     },
     {
@@ -1655,7 +1930,18 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T16:03:55.000Z",
-      "summary": "国产大邮轮 “爱达·花城号” 首抵广州南沙 千名华东学子赴湾区开启研学课  央广网\n第二艘国产大型邮轮“爱达·花城号”完成首个试运营航次  新华网\n一东一南，两大一线城市又联手了  凤凰网财经\n第二艘国产大邮轮将于广州首航，母港邮轮旅游预订暴增5倍多  Sohu\n一场特别的“相聚” 两艘国产大型邮轮在沪同框  上海热线",
+      "summary": "国产大邮轮 “爱达·花城号” 首抵广州南沙 千名华东学子赴湾区开启研学课  央广网\n第二艘国产大型邮轮“爱达·花城号”完成首个试运营航次  新华网\n一东一南，两大一线城市又联手了  凤凰网财经\n第二艘国产大邮轮将于广州首航，母港邮轮旅游预订暴增5倍多  Sohu\n高校师生乘爱达·花城号来广州研学 探索越秀千年城脉与发展机遇  中华网",
+      "hotness": 10
+    },
+    {
+      "title": "特朗普称美国不需要与伊朗达成协议 国际油价大幅拉升 现货黄金失守3900美元关口 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzVDJldzhDV3VUc2VSQ1prYmtFRmlRTFkzUUhELWpmVUdPTnhoTndVSlNmLXRscFgyM19NSlNuaUQ1dUpXaVFVajFEX1VrNzgydFU0T0hxb2JhVWcxemNfeQ?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T16:03:37.000Z",
+      "summary": "特朗普称美国不需要与伊朗达成协议 国际油价大幅拉升 现货黄金失守3900美元关口  东方财富\n特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败  美国之音\n特朗普：美国不需要与伊朗达成协议  凤凰网\n战或和都不选，特朗普想用这损招让伊朗“窒息”  观察者网\n美以伊局势：特朗普称美国不需要与伊朗达成协议，已拿到了他们的钱；伊朗展示自研导弹，“更先进的没展出”；内塔尼亚胡遭警告：不要动武  ThePaper.cn",
       "hotness": 10
     },
     {
@@ -1670,14 +1956,14 @@
       "hotness": 10
     },
     {
-      "title": "Beyond Volatility: Rethinking Crypto Risk for Portfolio Managers - Grayscale",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWm1MYXNrSEtaZ2kxeS1wVG9Cd0dZNTltRHRUaVY1dGRVUDU4S3k5STdLM3Vkd2VCbHpPLU5ObjZER2RRcjFuSkNBZkJIcEVncXZLcHFDT2lBWllDcTRrVWd2eWtXeS1WYVNfQUJJbVBaMWg1THNGYm10SE5CSGxna19xRG05RzFKanBHQXVpeTlxMm91MUt2SlIyQmcxNXdYVWl3SQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T15:57:42.000Z",
-      "summary": "Beyond Volatility: Rethinking Crypto Risk for Portfolio Managers  Grayscale",
+      "title": "学史明理润初心 以史聚力铸同心 - 中新网·新疆",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMEU3Sm55SEwwR0pWWFl5TlpQYWR4VFFWRFVMdk5TR25yYjI4SWJBRWFOaDczSGxReTdxWUxyR1ZzeExnTVZTSDZLLThDd1dqX2sxS00tek9fTDdZYXhwVW5qdDNrM1NLRndCZG0zVTZVanpZWUx5M3FGYl9aeFNEZ0xxZw?oc=5",
+      "source": "Google News 中文",
+      "sourceIcon": "🇨🇳",
+      "lang": "zh",
+      "category": "中国",
+      "publishTime": "2026-11-12T15:54:21.000Z",
+      "summary": "学史明理润初心 以史聚力铸同心  中新网·新疆\n自治州“新疆两史”宣讲团走进阿拉山口市开展示范宣讲  ThePaper.cn\n深悟历史知来路 凝心聚力启新程——和田地区“新疆两史”宣讲团走进民丰开展示范宣讲  中新网·新疆\n“新疆两史”|绿成公司掀起学习“新疆两史”热潮 推动学习入脑入心 凝聚团结奋进力量  凤凰网\n《中国新疆地区宗教史》第五章第三节：党的宗教政策在新疆的实施  https://www.aksxw.com/",
       "hotness": 10
     },
     {
@@ -1714,17 +2000,6 @@
       "hotness": 10
     },
     {
-      "title": "Sen. Van Hollen Criticizes Schumer for Siding with AIPAC and Crypto Lobbies in Primaries - Democracy Now!",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ3BfdkNLNVZKcEN2M01pRzNOSGJ4ZEZHYVZ6RkRTaFVfLTkzMnlhRjVVazByRjA4dHJHLXp1dXhZb3N1d0NQaDhsYUdIUWcyQ3FtbTFuSnpiazBJaWJtekt2MmxtWG1ReFE0ZkwzcVUxd3dnSGlJVnlNQ2ptSG9TdjRCeE5qOVNYbkVmM29DNXBpaEhMWW80TE1SM3NULTUyZXhQeVd5VjhHaUtKdjlSWU5waVZRek95eFN4OHU5WFdsWmJfeDhYaS1LLUlteko3eDk0?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T15:40:18.000Z",
-      "summary": "Sen. Van Hollen Criticizes Schumer for Siding with AIPAC and Crypto Lobbies in Primaries  Democracy Now!",
-      "hotness": 10
-    },
-    {
       "title": "Sri Lanka: Rights groups sound alarm over proposed anti-terror law",
       "url": "https://www.dw.com/en/sri-lanka-rights-groups-sound-alarm-over-proposed-anti-terror-law/a-79932227?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -1736,14 +2011,14 @@
       "hotness": 10
     },
     {
-      "title": "Yankees President Randy Levine pushes college sports bill, discusses MLB labor negotiations",
-      "url": "https://www.cnbc.com/2026/11/12/yankees-randy-levine-discusses-college-sports-bill-mlb-labor-deal.html",
-      "source": "CNBC Top News",
-      "sourceIcon": "💰",
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+      "source": "TechCrunch",
+      "sourceIcon": "💻",
       "lang": "en",
-      "category": "金融",
-      "publishTime": "2026-11-12T15:34:31.000Z",
-      "summary": "Yankees President Randy Levine discusses the Protect College Sports Act, and the state of MLB's labor negotiations.",
+      "category": "科技",
+      "publishTime": "2026-11-12T15:37:29.000Z",
+      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
       "hotness": 10
     },
     {
@@ -1758,17 +2033,6 @@
       "hotness": 10
     },
     {
-      "title": "‘She Actually Wants to Kill Crypto’: Elizabeth Warren Unwilling to Accept the ‘Many Positive Things’ of the Industry, Says Senator - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWoxU2xIUTVpNGd1V3Vsa2RZZ3FKQkNXVWFHTFluQlVWN05Sci00enI3amxjb2JUMS13OUR4TEtFQlFRb251LV9IYTh6WW9PdjN6SjN6VXVWVDdBYV9pbEF1WTREQ2tBTjFJVTlPcVk1aWZFTGMtdkJTQXBCOWhIUnRuLUxyNmRtenZwc2poaTRTS0hSeWFSa2FFTQ?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T15:30:08.000Z",
-      "summary": "‘She Actually Wants to Kill Crypto’: Elizabeth Warren Unwilling to Accept the ‘Many Positive Things’ of the Industry, Says Senator  Yahoo Finance",
-      "hotness": 10
-    },
-    {
       "title": "全民消防 生命至上——九江交发航服扎实开展消防培训暨应急演练 - 九江新闻网",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sUU4yZ3lwVXNObERraWhWVXlGeWl4aWVhVVBhVmp4MzBYTHFpSEVVNUNVVG9tb1NaQW9fdWs2d0xDeGN0SjF3VTVDMFFKMnJQc1ZINVY2YlhlVjRRTm40?oc=5",
       "source": "Google News 中文",
@@ -1776,7 +2040,7 @@
       "lang": "zh",
       "category": "中国",
       "publishTime": "2026-11-12T15:30:06.000Z",
-      "summary": "全民消防 生命至上——九江交发航服扎实开展消防培训暨应急演练  九江新闻网\n昌平消防开展119消防宣传月主题实践活动  北京市人民政府门户网站\n科技力量正重塑防灭火各环节  央视网\n24支队伍同台竞技，这场消防比武“火力全开”  新华网江苏频道\n聚力消防安全宣传月 深耕社区保安全  新浪财经",
+      "summary": "全民消防 生命至上——九江交发航服扎实开展消防培训暨应急演练  九江新闻网\n科技力量正重塑防灭火各环节  央视网\n泸州这场消防活动，把安全课“玩”明白了  人民网－四川频道\n自防自救，才是离生命最近的防线  Sohu\n消防宣传月来啦！海南这场发布会透露了这些→  ThePaper.cn",
       "hotness": 10
     },
     {
@@ -1791,17 +2055,6 @@
       "hotness": 10
     },
     {
-      "title": "Crypto Exchange Gemini Sells U.K. And European Operations - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORnBkTzA2OHdGYWl5Nks0MmI5VVR3N2lPYVhfX3MwdldaTDRZR245MnpHaklNUFFwa0NGVFQyZ05yM0lHZWlaUkw1Zml5dlJvcWVCSjRwZG5tdWh1V0J3MDdXTWhNNEJRekdyeFVtNlVTTTZqR0t3UW5PcF9IRXlLRUpMSVhpQ1V5Z1RVWW1wbjBoa3E1dEx6Tk9TNA?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T15:26:00.000Z",
-      "summary": "Crypto Exchange Gemini Sells U.K. And European Operations  Yahoo Finance",
-      "hotness": 10
-    },
-    {
       "title": "UK court convicts 2 Iranian men of spying on journalists",
       "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -1813,14 +2066,14 @@
       "hotness": 10
     },
     {
-      "title": "'Big Short' Michael Burry says to 'get out' of Nvidia stock on CEO Jensen Huang's exit - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd2ZfSEVOZ0dxVGxfNzhseFdvZURIQlRlRjBxbnVEbWlqZkpiODNDWGVEQXdTaGtXMVFlc2pITzVYcDBuWC1sS2hoSHJTdFB2NEZVVjUtbXp3VUJ1Z2J3cmlKZVRnRi00c2plaUJ5V1FnMVJNRmEzS3ltQVdaZjhaWHZSenkzUXJ3bXZMb2UxWXFHLWRzNHFTUExEdk8tY3YyX0xadzBB?oc=5",
-      "source": "Google News 经济",
-      "sourceIcon": "📊",
+      "title": "Should Brookline ban crypto ATMs? Town Meeting will take it up. - Brookline.News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOUFXMGRNWG15aVVhQWdEeGJyZzU5QzV6bEJaQzJhdTFUVnYzRk1JR3ZISnhacmdrMjkzdGZ2bEpxeDMyUGtYaEd0bXEwUEttX2pRYlFtcXBwOE94NGJaOC1CMGJFMGQxRjF1czBzRzhtU1pyRm0zWkxxa1FTaDZGaWFrT2d3OGhRUGRfYUdR?oc=5",
+      "source": "Google News Web3",
+      "sourceIcon": "🌐",
       "lang": "en",
-      "category": "经济",
-      "publishTime": "2026-11-12T15:20:00.000Z",
-      "summary": "'Big Short' Michael Burry says to 'get out' of Nvidia stock on CEO Jensen Huang's exit  Business Insider\nNvidia's stock dives as chipmaker's board weighs move to oust CEO Jensen Huang  CBS News\nRetail investors are buying Nvidia’s stock crash like never before — history urges patience  Yahoo Finance",
+      "category": "Web3",
+      "publishTime": "2026-11-12T15:20:54.000Z",
+      "summary": "Should Brookline ban crypto ATMs? Town Meeting will take it up.  Brookline.News",
       "hotness": 10
     },
     {
@@ -1854,17 +2107,6 @@
       "category": "国际",
       "publishTime": "2026-11-12T15:16:00.000Z",
       "summary": "Pete Hegseth, Bill Clinton and Donald Trump (twice so far): attempts to impeach political figures are becoming common. The failure rate looks high, but according to experts, conviction is not always the aim.",
-      "hotness": 10
-    },
-    {
-      "title": "重庆首条全自动运行城轨快线开通运营 - 人民网-图片频道",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tVEpCUG9BTzRxYVBzeTFCb1VNNjFtQlhhOUVrSU1DSjJzektLU0E0TW02RDczeWlVN0F4a0Z5ZC1aUDNRWUc0Z2M3UUF6dV96czhPZDd0RGg5X3lyTUpIc293UzQ3VEU4?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T15:15:11.000Z",
-      "summary": "重庆首条全自动运行城轨快线开通运营  人民网-图片频道在Google 新闻上查看更多头条新闻和观点",
       "hotness": 10
     },
     {
@@ -1912,17 +2154,6 @@
       "hotness": 10
     },
     {
-      "title": "广东大雨暴雨天气将到来 晴冷转阴雨记得带伞 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tMkhUMV94aGo0QjN2UF9pU29aSl9HLWcwdDgxNXRwSmNfdm5qclZCR2RGeVMteUt5NVV5Tm9UOEhvUGlYWnF0V2N5bGJYSEZnaHFxZTNBNFMxd0QwUTVpVGFwWHYzOG9rTFE2N2JaSkw?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T14:46:33.000Z",
-      "summary": "广东大雨暴雨天气将到来 晴冷转阴雨记得带伞  中华网\n中山下一轮暴雨，时间定了！  新浪财经_金融信息服务商\n即将回暖！惠州将迎暴雨  凤凰网\n终于降温了！用羊肉汤进补，有人喝错了｜冷知热谈  Sohu\n10.5℃！广州今日迎来下半年最冷早晨，接下来最高温升至28℃还有雨  QQ News",
-      "hotness": 10
-    },
-    {
       "title": "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform",
       "url": "https://www.coindesk.com/business/2026/11/12/jupiter-adds-anchorage-backed-usdgo-to-its-usd1-billion-solana-lending-platform",
       "source": "CoinDesk",
@@ -1945,25 +2176,14 @@
       "hotness": 10
     },
     {
-      "title": "Trump Tariffs Backfire as Canada Warns of Damage to US Economy - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS09ONzhRcWgxeFF1TTJoSDlHbW9xRVZTZWozVm5EcWdNNTBJcUFnWS04V1V0X2Y2NDEtOFlhVnZSSUlKZ0N6U05GMG1TemRkLTRUNXhXVzhOSm5abVg3ajJlZEtCQ3hWc212Y3BOM3lwZUF6T0U2eGJ2bGNucWVaVjVlSERUNjlq?oc=5",
+      "title": "Nvidia Board Must Craft Epic Job Description for New CEO | The Morning Download for Nov. 12 - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbVlETFAzLW1xcUFqWEhobl9VbUVDYkFWeGxOLWx1MmtlWUJRLUhFZnlfNGhnaXluVVIyT1JqUDNEZllxYUpnNDlqaXJyaS1SOFFEQmRhQUo3TDZMZ3NLVVdrSmc4bU9VX2RUd1FZYUIwdzE1UzA0RTUzbGFQLUE3bkpNUWxZZDRzT1plWXlCZjliT0w2RDZwa3VCYVI4QQ?oc=5",
       "source": "Google News 经济",
       "sourceIcon": "📊",
       "lang": "en",
       "category": "经济",
       "publishTime": "2026-11-12T14:37:00.000Z",
-      "summary": "Trump Tariffs Backfire as Canada Warns of Damage to US Economy  Newsweek\nCanada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment  CNBC\nHow even the whiff of tariff uncertainty is costing Canadian manufacturers their U.S. business  Yahoo! Finance Canada\nWorld's large",
-      "hotness": 10
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T14:30:01.000Z",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "summary": "Nvidia Board Must Craft Epic Job Description for New CEO | The Morning Download for Nov. 12  WSJ\nJensen Huang Resigns, Nvidia Starts Search for Next CEO | What’s News for Nov. 12  WSJ\nArm CEO Rene Haas has been talked up as a possible replacement for Jensen Huang  MarketWatch\nPolymarket Predicts Mad",
       "hotness": 10
     },
     {
@@ -1989,17 +2209,6 @@
       "hotness": 10
     },
     {
-      "title": "北京将推进第四使馆区重点项目建设 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ORkwtbHM4WnRBTmZiUnEyQnUybkZFQ3FHMDNtM1QySHhtQjN3TTFVS3lZNTlGRkEtbUFsMGhxVXl0enNqc3h5YzU0N2NtaU56aExQSVhoUTlVUzhyQW42T2ZZQnZKN3dN?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T14:27:18.000Z",
-      "summary": "北京将推进第四使馆区重点项目建设  中国新闻网\n“十五五”时期北京国际交往中心建设注重提升四个能力  Sohu\n“首都开局起步‘十五五’”系列主题新闻发布会——持续加强国际交往中心能力建设提升北京全球影响力和吸引力  国际科技创新中心\n从功能完善转向能力提升，北京加快建设国际交往中心  新京报\n吸引138家国际组织在京落户，北京拼的是“生态”  京报网",
-      "hotness": 10
-    },
-    {
       "title": "Iran: Exiled journalists still repressed by regime",
       "url": "https://www.dw.com/en/iran-exiled-journalists-still-repressed-by-regime/a-79929694?maca=en-rss-en-all-1573-rdf",
       "source": "DW News",
@@ -2019,215 +2228,6 @@
       "category": "Web3",
       "publishTime": "2026-11-12T14:24:51.000Z",
       "summary": "The best thing industry leaders can do is to invest the time to ensure this country’s policymakers can experience the technology they’re regulating up close, writes Allie Page, executive director of American Innovation Project.",
-      "hotness": 10
-    },
-    {
-      "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
-      "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
-      "source": "NPR World",
-      "sourceIcon": "🇺🇸",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T14:22:50.000Z",
-      "summary": "Raka is the son of former President Joko Widodo. The Constitutional Court and the Supreme Court ruled last month that the documents that Raka submitted regarding his overseas education didn't meet election requirements.",
-      "hotness": 10
-    },
-    {
-      "title": "Jensen Huang Resigns From Nvidia After 33 Years",
-      "url": "https://hypebeast.com/2026/11/jensen-huang-resigns-from-nvidia",
-      "source": "Hypebeast",
-      "sourceIcon": "🔥",
-      "lang": "en",
-      "category": "潮流",
-      "publishTime": "2026-11-12T14:17:53.000Z",
-      "summary": "Summary\nNvidia co-founder and CEO Jensen Huang has resigned on Thursday following revelations of two extramarital affairsThe board weighed Huang's fate over relationships with an alleged Chinese spy and Nvidia vice president Kimberly PowellWith CFO Colette Kress tapped for an interim takeover plan, ",
-      "hotness": 10
-    },
-    {
-      "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
-      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T14:10:34.000Z",
-      "summary": "Nvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy.",
-      "hotness": 10
-    },
-    {
-      "title": "罗大佑怒批民进党当局引发岛内共鸣 - 中国新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6bWsyRTVwR2xBR3VReUJjQTV1VVBPZ2gyblUwV2FqelhJQmhrd25DaVpmd2ZnblBrU3VLUHFFblFhOHg2ZGRLRExlb1poY0xzdWRvSjY5YzNfS3BWSm5pZ1pJanQyU1Zj?oc=5",
-      "source": "Google News 中文",
-      "sourceIcon": "🇨🇳",
-      "lang": "zh",
-      "category": "中国",
-      "publishTime": "2026-11-12T14:01:57.000Z",
-      "summary": "罗大佑怒批民进党当局引发岛内共鸣  中国新闻网\n罗大佑批赖清德、卓荣泰狼狈为奸，岛内网红陈沂：掷地有声  凤凰网\n罗大佑怒了！火力全开  新浪财经_金融信息服务商\n罗大佑怒批赖清德：民进党上台后“整个变样”  中国青年网\n罗大佑事件：敢去中国谈言论自由吗？  文学城",
-      "hotness": 10
-    },
-    {
-      "title": "What’s behind Australia’s surge in teen extremism?",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/13/australia-surge-in-teen-extremism-ntwnfb",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T14:00:45.000Z",
-      "summary": "Young people are being found with ‘hard drives full of what can only be described as gore’, one expert says\nIn March, Guardian Australia revealed that most people who have been charged with the new federal crime of possession of violent extremist material are under 18.\nThis week Australian federal p",
-      "hotness": 10
-    },
-    {
-      "title": "Icac’s drama and dirt files show NSW’s ‘guns for hire’ problem. But neither major party is serious about reform",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T14:00:44.000Z",
-      "summary": "Chris Minns’ move to address the threat of undeclared lobbying falls well short of what the commission recommended five years ago\n\nGet our daily political email, free app or daily news podcast\n\nA dirt file on a state minister peddled to journalists. A subterranean campaign to discredit the building ",
-      "hotness": 10
-    },
-    {
-      "title": "NSW’s latest news Instagram account has an unlikely group behind it: the Labor party",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/13/nsw-newsroom-instagram-account-labor-party",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T14:00:42.000Z",
-      "summary": "Expert warns of ‘huge loophole in political communication laws’ as state government among parties presenting accounts as unaffiliated news sources\n\nGet our daily political email, free app or daily news podcast\n\n“Breaking,” a reel from the Instagram account nswnewsroom reads. “Another Liberal MP quit",
-      "hotness": 10
-    },
-    {
-      "title": "SoFi’s Bank-Issued Stablecoin SoFiUSD Goes Live on Polygon, Its Third Blockchain - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU0ZLZU5ZWTBVekg4Y0lhd1prd3VYdTFuY0RmWmJPQUkyMGxHWEw0V05IcXRPYzhaNktOb0ZhNUh0OE95bVdNZ0VpM2FTS1BKanZnVDJxYUIyV2Rjc2xiVWpOZzFCNkNZb1o4UE1vWThGU05UU0dUaEhlWFViVGI2YVhGNlFmNm05b29PZlZnSTZBMzFPX3FXLUdFd2RGTTJXWFE?oc=5",
-      "source": "Google News Web3",
-      "sourceIcon": "🌐",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T14:00:00.000Z",
-      "summary": "SoFi’s Bank-Issued Stablecoin SoFiUSD Goes Live on Polygon, Its Third Blockchain  Yahoo Finance",
-      "hotness": 10
-    },
-    {
-      "title": "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge",
-      "url": "https://cointelegraph.com/news/jensen-huang-resigns-nvidia-ceo-board-member?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:59:02.000Z",
-      "summary": "Colette Kress will remain Nvidia’s chief financial officer while serving as interim CEO as the board searches for a permanent successor.",
-      "hotness": 10
-    },
-    {
-      "title": "Eight killed in Colombian air strike targeting Gulf Clan gang",
-      "url": "https://www.bbc.co.uk/news/articles/crgj3v3z10dno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T13:58:49.000Z",
-      "summary": "A suspected gang leader considered a \"priority target\" was among those killed, the Colombian president says.",
-      "hotness": 10
-    },
-    {
-      "title": "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump",
-      "url": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
-      "source": "CoinDesk",
-      "sourceIcon": "₿",
-      "lang": "en",
-      "category": "Web3",
-      "publishTime": "2026-11-12T13:57:53.000Z",
-      "summary": "CFO Colette Kress takes over as interim CEO after Huang steps down immediately as president, chief executive and board member, as shares tumble.",
-      "hotness": 10
-    },
-    {
-      "title": "Bit Digital stock falls 5% in pre-market after Q3 revenue miss",
-      "url": "https://cointelegraph.com/news/bit-digital-stock-falls-q3-revenue-miss?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:52:39.000Z",
-      "summary": "Bit Digital’s $27 million third-quarter revenue came in 16% below analyst consensus estimates, marking an over $5 million shortfall.",
-      "hotness": 10
-    },
-    {
-      "title": "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals",
-      "url": "https://cointelegraph.com/news/thailand-tighter-stablecoin-rules-crypto-exchange?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:44:03.000Z",
-      "summary": "Thailand’s SEC would set separate daily caps for stablecoin deposits and withdrawals and require customers to use wallets they own.",
-      "hotness": 10
-    },
-    {
-      "title": "Crypto hack losses equal 57 cents per $1 earned onchain: Ark’s Valente",
-      "url": "https://cointelegraph.com/news/crypto-hackers-stole-57-cents-every-1-earned-ark?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:31:59.000Z",
-      "summary": "Crypto hackers stole $8.7 billion so far in 2026, surpassing the projected annual onchain revenue generated across the industry, according to ARK’s research director.",
-      "hotness": 10
-    },
-    {
-      "title": "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum",
-      "url": "https://cointelegraph.com/magazine/are-alt-l1s-over-security-costs-drive-smaller-chains-to-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:30:00.000Z",
-      "summary": "L1 blockchains Zilliqa, Gnosis and Ronin join the Ethereum ecosystem as the costs of going it alone grow, and the security and liquidity advantages become too hard to resist.",
-      "hotness": 10
-    },
-    {
-      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
-      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
-      "source": "TechCrunch",
-      "sourceIcon": "💻",
-      "lang": "en",
-      "category": "科技",
-      "publishTime": "2026-11-12T13:26:25.000Z",
-      "summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
-      "hotness": 10
-    },
-    {
-      "title": "China's Xi Jinping renews calls for 'reunification' with Taiwan",
-      "url": "https://www.dw.com/en/china-s-xi-jinping-renews-calls-for-reunification-with-taiwan/a-79929738?maca=en-rss-en-all-1573-rdf",
-      "source": "DW News",
-      "sourceIcon": "🇩🇪",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T13:26:00.000Z",
-      "summary": "Xi Jinping said that reunification was inevitable, but stopped short of mentioning military force. Taiwan though swiftly rejected Beijing's demands as tensions continue over the island's future.",
-      "hotness": 10
-    },
-    {
-      "title": "Uber’s UK banking partner Griffin raises $20M for stablecoin services",
-      "url": "https://cointelegraph.com/news/digital-bank-griffin-100m-valuation-card-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "source": "CoinTelegraph",
-      "sourceIcon": "🪙",
-      "lang": "en",
-      "category": "区块链",
-      "publishTime": "2026-11-12T13:21:56.000Z",
-      "summary": "The Series B valued Griffin at more than $100 million and will help fund stablecoin reserve services and onchain cross-border payments.",
-      "hotness": 10
-    },
-    {
-      "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-      "source": "The Guardian",
-      "sourceIcon": "🇬🇧",
-      "lang": "en",
-      "category": "国际",
-      "publishTime": "2026-11-12T13:14:38.000Z",
-      "summary": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’\nThe Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for Africa",
       "hotness": 10
     }
   ]
